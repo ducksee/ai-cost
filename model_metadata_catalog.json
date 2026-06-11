@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-11T16:21:24.068384+00:00",
+  "generatedAt": "2026-06-11T20:36:02.509648+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5123,7 +5123,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.34,
+      "cacheReadCostPerMillionUSD": 0.14,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
