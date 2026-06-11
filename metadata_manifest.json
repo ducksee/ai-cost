@@ -1,14 +1,16 @@
 {
   "version": 1,
-  "updatedAt": "2026-06-11T01:59:48.672091Z",
+  "updatedAt": "2026-06-11T06:51:02.005825Z",
   "files": {
-    "provider_metadata_catalog.json": {
+    "provider": {
+      "path": "provider_metadata_catalog.json",
       "sha256": "58446a84731f59a226c5ca0c193a2e0572e03559cdd64bc1f0718eaecd2ce0e6",
       "providerCount": 54
     },
-    "model_metadata_catalog.json": {
-      "sha256": "c8612ffc56a0cc5ba69925e6f2a42414d8fe45f73910a27492bcfbf5e5128b86",
-      "modelCount": 338
+    "model": {
+      "path": "model_metadata_catalog.json",
+      "sha256": "e49c138abff987d9fe7e70d9250d365d54e78db91fbe00e05ebe9fe609802030",
+      "modelCount": 437
     }
   }
 }
