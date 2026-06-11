@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-11T10:58:50.391516+00:00",
+  "generatedAt": "2026-06-11T16:21:24.068384+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2400,7 +2400,7 @@
       "providerID": "gemini",
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.12,
-      "outputCostPerMillionUSD": 0.36,
+      "outputCostPerMillionUSD": 0.35,
       "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144",
@@ -5104,7 +5104,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -6703,24 +6703,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer · context=128000",
-      "brandAssetName": "nvidia",
-      "organizationName": "Nvidia"
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2",
-      "displayName": "Nemotron Nano 9B V2",
-      "aliases": [
-        "nvidia/nemotron-nano-9b-v2",
-        "nemotron-nano-9b-v2",
-        "nvidia-nemotron-nano-9b-v2"
-      ],
-      "providerID": "nvidia",
-      "family": "nemotron-nano",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and... · context=131072",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -8371,10 +8353,10 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-7",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 1.6,
-      "cacheReadCostPerMillionUSD": 0.08,
-      "cacheWriteCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 0.32,
+      "outputCostPerMillionUSD": 1.28,
+      "cacheReadCostPerMillionUSD": 0.064,
+      "cacheWriteCostPerMillionUSD": 0.4,
       "notes": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
@@ -8431,7 +8413,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advance · context=131072 · LiteLLM max_input=131072, max_output=131072",
+      "notes": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advance · context=128000 · LiteLLM max_input=131072, max_output=131072",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
