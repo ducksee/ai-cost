@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-11T01:56:49.577052Z",
+  "files": {
+    "provider_metadata_catalog.json": {
+      "sha256": "d7756455912a99ec5c5ac411fb7551ae4e6d5f31b443e066ad56d8b2a5eeacb9",
+      "providerCount": 54
+    },
+    "model_metadata_catalog.json": {
+      "sha256": "ea3205c7c0bae6003d8c432fe6fc66ff83eb89286152d638e79f554c386d3d71",
+      "modelCount": 437
+    },
+    "openrouter_models_api.json": {
+      "sha256": "cb045b84ee2bb3eb6a7da79932038337ba72e3812551a241994a688b5e372ee0"
+    }
+  }
+}

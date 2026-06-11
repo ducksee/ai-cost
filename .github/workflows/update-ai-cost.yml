@@ -1,0 +1,55 @@
+name: Update AI Cost Catalogs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-ai-cost
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public data repo
+        uses: actions/checkout@v4
+
+      - name: Checkout private worker scripts
+        uses: actions/checkout@v4
+        with:
+          repository: ducksee/ai-cost-worker
+          token: ${{ secrets.AI_COST_WORKER_REPO_TOKEN }}
+          path: _worker
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Generate catalogs
+        run: _worker/scripts/update_ai_cost_catalog.sh "$GITHUB_WORKSPACE"
+
+      - name: Validate generated JSON
+        run: |
+          python -m json.tool provider_metadata_catalog.json >/dev/null
+          python -m json.tool model_metadata_catalog.json >/dev/null
+          python -m json.tool openrouter_models_api.json >/dev/null
+          python -m json.tool metadata_manifest.json >/dev/null
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "ai-cost-worker"
+          git config user.email "actions@users.noreply.github.com"
+          git add provider_metadata_catalog.json model_metadata_catalog.json openrouter_models_api.json metadata_manifest.json
+          if git diff --cached --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git commit -m "Update AI cost catalogs"
+          git push

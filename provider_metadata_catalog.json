@@ -1,0 +1,964 @@
+{
+  "version": 1,
+  "generatedAt": "manual-or-script-refresh",
+  "providers": [
+    {
+      "id": "codex",
+      "displayName": "Codex",
+      "aliases": [],
+      "category": "quota+session",
+      "brandAssetName": "codex",
+      "iconDomain": "chatgpt.com",
+      "domains": [
+        "chatgpt.com",
+        "openai.com"
+      ],
+      "homepages": [
+        "https://chatgpt.com",
+        "https://openai.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": "OpenAI Codex / ChatGPT coding surfaces"
+    },
+    {
+      "id": "claude",
+      "displayName": "Claude",
+      "aliases": [
+        "anthropic-claude"
+      ],
+      "category": "quota+session",
+      "brandAssetName": "claude",
+      "iconDomain": "claude.ai",
+      "domains": [
+        "claude.ai",
+        "anthropic.com"
+      ],
+      "homepages": [
+        "https://claude.ai",
+        "https://www.anthropic.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "cursor",
+      "displayName": "Cursor",
+      "aliases": [],
+      "category": "quota+session",
+      "brandAssetName": "cursor",
+      "iconDomain": "cursor.com",
+      "domains": [
+        "cursor.com"
+      ],
+      "homepages": [
+        "https://cursor.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "gemini",
+      "displayName": "Gemini CLI",
+      "aliases": [
+        "gemini-cli"
+      ],
+      "category": "quota+session",
+      "brandAssetName": "gemini",
+      "iconDomain": "gemini.google.com",
+      "domains": [
+        "gemini.google.com",
+        "ai.google.dev",
+        "google.com"
+      ],
+      "homepages": [
+        "https://gemini.google.com",
+        "https://ai.google.dev"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "openrouter",
+      "displayName": "OpenRouter",
+      "aliases": [],
+      "category": "quota",
+      "brandAssetName": "openrouter",
+      "iconDomain": "openrouter.ai",
+      "domains": [
+        "openrouter.ai"
+      ],
+      "homepages": [
+        "https://openrouter.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "copilot",
+      "displayName": "GitHub Copilot",
+      "aliases": [
+        "github-copilot"
+      ],
+      "category": "quota+session",
+      "brandAssetName": "copilot",
+      "iconDomain": "github.com",
+      "domains": [
+        "github.com",
+        "githubcopilot.com"
+      ],
+      "homepages": [
+        "https://github.com/features/copilot",
+        "https://githubcopilot.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "openclaw",
+      "displayName": "OpenClaw",
+      "aliases": [
+        "openrouter-app-openclaw"
+      ],
+      "category": "session",
+      "brandAssetName": "openclaw",
+      "iconDomain": "openclaw.ai",
+      "domains": [
+        "openclaw.ai"
+      ],
+      "homepages": [
+        "https://openclaw.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "opencode",
+      "displayName": "OpenCode",
+      "aliases": [],
+      "category": "session",
+      "brandAssetName": "opencode",
+      "iconDomain": "opencode.ai",
+      "domains": [
+        "opencode.ai"
+      ],
+      "homepages": [
+        "https://opencode.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": "If opencode.ai changes, update this mapping"
+    },
+    {
+      "id": "cline",
+      "displayName": "Cline",
+      "aliases": [
+        "openrouter-app-cline"
+      ],
+      "category": "session",
+      "brandAssetName": "cline",
+      "iconDomain": "cline.bot",
+      "domains": [
+        "cline.bot"
+      ],
+      "homepages": [
+        "https://cline.bot"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "roo-code",
+      "displayName": "Roo Code",
+      "aliases": [
+        "roo",
+        "openrouter-app-roo-code"
+      ],
+      "category": "session",
+      "brandAssetName": "roo-code",
+      "iconDomain": "roocode.com",
+      "domains": [
+        "roocode.com"
+      ],
+      "homepages": [
+        "https://roocode.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "aider",
+      "displayName": "Aider",
+      "aliases": [],
+      "category": "session",
+      "brandAssetName": "aider",
+      "iconDomain": "aider.chat",
+      "domains": [
+        "aider.chat"
+      ],
+      "homepages": [
+        "https://aider.chat"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "amp",
+      "displayName": "Amp",
+      "aliases": [],
+      "category": "session+quota",
+      "brandAssetName": "amp",
+      "iconDomain": "ampcode.com",
+      "domains": [
+        "ampcode.com",
+        "sourcegraph.com"
+      ],
+      "homepages": [
+        "https://ampcode.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "factory",
+      "displayName": "Factory / Droid",
+      "aliases": [
+        "droid"
+      ],
+      "category": "session",
+      "brandAssetName": "factory",
+      "iconDomain": "app.factory.ai",
+      "domains": [
+        "app.factory.ai"
+      ],
+      "homepages": [
+        "https://app.factory.ai/"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": "Use app.factory.ai for logo/icon mapping."
+    },
+    {
+      "id": "antigravity",
+      "displayName": "Antigravity",
+      "aliases": [],
+      "category": "quota",
+      "brandAssetName": "antigravity",
+      "iconDomain": "antigravity.google",
+      "domains": [],
+      "homepages": [],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": "Using antigravity.google for icon generation"
+    },
+    {
+      "id": "zai",
+      "displayName": "z.ai",
+      "aliases": [],
+      "category": "quota",
+      "brandAssetName": "zai",
+      "iconDomain": "z.ai",
+      "domains": [
+        "z.ai"
+      ],
+      "homepages": [
+        "https://z.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "kiro",
+      "displayName": "Kiro",
+      "aliases": [],
+      "category": "quota",
+      "brandAssetName": "kiro",
+      "iconDomain": "kiro.dev",
+      "domains": [
+        "kiro.dev"
+      ],
+      "homepages": [
+        "https://kiro.dev"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "kilo",
+      "displayName": "Kilo",
+      "aliases": [
+        "kilo-code",
+        "openrouter-app-kilo-code"
+      ],
+      "category": "quota+session",
+      "brandAssetName": "kilo",
+      "iconDomain": "kilo.ai",
+      "domains": [
+        "kilo.ai",
+        "kilocode.ai"
+      ],
+      "homepages": [
+        "https://kilo.ai",
+        "https://kilocode.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "vertex-ai",
+      "displayName": "Vertex AI",
+      "aliases": [
+        "vertex"
+      ],
+      "category": "quota",
+      "brandAssetName": "vertex-ai",
+      "iconDomain": "cloud.google.com",
+      "domains": [
+        "cloud.google.com"
+      ],
+      "homepages": [
+        "https://cloud.google.com/vertex-ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "augment",
+      "displayName": "Augment",
+      "aliases": [],
+      "category": "quota",
+      "brandAssetName": "augment",
+      "iconDomain": "augmentcode.com",
+      "domains": [
+        "augmentcode.com"
+      ],
+      "homepages": [
+        "https://augmentcode.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "jetbrains-ai",
+      "displayName": "JetBrains AI",
+      "aliases": [
+        "jetbrains"
+      ],
+      "category": "quota",
+      "brandAssetName": "jetbrains-ai",
+      "iconDomain": "jetbrains.com",
+      "domains": [
+        "jetbrains.com"
+      ],
+      "homepages": [
+        "https://www.jetbrains.com/ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "v0",
+      "displayName": "v0",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "v0",
+      "iconDomain": "v0.dev",
+      "domains": [
+        "v0.dev"
+      ],
+      "homepages": [
+        "https://v0.dev"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "replit",
+      "displayName": "Replit",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "replit",
+      "iconDomain": "replit.com",
+      "domains": [
+        "replit.com"
+      ],
+      "homepages": [
+        "https://replit.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "warp",
+      "displayName": "Warp",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "warp",
+      "iconDomain": "warp.dev",
+      "domains": [
+        "warp.dev"
+      ],
+      "homepages": [
+        "https://warp.dev"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "bolt",
+      "displayName": "Bolt.new",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "bolt",
+      "iconDomain": "bolt.new",
+      "domains": [
+        "bolt.new"
+      ],
+      "homepages": [
+        "https://bolt.new"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "manus",
+      "displayName": "Manus",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "manus",
+      "iconDomain": "manus.im",
+      "domains": [
+        "manus.im"
+      ],
+      "homepages": [
+        "https://manus.im"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "lovable",
+      "displayName": "Lovable",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "lovable",
+      "iconDomain": "lovable.dev",
+      "domains": [
+        "lovable.dev"
+      ],
+      "homepages": [
+        "https://lovable.dev"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "perplexity",
+      "displayName": "Perplexity",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "perplexity",
+      "iconDomain": "perplexity.ai",
+      "domains": [
+        "perplexity.ai"
+      ],
+      "homepages": [
+        "https://www.perplexity.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "notion",
+      "displayName": "Notion AI",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "notion",
+      "iconDomain": "notion.so",
+      "domains": [
+        "notion.so"
+      ],
+      "homepages": [
+        "https://www.notion.so/product/ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "raycast",
+      "displayName": "Raycast Pro",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "raycast",
+      "iconDomain": "raycast.com",
+      "domains": [
+        "raycast.com"
+      ],
+      "homepages": [
+        "https://www.raycast.com/pro"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "superwhisper",
+      "displayName": "Superwhisper",
+      "aliases": [],
+      "category": "manual+billing",
+      "brandAssetName": "superwhisper",
+      "iconDomain": "superwhisper.com",
+      "domains": [
+        "superwhisper.com"
+      ],
+      "homepages": [
+        "https://superwhisper.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "windsurf",
+      "displayName": "Windsurf",
+      "aliases": [],
+      "category": "quota",
+      "brandAssetName": "windsurf",
+      "iconDomain": "windsurf.com",
+      "domains": [
+        "windsurf.com",
+        "codeium.com"
+      ],
+      "homepages": [
+        "https://windsurf.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "qwen",
+      "displayName": "Qwen",
+      "aliases": [
+        "dashscope",
+        "tongyi",
+        "alibaba",
+        "qwen-max"
+      ],
+      "category": "model",
+      "brandAssetName": "qwen",
+      "iconDomain": "qwenlm.ai",
+      "domains": [
+        "qwenlm.ai",
+        "dashscope.aliyun.com"
+      ],
+      "homepages": [
+        "https://qwenlm.ai",
+        "https://dashscope.aliyun.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "mistral",
+      "displayName": "Mistral",
+      "aliases": [
+        "mistralai",
+        "codestral"
+      ],
+      "category": "model",
+      "brandAssetName": "mistral",
+      "iconDomain": "mistral.ai",
+      "domains": [
+        "mistral.ai"
+      ],
+      "homepages": [
+        "https://mistral.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "xai",
+      "displayName": "xAI",
+      "aliases": [
+        "x-ai",
+        "grok"
+      ],
+      "category": "model",
+      "brandAssetName": "xai",
+      "iconDomain": "x.ai",
+      "domains": [
+        "x.ai"
+      ],
+      "homepages": [
+        "https://x.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "deepseek",
+      "displayName": "DeepSeek",
+      "aliases": [
+        "deepseek-ai"
+      ],
+      "category": "model",
+      "brandAssetName": "deepseek",
+      "iconDomain": "deepseek.com",
+      "domains": [
+        "deepseek.com"
+      ],
+      "homepages": [
+        "https://deepseek.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "kimi",
+      "displayName": "Kimi / MoonshotAI",
+      "aliases": [
+        "moonshotai",
+        "moonshot-ai",
+        "moonshot",
+        "kimi-k2"
+      ],
+      "category": "model",
+      "brandAssetName": "kimi",
+      "iconDomain": "kimi.ai",
+      "domains": [
+        "kimi.ai",
+        "moonshot.cn"
+      ],
+      "homepages": [
+        "https://kimi.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "meta",
+      "displayName": "Meta",
+      "aliases": [
+        "meta-llama",
+        "llama"
+      ],
+      "category": "model",
+      "brandAssetName": "meta",
+      "iconDomain": "ai.meta.com",
+      "domains": [
+        "ai.meta.com",
+        "meta.com"
+      ],
+      "homepages": [
+        "https://ai.meta.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "minimax",
+      "displayName": "MiniMax",
+      "aliases": [
+        "minimax-m1",
+        "minimax-m2"
+      ],
+      "category": "model",
+      "brandAssetName": "minimax",
+      "iconDomain": "minimax.io",
+      "domains": [
+        "minimax.io"
+      ],
+      "homepages": [
+        "https://minimax.io"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "meituan",
+      "displayName": "Meituan",
+      "aliases": [],
+      "category": "model",
+      "brandAssetName": "meituan",
+      "iconDomain": "meituan.com",
+      "domains": [
+        "meituan.com"
+      ],
+      "homepages": [
+        "https://meituan.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "ibm",
+      "displayName": "IBM",
+      "aliases": [
+        "watsonx"
+      ],
+      "category": "model",
+      "brandAssetName": "ibm",
+      "iconDomain": "ibm.com",
+      "domains": [
+        "ibm.com"
+      ],
+      "homepages": [
+        "https://www.ibm.com/watsonx"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "amazon",
+      "displayName": "Amazon",
+      "aliases": [
+        "bedrock",
+        "amazon-nova",
+        "aws",
+        "bedrock-converse"
+      ],
+      "category": "model",
+      "brandAssetName": "amazon",
+      "iconDomain": "aws.amazon.com",
+      "domains": [
+        "aws.amazon.com"
+      ],
+      "homepages": [
+        "https://aws.amazon.com/bedrock"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "baidu",
+      "displayName": "Baidu",
+      "aliases": [
+        "ernie"
+      ],
+      "category": "model",
+      "brandAssetName": "baidu",
+      "iconDomain": "baidu.com",
+      "domains": [
+        "baidu.com"
+      ],
+      "homepages": [
+        "https://www.baidu.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "ai21",
+      "displayName": "AI21 Labs",
+      "aliases": [
+        "ai21-labs"
+      ],
+      "category": "model",
+      "brandAssetName": "ai21",
+      "iconDomain": "ai21.com",
+      "domains": [
+        "ai21.com"
+      ],
+      "homepages": [
+        "https://www.ai21.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "bytedance",
+      "displayName": "Bytedance",
+      "aliases": [
+        "bytedance-seed",
+        "seed"
+      ],
+      "category": "model",
+      "brandAssetName": "bytedance",
+      "iconDomain": "bytedance.com",
+      "domains": [
+        "bytedance.com"
+      ],
+      "homepages": [
+        "https://www.bytedance.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "stepfun",
+      "displayName": "StepFun",
+      "aliases": [],
+      "category": "model",
+      "brandAssetName": "stepfun",
+      "iconDomain": "stepfun.com",
+      "domains": [
+        "stepfun.com"
+      ],
+      "homepages": [
+        "https://www.stepfun.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "cohere",
+      "displayName": "Cohere",
+      "aliases": [
+        "command-r",
+        "command-r-plus"
+      ],
+      "category": "model",
+      "brandAssetName": "cohere",
+      "iconDomain": "cohere.com",
+      "domains": [
+        "cohere.com"
+      ],
+      "homepages": [
+        "https://cohere.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "nous-research",
+      "displayName": "Nous Research",
+      "aliases": [
+        "nousresearch"
+      ],
+      "category": "model",
+      "brandAssetName": "nous-research",
+      "iconDomain": "nousresearch.com",
+      "domains": [
+        "nousresearch.com"
+      ],
+      "homepages": [
+        "https://nousresearch.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "xiaomi",
+      "displayName": "Xiaomi",
+      "aliases": [],
+      "category": "model",
+      "brandAssetName": "xiaomi",
+      "iconDomain": "mi.com",
+      "domains": [
+        "mi.com"
+      ],
+      "homepages": [
+        "https://www.mi.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "nvidia",
+      "displayName": "Nvidia",
+      "aliases": [
+        "nvidia-nim"
+      ],
+      "category": "model",
+      "brandAssetName": "nvidia",
+      "iconDomain": "nvidia.com",
+      "domains": [
+        "nvidia.com"
+      ],
+      "homepages": [
+        "https://www.nvidia.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "groq",
+      "displayName": "Groq",
+      "aliases": [],
+      "category": "model",
+      "brandAssetName": "groq",
+      "iconDomain": "groq.com",
+      "domains": [
+        "groq.com"
+      ],
+      "homepages": [
+        "https://groq.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "together",
+      "displayName": "Together",
+      "aliases": [
+        "together-ai",
+        "together_ai"
+      ],
+      "category": "model",
+      "brandAssetName": "together",
+      "iconDomain": "together.ai",
+      "domains": [
+        "together.ai"
+      ],
+      "homepages": [
+        "https://www.together.ai"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "microsoft",
+      "displayName": "Microsoft",
+      "aliases": [
+        "azure",
+        "azure-ai",
+        "azure_ai"
+      ],
+      "category": "model",
+      "brandAssetName": "microsoft",
+      "iconDomain": "microsoft.com",
+      "domains": [
+        "microsoft.com",
+        "azure.com"
+      ],
+      "homepages": [
+        "https://azure.microsoft.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "tencent",
+      "displayName": "Tencent",
+      "aliases": [],
+      "category": "model",
+      "brandAssetName": "tencent",
+      "iconDomain": "tencent.com",
+      "domains": [
+        "tencent.com"
+      ],
+      "homepages": [
+        "https://www.tencent.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    },
+    {
+      "id": "claude-code",
+      "displayName": "Claude Code",
+      "aliases": [
+        "claude_code",
+        "claude code",
+        "openrouter-app-claude-code"
+      ],
+      "category": "session",
+      "brandAssetName": "openrouter-app-claude-code",
+      "iconDomain": "claude.ai",
+      "domains": [
+        "claude.ai",
+        "anthropic.com"
+      ],
+      "homepages": [
+        "https://claude.ai/code",
+        "https://www.anthropic.com"
+      ],
+      "metadataSourceURL": "https://raw.githubusercontent.com/<your-org>/<your-repo>/main/provider_metadata_catalog.json",
+      "notes": null
+    }
+  ]
+}
