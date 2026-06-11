@@ -6,7 +6,7 @@ Public JSON catalogs for AI provider and model pricing metadata.
 
 - `model_metadata_catalog.json` — model aliases, provider mapping, and token pricing.
 - `provider_metadata_catalog.json` — provider aliases and display metadata.
-- `openrouter_models_api.json` — raw OpenRouter model payload snapshot for audit/debugging.
+- `metadata_manifest.json` — published file hashes and counts.
 
 ## Stable Raw URLs
 
