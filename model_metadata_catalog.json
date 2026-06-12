@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-11T20:36:02.509648+00:00",
+  "generatedAt": "2026-06-12T05:04:29.017534+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1306,7 +1306,7 @@
       "outputCostPerMillionUSD": 4.56,
       "cacheReadCostPerMillionUSD": 0.135,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
+      "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=163840 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -5875,7 +5875,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.054,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=204800, max_output=131072",
       "brandAssetName": "minimax",
@@ -7544,7 +7544,7 @@
       "family": "qwen2-5",
       "inputCostPerMillionUSD": 0.13,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images. · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "qwen",
