@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-12T05:04:29.017534+00:00",
+  "generatedAt": "2026-06-12T10:40:41.391453+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1306,7 +1306,7 @@
       "outputCostPerMillionUSD": 4.56,
       "cacheReadCostPerMillionUSD": 0.135,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=163840 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
+      "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -5104,7 +5104,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.09,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8227,8 +8227,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.289,
-      "outputCostPerMillionUSD": 2.4,
+      "inputCostPerMillionUSD": 0.287,
+      "outputCostPerMillionUSD": 3.1,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144",
