@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-12T15:40:07.561219+00:00",
+  "generatedAt": "2026-06-12T20:27:28.528018+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1306,7 +1306,7 @@
       "outputCostPerMillionUSD": 4.56,
       "cacheReadCostPerMillionUSD": 0.135,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
+      "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=163840 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
