@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-12T10:40:41.391453+00:00",
+  "generatedAt": "2026-06-12T15:40:07.561219+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5104,7 +5104,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -5123,9 +5123,27 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.14,
+      "cacheReadCostPerMillionUSD": 0.34,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code",
+      "displayName": "Kimi K2.7 Code",
+      "aliases": [
+        "moonshotai/kimi-k2.7-code",
+        "moonshotai/kimi-k2.7-code-20260612",
+        "kimi-k2.7-code"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k2",
+      "inputCostPerMillionUSD": 0.95,
+      "outputCostPerMillionUSD": 4.0,
+      "cacheReadCostPerMillionUSD": 0.19,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -5590,24 +5608,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input... · context=10000000 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=8192",
-      "brandAssetName": "meta",
-      "organizationName": "Meta"
-    },
-    {
-      "id": "meta-llama/llama-guard-3-8b",
-      "displayName": "Llama Guard 3 8B",
-      "aliases": [
-        "meta-llama/llama-guard-3-8b",
-        "llama-guard-3-8b",
-        "deepinfra/meta-llama/llama-guard-3-8b"
-      ],
-      "providerID": "meta",
-      "family": "llama-guard",
-      "inputCostPerMillionUSD": 0.055,
-      "outputCostPerMillionUSD": 0.055,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Llama Guard 3 is a Llama-3.1-8B pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM inputs (prompt classification)... · context=131072 · LiteLLM max_input=131072, max_output=131072",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -8227,8 +8227,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.287,
-      "outputCostPerMillionUSD": 3.1,
+      "inputCostPerMillionUSD": 0.2885,
+      "outputCostPerMillionUSD": 3.17,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144",
