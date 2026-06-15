@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-15T12:43:50.832099+00:00",
+  "generatedAt": "2026-06-15T21:22:31.924105+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1492,7 +1492,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a... · context=128000",
+      "notes": "Fusion turns your prompt into a small multi-model deliberation. A panel of expert models (see below) analyzes your prompt in parallel with web search and web fetch enabled, then a... · context=1000000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -4653,8 +4653,8 @@
       ],
       "providerID": "xai",
       "family": "grok-4",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information... · context=2000000",
