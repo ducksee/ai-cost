@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-16T11:35:02.179576+00:00",
+  "generatedAt": "2026-06-16T17:21:42.176520+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2462,7 +2462,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 1.1,
-      "cacheReadCostPerMillionUSD": 0.06,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact par · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=96000",
       "brandAssetName": "zai",
