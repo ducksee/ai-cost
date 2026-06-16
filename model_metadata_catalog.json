@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-16T17:21:42.176520+00:00",
+  "generatedAt": "2026-06-16T21:20:23.639733+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2627,6 +2627,25 @@
       "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=202752"
     },
     {
+      "id": "z-ai/glm-5.2",
+      "displayName": "GLM 5.2",
+      "aliases": [
+        "z-ai/glm-5.2",
+        "z-ai/glm-5-2",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2",
+        "glm-5-2"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 1.4,
+      "outputCostPerMillionUSD": 4.4,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM-5.2 is Z.ai’s flagship model for the era of long-horizon tasks. With a truly usable 1M-token context window, it can handle project-level engineering context, execute long-running tasks more reliably, follow... · context=1048576"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "displayName": "Google Gemini Flash Latest",
       "aliases": [
@@ -4938,7 +4957,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=256000"
+      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=262144"
     },
     {
       "id": "moonshotai/kimi-k2",
@@ -5139,9 +5158,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.75,
+      "inputCostPerMillionUSD": 0.74,
       "outputCostPerMillionUSD": 3.5,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
@@ -8190,7 +8209,7 @@
       "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=256000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
