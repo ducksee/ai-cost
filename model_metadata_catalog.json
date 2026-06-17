@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-17T16:05:44.877876+00:00",
+  "generatedAt": "2026-06-17T20:31:06.740606+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5736,25 +5736,6 @@
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=128000, max_output=50000",
       "organizationName": "inceptionlabs"
-    },
-    {
-      "id": "xiaomi/mimo-v2-flash",
-      "displayName": "MiMo-V2-Flash",
-      "aliases": [
-        "xiaomi/mimo-v2-flash",
-        "xiaomi/mimo-v2-flash-20251210",
-        "mimo-v2-flash",
-        "openrouter/xiaomi/mimo-v2-flash"
-      ],
-      "providerID": "xiaomi",
-      "family": "mimo-v2",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.01,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2-Flash is an open-source foundation language model developed by Xiaomi. It is a Mixture-of-Experts model with 309B total parameters and 15B active parameters, adopting hybrid attention architecture. MiMo-V2-Flash  · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=16384",
-      "brandAssetName": "xiaomi",
-      "organizationName": "Xiaomi"
     },
     {
       "id": "xiaomi/mimo-v2.5",
