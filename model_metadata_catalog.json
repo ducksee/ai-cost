@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-17T11:17:42.094227+00:00",
+  "generatedAt": "2026-06-17T16:05:44.877876+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5198,7 +5198,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, off · context=262144"
+      "notes": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, of · context=262144"
     },
     {
       "id": "liquid/lfm-2-24b-a2b",
