@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-17T20:31:06.740606+00:00",
+  "generatedAt": "2026-06-18T05:02:49.968767+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -6513,6 +6513,29 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-3.1-flash-image",
+      "displayName": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "aliases": [
+        "google/gemini-3.1-flash-image",
+        "google/gemini-3-1-flash-image",
+        "google/gemini-3.1-flash-image-20260528",
+        "google/gemini-3-1-flash-image-20260528",
+        "nano-banana-2-(gemini-3.1-flash-image)",
+        "nano-banana-2-(gemini-3-1-flash-image)",
+        "gemini-3.1-flash-image",
+        "gemini-3-1-flash-image"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 3.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced... · context=131072",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "google/gemini-3-pro-image-preview",
       "displayName": "Nano Banana Pro (Gemini 3 Pro Image Preview)",
       "aliases": [
@@ -6528,6 +6551,25 @@
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.375,
       "notes": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and... · context=65536 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "displayName": "Nano Banana Pro (Gemini 3 Pro Image)",
+      "aliases": [
+        "google/gemini-3-pro-image",
+        "google/gemini-3-pro-image-20260528",
+        "nano-banana-pro-(gemini-3-pro-image)",
+        "gemini-3-pro-image"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 12.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 0.375,
+      "notes": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and... · context=65536",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -6741,6 +6783,25 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces... · context=262144"
+    },
+    {
+      "id": "cohere/north-mini-code:free",
+      "displayName": "North Mini Code (free)",
+      "aliases": [
+        "cohere/north-mini-code:free",
+        "cohere/north-mini-code-20260617",
+        "north-mini-code-(free)",
+        "north-mini-code:free"
+      ],
+      "providerID": "cohere",
+      "family": "north-mini",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized... · context=256000",
+      "brandAssetName": "cohere",
+      "organizationName": "Cohere"
     },
     {
       "id": "amazon/nova-2-lite-v1",
