@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-18T10:48:32.393545+00:00",
+  "generatedAt": "2026-06-18T15:53:22.811812+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2641,7 +2641,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.4,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.26,
+      "cacheReadCostPerMillionUSD": 0.7,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
     },
@@ -5167,6 +5167,22 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
+      "id": "poolside/laguna-m.1",
+      "displayName": "Laguna M.1",
+      "aliases": [
+        "poolside/laguna-m.1",
+        "poolside/laguna-m.1-20260312",
+        "laguna-m.1"
+      ],
+      "providerID": "poolside",
+      "family": "laguna-m",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a · context=262144"
+    },
+    {
       "id": "poolside/laguna-m.1:free",
       "displayName": "Laguna M.1 (free)",
       "aliases": [
@@ -5181,7 +5197,23 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a  · context=262144"
+      "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a · context=262144"
+    },
+    {
+      "id": "poolside/laguna-xs.2",
+      "displayName": "Laguna XS.2",
+      "aliases": [
+        "poolside/laguna-xs.2",
+        "poolside/laguna-xs.2-20260421",
+        "laguna-xs.2"
+      ],
+      "providerID": "poolside",
+      "family": "laguna-xs",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, of · context=262144"
     },
     {
       "id": "poolside/laguna-xs.2:free",
@@ -8231,7 +8263,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -8306,9 +8338,9 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.14,
       "outputCostPerMillionUSD": 1.0,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144",
       "brandAssetName": "qwen",
