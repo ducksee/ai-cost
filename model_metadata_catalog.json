@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-19T15:43:25.434447+00:00",
+  "generatedAt": "2026-06-19T20:04:00.709434+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -4957,7 +4957,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=262144"
+      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=256000"
     },
     {
       "id": "moonshotai/kimi-k2",
@@ -5158,9 +5158,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.74,
-      "outputCostPerMillionUSD": 3.5,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.68,
+      "outputCostPerMillionUSD": 3.41,
+      "cacheReadCostPerMillionUSD": 0.144,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
@@ -8245,7 +8245,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -8265,7 +8265,7 @@
       "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=256000",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
