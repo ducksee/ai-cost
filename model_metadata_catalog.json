@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-19T10:57:39.098091+00:00",
+  "generatedAt": "2026-06-19T15:43:25.434447+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -4957,7 +4957,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=256000"
+      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=262144"
     },
     {
       "id": "moonshotai/kimi-k2",
@@ -5326,24 +5326,6 @@
       "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficienc · context=262144"
-    },
-    {
-      "id": "meta-llama/llama-3-70b-instruct",
-      "displayName": "Llama 3 70B Instruct",
-      "aliases": [
-        "meta-llama/llama-3-70b-instruct",
-        "llama-3-70b-instruct",
-        "openrouter/meta-llama/llama-3-70b-instruct"
-      ],
-      "providerID": "meta",
-      "family": "llama-3",
-      "inputCostPerMillionUSD": 0.59,
-      "outputCostPerMillionUSD": 0.79,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 70B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong... · context=8192 · LiteLLM max_input=8192, max_output=8000",
-      "brandAssetName": "meta",
-      "organizationName": "Meta"
     },
     {
       "id": "meta-llama/llama-3-8b-instruct",
@@ -8263,7 +8245,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -8283,7 +8265,7 @@
       "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=256000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
