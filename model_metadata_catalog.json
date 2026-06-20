@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-20T09:42:54.552254+00:00",
+  "generatedAt": "2026-06-20T14:30:59.069830+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -4957,7 +4957,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=256000"
+      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=262144"
     },
     {
       "id": "moonshotai/kimi-k2",
@@ -8245,7 +8245,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -8265,7 +8265,7 @@
       "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=256000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8904,8 +8904,8 @@
       ],
       "providerID": "arcee-ai",
       "family": "trinity-large",
-      "inputCostPerMillionUSD": 0.22,
-      "outputCostPerMillionUSD": 0.85,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si · context=262144"
