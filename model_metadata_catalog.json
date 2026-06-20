@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-19T20:04:00.709434+00:00",
+  "generatedAt": "2026-06-20T04:41:14.082187+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5158,9 +5158,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.68,
-      "outputCostPerMillionUSD": 3.41,
-      "cacheReadCostPerMillionUSD": 0.144,
+      "inputCostPerMillionUSD": 0.612,
+      "outputCostPerMillionUSD": 3.069,
+      "cacheReadCostPerMillionUSD": 0.1296,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
