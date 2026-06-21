@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-20T19:57:00.499995+00:00",
+  "generatedAt": "2026-06-21T05:18:48.527536+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1231,8 +1231,8 @@
       ],
       "providerID": "cohere",
       "family": "command-r7b",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.0375,
+      "inputCostPerMillionUSD": 0.0375,
+      "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Command R7B (12-2024) is a small, fast update of the Command R+ model, delivered in December 2024. It excels at RAG, tool use, agents, and similar tasks requiring complex reasoning... · context=128000 · LiteLLM supports_function_calling, max_input=128000, max_output=4096",
@@ -1317,15 +1317,15 @@
         "deepseek/deepseek-chat-v3.1",
         "deepseek-v3.1",
         "deepseek-chat-v3.1",
-        "deepinfra/deepseek-ai/deepseek-v3.1"
+        "azure-ai/deepseek-v3.1"
       ],
       "providerID": "deepseek",
       "family": "deepseek-chat",
-      "inputCostPerMillionUSD": 0.27,
-      "outputCostPerMillionUSD": 1.0,
-      "cacheReadCostPerMillionUSD": 0.216,
+      "inputCostPerMillionUSD": 1.23,
+      "outputCostPerMillionUSD": 4.94,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context... · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
+      "notes": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context... · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1397,7 +1397,7 @@
       "outputCostPerMillionUSD": 0.28,
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1415,7 +1415,7 @@
       "outputCostPerMillionUSD": 3.48,
       "cacheReadCostPerMillionUSD": 0.145,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -2357,15 +2357,16 @@
         "google/gemma-4-26b-a4b-it",
         "google/gemma-4-26b-a4b-it-20260403",
         "gemma-4-26b-a4b",
-        "gemma-4-26b-a4b-it"
+        "gemma-4-26b-a4b-it",
+        "scaleway/google/gemma-4-26b-a4b-it"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.33,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144",
+      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2395,15 +2396,16 @@
         "google/gemma-4-31b-it",
         "google/gemma-4-31b-it-20260402",
         "gemma-4-31b",
-        "gemma-4-31b-it"
+        "gemma-4-31b-it",
+        "libertai/gemma-4-31b-it"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.12,
-      "outputCostPerMillionUSD": 0.35,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144",
+      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -4175,8 +4177,8 @@
         "openai/gpt-5-5-20260423",
         "gpt-5.5",
         "gpt-5-5",
-        "azure/gpt-5.5",
-        "azure/gpt-5-5"
+        "azure-ai/gpt-5.5",
+        "azure-ai/gpt-5-5"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -4271,8 +4273,8 @@
         "codex/gpt-5-5",
         "gpt-5.5-≤272k",
         "gpt-5-5-≤272k",
-        "azure/gpt-5.5",
-        "azure/gpt-5-5"
+        "azure-ai/gpt-5.5",
+        "azure-ai/gpt-5-5"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5905,11 +5907,11 @@
       ],
       "providerID": "minimax",
       "family": "minimax-m3",
-      "inputCostPerMillionUSD": 0.6,
-      "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=512000, max_output=128000",
+      "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -6186,7 +6188,9 @@
         "mistralai/mistral-medium-3.5-20260430",
         "mistralai/mistral-medium-3-5-20260430",
         "mistral-medium-3.5",
-        "mistral-medium-3-5"
+        "mistral-medium-3-5",
+        "mistral/mistral-medium-3-5",
+        "mistral/mistral-medium-3.5"
       ],
       "providerID": "mistral",
       "family": "mistral-medium",
@@ -6194,7 +6198,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144",
+      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -8298,15 +8302,16 @@
       "aliases": [
         "qwen/qwen3.6-27b",
         "qwen/qwen3.6-27b-20260422",
-        "qwen3.6-27b"
+        "qwen3.6-27b",
+        "libertai/qwen3.6-27b"
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.2885,
-      "outputCostPerMillionUSD": 3.17,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144",
+      "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8316,15 +8321,16 @@
       "aliases": [
         "qwen/qwen3.6-35b-a3b",
         "qwen/qwen3.6-35b-a3b-20260415",
-        "qwen3.6-35b-a3b"
+        "qwen3.6-35b-a3b",
+        "scaleway/qwen/qwen3.6-35b-a3b"
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.14,
-      "outputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144",
+      "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=16384",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -9000,15 +9006,16 @@
       "displayName": "Voxtral Small 24B 2507",
       "aliases": [
         "mistralai/voxtral-small-24b-2507",
-        "voxtral-small-24b-2507"
+        "voxtral-small-24b-2507",
+        "scaleway/mistralai/voxtral-small-24b-2507"
       ],
       "providerID": "mistral",
       "family": "voxtral-small",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.3,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.35,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio underst · context=32000",
+      "notes": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio underst · context=32000 · LiteLLM max_input=32000, max_output=16384",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
