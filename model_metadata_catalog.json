@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-21T14:33:37.741220+00:00",
+  "generatedAt": "2026-06-21T20:03:06.792596+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2641,9 +2641,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 1.2,
-      "outputCostPerMillionUSD": 4.1,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 4.0,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
     },
