@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-22T12:26:51.270851+00:00",
+  "generatedAt": "2026-06-22T21:13:54.031795+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2614,11 +2614,27 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.18,
+      "inputCostPerMillionUSD": 0.98,
+      "outputCostPerMillionUSD": 3.08,
+      "cacheReadCostPerMillionUSD": 0.182,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
+    },
+    {
+      "id": "z-ai/glm-5v-turbo",
+      "displayName": "GLM 5V Turbo",
+      "aliases": [
+        "z-ai/glm-5v-turbo",
+        "z-ai/glm-5v-turbo-20260401",
+        "glm-5v-turbo"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5v",
+      "inputCostPerMillionUSD": 1.2,
+      "outputCostPerMillionUSD": 4.0,
+      "cacheReadCostPerMillionUSD": 0.24,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex cod · context=202752"
     },
     {
       "id": "~google/gemini-flash-latest",
@@ -6770,23 +6786,6 @@
       "inputCostPerMillionUSD": 0.5,
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces... · context=262144"
-    },
-    {
-      "id": "nex-agi/nex-n2-pro:free",
-      "displayName": "Nex-N2-Pro (free)",
-      "aliases": [
-        "nex-agi/nex-n2-pro:free",
-        "nex-agi/nex-n2-pro",
-        "nex-n2-pro-(free)",
-        "nex-n2-pro:free"
-      ],
-      "providerID": "nex-agi",
-      "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces... · context=262144"
     },
