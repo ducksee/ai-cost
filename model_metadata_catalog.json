@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-21T20:03:06.792596+00:00",
+  "generatedAt": "2026-06-22T05:31:29.121473+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -299,33 +299,6 @@
       "brandAssetName": "claude",
       "organizationName": "Anthropic",
       "notes": "LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096"
-    },
-    {
-      "id": "anthropic/claude-3.5-haiku",
-      "displayName": "Claude 3.5 Haiku",
-      "aliases": [
-        "anthropic/claude-3.5-haiku",
-        "anthropic/claude-3-5-haiku",
-        "claude-3.5-haiku",
-        "claude-3-5-haiku",
-        "claude-haiku-3.5",
-        "claude-haiku-3-5",
-        "claude-3-5-haiku-20241022",
-        "claude-3.5-haiku-20241022",
-        "claude-haiku-3-5-20241022",
-        "claude-haiku-3.5-20241022",
-        "heroku/claude-3-5-haiku",
-        "heroku/claude-3.5-haiku"
-      ],
-      "providerID": "claude",
-      "family": "claude-3",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 4,
-      "cacheReadCostPerMillionUSD": 0.08,
-      "cacheWriteCostPerMillionUSD": 1.0,
-      "notes": "Claude 3.5 Haiku features offers enhanced capabilities in speed, coding accuracy, and tool use. Engineered to excel in real-time applications, it delivers quick response times that are essential for dynamic... · context=200000 · LiteLLM supports_function_calling, max_input=200000, max_output=8192",
-      "brandAssetName": "claude",
-      "organizationName": "Anthropic"
     },
     {
       "id": "claude/claude-3.5-haiku",
@@ -6784,6 +6757,21 @@
       "notes": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and... · context=128000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
+    },
+    {
+      "id": "nex-agi/nex-n2-pro",
+      "displayName": "Nex-N2-Pro",
+      "aliases": [
+        "nex-agi/nex-n2-pro",
+        "nex-n2-pro"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces... · context=262144"
     },
     {
       "id": "nex-agi/nex-n2-pro:free",
