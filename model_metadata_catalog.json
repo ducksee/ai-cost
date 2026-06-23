@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-23T04:30:48.098947+00:00",
+  "generatedAt": "2026-06-23T10:03:06.152942+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5149,9 +5149,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.612,
-      "outputCostPerMillionUSD": 3.069,
-      "cacheReadCostPerMillionUSD": 0.1296,
+      "inputCostPerMillionUSD": 0.68,
+      "outputCostPerMillionUSD": 3.41,
+      "cacheReadCostPerMillionUSD": 0.144,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
@@ -6783,9 +6783,9 @@
       ],
       "providerID": "nex-agi",
       "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 2.5,
-      "cacheReadCostPerMillionUSD": 0.25,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces... · context=262144"
     },
