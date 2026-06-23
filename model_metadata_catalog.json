@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-23T10:03:06.152942+00:00",
+  "generatedAt": "2026-06-23T15:25:02.450484+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -4899,23 +4899,6 @@
       "notes": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional... · context=8000"
     },
     {
-      "id": "prime-intellect/intellect-3",
-      "displayName": "INTELLECT-3",
-      "aliases": [
-        "prime-intellect/intellect-3",
-        "prime-intellect/intellect-3-20251126",
-        "prime-intellect/intellect-3.20251126",
-        "intellect-3"
-      ],
-      "providerID": "prime-intellect",
-      "family": "intellect-3",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 1.1,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "INTELLECT-3 is a 106B-parameter Mixture-of-Experts model (12B active) post-trained from GLM-4.5-Air-Base using supervised fine-tuning (SFT) followed by large-scale reinforcement learning (RL). It offers state-of-the-art  · context=131072"
-    },
-    {
       "id": "ai21/jamba-large-1.7",
       "displayName": "Jamba Large 1.7",
       "aliases": [
@@ -7805,7 +7788,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.  · context=160000 · LiteLLM max_input=262144, max_output=262144",
+      "notes": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.  · context=262144 · LiteLLM max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8584,21 +8567,6 @@
       "notes": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool. · context=262144"
     },
     {
-      "id": "essentialai/rnj-1-instruct",
-      "displayName": "Rnj 1 Instruct",
-      "aliases": [
-        "essentialai/rnj-1-instruct",
-        "rnj-1-instruct"
-      ],
-      "providerID": "essentialai",
-      "family": "rnj-1",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Rnj-1 is an 8B-parameter, dense, open-weight model family developed by Essential AI and trained from scratch with a focus on programming, math, and scientific reasoning. The model demonstrates strong performance... · context=32768"
-    },
-    {
       "id": "thedrummer/rocinante-12b",
       "displayName": "Rocinante 12B",
       "aliases": [
@@ -8607,8 +8575,8 @@
       ],
       "providerID": "thedrummer",
       "family": "rocinante-12b",
-      "inputCostPerMillionUSD": 0.17,
-      "outputCostPerMillionUSD": 0.43,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Rocinante 12B is designed for engaging storytelling and rich prose. Early testers have reported: - Expanded vocabulary with unique and expressive word choices - Enhanced creativity for vivid narratives -... · context=32768"
