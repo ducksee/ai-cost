@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-23T15:25:02.450484+00:00",
+  "generatedAt": "2026-06-23T20:22:43.670271+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5132,9 +5132,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.68,
-      "outputCostPerMillionUSD": 3.41,
-      "cacheReadCostPerMillionUSD": 0.144,
+      "inputCostPerMillionUSD": 0.74,
+      "outputCostPerMillionUSD": 3.5,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
@@ -5863,7 +5863,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=204800, max_output=131072",
       "brandAssetName": "minimax",
@@ -7788,7 +7788,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.  · context=262144 · LiteLLM max_input=262144, max_output=262144",
+      "notes": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.  · context=160000 · LiteLLM max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
