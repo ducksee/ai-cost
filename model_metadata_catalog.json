@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-24T04:36:38.776549+00:00",
+  "generatedAt": "2026-06-24T09:51:26.717332+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1451,6 +1451,22 @@
       "notes": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that... · context=200000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=200000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
+    },
+    {
+      "id": "sakana/fugu-ultra",
+      "displayName": "Fugu Ultra",
+      "aliases": [
+        "sakana/fugu-ultra",
+        "sakana/fugu-ultra-20260615",
+        "fugu-ultra"
+      ],
+      "providerID": "sakana",
+      "family": "fugu-ultra",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 30.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Fugu Ultra is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000"
     },
     {
       "id": "openrouter/fusion",
