@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-24T20:09:37.607438+00:00",
+  "generatedAt": "2026-06-25T04:34:25.257066+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2613,7 +2613,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 0.98,
       "outputCostPerMillionUSD": 3.08,
-      "cacheReadCostPerMillionUSD": 0.49,
+      "cacheReadCostPerMillionUSD": 0.182,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=202752"
     },
@@ -8240,7 +8240,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
