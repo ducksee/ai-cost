@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-26T04:40:30.120414+00:00",
+  "generatedAt": "2026-06-26T09:52:13.818535+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1332,7 +1332,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.02288,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
