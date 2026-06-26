@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-26T14:47:46.848033+00:00",
+  "generatedAt": "2026-06-26T20:10:22.367446+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -2386,15 +2386,15 @@
         "google/gemma-4-31b-it-20260402",
         "gemma-4-31b",
         "gemma-4-31b-it",
-        "libertai/gemma-4-31b-it"
+        "sambanova/gemma-4-31b-it"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.4,
+      "inputCostPerMillionUSD": 0.38,
+      "outputCostPerMillionUSD": 1.15,
       "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2607,15 +2607,17 @@
         "z-ai/glm-5.1-20260406",
         "z-ai/glm-5-1-20260406",
         "glm-5.1",
-        "glm-5-1"
+        "glm-5-1",
+        "openrouter/z-ai/glm-5.1",
+        "openrouter/z-ai/glm-5-1"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.98,
-      "outputCostPerMillionUSD": 3.08,
-      "cacheReadCostPerMillionUSD": 0.182,
+      "inputCostPerMillionUSD": 1.05,
+      "outputCostPerMillionUSD": 3.5,
+      "cacheReadCostPerMillionUSD": 0.525,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=202752"
+      "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=202752 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=202752, max_output=65535"
     },
     {
       "id": "z-ai/glm-5.2",
@@ -4294,6 +4296,69 @@
       "organizationName": "Codex"
     },
     {
+      "id": "codex/gpt-5.6-luna",
+      "displayName": "GPT-5.6 Luna",
+      "aliases": [
+        "gpt-5.6-luna",
+        "gpt-5-6-luna",
+        "openai/gpt-5.6-luna",
+        "openai/gpt-5-6-luna",
+        "codex/gpt-5.6-luna",
+        "codex/gpt-5-6-luna"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-5.6-sol",
+      "displayName": "GPT-5.6 Sol",
+      "aliases": [
+        "gpt-5.6-sol",
+        "gpt-5-6-sol",
+        "openai/gpt-5.6-sol",
+        "openai/gpt-5-6-sol",
+        "codex/gpt-5.6-sol",
+        "codex/gpt-5-6-sol"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 30.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-5.6-terra",
+      "displayName": "GPT-5.6 Terra",
+      "aliases": [
+        "gpt-5.6-terra",
+        "gpt-5-6-terra",
+        "openai/gpt-5.6-terra",
+        "openai/gpt-5-6-terra",
+        "codex/gpt-5.6-terra",
+        "codex/gpt-5-6-terra"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-image-1",
       "displayName": "gpt-image-1 (image gen)",
       "aliases": [
@@ -5882,11 +5947,11 @@
       ],
       "providerID": "minimax",
       "family": "minimax-m2",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
+      "inputCostPerMillionUSD": 0.6,
+      "outputCostPerMillionUSD": 2.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=204800, max_output=131072",
+      "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -6191,7 +6256,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -6542,7 +6607,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced... · context=131072",
+      "notes": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced... · context=131072 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -6580,7 +6645,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and... · context=65536",
+      "notes": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and... · context=65536 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
