@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-29T11:24:00.170352+00:00",
+  "generatedAt": "2026-06-29T16:11:37.131643+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -728,35 +728,6 @@
       "brandAssetName": "claude",
       "organizationName": "Anthropic",
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=128000"
-    },
-    {
-      "id": "anthropic/claude-opus-4.6-fast",
-      "displayName": "Claude Opus 4.6 (Fast)",
-      "aliases": [
-        "anthropic/claude-opus-4.6-fast",
-        "anthropic/claude-opus-4-6-fast",
-        "anthropic/claude-4.6-opus-fast-20260407",
-        "anthropic/claude-4-6-opus-fast-20260407",
-        "claude-opus-4.6-(fast)",
-        "claude-opus-4-6-(fast)",
-        "claude-4.6-opus-(fast)",
-        "claude-4-6-opus-(fast)",
-        "claude-opus-4.6-fast",
-        "claude-opus-4-6-fast",
-        "claude-4.6-opus-fast",
-        "claude-4-6-opus-fast",
-        "github-copilot/claude-opus-4.6-fast",
-        "github-copilot/claude-opus-4-6-fast"
-      ],
-      "providerID": "claude",
-      "family": "claude-opus",
-      "inputCostPerMillionUSD": 30.0,
-      "outputCostPerMillionUSD": 150.0,
-      "cacheReadCostPerMillionUSD": 3.0,
-      "cacheWriteCostPerMillionUSD": 37.5,
-      "notes": "Fast-mode variant of [Opus 4.6](/anthropic/claude-opus-4.6) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/ · context=1000000 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=16000",
-      "brandAssetName": "claude",
-      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-opus-4.7",
@@ -8896,9 +8867,9 @@
       ],
       "providerID": "stepfun",
       "family": "step-3",
-      "inputCostPerMillionUSD": 0.09,
+      "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token.... · context=262144",
       "brandAssetName": "stepfun",
