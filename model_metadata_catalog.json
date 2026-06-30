@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-30T10:01:45.691489+00:00",
+  "generatedAt": "2026-06-30T14:43:53.856616+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -7369,23 +7369,6 @@
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the OpenAI GPT Mini family. · context=400000"
-    },
-    {
-      "id": "openrouter/owl-alpha",
-      "displayName": "Owl Alpha",
-      "aliases": [
-        "openrouter/owl-alpha",
-        "owl-alpha"
-      ],
-      "providerID": "openrouter",
-      "family": "owl-alpha",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, and complex instructio · context=1048756",
-      "brandAssetName": "openrouter",
-      "organizationName": "OpenRouter"
     },
     {
       "id": "writer/palmyra-x5",
