@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-01T10:14:52.814194+00:00",
+  "generatedAt": "2026-07-01T15:12:42.269738+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5889,7 +5889,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "minimax",
@@ -7814,7 +7814,7 @@
       "family": "qwen3-30b",
       "inputCostPerMillionUSD": 0.9,
       "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": 0.08,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal · context=131072 · LiteLLM max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -7854,7 +7854,7 @@
       "family": "qwen3-8b",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,... · context=131072 · LiteLLM supports_reasoning, max_input=40960, max_output=40960",
       "brandAssetName": "qwen",
