@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-06-30T20:19:30.603967+00:00",
+  "generatedAt": "2026-07-01T04:54:27.753886+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -1043,17 +1043,38 @@
         "anthropic/claude-sonnet-5-20260630",
         "anthropic/claude-sonnet-5.20260630",
         "claude-sonnet-5",
-        "claude-5-sonnet"
+        "claude-5-sonnet",
+        "anthropic.claude-sonnet-5"
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 10.0,
+      "inputCostPerMillionUSD": 3,
+      "outputCostPerMillionUSD": 15,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000",
+      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
+    },
+    {
+      "id": "claude/claude-sonnet-5",
+      "displayName": "Claude Sonnet 5",
+      "aliases": [
+        "claude-sonnet-5",
+        "claude-5-sonnet",
+        "anthropic/claude-sonnet-5",
+        "claude/claude-sonnet-5",
+        "anthropic.claude-sonnet-5"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 3,
+      "outputCostPerMillionUSD": 15,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "brandAssetName": "claude",
+      "organizationName": "Claude",
+      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
       "id": "arcee-ai/coder-large",
