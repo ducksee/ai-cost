@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-02T14:29:26.064575+00:00",
+  "generatedAt": "2026-07-02T19:52:35.382052+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -5270,6 +5270,44 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a · context=262144"
+    },
+    {
+      "id": "poolside/laguna-xs-2.1",
+      "displayName": "Laguna XS 2.1",
+      "aliases": [
+        "poolside/laguna-xs-2.1",
+        "poolside/laguna-xs-2-1",
+        "poolside/laguna-xs-2.1-20260625",
+        "poolside/laguna-xs-2-1-20260625",
+        "laguna-xs-2.1",
+        "laguna-xs-2-1"
+      ],
+      "providerID": "poolside",
+      "family": "laguna-xs",
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
+    },
+    {
+      "id": "poolside/laguna-xs-2.1:free",
+      "displayName": "Laguna XS 2.1 (free)",
+      "aliases": [
+        "poolside/laguna-xs-2.1:free",
+        "poolside/laguna-xs-2.1-20260625",
+        "poolside/laguna-xs-2-1-20260625",
+        "laguna-xs-2.1-(free)",
+        "laguna-xs-2-1-(free)",
+        "laguna-xs-2.1:free"
+      ],
+      "providerID": "poolside",
+      "family": "laguna-xs",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
     },
     {
       "id": "poolside/laguna-xs.2",
