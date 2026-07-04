@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-03T19:49:48.701507+00:00",
+  "generatedAt": "2026-07-04T04:02:23.511716+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -6790,8 +6790,8 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.085,
-      "outputCostPerMillionUSD": 0.4,
+      "inputCostPerMillionUSD": 0.08,
+      "outputCostPerMillionUSD": 0.45,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=1000000",
