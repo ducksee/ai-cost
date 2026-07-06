@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-06T11:03:38.439581+00:00",
+  "generatedAt": "2026-07-06T15:54:55.018190+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -4948,6 +4948,43 @@
       "organizationName": "Tencent"
     },
     {
+      "id": "tencent/hy3",
+      "displayName": "Hy3",
+      "aliases": [
+        "tencent/hy3",
+        "tencent/hy3-20260706",
+        "hy3"
+      ],
+      "providerID": "tencent",
+      "family": "hy3",
+      "inputCostPerMillionUSD": 0.14,
+      "outputCostPerMillionUSD": 0.58,
+      "cacheReadCostPerMillionUSD": 0.035,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effor · context=262144",
+      "brandAssetName": "tencent",
+      "organizationName": "Tencent"
+    },
+    {
+      "id": "tencent/hy3:free",
+      "displayName": "Hy3 (free)",
+      "aliases": [
+        "tencent/hy3:free",
+        "tencent/hy3-20260706",
+        "hy3-(free)",
+        "hy3:free"
+      ],
+      "providerID": "tencent",
+      "family": "hy3-free",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effor · context=262144",
+      "brandAssetName": "tencent",
+      "organizationName": "Tencent"
+    },
+    {
       "id": "tencent/hy3-preview",
       "displayName": "Hy3 preview",
       "aliases": [
@@ -5194,7 +5231,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.203,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8243,7 +8280,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.111,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It d · context=256000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
