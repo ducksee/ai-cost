@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-06T15:54:55.018190+00:00",
+  "generatedAt": "2026-07-06T20:14:19.434775+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -6952,6 +6952,21 @@
       "notes": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and... · context=128000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
+    },
+    {
+      "id": "nex-agi/nex-n2-mini",
+      "displayName": "Nex-N2-Mini",
+      "aliases": [
+        "nex-agi/nex-n2-mini",
+        "nex-n2-mini"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.025,
+      "outputCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.0025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series. It accepts text and image input and is built for coding, tool use,... · context=262144"
     },
     {
       "id": "nex-agi/nex-n2-pro",
