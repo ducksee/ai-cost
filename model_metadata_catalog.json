@@ -1,41 +1,7 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-07T10:00:49.060995+00:00",
+  "generatedAt": "2026-07-07T15:15:21.474277+00:00",
   "models": [
-    {
-      "id": "aion-labs/aion-1.0",
-      "displayName": "Aion-1.0",
-      "aliases": [
-        "aion-labs/aion-1.0",
-        "aion-labs/aion-1-0",
-        "aion-1.0",
-        "aion-1-0"
-      ],
-      "providerID": "aion-labs",
-      "family": "aion-1",
-      "inputCostPerMillionUSD": 4.0,
-      "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-1.0 is a multi-model system designed for high performance across various tasks, including reasoning and coding. It is built on DeepSeek-R1, augmented with additional models and techniques such as Tree... · context=131072"
-    },
-    {
-      "id": "aion-labs/aion-1.0-mini",
-      "displayName": "Aion-1.0-Mini",
-      "aliases": [
-        "aion-labs/aion-1.0-mini",
-        "aion-labs/aion-1-0-mini",
-        "aion-1.0-mini",
-        "aion-1-0-mini"
-      ],
-      "providerID": "aion-labs",
-      "family": "aion-1",
-      "inputCostPerMillionUSD": 0.7,
-      "outputCostPerMillionUSD": 1.4,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-1.0-Mini 32B parameter model is a distilled version of the DeepSeek-R1 model, designed for strong performance in reasoning domains such as mathematics, coding, and logic. It is a modified variant... · context=131072"
-    },
     {
       "id": "aion-labs/aion-2.0",
       "displayName": "Aion-2.0",
