@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-06T20:14:19.434775+00:00",
+  "generatedAt": "2026-07-07T04:16:58.696247+00:00",
   "models": [
     {
       "id": "aion-labs/aion-1.0",
@@ -4957,9 +4957,9 @@
       ],
       "providerID": "tencent",
       "family": "hy3",
-      "inputCostPerMillionUSD": 0.14,
-      "outputCostPerMillionUSD": 0.58,
-      "cacheReadCostPerMillionUSD": 0.035,
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.8,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effor · context=262144",
       "brandAssetName": "tencent",
