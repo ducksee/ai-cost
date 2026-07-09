@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-08T19:55:57.456869+00:00",
+  "generatedAt": "2026-07-09T04:14:05.951704+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -9054,23 +9054,6 @@
       "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=256000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
-    },
-    {
-      "id": "switchpoint/router",
-      "displayName": "Switchpoint Router",
-      "aliases": [
-        "switchpoint/router",
-        "switchpoint-router",
-        "router",
-        "openrouter/switchpoint/router"
-      ],
-      "providerID": "switchpoint",
-      "family": "router",
-      "inputCostPerMillionUSD": 0.85,
-      "outputCostPerMillionUSD": 3.4,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Switchpoint AI's router instantly analyzes your request and directs it to the optimal AI from an ever-evolving library. As the world of LLMs advances, our router gets smarter, ensuring you... · context=131072 · LiteLLM max_input=131072, max_output=131072"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
