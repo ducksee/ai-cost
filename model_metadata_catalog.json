@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-09T09:57:25.196635+00:00",
+  "generatedAt": "2026-07-09T15:34:06.251972+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1738,27 +1738,6 @@
       "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Google"
-    },
-    {
-      "id": "google/gemini-2.5-flash-lite-preview-09-2025",
-      "displayName": "Gemini 2.5 Flash Lite Preview 09-2025",
-      "aliases": [
-        "google/gemini-2.5-flash-lite-preview-09-2025",
-        "google/gemini-2.5-flash-lite-preview-09.2025",
-        "google/gemini-2-5-flash-lite-preview-09-2025",
-        "gemini-2.5-flash-lite-preview-09-2025",
-        "gemini-2.5-flash-lite-preview-09.2025",
-        "gemini-2-5-flash-lite-preview-09-2025"
-      ],
-      "providerID": "gemini",
-      "family": "gemini-2",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.01,
-      "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing",
-      "brandAssetName": "gemini",
-      "organizationName": "Gemini CLI"
     },
     {
       "id": "gemini/gemini-2.5-flash-preview-09-2025",
@@ -5385,39 +5364,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
-    },
-    {
-      "id": "poolside/laguna-xs.2",
-      "displayName": "Laguna XS.2",
-      "aliases": [
-        "poolside/laguna-xs.2",
-        "poolside/laguna-xs.2-20260421",
-        "laguna-xs.2"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-xs",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.05,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, of · context=262144"
-    },
-    {
-      "id": "poolside/laguna-xs.2:free",
-      "displayName": "Laguna XS.2 (free)",
-      "aliases": [
-        "poolside/laguna-xs.2:free",
-        "poolside/laguna-xs.2-20260421",
-        "laguna-xs.2-(free)",
-        "laguna-xs.2:free"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-xs",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS.2 is the second-generation model in the XS size class from [Poolside](https://poolside.ai/), their efficient coding agent series. It combines tool calling and reasoning capabilities with a compact footprint, of · context=262144"
     },
     {
       "id": "liquid/lfm-2.5-1.2b-instruct:free",
