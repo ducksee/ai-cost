@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-10T15:01:31.905020+00:00",
+  "generatedAt": "2026-07-10T19:52:31.429800+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -9143,22 +9143,6 @@
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si · context=262144"
-    },
-    {
-      "id": "arcee-ai/trinity-mini",
-      "displayName": "Trinity Mini",
-      "aliases": [
-        "arcee-ai/trinity-mini",
-        "arcee-ai/trinity-mini-20251201",
-        "trinity-mini"
-      ],
-      "providerID": "arcee-ai",
-      "family": "trinity-mini",
-      "inputCostPerMillionUSD": 0.045,
-      "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function... · context=131072"
     },
     {
       "id": "bytedance/ui-tars-1.5-7b",
