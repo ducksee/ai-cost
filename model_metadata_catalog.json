@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-09T20:04:24.597363+00:00",
+  "generatedAt": "2026-07-10T04:15:12.759576+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1348,7 +1348,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.02288,
+      "cacheReadCostPerMillionUSD": 0.02145,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
@@ -5397,7 +5397,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.14,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -6710,6 +6710,23 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</ins · context=262144 · LiteLLM max_input=16000, max_output=16000"
+    },
+    {
+      "id": "meta-ai/muse-spark-1.1",
+      "displayName": "Muse Spark 1.1",
+      "aliases": [
+        "muse-spark-1.1",
+        "muse-spark-1-1",
+        "meta-ai/muse-spark-1.1",
+        "meta-ai/muse-spark-1-1"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -9164,6 +9181,23 @@
       "notes": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with · context=128000 · LiteLLM max_input=131072, max_output=2048",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
+    },
+    {
+      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "displayName": "Uncensored",
+      "aliases": [
+        "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+        "venice/uncensored",
+        "uncensored",
+        "dolphin-mistral-24b-venice-edition"
+      ],
+      "providerID": "cognitivecomputations",
+      "family": "dolphin-mistral",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.9,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tu · context=128000"
     },
     {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
