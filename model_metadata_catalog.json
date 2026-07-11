@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-10T19:52:31.429800+00:00",
+  "generatedAt": "2026-07-11T03:43:11.893787+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5570,24 +5570,6 @@
       "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficienc · context=262144"
-    },
-    {
-      "id": "meta-llama/llama-3-8b-instruct",
-      "displayName": "Llama 3 8B Instruct",
-      "aliases": [
-        "meta-llama/llama-3-8b-instruct",
-        "llama-3-8b-instruct",
-        "replicate/meta/llama-3-8b-instruct"
-      ],
-      "providerID": "meta",
-      "family": "llama-3",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong... · context=8192 · LiteLLM max_input=8086, max_output=8086",
-      "brandAssetName": "meta",
-      "organizationName": "Meta"
     },
     {
       "id": "sao10k/l3-lunaris-8b",
