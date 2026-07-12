@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-11T19:32:04.490863+00:00",
+  "generatedAt": "2026-07-12T03:57:43.321024+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4299,7 +4299,9 @@
         "openai/gpt-5.6-luna-20260709",
         "openai/gpt-5-6-luna-20260709",
         "gpt-5.6-luna",
-        "gpt-5-6-luna"
+        "gpt-5-6-luna",
+        "azure/gpt-5.6-luna",
+        "azure/gpt-5-6-luna"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -4320,7 +4322,9 @@
         "openai/gpt-5.6-luna",
         "openai/gpt-5-6-luna",
         "codex/gpt-5.6-luna",
-        "codex/gpt-5-6-luna"
+        "codex/gpt-5-6-luna",
+        "azure/gpt-5.6-luna",
+        "azure/gpt-5-6-luna"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -4362,7 +4366,9 @@
         "openai/gpt-5.6-sol-20260709",
         "openai/gpt-5-6-sol-20260709",
         "gpt-5.6-sol",
-        "gpt-5-6-sol"
+        "gpt-5-6-sol",
+        "azure/gpt-5.6-sol",
+        "azure/gpt-5-6-sol"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -4383,7 +4389,9 @@
         "openai/gpt-5.6-sol",
         "openai/gpt-5-6-sol",
         "codex/gpt-5.6-sol",
-        "codex/gpt-5-6-sol"
+        "codex/gpt-5-6-sol",
+        "azure/gpt-5.6-sol",
+        "azure/gpt-5-6-sol"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -4425,7 +4433,9 @@
         "openai/gpt-5.6-terra-20260709",
         "openai/gpt-5-6-terra-20260709",
         "gpt-5.6-terra",
-        "gpt-5-6-terra"
+        "gpt-5-6-terra",
+        "azure/gpt-5.6-terra",
+        "azure/gpt-5-6-terra"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -4446,7 +4456,9 @@
         "openai/gpt-5.6-terra",
         "openai/gpt-5-6-terra",
         "codex/gpt-5.6-terra",
-        "codex/gpt-5-6-terra"
+        "codex/gpt-5-6-terra",
+        "azure/gpt-5.6-terra",
+        "azure/gpt-5-6-terra"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6700,7 +6712,9 @@
         "muse-spark-1.1",
         "muse-spark-1-1",
         "meta-ai/muse-spark-1.1",
-        "meta-ai/muse-spark-1-1"
+        "meta-ai/muse-spark-1-1",
+        "meta/muse-spark-1.1",
+        "meta/muse-spark-1-1"
       ],
       "providerID": "meta-ai",
       "family": "muse-spark",
@@ -6708,7 +6722,7 @@
       "outputCostPerMillionUSD": 4.25,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -7865,7 +7879,7 @@
       "family": "qwen2-5",
       "inputCostPerMillionUSD": 0.13,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images. · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "qwen",
