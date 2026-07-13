@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-13T09:47:43.934527+00:00",
+  "generatedAt": "2026-07-13T15:11:47.837519+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5504,46 +5504,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
-    },
-    {
-      "id": "liquid/lfm-2.5-1.2b-instruct:free",
-      "displayName": "LFM2.5-1.2B-Instruct (free)",
-      "aliases": [
-        "liquid/lfm-2.5-1.2b-instruct:free",
-        "liquid/lfm-2-5-1.2b-instruct:free",
-        "liquid/lfm-2.5-1.2b-instruct-20260120",
-        "liquid/lfm-2-5-1.2b-instruct-20260120",
-        "lfm2.5-1.2b-instruct-(free)",
-        "lfm-2.5-1.2b-instruct:free",
-        "lfm-2-5-1.2b-instruct:free"
-      ],
-      "providerID": "liquid",
-      "family": "lfm-2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "LFM2.5-1.2B-Instruct is a compact, high-performance instruction-tuned model built for fast on-device AI. It delivers strong chat quality in a 1.2B parameter footprint, with efficient edge inference and broad runtime supp · context=32768"
-    },
-    {
-      "id": "liquid/lfm-2.5-1.2b-thinking:free",
-      "displayName": "LFM2.5-1.2B-Thinking (free)",
-      "aliases": [
-        "liquid/lfm-2.5-1.2b-thinking:free",
-        "liquid/lfm-2-5-1.2b-thinking:free",
-        "liquid/lfm-2.5-1.2b-thinking-20260120",
-        "liquid/lfm-2-5-1.2b-thinking-20260120",
-        "lfm2.5-1.2b-thinking-(free)",
-        "lfm-2.5-1.2b-thinking:free",
-        "lfm-2-5-1.2b-thinking:free"
-      ],
-      "providerID": "liquid",
-      "family": "lfm-2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "LFM2.5-1.2B-Thinking is a lightweight reasoning-focused model optimized for agentic tasks, data extraction, and RAG—while still running comfortably on edge devices. It supports long context (up to 32K tokens) and is... · context=32768"
     },
     {
       "id": "inclusionai/ling-2.6-1t",
