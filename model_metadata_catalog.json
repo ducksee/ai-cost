@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-13T19:49:43.483191+00:00",
+  "generatedAt": "2026-07-14T03:34:07.436130+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4588,25 +4588,6 @@
       "organizationName": "OpenAI"
     },
     {
-      "id": "openai/gpt-oss-120b:free",
-      "displayName": "gpt-oss-120b (free)",
-      "aliases": [
-        "openai/gpt-oss-120b:free",
-        "openai/gpt-oss-120b",
-        "gpt-oss-120b-(free)",
-        "gpt-oss-120b:free"
-      ],
-      "providerID": "codex",
-      "family": "gpt-oss",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
       "id": "openai/gpt-oss-20b",
       "displayName": "gpt-oss-20b",
       "aliases": [
@@ -8525,7 +8506,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
