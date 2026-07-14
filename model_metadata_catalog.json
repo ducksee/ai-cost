@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-14T03:34:07.436130+00:00",
+  "generatedAt": "2026-07-14T08:28:04.683243+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2387,7 +2387,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": 0.09,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -5192,6 +5192,22 @@
       "organizationName": "AI21 Labs"
     },
     {
+      "id": "kwaipilot/kat-coder-air-v2.5",
+      "displayName": "KAT-Coder-Air V2.5",
+      "aliases": [
+        "kwaipilot/kat-coder-air-v2.5",
+        "kwaipilot/kat-coder-air-v2.5-20260710",
+        "kat-coder-air-v2.5"
+      ],
+      "providerID": "kwaipilot",
+      "family": "kat-coder",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "context=256000"
+    },
+    {
       "id": "kwaipilot/kat-coder-pro-v2",
       "displayName": "KAT-Coder-Pro V2",
       "aliases": [
@@ -5206,6 +5222,22 @@
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=256000"
+    },
+    {
+      "id": "kwaipilot/kat-coder-pro-v2.5",
+      "displayName": "KAT-Coder-Pro V2.5",
+      "aliases": [
+        "kwaipilot/kat-coder-pro-v2.5",
+        "kwaipilot/kat-coder-pro-v2.5-20260710",
+        "kat-coder-pro-v2.5"
+      ],
+      "providerID": "kwaipilot",
+      "family": "kat-coder",
+      "inputCostPerMillionUSD": 0.74,
+      "outputCostPerMillionUSD": 2.96,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "context=256000"
     },
     {
       "id": "moonshotai/kimi-k2",
