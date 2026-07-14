@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-14T14:14:21.907018Z",
+  "updatedAt": "2026-07-14T19:42:42.762392Z",
   "files": {
     "provider": {
       "path": "provider_metadata_catalog.json",
@@ -9,7 +9,7 @@
     },
     "model": {
       "path": "model_metadata_catalog.json",
-      "sha256": "7beadde45979ec70e6ed2a6ed6e3bc06d097632154c162ee4f0ed48fa98c3322",
+      "sha256": "5e5cc03bd485a625e6eca6a5377dc2e8f2d5321173c9dadeeebc6234462db39a",
       "modelCount": 459
     }
   }
