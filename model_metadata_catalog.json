@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-15T14:10:06.055636+00:00",
+  "generatedAt": "2026-07-15T19:36:45.956949+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1079,21 +1079,6 @@
       "brandAssetName": "claude",
       "organizationName": "Claude",
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
-    },
-    {
-      "id": "arcee-ai/coder-large",
-      "displayName": "Coder Large",
-      "aliases": [
-        "arcee-ai/coder-large",
-        "coder-large"
-      ],
-      "providerID": "arcee-ai",
-      "family": "coder-large",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 0.8,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora. It supports a 32k context window, enabling multi‑ · context=32768"
     },
     {
       "id": "mistral/codestral-latest",
@@ -8628,10 +8613,10 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-7",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 3.75,
-      "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": 1.5625,
+      "inputCostPerMillionUSD": 1.475,
+      "outputCostPerMillionUSD": 4.425,
+      "cacheReadCostPerMillionUSD": 0.295,
+      "cacheWriteCostPerMillionUSD": 1.84375,
       "notes": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
