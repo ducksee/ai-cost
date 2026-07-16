@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-15T19:36:45.956949+00:00",
+  "generatedAt": "2026-07-16T03:37:48.259098+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2536,9 +2536,9 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.0605,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=200000 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=202752 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -8089,7 +8089,7 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-coder",
-      "inputCostPerMillionUSD": 0.12,
+      "inputCostPerMillionUSD": 0.11,
       "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
