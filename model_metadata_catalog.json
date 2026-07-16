@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-16T14:23:39.355082+00:00",
+  "generatedAt": "2026-07-16T19:34:19.645252+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5433,6 +5433,24 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
+      "id": "moonshotai/kimi-k3",
+      "displayName": "Kimi K3",
+      "aliases": [
+        "moonshotai/kimi-k3",
+        "moonshotai/kimi-k3-20260715",
+        "kimi-k3"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k3",
+      "inputCostPerMillionUSD": 3.0,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
       "id": "poolside/laguna-m.1",
       "displayName": "Laguna M.1",
       "aliases": [
@@ -6614,7 +6632,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the MoonshotAI Kimi family. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072"
+      "notes": "This model always redirects to the latest model in the MoonshotAI Kimi family. · context=1048576 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072"
     },
     {
       "id": "morph/morph-v3-fast",
@@ -6645,6 +6663,27 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</ins · context=262144 · LiteLLM max_input=16000, max_output=16000"
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "displayName": "Muse Spark 1.1",
+      "aliases": [
+        "meta/muse-spark-1.1",
+        "meta/muse-spark-1-1",
+        "meta/muse-spark-1.1-20260709",
+        "meta/muse-spark-1-1-20260709",
+        "muse-spark-1.1",
+        "muse-spark-1-1"
+      ],
+      "providerID": "meta",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Spark 1.1 is a multimodal reasoning model from Meta, built for agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with a 1M-token context... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
     },
     {
       "id": "meta-ai/muse-spark-1.1",
