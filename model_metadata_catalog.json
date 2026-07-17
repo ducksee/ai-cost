@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-17T08:28:39.349176+00:00",
+  "generatedAt": "2026-07-17T19:32:57.800355+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -190,6 +190,24 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Your prompt will be processed by a meta-model and routed to one of dozens of models (see below), optimizing for the best possible output. To see which model was used,... · context=2000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=2000000",
+      "brandAssetName": "openrouter",
+      "organizationName": "OpenRouter"
+    },
+    {
+      "id": "openrouter/auto-beta",
+      "displayName": "Auto Router (Beta)",
+      "aliases": [
+        "openrouter/auto-beta",
+        "auto-router-(beta)",
+        "auto-beta"
+      ],
+      "providerID": "openrouter",
+      "family": "auto-beta",
+      "inputCostPerMillionUSD": null,
+      "outputCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it to one of the most popular models for that task based on community spend,... · context=2000000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -2372,7 +2390,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -2536,9 +2554,9 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.0605,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=202752 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=200000 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -5635,27 +5653,6 @@
       "notes": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b). · context=131072"
     },
     {
-      "id": "meta-llama/llama-3.2-11b-vision-instruct",
-      "displayName": "Llama 3.2 11B Vision Instruct",
-      "aliases": [
-        "meta-llama/llama-3.2-11b-vision-instruct",
-        "meta-llama/llama-3-2-11b-vision-instruct",
-        "llama-3.2-11b-vision-instruct",
-        "llama-3-2-11b-vision-instruct",
-        "azure-ai/llama-3.2-11b-vision-instruct",
-        "azure-ai/llama-3-2-11b-vision-instruct"
-      ],
-      "providerID": "meta",
-      "family": "llama-3",
-      "inputCostPerMillionUSD": 0.37,
-      "outputCostPerMillionUSD": 0.37,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Llama 3.2 11B Vision is a multimodal model with 11 billion parameters, designed to handle tasks combining visual and textual data. It excels in tasks such as image captioning and... · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=2048",
-      "brandAssetName": "meta",
-      "organizationName": "Meta"
-    },
-    {
       "id": "meta-llama/llama-3.2-1b-instruct",
       "displayName": "Llama 3.2 1B Instruct",
       "aliases": [
@@ -5781,27 +5778,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.2](/models/sao10k/l3-euryale-70b). · context=131072"
-    },
-    {
-      "id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-      "displayName": "Llama 3.3 Nemotron Super 49B V1.5",
-      "aliases": [
-        "nvidia/llama-3.3-nemotron-super-49b-v1.5",
-        "nvidia/llama-3-3-nemotron-super-49b-v1.5",
-        "llama-3.3-nemotron-super-49b-v1.5",
-        "llama-3-3-nemotron-super-49b-v1.5",
-        "deepinfra/nvidia/llama-3.3-nemotron-super-49b-v1.5",
-        "deepinfra/nvidia/llama-3-3-nemotron-super-49b-v1.5"
-      ],
-      "providerID": "nvidia",
-      "family": "llama-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Llama-3.3-Nemotron-Super-49B-v1.5 is a 49B-parameter, English-centric reasoning/chat model derived from Meta’s Llama-3.3-70B-Instruct with a 128K context. It’s post-trained for agentic workflows (RAG, tool calling) via S · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
-      "brandAssetName": "nvidia",
-      "organizationName": "Nvidia"
     },
     {
       "id": "meta-llama/llama-4-maverick",
