@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-17T19:32:57.800355+00:00",
+  "generatedAt": "2026-07-18T03:32:30.805957+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -207,7 +207,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it to one of the most popular models for that task based on community spend,... · context=2000000",
+      "notes": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your... · context=2000000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -2390,7 +2390,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -5176,6 +5176,22 @@
       "notes": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional... · context=8000"
     },
     {
+      "id": "thinkingmachines/inkling",
+      "displayName": "Inkling",
+      "aliases": [
+        "thinkingmachines/inkling",
+        "thinkingmachines/inkling-20260715",
+        "inkling"
+      ],
+      "providerID": "thinkingmachines",
+      "family": "inkling",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 4.05,
+      "cacheReadCostPerMillionUSD": 0.17,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
+    },
+    {
       "id": "ai21/jamba-large-1.7",
       "displayName": "Jamba Large 1.7",
       "aliases": [
@@ -7932,8 +7948,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-30b",
-      "inputCostPerMillionUSD": 0.12,
-      "outputCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 0.13,
+      "outputCostPerMillionUSD": 0.52,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
