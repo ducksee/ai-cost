@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-18T19:31:58.591769+00:00",
+  "generatedAt": "2026-07-19T08:33:03.046210+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2390,7 +2390,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -4969,7 +4969,7 @@
       "family": "grok-latest",
       "inputCostPerMillionUSD": 2.0,
       "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest Grok model from xAI. · context=500000"
     },
@@ -5441,7 +5441,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.144,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -6006,7 +6006,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "minimax",
