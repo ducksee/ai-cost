@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-20T09:33:46.057379+00:00",
+  "generatedAt": "2026-07-20T14:33:24.373396+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5780,6 +5780,27 @@
       "notes": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM... · context=163840 · LiteLLM max_input=163840, max_output=163840",
       "brandAssetName": "meta",
       "organizationName": "Meta"
+    },
+    {
+      "id": "meituan/longcat-2.0",
+      "displayName": "LongCat 2.0",
+      "aliases": [
+        "meituan/longcat-2.0",
+        "meituan/longcat-2-0",
+        "meituan/longcat-2.0-20260720",
+        "meituan/longcat-2-0-20260720",
+        "longcat-2.0",
+        "longcat-2-0"
+      ],
+      "providerID": "meituan",
+      "family": "longcat-2",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic... · context=1048756",
+      "brandAssetName": "meituan",
+      "organizationName": "Meituan"
     },
     {
       "id": "google/lyria-3-clip-preview",
