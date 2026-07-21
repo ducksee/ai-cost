@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-21T14:22:40.819246+00:00",
+  "generatedAt": "2026-07-21T19:51:08.256766+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1279,7 +1279,7 @@
       "outputCostPerMillionUSD": 1.1,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations... · context=131072 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=131072, max_output=8192",
+      "notes": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations... · context=163840 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=131072, max_output=8192",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1335,7 +1335,7 @@
       "outputCostPerMillionUSD": 1.0,
       "cacheReadCostPerMillionUSD": 0.216,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent ca · context=131072 · LiteLLM supports_function_calling, max_input=163840, max_output=163840",
+      "notes": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent ca · context=163840 · LiteLLM supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1448,7 +1448,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu’s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data... · context=131072 · LiteLLM supports_reasoning, supports_vision, max_input=123000, max_output=16000",
+      "notes": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu’s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data... · context=123000 · LiteLLM supports_reasoning, supports_vision, max_input=123000, max_output=16000",
       "brandAssetName": "baidu",
       "organizationName": "Baidu"
     },
@@ -2168,7 +2168,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "Gemini 3.1 Pro Preview Custom Tools is a variant of Gemini 3.1 Pro that improves tool selection behavior by preventing overuse of a general bash tool when more efficient third-party... · context=1048756 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.1 Pro Preview Custom Tools is a variant of Gemini 3.1 Pro that improves tool selection behavior by preventing overuse of a general bash tool when more efficient third-party... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2244,6 +2244,48 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-3.5-flash-lite",
+      "displayName": "Gemini 3.5 Flash-Lite",
+      "aliases": [
+        "google/gemini-3.5-flash-lite",
+        "google/gemini-3-5-flash-lite",
+        "google/gemini-3.5-flash-lite-20260721",
+        "google/gemini-3-5-flash-lite-20260721",
+        "gemini-3.5-flash-lite",
+        "gemini-3-5-flash-lite"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "displayName": "Gemini 3.6 Flash",
+      "aliases": [
+        "google/gemini-3.6-flash",
+        "google/gemini-3-6-flash",
+        "google/gemini-3.6-flash-20260721",
+        "google/gemini-3-6-flash-20260721",
+        "gemini-3.6-flash",
+        "gemini-3-6-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "google/gemma-2-27b-it",
       "displayName": "Gemma 2 27B",
       "aliases": [
@@ -2295,7 +2337,7 @@
       "outputCostPerMillionUSD": 0.16,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=262144 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -2492,7 +2534,7 @@
       "outputCostPerMillionUSD": 2.2,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=202752",
+      "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -2533,7 +2575,7 @@
       "outputCostPerMillionUSD": 2.2,
       "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing comple · context=202752",
+      "notes": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing comple · context=204800",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -2556,7 +2598,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=200000 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=202752 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -2615,7 +2657,7 @@
       "outputCostPerMillionUSD": 3.5,
       "cacheReadCostPerMillionUSD": 0.525,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=202752 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=202752, max_output=65535"
+      "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=202752, max_output=65535"
     },
     {
       "id": "z-ai/glm-5.2",
@@ -5148,7 +5190,7 @@
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288"
     },
     {
       "id": "ai21/jamba-large-1.7",
@@ -5199,7 +5241,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=256000"
+      "notes": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier v · context=262144"
     },
     {
       "id": "kwaipilot/kat-coder-pro-v2.5",
@@ -5477,6 +5519,44 @@
       "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a · context=262144"
     },
     {
+      "id": "poolside/laguna-s-2.1",
+      "displayName": "Laguna S 2.1",
+      "aliases": [
+        "poolside/laguna-s-2.1",
+        "poolside/laguna-s-2-1",
+        "poolside/laguna-s-2.1-20260720",
+        "poolside/laguna-s-2-1-20260720",
+        "laguna-s-2.1",
+        "laguna-s-2-1"
+      ],
+      "providerID": "poolside",
+      "family": "laguna-s",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=1048576"
+    },
+    {
+      "id": "poolside/laguna-s-2.1:free",
+      "displayName": "Laguna S 2.1 (free)",
+      "aliases": [
+        "poolside/laguna-s-2.1:free",
+        "poolside/laguna-s-2.1-20260720",
+        "poolside/laguna-s-2-1-20260720",
+        "laguna-s-2.1-(free)",
+        "laguna-s-2-1-(free)",
+        "laguna-s-2.1:free"
+      ],
+      "providerID": "poolside",
+      "family": "laguna-s",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=262144"
+    },
+    {
       "id": "poolside/laguna-xs-2.1",
       "displayName": "Laguna XS 2.1",
       "aliases": [
@@ -5644,7 +5724,7 @@
       "outputCostPerMillionUSD": 0.201,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate... · context=131072 · LiteLLM max_input=60000, max_output=60000",
+      "notes": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate... · context=60000 · LiteLLM max_input=60000, max_output=60000",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -5740,7 +5820,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input... · context=10000000 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=8192",
+      "notes": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input... · context=1310720 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=8192",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -5758,7 +5838,7 @@
       "outputCostPerMillionUSD": 0.18,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM... · context=163840 · LiteLLM max_input=163840, max_output=163840",
+      "notes": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM... · context=1048576 · LiteLLM max_input=163840, max_output=163840",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -5852,7 +5932,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=32768"
+      "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=16384"
     },
     {
       "id": "inception/mercury-2",
@@ -5887,7 +5967,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding.. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding.. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -5906,7 +5986,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=16384",
+      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=16384",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -6464,7 +6544,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=131072 · LiteLLM max_input=128000, max_output=128000",
+      "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000 · LiteLLM max_input=128000, max_output=128000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -6643,7 +6723,7 @@
       "outputCostPerMillionUSD": 0.09,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge · context=4096 · LiteLLM supports_function_calling, max_input=4096, max_output=4096"
+      "notes": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge · context=8192 · LiteLLM supports_function_calling, max_input=4096, max_output=4096"
     },
     {
       "id": "google/gemini-2.5-flash-image",
@@ -6769,7 +6849,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and... · context=65536 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
+      "notes": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and... · context=131072 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -6864,7 +6944,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=1000000",
+      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -6883,7 +6963,7 @@
       "outputCostPerMillionUSD": 3.6,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=1000000",
+      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -7724,7 +7804,7 @@
       "outputCostPerMillionUSD": 0.39,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and... · context=131072 · LiteLLM supports_function_calling, max_input=32768, max_output=32768",
+      "notes": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and... · context=32768 · LiteLLM supports_function_calling, max_input=32768, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7745,7 +7825,7 @@
       "outputCostPerMillionUSD": 0.1,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and... · context=131072 · LiteLLM max_input=32768, max_output=32768",
+      "notes": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and... · context=32768 · LiteLLM max_input=32768, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7766,7 +7846,7 @@
       "outputCostPerMillionUSD": 1.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5: - Significantly improvements in **code genera · context=128000 · LiteLLM max_input=32768, max_output=32768",
+      "notes": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5: - Significantly improvements in **code genera · context=32768 · LiteLLM max_input=32768, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7785,7 +7865,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images. · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images. · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7805,7 +7885,7 @@
       "outputCostPerMillionUSD": 0.24,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for... · context=131702 · LiteLLM supports_function_calling, max_input=40960, max_output=40960",
+      "notes": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for... · context=131072 · LiteLLM supports_function_calling, max_input=40960, max_output=40960",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7920,7 +8000,7 @@
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal · context=131072 · LiteLLM max_input=262144, max_output=262144",
+      "notes": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal · context=81920 · LiteLLM max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7978,7 +8058,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.  · context=160000 · LiteLLM max_input=262144, max_output=262144",
+      "notes": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use.  · context=262144 · LiteLLM max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -7999,7 +8079,7 @@
       "outputCostPerMillionUSD": 0.95,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over. · context=1048576 · LiteLLM supports_function_calling, max_input=262100, max_output=262100",
+      "notes": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over. · context=262144 · LiteLLM supports_function_calling, max_input=262100, max_output=262100",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8146,7 +8226,7 @@
       "outputCostPerMillionUSD": 1.6,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document  · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=32768",
+      "notes": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document  · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8200,7 +8280,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels... · context=131072 · LiteLLM max_input=262144, max_output=262144",
+      "notes": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels... · context=262144 · LiteLLM max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8218,7 +8298,7 @@
       "outputCostPerMillionUSD": 0.64,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual percepti · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=32768",
+      "notes": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual percepti · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8236,7 +8316,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interle · context=256000 · LiteLLM max_input=4096, max_output=4096",
+      "notes": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interle · context=262144 · LiteLLM max_input=4096, max_output=4096",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8253,7 +8333,7 @@
       "outputCostPerMillionUSD": 1.365,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enha · context=256000",
+      "notes": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enha · context=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -8615,7 +8695,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advance · context=128000 · LiteLLM max_input=131072, max_output=131072",
+      "notes": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advance · context=8192 · LiteLLM max_input=131072, max_output=131072",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -8986,7 +9066,7 @@
       "outputCostPerMillionUSD": 1.15,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=256000",
+      "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=262144",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
@@ -9123,7 +9203,7 @@
       "outputCostPerMillionUSD": 0.48,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensour · context=65536 · LiteLLM max_input=65536, max_output=65536",
+      "notes": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensour · context=65535 · LiteLLM max_input=65536, max_output=65536",
       "brandAssetName": "microsoft",
       "organizationName": "Microsoft"
     }
