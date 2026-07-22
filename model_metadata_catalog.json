@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-21T19:51:08.256766+00:00",
+  "generatedAt": "2026-07-22T03:47:02.742754+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2260,7 +2260,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576",
+      "notes": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2273,7 +2273,9 @@
         "google/gemini-3.6-flash-20260721",
         "google/gemini-3-6-flash-20260721",
         "gemini-3.6-flash",
-        "gemini-3-6-flash"
+        "gemini-3-6-flash",
+        "vertex-ai/gemini-3.6-flash",
+        "vertex-ai/gemini-3-6-flash"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -2281,7 +2283,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576",
+      "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -8187,7 +8189,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
