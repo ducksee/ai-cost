@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-22T08:44:55.056018+00:00",
+  "generatedAt": "2026-07-22T14:22:21.487288+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2245,7 +2245,7 @@
     },
     {
       "id": "google/gemini-3.5-flash-lite",
-      "displayName": "Gemini 3.5 Flash-Lite",
+      "displayName": "Gemini 3.5 Flash Lite",
       "aliases": [
         "google/gemini-3.5-flash-lite",
         "google/gemini-3-5-flash-lite",
@@ -2260,7 +2260,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
+      "notes": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
