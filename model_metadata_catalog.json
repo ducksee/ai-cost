@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-23T03:45:08.397626+00:00",
+  "generatedAt": "2026-07-23T08:44:24.324478+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2618,7 +2618,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 3.15,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.19,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programmi · context=204800",
       "brandAssetName": "zai",
