@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-23T14:32:37.237552+00:00",
+  "generatedAt": "2026-07-23T19:45:55.464957+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2337,7 +2337,7 @@
       "family": "gemma-3",
       "inputCostPerMillionUSD": 0.09,
       "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=262144 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -5192,7 +5192,7 @@
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
     {
       "id": "ai21/jamba-large-1.7",
@@ -5635,6 +5635,27 @@
       "notes": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficienc · context=262144"
     },
     {
+      "id": "inclusionai/ling-3.0-flash:free",
+      "displayName": "Ling-3.0-flash (free)",
+      "aliases": [
+        "inclusionai/ling-3.0-flash:free",
+        "inclusionai/ling-3-0-flash:free",
+        "inclusionai/ling-3.0-flash-20260723",
+        "inclusionai/ling-3-0-flash-20260723",
+        "ling-3.0-flash-(free)",
+        "ling-3-0-flash-(free)",
+        "ling-3.0-flash:free",
+        "ling-3-0-flash:free"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=262144"
+    },
+    {
       "id": "sao10k/l3-lunaris-8b",
       "displayName": "Llama 3 8B Lunaris",
       "aliases": [
@@ -6020,7 +6041,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "minimax",
