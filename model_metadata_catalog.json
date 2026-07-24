@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-24T08:42:39.339093+00:00",
+  "generatedAt": "2026-07-24T14:13:05.420592+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2434,7 +2434,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -8100,7 +8100,7 @@
       "family": "qwen3-coder",
       "inputCostPerMillionUSD": 0.22,
       "outputCostPerMillionUSD": 0.95,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over. · context=262144 · LiteLLM supports_function_calling, max_input=262100, max_output=262100",
       "brandAssetName": "qwen",
