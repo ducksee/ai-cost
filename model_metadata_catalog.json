@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-24T19:47:11.237426+00:00",
+  "generatedAt": "2026-07-25T03:38:00.448095+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5486,7 +5486,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.144,
+      "cacheReadCostPerMillionUSD": 0.1088,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -7024,9 +7024,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.6,
+      "outputCostPerMillionUSD": 3.6,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
       "brandAssetName": "nvidia",
