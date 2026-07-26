@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-26T13:56:54.490600+00:00",
+  "generatedAt": "2026-07-26T19:35:01.555313+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5189,36 +5189,6 @@
       "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
-    },
-    {
-      "id": "inflection/inflection-3-pi",
-      "displayName": "Inflection 3 Pi",
-      "aliases": [
-        "inflection/inflection-3-pi",
-        "inflection-3-pi"
-      ],
-      "providerID": "inflection",
-      "family": "inflection-3",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and role · context=8000"
-    },
-    {
-      "id": "inflection/inflection-3-productivity",
-      "displayName": "Inflection 3 Productivity",
-      "aliases": [
-        "inflection/inflection-3-productivity",
-        "inflection-3-productivity"
-      ],
-      "providerID": "inflection",
-      "family": "inflection-3",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional... · context=8000"
     },
     {
       "id": "thinkingmachines/inkling",
