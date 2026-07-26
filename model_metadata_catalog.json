@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-26T03:55:54.558912+00:00",
+  "generatedAt": "2026-07-26T08:39:24.013625+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -8025,8 +8025,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-30b",
-      "inputCostPerMillionUSD": 0.13,
-      "outputCostPerMillionUSD": 0.52,
+      "inputCostPerMillionUSD": 0.12,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
