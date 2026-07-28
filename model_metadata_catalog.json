@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-28T09:04:55.079689+00:00",
+  "generatedAt": "2026-07-28T14:38:15.517408+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5442,39 +5442,6 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
-      "id": "poolside/laguna-m.1",
-      "displayName": "Laguna M.1",
-      "aliases": [
-        "poolside/laguna-m.1",
-        "poolside/laguna-m.1-20260312",
-        "laguna-m.1"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-m",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.1,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a · context=262144"
-    },
-    {
-      "id": "poolside/laguna-m.1:free",
-      "displayName": "Laguna M.1 (free)",
-      "aliases": [
-        "poolside/laguna-m.1:free",
-        "poolside/laguna-m.1-20260312",
-        "laguna-m.1-(free)",
-        "laguna-m.1:free"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-m",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna M.1 is the flagship coding agent model from [Poolside](https://poolside.ai/), optimized for complex software engineering tasks. Designed for agentic coding workflows, it supports tool calling and reasoning, with a · context=262144"
-    },
-    {
       "id": "poolside/laguna-s-2.1",
       "displayName": "Laguna S 2.1",
       "aliases": [
@@ -6936,9 +6903,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.6,
-      "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
       "brandAssetName": "nvidia",
@@ -8089,9 +8056,9 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-coder",
-      "inputCostPerMillionUSD": 0.11,
-      "outputCostPerMillionUSD": 0.8,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "inputCostPerMillionUSD": 0.18,
+      "outputCostPerMillionUSD": 0.9,
+      "cacheReadCostPerMillionUSD": 0.036,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per... · context=262144",
       "brandAssetName": "qwen",
