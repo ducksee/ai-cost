@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-27T19:55:10.454554+00:00",
+  "generatedAt": "2026-07-28T03:36:18.303558+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3379,26 +3379,6 @@
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
-    },
-    {
-      "id": "openai/gpt-5-chat",
-      "displayName": "GPT-5 Chat",
-      "aliases": [
-        "openai/gpt-5-chat",
-        "openai/gpt-5-chat-2025-08-07",
-        "openai/gpt-5-chat-2025.08-07",
-        "gpt-5-chat",
-        "azure/gpt-5-chat"
-      ],
-      "providerID": "codex",
-      "family": "gpt-5",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.125,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5 Chat is designed for advanced, natural, multimodal, and context-aware conversations for enterprise applications. · context=128000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=128000, max_output=16384",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
     },
     {
       "id": "openai/gpt-5-codex",
@@ -6956,9 +6936,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.6,
+      "outputCostPerMillionUSD": 3.6,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
       "brandAssetName": "nvidia",
@@ -8601,6 +8581,24 @@
       "outputCostPerMillionUSD": 6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
+      "id": "qwen/qwen3.7-flash",
+      "displayName": "Qwen3.7 Flash",
+      "aliases": [
+        "qwen/qwen3.7-flash",
+        "qwen/qwen3.7-flash-20260727",
+        "qwen3.7-flash"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-7",
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.13,
+      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheWriteCostPerMillionUSD": 0.038,
+      "notes": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real- · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
