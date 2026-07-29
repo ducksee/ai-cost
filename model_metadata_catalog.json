@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-29T09:08:42.557639+00:00",
+  "generatedAt": "2026-07-29T14:31:31.045013+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -8684,9 +8684,9 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-coder",
-      "inputCostPerMillionUSD": 0.18,
-      "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": 0.036,
+      "inputCostPerMillionUSD": 0.12,
+      "outputCostPerMillionUSD": 0.8,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per... · context=262144",
       "brandAssetName": "qwen",
