@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-29T19:43:53.717921+00:00",
+  "generatedAt": "2026-07-30T03:29:18.611178+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -2895,7 +2895,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
