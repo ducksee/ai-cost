@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-30T20:32:55.489758+00:00",
+  "generatedAt": "2026-07-31T03:50:59.594158+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4600,7 +4600,7 @@
       "outputCostPerMillionUSD": 4.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -4623,7 +4623,7 @@
       "outputCostPerMillionUSD": 4.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -4669,7 +4669,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -4692,7 +4692,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -6184,9 +6184,9 @@
       ],
       "providerID": "poolside",
       "family": "laguna-s",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "inputCostPerMillionUSD": 0.09,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=1048576"
     },
@@ -7558,7 +7558,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.05,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully... · context=262144",
       "brandAssetName": "nvidia",
@@ -9285,15 +9285,16 @@
       "aliases": [
         "qwen/qwen3.7-max",
         "qwen/qwen3.7-max-20260520",
-        "qwen3.7-max"
+        "qwen3.7-max",
+        "dashscope/qwen3.7-max"
       ],
       "providerID": "qwen",
       "family": "qwen3-7",
-      "inputCostPerMillionUSD": 1.475,
-      "outputCostPerMillionUSD": 4.425,
-      "cacheReadCostPerMillionUSD": 0.295,
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 1.84375,
-      "notes": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,... · context=1000000",
+      "notes": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=991808, max_output=65536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -9303,7 +9304,8 @@
       "aliases": [
         "qwen/qwen3.7-plus",
         "qwen/qwen3.7-plus-20260602",
-        "qwen3.7-plus"
+        "qwen3.7-plus",
+        "dashscope/qwen3.7-plus"
       ],
       "providerID": "qwen",
       "family": "qwen3-7",
@@ -9311,7 +9313,7 @@
       "outputCostPerMillionUSD": 1.28,
       "cacheReadCostPerMillionUSD": 0.064,
       "cacheWriteCostPerMillionUSD": 0.4,
-      "notes": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its... · context=1000000",
+      "notes": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=65536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -9809,7 +9811,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios. · context=32768"
+      "notes": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios. · context=1024000"
     },
     {
       "id": "arcee-ai/virtuoso-large",
