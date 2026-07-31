@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-31T09:16:48.182029+00:00",
+  "generatedAt": "2026-07-31T14:35:33.427852+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1686,26 +1686,6 @@
       "notes": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
-    },
-    {
-      "id": "mistralai/devstral-2512",
-      "displayName": "Devstral 2 2512",
-      "aliases": [
-        "mistralai/devstral-2512",
-        "devstral-2-2512",
-        "devstral-2.2512",
-        "devstral-2512",
-        "mistral/devstral-2512"
-      ],
-      "providerID": "mistral",
-      "family": "devstral-2512",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.04,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144 · LiteLLM supports_function_calling, max_input=256000, max_output=256000",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
     },
     {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -5378,7 +5358,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -7253,7 +7233,7 @@
       "family": "mistral-small",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000 · LiteLLM max_input=128000, max_output=128000",
       "brandAssetName": "mistral",
