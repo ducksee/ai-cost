@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-31T03:50:59.594158+00:00",
+  "generatedAt": "2026-07-31T09:16:48.182029+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1648,6 +1648,24 @@
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "displayName": "DeepSeek V4 Flash 0731",
+      "aliases": [
+        "deepseek/deepseek-v4-flash-0731",
+        "deepseek/deepseek-v4-flash-20260731",
+        "deepseek-v4-flash-0731"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.14,
+      "outputCostPerMillionUSD": 0.28,
+      "cacheReadCostPerMillionUSD": 0.0028,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows. · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
