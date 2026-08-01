@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-07-31T19:52:48.183366+00:00",
+  "generatedAt": "2026-08-01T03:50:57.042984+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -5254,9 +5254,9 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling-small",
-      "inputCostPerMillionUSD": 0.58,
-      "outputCostPerMillionUSD": 1.44,
-      "cacheReadCostPerMillionUSD": 0.116,
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288"
     },
@@ -5510,7 +5510,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0992,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
