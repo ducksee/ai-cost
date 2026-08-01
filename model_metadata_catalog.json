@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-01T03:50:57.042984+00:00",
+  "generatedAt": "2026-08-01T08:33:57.072855+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4726,7 +4726,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -7015,9 +7015,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.6,
-      "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
       "brandAssetName": "nvidia",
