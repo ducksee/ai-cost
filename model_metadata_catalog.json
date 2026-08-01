@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-01T13:55:36.686726+00:00",
+  "generatedAt": "2026-08-01T19:34:16.425803+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1445,13 +1445,28 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.14,
-      "outputCostPerMillionUSD": 0.28,
-      "cacheReadCostPerMillionUSD": 0.0028,
+      "inputCostPerMillionUSD": 0.09,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows. · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
+    },
+    {
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "displayName": "DeepSeek V4 Flash Latest",
+      "aliases": [
+        "~deepseek/deepseek-v4-flash-latest",
+        "deepseek-v4-flash-latest"
+      ],
+      "providerID": "~deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.09,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -7015,9 +7030,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.6,
+      "outputCostPerMillionUSD": 3.6,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
       "brandAssetName": "nvidia",
