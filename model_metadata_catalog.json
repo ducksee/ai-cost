@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T10:05:35.468778+00:00",
+  "generatedAt": "2026-08-03T15:16:32.105207+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -8542,7 +8542,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
