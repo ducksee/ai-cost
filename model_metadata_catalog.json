@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-03T15:16:32.105207+00:00",
+  "generatedAt": "2026-08-03T19:58:19.242905+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -8692,6 +8692,24 @@
       "cacheReadCostPerMillionUSD": 0.064,
       "cacheWriteCostPerMillionUSD": 0.4,
       "notes": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=65536",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
+      "id": "qwen/qwen3.8-max",
+      "displayName": "Qwen3.8 Max",
+      "aliases": [
+        "qwen/qwen3.8-max",
+        "qwen/qwen3.8-max-20260803",
+        "qwen3.8-max"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
