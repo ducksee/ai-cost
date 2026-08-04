@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-04T03:37:24.336958+00:00",
+  "generatedAt": "2026-08-04T09:08:04.413655+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -7896,7 +7896,7 @@
       "family": "qwen2-5",
       "inputCostPerMillionUSD": 0.13,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images. · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "qwen",
