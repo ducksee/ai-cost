@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-05T14:33:46.194252+00:00",
+  "generatedAt": "2026-08-05T19:55:13.805849+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -9014,7 +9014,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational effici · context=128000"
+      "notes": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational effici · context=131072"
     },
     {
       "id": "perplexity/sonar",
