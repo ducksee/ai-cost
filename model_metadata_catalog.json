@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-05T19:55:13.805849+00:00",
+  "generatedAt": "2026-08-06T03:38:04.070277+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4993,6 +4993,90 @@
       "organizationName": "xAI"
     },
     {
+      "id": "xai/grok-4.20-0309-non-reasoning-200k",
+      "displayName": "Grok 4.20 0309 Non-Reasoning >200k",
+      "aliases": [
+        "grok-4.20-0309-non-reasoning-200k",
+        "grok-4-20-0309-non-reasoning-200k",
+        "xai/grok-4.20-0309-non-reasoning-200k",
+        "xai/grok-4-20-0309-non-reasoning-200k",
+        "grok-4.20-0309-non-reasoning->200k",
+        "grok-4-20-0309-non-reasoning->200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 5,
+      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.20-0309-non-reasoning",
+      "displayName": "Grok 4.20 0309 Non-Reasoning ≤200k",
+      "aliases": [
+        "grok-4.20-0309-non-reasoning",
+        "grok-4-20-0309-non-reasoning",
+        "xai/grok-4.20-0309-non-reasoning",
+        "xai/grok-4-20-0309-non-reasoning",
+        "grok-4.20-0309-non-reasoning-≤200k",
+        "grok-4-20-0309-non-reasoning-≤200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.20-0309-reasoning-200k",
+      "displayName": "Grok 4.20 0309 Reasoning >200k",
+      "aliases": [
+        "grok-4.20-0309-reasoning-200k",
+        "grok-4-20-0309-reasoning-200k",
+        "xai/grok-4.20-0309-reasoning-200k",
+        "xai/grok-4-20-0309-reasoning-200k",
+        "grok-4.20-0309-reasoning->200k",
+        "grok-4-20-0309-reasoning->200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 5,
+      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.20-0309-reasoning",
+      "displayName": "Grok 4.20 0309 Reasoning ≤200k",
+      "aliases": [
+        "grok-4.20-0309-reasoning",
+        "grok-4-20-0309-reasoning",
+        "xai/grok-4.20-0309-reasoning",
+        "xai/grok-4-20-0309-reasoning",
+        "grok-4.20-0309-reasoning-≤200k",
+        "grok-4-20-0309-reasoning-≤200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=2000000, max_output=2000000",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
       "id": "x-ai/grok-4.20-multi-agent",
       "displayName": "Grok 4.20 Multi-Agent",
       "aliases": [
@@ -5010,6 +5094,48 @@
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information. · context=2000000",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.20-multi-agent-0309-200k",
+      "displayName": "Grok 4.20 Multi-Agent 0309 >200k",
+      "aliases": [
+        "grok-4.20-multi-agent-0309-200k",
+        "grok-4-20-multi-agent-0309-200k",
+        "xai/grok-4.20-multi-agent-0309-200k",
+        "xai/grok-4-20-multi-agent-0309-200k",
+        "grok-4.20-multi-agent-0309->200k",
+        "grok-4-20-multi-agent-0309->200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 5,
+      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.20-multi-agent-0309",
+      "displayName": "Grok 4.20 Multi-Agent 0309 ≤200k",
+      "aliases": [
+        "grok-4.20-multi-agent-0309",
+        "grok-4-20-multi-agent-0309",
+        "xai/grok-4.20-multi-agent-0309",
+        "xai/grok-4-20-multi-agent-0309",
+        "grok-4.20-multi-agent-0309-≤200k",
+        "grok-4-20-multi-agent-0309-≤200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -5032,7 +5158,49 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
+      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.3-200k",
+      "displayName": "Grok 4.3 >200k",
+      "aliases": [
+        "grok-4.3-200k",
+        "grok-4-3-200k",
+        "xai/grok-4.3-200k",
+        "xai/grok-4-3-200k",
+        "grok-4.3->200k",
+        "grok-4-3->200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 5,
+      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.3",
+      "displayName": "Grok 4.3 ≤200k",
+      "aliases": [
+        "grok-4.3",
+        "grok-4-3",
+        "xai/grok-4.3",
+        "xai/grok-4-3",
+        "grok-4.3-≤200k",
+        "grok-4-3-≤200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -5051,11 +5219,53 @@
       ],
       "providerID": "xai",
       "family": "grok-4",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 6,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000",
+      "notes": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.5-200k",
+      "displayName": "Grok 4.5 >200k",
+      "aliases": [
+        "grok-4.5-200k",
+        "grok-4-5-200k",
+        "xai/grok-4.5-200k",
+        "xai/grok-4-5-200k",
+        "grok-4.5->200k",
+        "grok-4-5->200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 12,
+      "cacheReadCostPerMillionUSD": 0.6,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-4.5",
+      "displayName": "Grok 4.5 ≤200k",
+      "aliases": [
+        "grok-4.5",
+        "grok-4-5",
+        "xai/grok-4.5",
+        "xai/grok-4-5",
+        "grok-4.5-≤200k",
+        "grok-4-5-≤200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 6,
+      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -5072,11 +5282,53 @@
       ],
       "providerID": "xai",
       "family": "grok-build",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 2.0,
+      "inputCostPerMillionUSD": 1,
+      "outputCostPerMillionUSD": 2,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding... · context=256000",
+      "notes": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding... · context=256000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-build-0.1-200k",
+      "displayName": "Grok Build 0.1 >200k",
+      "aliases": [
+        "grok-build-0.1-200k",
+        "grok-build-0-1-200k",
+        "xai/grok-build-0.1-200k",
+        "xai/grok-build-0-1-200k",
+        "grok-build-0.1->200k",
+        "grok-build-0-1->200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-build",
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 4,
+      "cacheReadCostPerMillionUSD": 0.4,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "xai/grok-build-0.1",
+      "displayName": "Grok Build 0.1 ≤200k",
+      "aliases": [
+        "grok-build-0.1",
+        "grok-build-0-1",
+        "xai/grok-build-0.1",
+        "xai/grok-build-0-1",
+        "grok-build-0.1-≤200k",
+        "grok-build-0-1-≤200k"
+      ],
+      "providerID": "xai",
+      "family": "grok-build",
+      "inputCostPerMillionUSD": 1,
+      "outputCostPerMillionUSD": 2,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -5682,6 +5934,25 @@
       "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficienc · context=262144"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash",
+      "displayName": "Ling-3.0-flash",
+      "aliases": [
+        "inclusionai/ling-3.0-flash",
+        "inclusionai/ling-3-0-flash",
+        "inclusionai/ling-3.0-flash-20260723",
+        "inclusionai/ling-3-0-flash-20260723",
+        "ling-3.0-flash",
+        "ling-3-0-flash"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.22,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=131072"
     },
     {
       "id": "inclusionai/ling-3.0-flash:free",
@@ -6779,6 +7050,61 @@
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "displayName": "Muse Spark 1.2",
+      "aliases": [
+        "meta/muse-spark-1.2",
+        "meta/muse-spark-1-2",
+        "meta/muse-spark-1.2-20260805",
+        "meta/muse-spark-1-2-20260805",
+        "muse-spark-1.2",
+        "muse-spark-1-2"
+      ],
+      "providerID": "meta",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
+    },
+    {
+      "id": "meta-ai/muse-spark-1.2",
+      "displayName": "Muse Spark 1.2",
+      "aliases": [
+        "muse-spark-1.2",
+        "muse-spark-1-2",
+        "meta-ai/muse-spark-1.2",
+        "meta-ai/muse-spark-1-2"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+    },
+    {
+      "id": "meta-ai/muse-spark-1.2-contributor",
+      "displayName": "Muse Spark 1.2 Contributor",
+      "aliases": [
+        "muse-spark-1.2-contributor",
+        "muse-spark-1-2-contributor",
+        "meta-ai/muse-spark-1.2-contributor",
+        "meta-ai/muse-spark-1-2-contributor"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.002,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -8543,7 +8869,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
