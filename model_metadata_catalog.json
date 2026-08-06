@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-06T09:06:15.882814+00:00",
+  "generatedAt": "2026-08-06T14:35:00.917175+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -477,6 +477,25 @@
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
+      "id": "anthropic/claude-fable-5:batch",
+      "displayName": "Claude Fable 5 (batch)",
+      "aliases": [
+        "anthropic/claude-fable-5:batch",
+        "anthropic/claude-5-fable-20260609",
+        "claude-fable-5-(batch)",
+        "claude-fable-5:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 25.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": 6.25,
+      "notes": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "~anthropic/claude-fable-latest",
       "displayName": "Claude Fable Latest",
       "aliases": [
@@ -519,6 +538,31 @@
       "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5:batch",
+      "displayName": "Claude Haiku 4.5 (batch)",
+      "aliases": [
+        "anthropic/claude-haiku-4.5:batch",
+        "anthropic/claude-4.5-haiku-20251001",
+        "anthropic/claude-4-5-haiku-20251001",
+        "claude-haiku-4.5-(batch)",
+        "claude-haiku-4-5-(batch)",
+        "claude-4.5-haiku-(batch)",
+        "claude-4-5-haiku-(batch)",
+        "claude-haiku-4.5:batch",
+        "claude-4.5-haiku:batch",
+        "claude-4-5-haiku:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-haiku",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 0.625,
+      "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
     },
     {
       "id": "claude/claude-mythos-5",
@@ -644,6 +688,31 @@
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=32000"
     },
     {
+      "id": "anthropic/claude-opus-4.1:batch",
+      "displayName": "Claude Opus 4.1 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-4.1:batch",
+        "anthropic/claude-4.1-opus-20250805",
+        "anthropic/claude-4-1-opus-20250805",
+        "claude-opus-4.1-(batch)",
+        "claude-opus-4-1-(batch)",
+        "claude-4.1-opus-(batch)",
+        "claude-4-1-opus-(batch)",
+        "claude-opus-4.1:batch",
+        "claude-4.1-opus:batch",
+        "claude-4-1-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 7.5,
+      "outputCostPerMillionUSD": 37.5,
+      "cacheReadCostPerMillionUSD": 0.75,
+      "cacheWriteCostPerMillionUSD": 9.375,
+      "notes": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains... · context=200000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "anthropic/claude-opus-4.5",
       "displayName": "Claude Opus 4.5",
       "aliases": [
@@ -702,6 +771,31 @@
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000"
     },
     {
+      "id": "anthropic/claude-opus-4.5:batch",
+      "displayName": "Claude Opus 4.5 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-4.5:batch",
+        "anthropic/claude-4.5-opus-20251124",
+        "anthropic/claude-4-5-opus-20251124",
+        "claude-opus-4.5-(batch)",
+        "claude-opus-4-5-(batch)",
+        "claude-4.5-opus-(batch)",
+        "claude-4-5-opus-(batch)",
+        "claude-opus-4.5:batch",
+        "claude-4.5-opus:batch",
+        "claude-4-5-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 12.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 3.125,
+      "notes": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance acro · context=200000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "anthropic/claude-opus-4.6",
       "displayName": "Claude Opus 4.6",
       "aliases": [
@@ -752,6 +846,31 @@
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
+      "id": "anthropic/claude-opus-4.6:batch",
+      "displayName": "Claude Opus 4.6 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-4.6:batch",
+        "anthropic/claude-4.6-opus-20260205",
+        "anthropic/claude-4-6-opus-20260205",
+        "claude-opus-4.6-(batch)",
+        "claude-opus-4-6-(batch)",
+        "claude-4.6-opus-(batch)",
+        "claude-4-6-opus-(batch)",
+        "claude-opus-4.6:batch",
+        "claude-4.6-opus:batch",
+        "claude-4-6-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 12.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 3.125,
+      "notes": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "anthropic/claude-opus-4.7",
       "displayName": "Claude Opus 4.7",
       "aliases": [
@@ -800,6 +919,31 @@
       "brandAssetName": "claude",
       "organizationName": "Claude",
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7:batch",
+      "displayName": "Claude Opus 4.7 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-4.7:batch",
+        "anthropic/claude-4.7-opus-20260416",
+        "anthropic/claude-4-7-opus-20260416",
+        "claude-opus-4.7-(batch)",
+        "claude-opus-4-7-(batch)",
+        "claude-4.7-opus-(batch)",
+        "claude-4-7-opus-(batch)",
+        "claude-opus-4.7:batch",
+        "claude-4.7-opus:batch",
+        "claude-4-7-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 12.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 3.125,
+      "notes": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-opus-4.7-fast",
@@ -879,6 +1023,31 @@
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
+      "id": "anthropic/claude-opus-4.8:batch",
+      "displayName": "Claude Opus 4.8 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-4.8:batch",
+        "anthropic/claude-4.8-opus-20260528",
+        "anthropic/claude-4-8-opus-20260528",
+        "claude-opus-4.8-(batch)",
+        "claude-opus-4-8-(batch)",
+        "claude-4.8-opus-(batch)",
+        "claude-4-8-opus-(batch)",
+        "claude-opus-4.8:batch",
+        "claude-4.8-opus:batch",
+        "claude-4-8-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 12.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 3.125,
+      "notes": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "anthropic/claude-opus-4.8-fast",
       "displayName": "Claude Opus 4.8 (Fast)",
       "aliases": [
@@ -923,6 +1092,28 @@
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
       "notes": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "anthropic/claude-opus-5:batch",
+      "displayName": "Claude Opus 5 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-5:batch",
+        "anthropic/claude-opus-5-20260723",
+        "anthropic/claude-opus-5.20260723",
+        "claude-opus-5-(batch)",
+        "claude-5-opus-(batch)",
+        "claude-opus-5:batch",
+        "claude-5-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 12.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 3.125,
+      "notes": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1075,6 +1266,31 @@
       "organizationName": "Anthropic"
     },
     {
+      "id": "anthropic/claude-sonnet-4.5:batch",
+      "displayName": "Claude Sonnet 4.5 (batch)",
+      "aliases": [
+        "anthropic/claude-sonnet-4.5:batch",
+        "anthropic/claude-4.5-sonnet-20250929",
+        "anthropic/claude-4-5-sonnet-20250929",
+        "claude-sonnet-4.5-(batch)",
+        "claude-sonnet-4-5-(batch)",
+        "claude-4.5-sonnet-(batch)",
+        "claude-4-5-sonnet-(batch)",
+        "claude-sonnet-4.5:batch",
+        "claude-4.5-sonnet:batch",
+        "claude-4-5-sonnet:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": 1.875,
+      "notes": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "anthropic/claude-sonnet-4.6",
       "displayName": "Claude Sonnet 4.6",
       "aliases": [
@@ -1098,6 +1314,31 @@
       "notes": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=64000",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6:batch",
+      "displayName": "Claude Sonnet 4.6 (batch)",
+      "aliases": [
+        "anthropic/claude-sonnet-4.6:batch",
+        "anthropic/claude-4.6-sonnet-20260217",
+        "anthropic/claude-4-6-sonnet-20260217",
+        "claude-sonnet-4.6-(batch)",
+        "claude-sonnet-4-6-(batch)",
+        "claude-4.6-sonnet-(batch)",
+        "claude-4-6-sonnet-(batch)",
+        "claude-sonnet-4.6:batch",
+        "claude-4.6-sonnet:batch",
+        "claude-4-6-sonnet:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": 1.875,
+      "notes": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project m · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-sonnet-5",
@@ -1139,6 +1380,28 @@
       "brandAssetName": "claude",
       "organizationName": "Claude",
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5:batch",
+      "displayName": "Claude Sonnet 5 (batch)",
+      "aliases": [
+        "anthropic/claude-sonnet-5:batch",
+        "anthropic/claude-sonnet-5-20260630",
+        "anthropic/claude-sonnet-5.20260630",
+        "claude-sonnet-5-(batch)",
+        "claude-5-sonnet-(batch)",
+        "claude-sonnet-5:batch",
+        "claude-5-sonnet:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
     },
     {
       "id": "mistral/codestral-latest",
@@ -1780,6 +2043,29 @@
       "organizationName": "Google"
     },
     {
+      "id": "google/gemini-2.5-flash:batch",
+      "displayName": "Gemini 2.5 Flash (batch)",
+      "aliases": [
+        "google/gemini-2.5-flash:batch",
+        "google/gemini-2-5-flash:batch",
+        "google/gemini-2.5-flash",
+        "google/gemini-2-5-flash",
+        "gemini-2.5-flash-(batch)",
+        "gemini-2-5-flash-(batch)",
+        "gemini-2.5-flash:batch",
+        "gemini-2-5-flash:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-2",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "google/gemini-2.5-flash-lite",
       "displayName": "Gemini 2.5 Flash Lite",
       "aliases": [
@@ -1797,6 +2083,29 @@
       "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Google"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite:batch",
+      "displayName": "Gemini 2.5 Flash Lite (batch)",
+      "aliases": [
+        "google/gemini-2.5-flash-lite:batch",
+        "google/gemini-2-5-flash-lite:batch",
+        "google/gemini-2.5-flash-lite",
+        "google/gemini-2-5-flash-lite",
+        "gemini-2.5-flash-lite-(batch)",
+        "gemini-2-5-flash-lite-(batch)",
+        "gemini-2.5-flash-lite:batch",
+        "gemini-2-5-flash-lite:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-2",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
     },
     {
       "id": "gemini/gemini-2.5-flash-preview-09-2025",
@@ -1865,6 +2174,29 @@
       "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · LiteLLM supports_function_calling, max_input=1000000, max_output=1000000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Google"
+    },
+    {
+      "id": "google/gemini-2.5-pro:batch",
+      "displayName": "Gemini 2.5 Pro (batch)",
+      "aliases": [
+        "google/gemini-2.5-pro:batch",
+        "google/gemini-2-5-pro:batch",
+        "google/gemini-2.5-pro",
+        "google/gemini-2-5-pro",
+        "gemini-2.5-pro-(batch)",
+        "gemini-2-5-pro-(batch)",
+        "gemini-2.5-pro:batch",
+        "gemini-2-5-pro:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-2",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 10,
+      "cacheReadCostPerMillionUSD": 0.125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
     },
     {
       "id": "gemini/gemini-2.5-pro-200k",
@@ -2054,6 +2386,25 @@
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535"
     },
     {
+      "id": "google/gemini-3-flash-preview:batch",
+      "displayName": "Gemini 3 Flash Preview (batch)",
+      "aliases": [
+        "google/gemini-3-flash-preview:batch",
+        "google/gemini-3-flash-preview-20251217",
+        "gemini-3-flash-preview-(batch)",
+        "gemini-3-flash-preview:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "gemini/gemini-3-pro-preview-200k",
       "displayName": "Gemini 3 Pro >200k",
       "aliases": [
@@ -2113,6 +2464,29 @@
       "notes": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Google"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite:batch",
+      "displayName": "Gemini 3.1 Flash Lite (batch)",
+      "aliases": [
+        "google/gemini-3.1-flash-lite:batch",
+        "google/gemini-3-1-flash-lite:batch",
+        "google/gemini-3.1-flash-lite-20260507",
+        "google/gemini-3-1-flash-lite-20260507",
+        "gemini-3.1-flash-lite-(batch)",
+        "gemini-3-1-flash-lite-(batch)",
+        "gemini-3.1-flash-lite:batch",
+        "gemini-3-1-flash-lite:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.125,
+      "outputCostPerMillionUSD": 0.75,
+      "cacheReadCostPerMillionUSD": 0.0125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
     },
     {
       "id": "google/gemini-3.1-flash-lite-preview",
@@ -2204,6 +2578,29 @@
       "notes": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the mu · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
       "brandAssetName": "gemini",
       "organizationName": "Google"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview:batch",
+      "displayName": "Gemini 3.1 Pro Preview (batch)",
+      "aliases": [
+        "google/gemini-3.1-pro-preview:batch",
+        "google/gemini-3-1-pro-preview:batch",
+        "google/gemini-3.1-pro-preview-20260219",
+        "google/gemini-3-1-pro-preview-20260219",
+        "gemini-3.1-pro-preview-(batch)",
+        "gemini-3-1-pro-preview-(batch)",
+        "gemini-3.1-pro-preview:batch",
+        "gemini-3-1-pro-preview:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the mu · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
     },
     {
       "id": "google/gemini-3.1-pro-preview-customtools",
@@ -2300,6 +2697,29 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-3.5-flash:batch",
+      "displayName": "Gemini 3.5 Flash (batch)",
+      "aliases": [
+        "google/gemini-3.5-flash:batch",
+        "google/gemini-3-5-flash:batch",
+        "google/gemini-3.5-flash-20260519",
+        "google/gemini-3-5-flash-20260519",
+        "gemini-3.5-flash-(batch)",
+        "gemini-3-5-flash-(batch)",
+        "gemini-3.5-flash:batch",
+        "gemini-3-5-flash:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.75,
+      "outputCostPerMillionUSD": 4.5,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "google/gemini-3.5-flash-lite",
       "displayName": "Gemini 3.5 Flash Lite",
       "aliases": [
@@ -2317,6 +2737,29 @@
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": 0.083333,
       "notes": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite:batch",
+      "displayName": "Gemini 3.5 Flash Lite (batch)",
+      "aliases": [
+        "google/gemini-3.5-flash-lite:batch",
+        "google/gemini-3-5-flash-lite:batch",
+        "google/gemini-3.5-flash-lite-20260721",
+        "google/gemini-3-5-flash-lite-20260721",
+        "gemini-3.5-flash-lite-(batch)",
+        "gemini-3-5-flash-lite-(batch)",
+        "gemini-3.5-flash-lite:batch",
+        "gemini-3-5-flash-lite:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 1.25,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2384,6 +2827,29 @@
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.6-flash:batch",
+      "displayName": "Gemini 3.6 Flash (batch)",
+      "aliases": [
+        "google/gemini-3.6-flash:batch",
+        "google/gemini-3-6-flash:batch",
+        "google/gemini-3.6-flash-20260721",
+        "google/gemini-3-6-flash-20260721",
+        "gemini-3.6-flash-(batch)",
+        "gemini-3-6-flash-(batch)",
+        "gemini-3.6-flash:batch",
+        "gemini-3-6-flash:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.75,
+      "outputCostPerMillionUSD": 3.75,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2783,6 +3249,25 @@
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
+      "id": "z-ai/glm-5.2:batch",
+      "displayName": "GLM 5.2 (batch)",
+      "aliases": [
+        "z-ai/glm-5.2:batch",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2-(batch)",
+        "glm-5-2-(batch)",
+        "glm-5.2:batch"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.7,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.13,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=512000"
+    },
+    {
       "id": "z-ai/glm-5v-turbo",
       "displayName": "GLM 5V Turbo",
       "aliases": [
@@ -2925,6 +3410,29 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-3.5-turbo:batch",
+      "displayName": "GPT-3.5 Turbo (batch)",
+      "aliases": [
+        "openai/gpt-3.5-turbo:batch",
+        "openai/gpt-3-5-turbo:batch",
+        "openai/gpt-3.5-turbo",
+        "openai/gpt-3-5-turbo",
+        "gpt-3.5-turbo-(batch)",
+        "gpt-3-5-turbo-(batch)",
+        "gpt-3.5-turbo:batch",
+        "gpt-3-5-turbo:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-3",
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.75,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021. · context=16385",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-3.5-turbo-0613",
       "displayName": "GPT-3.5 Turbo (older v0613)",
       "aliases": [
@@ -3026,6 +3534,25 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-4-turbo:batch",
+      "displayName": "GPT-4 Turbo (batch)",
+      "aliases": [
+        "openai/gpt-4-turbo:batch",
+        "openai/gpt-4-turbo",
+        "gpt-4-turbo-(batch)",
+        "gpt-4-turbo:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-4",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023. · context=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-4-turbo-preview",
       "displayName": "GPT-4 Turbo Preview",
       "aliases": [
@@ -3096,6 +3623,28 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-4.1:batch",
+      "displayName": "GPT-4.1 (batch)",
+      "aliases": [
+        "openai/gpt-4.1:batch",
+        "openai/gpt-4.1-2025-04-14",
+        "openai/gpt-4.1-2025.04-14",
+        "openai/gpt-4-1-2025-04-14",
+        "gpt-4.1-(batch)",
+        "gpt-4-1-(batch)",
+        "gpt-4.1:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-4",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 4.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o an · context=1047576",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-4.1-mini",
       "displayName": "GPT-4.1 Mini",
       "aliases": [
@@ -3149,6 +3698,30 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-4.1-mini:batch",
+      "displayName": "GPT-4.1 Mini (batch)",
+      "aliases": [
+        "openai/gpt-4.1-mini:batch",
+        "openai/gpt-4-1-mini:batch",
+        "openai/gpt-4.1-mini-2025-04-14",
+        "openai/gpt-4.1-mini-2025.04-14",
+        "openai/gpt-4-1-mini-2025-04-14",
+        "gpt-4.1-mini-(batch)",
+        "gpt-4-1-mini-(batch)",
+        "gpt-4.1-mini:batch",
+        "gpt-4-1-mini:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-4",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.8,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard... · context=1047576",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-4.1-nano",
       "displayName": "GPT-4.1 Nano",
       "aliases": [
@@ -3200,6 +3773,30 @@
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1047576, max_output=32768",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-4.1-nano:batch",
+      "displayName": "GPT-4.1 Nano (batch)",
+      "aliases": [
+        "openai/gpt-4.1-nano:batch",
+        "openai/gpt-4-1-nano:batch",
+        "openai/gpt-4.1-nano-2025-04-14",
+        "openai/gpt-4.1-nano-2025.04-14",
+        "openai/gpt-4-1-nano-2025-04-14",
+        "gpt-4.1-nano-(batch)",
+        "gpt-4-1-nano-(batch)",
+        "gpt-4.1-nano:batch",
+        "gpt-4-1-nano:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-4",
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.0125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million... · context=1047576",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "codex/gpt-4.5",
@@ -3332,6 +3929,25 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-4o:batch",
+      "displayName": "GPT-4o (batch)",
+      "aliases": [
+        "openai/gpt-4o:batch",
+        "openai/gpt-4o",
+        "gpt-4o-(batch)",
+        "gpt-4o:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-4o",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 10,
+      "cacheReadCostPerMillionUSD": 1.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as... · context=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-4o-mini",
       "displayName": "GPT-4o Mini",
       "aliases": [
@@ -3396,6 +4012,25 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-4o-mini:batch",
+      "displayName": "GPT-4o-mini (batch)",
+      "aliases": [
+        "openai/gpt-4o-mini:batch",
+        "openai/gpt-4o-mini",
+        "gpt-4o-mini-(batch)",
+        "gpt-4o-mini:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-4o",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable... · context=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5",
       "displayName": "GPT-5",
       "aliases": [
@@ -3437,6 +4072,45 @@
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-5:batch",
+      "displayName": "GPT-5 (batch)",
+      "aliases": [
+        "openai/gpt-5:batch",
+        "openai/gpt-5-2025-08-07",
+        "openai/gpt-5.2025-08.07",
+        "gpt-5-(batch)",
+        "gpt-5:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.625,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.0625,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accura · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-5-codex:batch",
+      "displayName": "GPT-5 Codex (batch)",
+      "aliases": [
+        "openai/gpt-5-codex:batch",
+        "openai/gpt-5-codex",
+        "gpt-5-codex-(batch)",
+        "gpt-5-codex:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.625,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.0625,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "openai/gpt-5-image",
@@ -3516,6 +4190,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-5-mini:batch",
+      "displayName": "GPT-5 Mini (batch)",
+      "aliases": [
+        "openai/gpt-5-mini:batch",
+        "openai/gpt-5-mini-2025-08-07",
+        "openai/gpt-5-mini-2025.08-07",
+        "gpt-5-mini-(batch)",
+        "gpt-5-mini:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.125,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.0125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost.... · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5-nano",
       "displayName": "GPT-5 Nano",
       "aliases": [
@@ -3559,6 +4253,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-5-nano:batch",
+      "displayName": "GPT-5 Nano (batch)",
+      "aliases": [
+        "openai/gpt-5-nano:batch",
+        "openai/gpt-5-nano-2025-08-07",
+        "openai/gpt-5-nano-2025.08-07",
+        "gpt-5-nano-(batch)",
+        "gpt-5-nano:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.025,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.0025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger... · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5-pro",
       "displayName": "GPT-5 Pro",
       "aliases": [
@@ -3596,6 +4310,26 @@
       "brandAssetName": "codex",
       "organizationName": "Codex",
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000"
+    },
+    {
+      "id": "openai/gpt-5-pro:batch",
+      "displayName": "GPT-5 Pro (batch)",
+      "aliases": [
+        "openai/gpt-5-pro:batch",
+        "openai/gpt-5-pro-2025-10-06",
+        "openai/gpt-5-pro-2025.10-06",
+        "gpt-5-pro-(batch)",
+        "gpt-5-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 7.5,
+      "outputCostPerMillionUSD": 60.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and... · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "openai/gpt-5.1",
@@ -3648,6 +4382,27 @@
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-5.1:batch",
+      "displayName": "GPT-5.1 (batch)",
+      "aliases": [
+        "openai/gpt-5.1:batch",
+        "openai/gpt-5.1-20251113",
+        "openai/gpt-5-1-20251113",
+        "gpt-5.1-(batch)",
+        "gpt-5-1-(batch)",
+        "gpt-5.1:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.625,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.0625,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive rea · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "codex/gpt-5.1-codex",
@@ -3817,6 +4572,27 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-5.2:batch",
+      "displayName": "GPT-5.2 (batch)",
+      "aliases": [
+        "openai/gpt-5.2:batch",
+        "openai/gpt-5.2-20251211",
+        "openai/gpt-5-2-20251211",
+        "gpt-5.2-(batch)",
+        "gpt-5-2-(batch)",
+        "gpt-5.2:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.875,
+      "outputCostPerMillionUSD": 7.0,
+      "cacheReadCostPerMillionUSD": 0.0875,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickl · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5.2-chat",
       "displayName": "GPT-5.2 Chat",
       "aliases": [
@@ -3890,6 +4666,29 @@
       "brandAssetName": "codex",
       "organizationName": "OpenAI",
       "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000"
+    },
+    {
+      "id": "openai/gpt-5.2-pro:batch",
+      "displayName": "GPT-5.2 Pro (batch)",
+      "aliases": [
+        "openai/gpt-5.2-pro:batch",
+        "openai/gpt-5-2-pro:batch",
+        "openai/gpt-5.2-pro-20251211",
+        "openai/gpt-5-2-pro-20251211",
+        "gpt-5.2-pro-(batch)",
+        "gpt-5-2-pro-(batch)",
+        "gpt-5.2-pro:batch",
+        "gpt-5-2-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 10.5,
+      "outputCostPerMillionUSD": 84.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,... · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "openai/gpt-5.2-codex",
@@ -3986,6 +4785,27 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-5.4:batch",
+      "displayName": "GPT-5.4 (batch)",
+      "aliases": [
+        "openai/gpt-5.4:batch",
+        "openai/gpt-5.4-20260305",
+        "openai/gpt-5-4-20260305",
+        "gpt-5.4-(batch)",
+        "gpt-5-4-(batch)",
+        "gpt-5.4:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-5.4-272k",
       "displayName": "GPT-5.4 >272k",
       "aliases": [
@@ -4077,6 +4897,29 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-5.4-mini:batch",
+      "displayName": "GPT-5.4 Mini (batch)",
+      "aliases": [
+        "openai/gpt-5.4-mini:batch",
+        "openai/gpt-5-4-mini:batch",
+        "openai/gpt-5.4-mini-20260317",
+        "openai/gpt-5-4-mini-20260317",
+        "gpt-5.4-mini-(batch)",
+        "gpt-5-4-mini-(batch)",
+        "gpt-5.4-mini:batch",
+        "gpt-5-4-mini:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.375,
+      "outputCostPerMillionUSD": 2.25,
+      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,... · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5.4-nano",
       "displayName": "GPT-5.4 Nano",
       "aliases": [
@@ -4123,6 +4966,29 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-5.4-nano:batch",
+      "displayName": "GPT-5.4 Nano (batch)",
+      "aliases": [
+        "openai/gpt-5.4-nano:batch",
+        "openai/gpt-5-4-nano:batch",
+        "openai/gpt-5.4-nano-20260317",
+        "openai/gpt-5-4-nano-20260317",
+        "gpt-5.4-nano-(batch)",
+        "gpt-5-4-nano-(batch)",
+        "gpt-5.4-nano:batch",
+        "gpt-5-4-nano:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.625,
+      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency... · context=400000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5.4-pro",
       "displayName": "GPT-5.4 Pro",
       "aliases": [
@@ -4142,6 +5008,29 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-5.4-pro:batch",
+      "displayName": "GPT-5.4 Pro (batch)",
+      "aliases": [
+        "openai/gpt-5.4-pro:batch",
+        "openai/gpt-5-4-pro:batch",
+        "openai/gpt-5.4-pro-20260305",
+        "openai/gpt-5-4-pro-20260305",
+        "gpt-5.4-pro-(batch)",
+        "gpt-5-4-pro-(batch)",
+        "gpt-5.4-pro:batch",
+        "gpt-5-4-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 15.0,
+      "outputCostPerMillionUSD": 90.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4241,6 +5130,27 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-5.5:batch",
+      "displayName": "GPT-5.5 (batch)",
+      "aliases": [
+        "openai/gpt-5.5:batch",
+        "openai/gpt-5.5-20260423",
+        "openai/gpt-5-5-20260423",
+        "gpt-5.5-(batch)",
+        "gpt-5-5-(batch)",
+        "gpt-5.5:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-5.5-272k",
       "displayName": "GPT-5.5 >272k",
       "aliases": [
@@ -4283,6 +5193,29 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-5.5-pro:batch",
+      "displayName": "GPT-5.5 Pro (batch)",
+      "aliases": [
+        "openai/gpt-5.5-pro:batch",
+        "openai/gpt-5-5-pro:batch",
+        "openai/gpt-5.5-pro-20260423",
+        "openai/gpt-5-5-pro-20260423",
+        "gpt-5.5-pro-(batch)",
+        "gpt-5-5-pro-(batch)",
+        "gpt-5.5-pro:batch",
+        "gpt-5-5-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 15.0,
+      "outputCostPerMillionUSD": 90.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4382,6 +5315,29 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-5.6-luna:batch",
+      "displayName": "GPT-5.6 Luna (batch)",
+      "aliases": [
+        "openai/gpt-5.6-luna:batch",
+        "openai/gpt-5-6-luna:batch",
+        "openai/gpt-5.6-luna-20260709",
+        "openai/gpt-5-6-luna-20260709",
+        "gpt-5.6-luna-(batch)",
+        "gpt-5-6-luna-(batch)",
+        "gpt-5.6-luna:batch",
+        "gpt-5-6-luna:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning  · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-5.6-luna-272k",
       "displayName": "GPT-5.6 Luna >272k",
       "aliases": [
@@ -4421,6 +5377,29 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": 0.125,
+      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "displayName": "GPT-5.6 Luna Pro (batch)",
+      "aliases": [
+        "openai/gpt-5.6-luna-pro:batch",
+        "openai/gpt-5-6-luna-pro:batch",
+        "openai/gpt-5.6-luna-pro-20260709",
+        "openai/gpt-5-6-luna-pro-20260709",
+        "gpt-5.6-luna-pro-(batch)",
+        "gpt-5-6-luna-pro-(batch)",
+        "gpt-5.6-luna-pro:batch",
+        "gpt-5-6-luna-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheWriteCostPerMillionUSD": null,
       "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -4474,6 +5453,29 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-5.6-sol:batch",
+      "displayName": "GPT-5.6 Sol (batch)",
+      "aliases": [
+        "openai/gpt-5.6-sol:batch",
+        "openai/gpt-5-6-sol:batch",
+        "openai/gpt-5.6-sol-20260709",
+        "openai/gpt-5-6-sol-20260709",
+        "gpt-5.6-sol-(batch)",
+        "gpt-5-6-sol-(batch)",
+        "gpt-5.6-sol:batch",
+        "gpt-5-6-sol:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-5.6-sol-272k",
       "displayName": "GPT-5.6 Sol >272k",
       "aliases": [
@@ -4513,6 +5515,29 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
+      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "displayName": "GPT-5.6 Sol Pro (batch)",
+      "aliases": [
+        "openai/gpt-5.6-sol-pro:batch",
+        "openai/gpt-5-6-sol-pro:batch",
+        "openai/gpt-5.6-sol-pro-20260709",
+        "openai/gpt-5-6-sol-pro-20260709",
+        "gpt-5.6-sol-pro-(batch)",
+        "gpt-5-6-sol-pro-(batch)",
+        "gpt-5.6-sol-pro:batch",
+        "gpt-5-6-sol-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
       "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -4566,6 +5591,29 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-5.6-terra:batch",
+      "displayName": "GPT-5.6 Terra (batch)",
+      "aliases": [
+        "openai/gpt-5.6-terra:batch",
+        "openai/gpt-5-6-terra:batch",
+        "openai/gpt-5.6-terra-20260709",
+        "openai/gpt-5-6-terra-20260709",
+        "gpt-5.6-terra-(batch)",
+        "gpt-5-6-terra-(batch)",
+        "gpt-5.6-terra:batch",
+        "gpt-5-6-terra:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-5.6-terra-272k",
       "displayName": "GPT-5.6 Terra >272k",
       "aliases": [
@@ -4605,6 +5653,29 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenA · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "displayName": "GPT-5.6 Terra Pro (batch)",
+      "aliases": [
+        "openai/gpt-5.6-terra-pro:batch",
+        "openai/gpt-5-6-terra-pro:batch",
+        "openai/gpt-5.6-terra-pro-20260709",
+        "openai/gpt-5-6-terra-pro-20260709",
+        "gpt-5.6-terra-pro-(batch)",
+        "gpt-5-6-terra-pro-(batch)",
+        "gpt-5.6-terra-pro:batch",
+        "gpt-5-6-terra-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": null,
       "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenA · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -5513,6 +6584,23 @@
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
     {
+      "id": "thinkingmachines/inkling:batch",
+      "displayName": "Inkling (batch)",
+      "aliases": [
+        "thinkingmachines/inkling:batch",
+        "thinkingmachines/inkling-20260715",
+        "inkling-(batch)",
+        "inkling:batch"
+      ],
+      "providerID": "thinkingmachines",
+      "family": "inkling-batch",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.025,
+      "cacheReadCostPerMillionUSD": 0.085,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288"
+    },
+    {
       "id": "thinkingmachines/inkling-small",
       "displayName": "Inkling Small",
       "aliases": [
@@ -5778,7 +6866,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0992,
+      "cacheReadCostPerMillionUSD": 0.096,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -5800,6 +6888,25 @@
       "cacheReadCostPerMillionUSD": 0.19,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "moonshotai/kimi-k2.7-code:batch",
+      "displayName": "Kimi K2.7 Code (batch)",
+      "aliases": [
+        "moonshotai/kimi-k2.7-code:batch",
+        "moonshotai/kimi-k2.7-code-20260612",
+        "kimi-k2.7-code-(batch)",
+        "kimi-k2.7-code:batch"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k2",
+      "inputCostPerMillionUSD": 0.475,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.095,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -6454,6 +7561,25 @@
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "minimax",
+      "organizationName": "MiniMax"
+    },
+    {
+      "id": "minimax/minimax-m3:batch",
+      "displayName": "MiniMax M3 (batch)",
+      "aliases": [
+        "minimax/minimax-m3:batch",
+        "minimax/minimax-m3-20260531",
+        "minimax-m3-(batch)",
+        "minimax-m3:batch"
+      ],
+      "providerID": "minimax",
+      "family": "minimax-m3",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=524288",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -7366,6 +8492,25 @@
       "organizationName": "Nvidia"
     },
     {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b:batch",
+      "displayName": "Nemotron 3 Ultra (batch)",
+      "aliases": [
+        "nvidia/nemotron-3-ultra-550b-a55b:batch",
+        "nvidia/nemotron-3-ultra-550b-a55b-20260604",
+        "nemotron-3-ultra-(batch)",
+        "nemotron-3-ultra-550b-a55b:batch"
+      ],
+      "providerID": "nvidia",
+      "family": "nemotron-3",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.8,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
+    },
+    {
       "id": "nvidia/nemotron-3-ultra-550b-a55b:free",
       "displayName": "Nemotron 3 Ultra (free)",
       "aliases": [
@@ -7615,6 +8760,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/o1:batch",
+      "displayName": "o1 (batch)",
+      "aliases": [
+        "openai/o1:batch",
+        "openai/o1-2024-12-17",
+        "openai/o1-2024.12-17",
+        "o1-(batch)",
+        "o1:batch"
+      ],
+      "providerID": "codex",
+      "family": "o1-batch",
+      "inputCostPerMillionUSD": 7.5,
+      "outputCostPerMillionUSD": 30.0,
+      "cacheReadCostPerMillionUSD": 3.75,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason... · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/o1-preview",
       "displayName": "o1 and o1-preview",
       "aliases": [
@@ -7689,6 +8854,25 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/o1-pro:batch",
+      "displayName": "o1-pro (batch)",
+      "aliases": [
+        "openai/o1-pro:batch",
+        "openai/o1-pro",
+        "o1-pro-(batch)",
+        "o1-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "o1-pro",
+      "inputCostPerMillionUSD": 150,
+      "outputCostPerMillionUSD": 600,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide... · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/o3",
       "displayName": "o3",
       "aliases": [
@@ -7732,6 +8916,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/o3:batch",
+      "displayName": "o3 (batch)",
+      "aliases": [
+        "openai/o3:batch",
+        "openai/o3-2025-04-16",
+        "openai/o3-2025.04-16",
+        "o3-(batch)",
+        "o3:batch"
+      ],
+      "providerID": "codex",
+      "family": "o3-batch",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 4.0,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following.... · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/o3-deep-research",
       "displayName": "o3 Deep Research",
       "aliases": [
@@ -7771,6 +8975,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/o3-mini:batch",
+      "displayName": "o3 Mini (batch)",
+      "aliases": [
+        "openai/o3-mini:batch",
+        "openai/o3-mini-2025-01-31",
+        "openai/o3-mini-2025.01-31",
+        "o3-mini-(batch)",
+        "o3-mini:batch"
+      ],
+      "providerID": "codex",
+      "family": "o3-mini",
+      "inputCostPerMillionUSD": 0.55,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.275,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to. · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/o3-mini-high",
       "displayName": "o3 Mini High",
       "aliases": [
@@ -7787,6 +9011,26 @@
       "cacheReadCostPerMillionUSD": 0.55,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mat · context=200000 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=65536",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/o3-mini-high:batch",
+      "displayName": "o3 Mini High (batch)",
+      "aliases": [
+        "openai/o3-mini-high:batch",
+        "openai/o3-mini-high-2025-01-31",
+        "openai/o3-mini-high-2025.01-31",
+        "o3-mini-high-(batch)",
+        "o3-mini-high:batch"
+      ],
+      "providerID": "codex",
+      "family": "o3-mini",
+      "inputCostPerMillionUSD": 0.55,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.275,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mat · context=200000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7834,6 +9078,26 @@
       "notes": "LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000"
     },
     {
+      "id": "openai/o3-pro:batch",
+      "displayName": "o3 Pro (batch)",
+      "aliases": [
+        "openai/o3-pro:batch",
+        "openai/o3-pro-2025-06-10",
+        "openai/o3-pro-2025.06-10",
+        "o3-pro-(batch)",
+        "o3-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "o3-pro",
+      "inputCostPerMillionUSD": 10.0,
+      "outputCostPerMillionUSD": 40.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "The o-series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o3-pro model uses more compute to think harder and provide consistently... · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/o3-mini",
       "displayName": "o3-mini",
       "aliases": [
@@ -7873,6 +9137,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/o4-mini:batch",
+      "displayName": "o4 Mini (batch)",
+      "aliases": [
+        "openai/o4-mini:batch",
+        "openai/o4-mini-2025-04-16",
+        "openai/o4-mini-2025.04-16",
+        "o4-mini-(batch)",
+        "o4-mini:batch"
+      ],
+      "providerID": "codex",
+      "family": "o4-mini",
+      "inputCostPerMillionUSD": 0.55,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.1375,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive re · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/o4-mini-high",
       "displayName": "o4 Mini High",
       "aliases": [
@@ -7886,6 +9170,26 @@
       "inputCostPerMillionUSD": 1.1,
       "outputCostPerMillionUSD": 4.4,
       "cacheReadCostPerMillionUSD": 0.275,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while ret · context=200000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/o4-mini-high:batch",
+      "displayName": "o4 Mini High (batch)",
+      "aliases": [
+        "openai/o4-mini-high:batch",
+        "openai/o4-mini-high-2025-04-16",
+        "openai/o4-mini-high-2025.04-16",
+        "o4-mini-high-(batch)",
+        "o4-mini-high:batch"
+      ],
+      "providerID": "codex",
+      "family": "o4-mini",
+      "inputCostPerMillionUSD": 0.55,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.1375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while ret · context=200000",
       "brandAssetName": "codex",
