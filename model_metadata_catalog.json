@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-07T03:19:00.311343+00:00",
+  "generatedAt": "2026-08-07T07:41:37.365850+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6610,7 +6610,7 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling-small",
-      "inputCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
