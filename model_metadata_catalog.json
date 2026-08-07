@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-06T14:35:00.917175+00:00",
+  "generatedAt": "2026-08-07T00:15:38.597973+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3000,7 +3000,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -7005,6 +7005,27 @@
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
     },
     {
+      "id": "inclusionai/ling-3.0-tiny:free",
+      "displayName": "Ling 3.0 Tiny (free)",
+      "aliases": [
+        "inclusionai/ling-3.0-tiny:free",
+        "inclusionai/ling-3-0-tiny:free",
+        "inclusionai/ling-3.0-tiny-20260806",
+        "inclusionai/ling-3-0-tiny-20260806",
+        "ling-3.0-tiny-(free)",
+        "ling-3-0-tiny-(free)",
+        "ling-3.0-tiny:free",
+        "ling-3-0-tiny:free"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable... · context=262144"
+    },
+    {
       "id": "inclusionai/ling-2.6-1t",
       "displayName": "Ling-2.6-1T",
       "aliases": [
@@ -7055,30 +7076,9 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.22,
-      "cacheReadCostPerMillionUSD": 0.015,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=131072"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash:free",
-      "displayName": "Ling-3.0-flash (free)",
-      "aliases": [
-        "inclusionai/ling-3.0-flash:free",
-        "inclusionai/ling-3-0-flash:free",
-        "inclusionai/ling-3.0-flash-20260723",
-        "inclusionai/ling-3-0-flash-20260723",
-        "ling-3.0-flash-(free)",
-        "ling-3-0-flash-(free)",
-        "ling-3.0-flash:free",
-        "ling-3-0-flash:free"
-      ],
-      "providerID": "inclusionai",
-      "family": "ling-3",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.021,
+      "outputCostPerMillionUSD": 0.063,
+      "cacheReadCostPerMillionUSD": 0.0042,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=262144"
     },
@@ -8445,8 +8445,8 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.085,
-      "outputCostPerMillionUSD": 0.4,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=1000000",
@@ -10192,7 +10192,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=16384",
       "brandAssetName": "qwen",
