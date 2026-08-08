@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-08T13:12:25.097054+00:00",
+  "generatedAt": "2026-08-08T18:58:39.611802+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1656,7 +1656,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "cacheReadCostPerMillionUSD": 0.1345,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=163840 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
@@ -1726,9 +1726,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.09,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "inputCostPerMillionUSD": 0.0896,
+      "outputCostPerMillionUSD": 0.1792,
+      "cacheReadCostPerMillionUSD": 0.01792,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -7540,7 +7540,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.054,
+      "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
