@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-07T19:15:31.703473+00:00",
+  "generatedAt": "2026-08-08T02:21:35.604144+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1656,7 +1656,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.1345,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=163840 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
@@ -6577,9 +6577,9 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling",
-      "inputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.05,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
