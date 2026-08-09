@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-09T02:28:47.960444+00:00",
+  "generatedAt": "2026-08-09T07:16:29.409211+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1656,7 +1656,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "cacheReadCostPerMillionUSD": 0.1345,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=163840 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
@@ -10013,7 +10013,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It d · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
