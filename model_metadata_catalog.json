@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-10T08:04:08.258246+00:00",
+  "generatedAt": "2026-08-10T13:44:32.270998+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -4710,31 +4710,6 @@
       "cacheReadCostPerMillionUSD": 0.175,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GPT-5.2-Codex is an upgraded version of GPT-5.1-Codex optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineeri · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
-      "brandAssetName": "codex",
-      "organizationName": "OpenAI"
-    },
-    {
-      "id": "openai/gpt-5.3-chat",
-      "displayName": "GPT-5.3 Chat",
-      "aliases": [
-        "openai/gpt-5.3-chat",
-        "openai/gpt-5-3-chat",
-        "openai/gpt-5.3-chat-20260303",
-        "openai/gpt-5-3-chat-20260303",
-        "gpt-5.3-chat",
-        "gpt-5-3-chat",
-        "gpt-5.3-chat-latest",
-        "gpt-5-3-chat-latest",
-        "azure/gpt-5.3-chat",
-        "azure/gpt-5-3-chat"
-      ],
-      "providerID": "codex",
-      "family": "gpt-5",
-      "inputCostPerMillionUSD": 1.75,
-      "outputCostPerMillionUSD": 14.0,
-      "cacheReadCostPerMillionUSD": 0.175,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly · context=128000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=128000, max_output=16384",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
