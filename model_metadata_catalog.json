@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-10T02:34:43.761016+00:00",
+  "generatedAt": "2026-08-10T08:04:08.258246+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1709,9 +1709,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.09,
+      "inputCostPerMillionUSD": 0.08,
       "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows. · context=1048576",
       "brandAssetName": "deepseek",
@@ -6866,7 +6866,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0976,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
