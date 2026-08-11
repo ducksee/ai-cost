@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-11T07:37:32.665220+00:00",
+  "generatedAt": "2026-08-11T13:42:58.321164+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1726,9 +1726,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.079996,
-      "outputCostPerMillionUSD": 0.252,
-      "cacheReadCostPerMillionUSD": 0.0252,
+      "inputCostPerMillionUSD": 0.0798,
+      "outputCostPerMillionUSD": 0.1596,
+      "cacheReadCostPerMillionUSD": 0.01596,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3100,7 +3100,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -6841,7 +6841,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.0976,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8542,6 +8542,29 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=128000",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "displayName": "Nemotron 3.5 Lightning (free)",
+      "aliases": [
+        "nvidia/nemotron-3.5-lightning:free",
+        "nvidia/nemotron-3-5-lightning:free",
+        "nvidia/nemotron-3.5-lightning-20260807",
+        "nvidia/nemotron-3-5-lightning-20260807",
+        "nemotron-3.5-lightning-(free)",
+        "nemotron-3-5-lightning-(free)",
+        "nemotron-3.5-lightning:free",
+        "nemotron-3-5-lightning:free"
+      ],
+      "providerID": "nvidia",
+      "family": "nemotron-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
