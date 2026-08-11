@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-10T19:17:10.443634+00:00",
+  "generatedAt": "2026-08-11T02:27:51.807263+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1353,8 +1353,8 @@
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
-      "inputCostPerMillionUSD": 3,
-      "outputCostPerMillionUSD": 15,
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
       "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
@@ -1373,8 +1373,8 @@
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
-      "inputCostPerMillionUSD": 3,
-      "outputCostPerMillionUSD": 15,
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "claude",
@@ -6841,7 +6841,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0976,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8111,6 +8111,24 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</ins · context=262144 · LiteLLM max_input=16000, max_output=16000"
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "displayName": "Muse Glimmer 30B",
+      "aliases": [
+        "meta/muse-glimmer-30b",
+        "meta/muse-glimmer-30b-20260810",
+        "muse-glimmer-30b"
+      ],
+      "providerID": "meta",
+      "family": "muse-glimmer",
+      "inputCostPerMillionUSD": 0.35,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
     },
     {
       "id": "meta/muse-spark-1.1",
@@ -9988,7 +10006,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It d · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -10620,6 +10638,23 @@
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational effici · context=131072"
+    },
+    {
+      "id": "upstage/solar-pro4",
+      "displayName": "Solar Pro 4",
+      "aliases": [
+        "upstage/solar-pro4",
+        "upstage/solar-pro4-20260810",
+        "solar-pro-4",
+        "solar-pro4"
+      ],
+      "providerID": "upstage",
+      "family": "solar-pro4",
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Solar Pro 4 is a large language model from Upstage. It is suited for agentic workflows, office productivity, document-intensive work, and coding. · context=524288"
     },
     {
       "id": "perplexity/sonar",
