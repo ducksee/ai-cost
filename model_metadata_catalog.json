@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-11T13:42:58.321164+00:00",
+  "generatedAt": "2026-08-11T19:20:09.400171+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1726,9 +1726,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0798,
-      "outputCostPerMillionUSD": 0.1596,
-      "cacheReadCostPerMillionUSD": 0.01596,
+      "inputCostPerMillionUSD": 0.072,
+      "outputCostPerMillionUSD": 0.144,
+      "cacheReadCostPerMillionUSD": 0.0144,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3100,7 +3100,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.11,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -8546,6 +8546,27 @@
       "organizationName": "Nvidia"
     },
     {
+      "id": "nvidia/nemotron-3.5-lightning",
+      "displayName": "Nemotron 3.5 Lightning",
+      "aliases": [
+        "nvidia/nemotron-3.5-lightning",
+        "nvidia/nemotron-3-5-lightning",
+        "nvidia/nemotron-3.5-lightning-20260807",
+        "nvidia/nemotron-3-5-lightning-20260807",
+        "nemotron-3.5-lightning",
+        "nemotron-3-5-lightning"
+      ],
+      "providerID": "nvidia",
+      "family": "nemotron-3",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
+    },
+    {
       "id": "nvidia/nemotron-3.5-lightning:free",
       "displayName": "Nemotron 3.5 Lightning (free)",
       "aliases": [
@@ -10603,6 +10624,27 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of... · context=262144",
+      "brandAssetName": "bytedance",
+      "organizationName": "Bytedance"
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-code",
+      "displayName": "Seed-2.0-Code",
+      "aliases": [
+        "bytedance-seed/seed-2.0-code",
+        "bytedance-seed/seed-2-0-code",
+        "bytedance-seed/seed-2.0-code-20260730",
+        "bytedance-seed/seed-2-0-code-20260730",
+        "seed-2.0-code",
+        "seed-2-0-code"
+      ],
+      "providerID": "bytedance",
+      "family": "seed-2",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 3.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude... · context=262144",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
