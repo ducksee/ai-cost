@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-11T19:20:09.400171+00:00",
+  "generatedAt": "2026-08-12T02:44:49.814933+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -579,7 +579,8 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "claude",
-      "organizationName": "Claude"
+      "organizationName": "Claude",
+      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
       "id": "anthropic/claude-opus-4",
@@ -3100,7 +3101,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -5770,7 +5771,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -6076,7 +6077,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6118,7 +6119,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=2000000, max_output=2000000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6181,7 +6182,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6324,7 +6325,9 @@
         "x-ai/grok-build-0.1-20260520",
         "x-ai/grok-build-0-1-20260520",
         "grok-build-0.1",
-        "grok-build-0-1"
+        "grok-build-0-1",
+        "xai/grok-build-0.1",
+        "xai/grok-build-0-1"
       ],
       "providerID": "xai",
       "family": "grok-build",
@@ -6332,7 +6335,7 @@
       "outputCostPerMillionUSD": 2,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding... · context=256000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding... · context=256000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=256000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6374,7 +6377,7 @@
       "outputCostPerMillionUSD": 2,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6841,7 +6844,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0976,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -6978,6 +6981,26 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "displayName": "LFM2.5-2.6B (free)",
+      "aliases": [
+        "liquid/lfm-2.5-2.6b:free",
+        "liquid/lfm-2-5-2.6b:free",
+        "liquid/lfm-2.5-2.6b-20260811",
+        "liquid/lfm-2-5-2.6b-20260811",
+        "lfm2.5-2.6b-(free)",
+        "lfm-2.5-2.6b:free",
+        "lfm-2-5-2.6b:free"
+      ],
+      "providerID": "liquid",
+      "family": "lfm-2",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=128000"
     },
     {
       "id": "inclusionai/ling-3.0-tiny:free",
@@ -7999,7 +8022,8 @@
         "mistralai/mistral-small-2603",
         "mistral-small-4",
         "mistral-small-2603",
-        "mistral-small-latest"
+        "mistral-small-latest",
+        "mistral/mistral-small-2603"
       ],
       "providerID": "mistral",
       "family": "mistral-small",
@@ -8007,7 +8031,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144",
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9924,7 +9948,7 @@
       "family": "qwen3-vl",
       "inputCostPerMillionUSD": 0.4,
       "outputCostPerMillionUSD": 1.6,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document  · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=32768",
       "brandAssetName": "qwen",
