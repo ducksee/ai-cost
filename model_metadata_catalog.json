@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-12T13:47:31.186887+00:00",
+  "generatedAt": "2026-08-12T19:26:16.938778+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1714,7 +1714,7 @@
       "outputCostPerMillionUSD": 0.18,
       "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows. · context=1048576",
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1748,6 +1748,24 @@
       "cacheReadCostPerMillionUSD": 0.145,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "displayName": "DeepSeek V4 Pro 0813",
+      "aliases": [
+        "deepseek/deepseek-v4-pro-0813",
+        "deepseek/deepseek-v4-pro-20260813",
+        "deepseek-v4-pro-0813"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.435,
+      "outputCostPerMillionUSD": 0.87,
+      "cacheReadCostPerMillionUSD": 0.003625,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -6270,7 +6288,7 @@
       "outputCostPerMillionUSD": 6,
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Grok 4.5 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6313,6 +6331,27 @@
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "displayName": "Grok 4.6",
+      "aliases": [
+        "x-ai/grok-4.6",
+        "x-ai/grok-4-6",
+        "x-ai/grok-4.6-20260810",
+        "x-ai/grok-4-6-20260810",
+        "grok-4.6",
+        "grok-4-6"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Grok 4.6 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6410,7 +6449,7 @@
       "family": "grok-latest",
       "inputCostPerMillionUSD": 2.0,
       "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest Grok model from xAI. · context=500000"
     },
@@ -10388,6 +10427,24 @@
       "organizationName": "Qwen"
     },
     {
+      "id": "qwen/qwen3.8-2.4t-a95b",
+      "displayName": "Qwen3.8 2.4T A95B",
+      "aliases": [
+        "qwen/qwen3.8-2.4t-a95b",
+        "qwen/qwen3.8-2.4t-a95b-20260812",
+        "qwen3.8-2.4t-a95b"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=262144",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
       "id": "qwen/qwen3.8-max",
       "displayName": "Qwen3.8 Max",
       "aliases": [
@@ -10648,6 +10705,27 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of... · context=262144",
+      "brandAssetName": "bytedance",
+      "organizationName": "Bytedance"
+    },
+    {
+      "id": "bytedance-seed/seed-2-1-turbo",
+      "displayName": "Seed 2.1 Turbo",
+      "aliases": [
+        "bytedance-seed/seed-2-1-turbo",
+        "bytedance-seed/seed-2.1-turbo",
+        "bytedance-seed/seed-2-1-turbo-20260810",
+        "bytedance-seed/seed-2.1-turbo-20260810",
+        "seed-2.1-turbo",
+        "seed-2-1-turbo"
+      ],
+      "providerID": "bytedance",
+      "family": "seed-2",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
