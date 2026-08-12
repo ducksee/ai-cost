@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-12T02:44:49.814933+00:00",
+  "generatedAt": "2026-08-12T07:52:55.659538+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1727,9 +1727,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.072,
-      "outputCostPerMillionUSD": 0.144,
-      "cacheReadCostPerMillionUSD": 0.0144,
+      "inputCostPerMillionUSD": 0.079996,
+      "outputCostPerMillionUSD": 0.252,
+      "cacheReadCostPerMillionUSD": 0.0252,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
