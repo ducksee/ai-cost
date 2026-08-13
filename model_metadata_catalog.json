@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T07:53:27.660565+00:00",
+  "generatedAt": "2026-08-13T13:48:29.353478+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6925,7 +6925,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.1088,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -9971,7 +9971,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -10459,7 +10459,7 @@
       "family": "qwen3-8",
       "inputCostPerMillionUSD": 2.0,
       "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1000000",
       "brandAssetName": "qwen",
@@ -10858,7 +10858,7 @@
       "outputCostPerMillionUSD": 0.12,
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Solar Pro 4 is a large language model from Upstage. It is suited for agentic workflows, office productivity, document-intensive work, and coding. · context=524288"
+      "notes": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive · context=524288"
     },
     {
       "id": "perplexity/sonar",
