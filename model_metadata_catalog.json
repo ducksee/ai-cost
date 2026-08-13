@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-13T13:48:29.353478+00:00",
+  "generatedAt": "2026-08-13T19:21:28.945666+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1706,15 +1706,16 @@
       "aliases": [
         "deepseek/deepseek-v4-flash-0731",
         "deepseek/deepseek-v4-flash-20260731",
-        "deepseek-v4-flash-0731"
+        "deepseek-v4-flash-0731",
+        "dashscope/deepseek-v4-flash-0731"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.08,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.016,
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576",
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1727,9 +1728,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.079996,
-      "outputCostPerMillionUSD": 0.252,
-      "cacheReadCostPerMillionUSD": 0.0252,
+      "inputCostPerMillionUSD": 0.072,
+      "outputCostPerMillionUSD": 0.144,
+      "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2821,7 +2822,7 @@
       "inputCostPerMillionUSD": 1.5,
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.15,
-      "cacheWriteCostPerMillionUSD": 0.083333,
+      "cacheWriteCostPerMillionUSD": 0.041667,
       "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
@@ -2864,11 +2865,80 @@
       ],
       "providerID": "gemini",
       "family": "gemini-3",
-      "inputCostPerMillionUSD": 0.75,
-      "outputCostPerMillionUSD": 3.75,
-      "cacheReadCostPerMillionUSD": 0.075,
-      "cacheWriteCostPerMillionUSD": 0.083333,
+      "inputCostPerMillionUSD": 0.375,
+      "outputCostPerMillionUSD": 1.875,
+      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheWriteCostPerMillionUSD": 0.041667,
       "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "displayName": "Gemini 3.7 Flash",
+      "aliases": [
+        "google/gemini-3.7-flash",
+        "google/gemini-3-7-flash",
+        "google/gemini-3.7-flash-20260813",
+        "google/gemini-3-7-flash-20260813",
+        "gemini-3.7-flash",
+        "gemini-3-7-flash",
+        "vertex-ai/gemini-3.7-flash",
+        "vertex-ai/gemini-3-7-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": 0.020833,
+      "notes": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "gemini/gemini-3.7-flash",
+      "displayName": "Gemini 3.7 Flash",
+      "aliases": [
+        "gemini-3.7-flash",
+        "gemini-3-7-flash",
+        "google/gemini-3.7-flash",
+        "google/gemini-3-7-flash",
+        "gemini/gemini-3.7-flash",
+        "gemini/gemini-3-7-flash",
+        "vertex-ai/gemini-3.7-flash",
+        "vertex-ai/gemini-3-7-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.7-flash:batch",
+      "displayName": "Gemini 3.7 Flash (batch)",
+      "aliases": [
+        "google/gemini-3.7-flash:batch",
+        "google/gemini-3-7-flash:batch",
+        "google/gemini-3.7-flash-20260813",
+        "google/gemini-3-7-flash-20260813",
+        "gemini-3.7-flash-(batch)",
+        "gemini-3-7-flash-(batch)",
+        "gemini-3.7-flash:batch",
+        "gemini-3-7-flash:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.1875,
+      "outputCostPerMillionUSD": 0.9375,
+      "cacheReadCostPerMillionUSD": 0.01875,
+      "cacheWriteCostPerMillionUSD": 0.020833,
+      "notes": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3235,16 +3305,16 @@
         "z-ai/glm-5-1-20260406",
         "glm-5.1",
         "glm-5-1",
-        "openrouter/z-ai/glm-5.1",
-        "openrouter/z-ai/glm-5-1"
+        "dashscope/glm-5.1",
+        "dashscope/glm-5-1"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 1.05,
-      "outputCostPerMillionUSD": 3.5,
-      "cacheReadCostPerMillionUSD": 0.525,
+      "inputCostPerMillionUSD": 1.4,
+      "outputCostPerMillionUSD": 4.4,
+      "cacheReadCostPerMillionUSD": 0.26,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=202752, max_output=65535"
+      "notes": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and co · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=202745, max_output=131072"
     },
     {
       "id": "z-ai/glm-5.2",
@@ -3316,7 +3386,7 @@
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.075,
-      "cacheWriteCostPerMillionUSD": 0.083333,
+      "cacheWriteCostPerMillionUSD": 0.020833,
       "notes": "This model always redirects to the latest model in the Google Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing"
     },
     {
@@ -6925,7 +6995,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.1088,
+      "cacheReadCostPerMillionUSD": 0.0944,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8638,15 +8708,17 @@
         "nvidia/nemotron-3.5-lightning-20260807",
         "nvidia/nemotron-3-5-lightning-20260807",
         "nemotron-3.5-lightning",
-        "nemotron-3-5-lightning"
+        "nemotron-3-5-lightning",
+        "openrouter/nvidia/nemotron-3.5-lightning",
+        "openrouter/nvidia/nemotron-3-5-lightning"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.25,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1048576",
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10288,15 +10360,15 @@
         "qwen/qwen3.6-27b",
         "qwen/qwen3.6-27b-20260422",
         "qwen3.6-27b",
-        "libertai/qwen3.6-27b"
+        "groq/qwen/qwen3.6-27b"
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 0.6,
+      "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -10471,7 +10543,8 @@
       "aliases": [
         "qwen/qwen3.8-max",
         "qwen/qwen3.8-max-20260803",
-        "qwen3.8-max"
+        "qwen3.8-max",
+        "dashscope/qwen3.8-max"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
@@ -10479,7 +10552,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,... · context=1000000",
+      "notes": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -10497,7 +10570,7 @@
       "outputCostPerMillionUSD": 2.19,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.... · context=163840 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=65536, max_output=8192",
+      "notes": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.... · context=64000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=65536, max_output=8192",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
