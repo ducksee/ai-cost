@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-14T07:50:40.518651+00:00",
+  "generatedAt": "2026-08-14T13:43:29.894854+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -10306,7 +10306,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.225,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
