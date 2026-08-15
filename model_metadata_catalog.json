@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-15T01:49:41.757922+00:00",
+  "generatedAt": "2026-08-15T06:57:52.748975+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1728,9 +1728,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0798,
-      "outputCostPerMillionUSD": 0.1596,
-      "cacheReadCostPerMillionUSD": 0.01596,
+      "inputCostPerMillionUSD": 0.07826,
+      "outputCostPerMillionUSD": 0.15652,
+      "cacheReadCostPerMillionUSD": 0.015652,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -1769,6 +1769,23 @@
       "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "displayName": "Dots3-Note Preview (free)",
+      "aliases": [
+        "dots-studio/dots-3-note-preview:free",
+        "dots-studio/dots-3-note-preview-20260813",
+        "dots3-note-preview-(free)",
+        "dots-3-note-preview:free"
+      ],
+      "providerID": "dots-studio",
+      "family": "dots-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is... · context=512000"
     },
     {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -6688,9 +6705,9 @@
       ],
       "providerID": "tencent",
       "family": "hy3-preview",
-      "inputCostPerMillionUSD": 0.063,
-      "outputCostPerMillionUSD": 0.21,
-      "cacheReadCostPerMillionUSD": 0.021,
+      "inputCostPerMillionUSD": 0.18,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144",
       "brandAssetName": "tencent",
