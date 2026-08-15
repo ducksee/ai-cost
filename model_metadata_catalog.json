@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-15T12:59:21.271366+00:00",
+  "generatedAt": "2026-08-15T18:47:29.273648+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1728,9 +1728,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.06846,
-      "outputCostPerMillionUSD": 0.13692,
-      "cacheReadCostPerMillionUSD": 0.013692,
+      "inputCostPerMillionUSD": 0.0675,
+      "outputCostPerMillionUSD": 0.135,
+      "cacheReadCostPerMillionUSD": 0.0135,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -9632,10 +9632,10 @@
       ],
       "providerID": "qwen",
       "family": "qwen-plus",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 1.2,
+      "inputCostPerMillionUSD": 0.26,
+      "outputCostPerMillionUSD": 0.78,
       "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination. · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
