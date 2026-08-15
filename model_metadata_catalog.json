@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-14T19:14:18.817247+00:00",
+  "generatedAt": "2026-08-15T01:49:41.757922+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3273,7 +3273,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 3.15,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programmi · context=204800",
       "brandAssetName": "zai",
@@ -6995,7 +6995,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0944,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -10534,6 +10534,24 @@
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "displayName": "Qwen3.8 27B",
+      "aliases": [
+        "qwen/qwen3.8-27b",
+        "qwen/qwen3.8-27b-20260814",
+        "qwen3.8-27b"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 0.45,
+      "outputCostPerMillionUSD": 3.2,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
