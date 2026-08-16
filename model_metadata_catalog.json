@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-15T18:47:29.273648+00:00",
+  "generatedAt": "2026-08-16T01:57:23.260312+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1696,7 +1696,7 @@
       "outputCostPerMillionUSD": 0.28,
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1748,7 +1748,7 @@
       "outputCostPerMillionUSD": 3.48,
       "cacheReadCostPerMillionUSD": 0.145,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -6301,8 +6301,8 @@
         "x-ai/grok-4-3-20260430",
         "grok-4.3",
         "grok-4-3",
-        "xai/grok-4.3",
-        "xai/grok-4-3"
+        "azure-ai/grok-4.3",
+        "azure-ai/grok-4-3"
       ],
       "providerID": "xai",
       "family": "grok-4",
@@ -6310,7 +6310,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=200000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6344,7 +6344,9 @@
         "xai/grok-4.3",
         "xai/grok-4-3",
         "grok-4.3-≤200k",
-        "grok-4-3-≤200k"
+        "grok-4-3-≤200k",
+        "azure-ai/grok-4.3",
+        "azure-ai/grok-4-3"
       ],
       "providerID": "xai",
       "family": "grok-4",
@@ -6352,7 +6354,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=200000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6430,7 +6432,9 @@
         "x-ai/grok-4.6-20260810",
         "x-ai/grok-4-6-20260810",
         "grok-4.6",
-        "grok-4-6"
+        "grok-4-6",
+        "xai/grok-4.6",
+        "xai/grok-4-6"
       ],
       "providerID": "xai",
       "family": "grok-4",
@@ -6438,7 +6442,7 @@
       "outputCostPerMillionUSD": 6,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.6 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Grok 4.6 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6480,7 +6484,7 @@
       "outputCostPerMillionUSD": 6,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -7012,7 +7016,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0912,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8358,7 +8362,7 @@
       "outputCostPerMillionUSD": 4.25,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Muse Spark 1.2 is a reasoning model from Meta, designed for complex agentic tasks. It accepts text, images, video, audio, and PDF documents, returns text, and offers a 1M-token context... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -8369,7 +8373,9 @@
         "muse-spark-1.2",
         "muse-spark-1-2",
         "meta-ai/muse-spark-1.2",
-        "meta-ai/muse-spark-1-2"
+        "meta-ai/muse-spark-1-2",
+        "meta/muse-spark-1.2",
+        "meta/muse-spark-1-2"
       ],
       "providerID": "meta-ai",
       "family": "muse-spark",
@@ -8377,7 +8383,7 @@
       "outputCostPerMillionUSD": 4.25,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "meta-ai/muse-spark-1.2-contributor",
@@ -8386,7 +8392,9 @@
         "muse-spark-1.2-contributor",
         "muse-spark-1-2-contributor",
         "meta-ai/muse-spark-1.2-contributor",
-        "meta-ai/muse-spark-1-2-contributor"
+        "meta-ai/muse-spark-1-2-contributor",
+        "meta/muse-spark-1.2-contributor",
+        "meta/muse-spark-1-2-contributor"
       ],
       "providerID": "meta-ai",
       "family": "muse-spark",
@@ -8394,7 +8402,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -10383,7 +10391,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
