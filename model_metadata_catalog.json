@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-17T01:55:23.375553+00:00",
+  "generatedAt": "2026-08-17T07:16:22.553746+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1715,7 +1715,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216",
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1732,7 +1732,7 @@
       "outputCostPerMillionUSD": 0.1206,
       "cacheReadCostPerMillionUSD": 0.01206,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
+      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -3207,7 +3207,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -10411,7 +10411,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
