@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-18T13:08:08.213363+00:00",
+  "generatedAt": "2026-08-18T18:56:42.499291+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3373,6 +3373,25 @@
       "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=512000"
+    },
+    {
+      "id": "z-ai/glm-5.2:free",
+      "displayName": "GLM 5.2 (free)",
+      "aliases": [
+        "z-ai/glm-5.2:free",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2-(free)",
+        "glm-5-2-(free)",
+        "glm-5.2:free"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=256000"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -7017,7 +7036,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0976,
+      "cacheReadCostPerMillionUSD": 0.0944,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -7154,6 +7173,26 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "displayName": "LFM2.5-2.6B (free)",
+      "aliases": [
+        "liquid/lfm-2.5-2.6b:free",
+        "liquid/lfm-2-5-2.6b:free",
+        "liquid/lfm-2.5-2.6b-20260811",
+        "liquid/lfm-2-5-2.6b-20260811",
+        "lfm2.5-2.6b-(free)",
+        "lfm-2.5-2.6b:free",
+        "lfm-2-5-2.6b:free"
+      ],
+      "providerID": "liquid",
+      "family": "lfm-2",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=128000"
     },
     {
       "id": "inclusionai/ling-2.6-1t",
