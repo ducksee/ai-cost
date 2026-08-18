@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-18T07:04:10.677343+00:00",
+  "generatedAt": "2026-08-18T13:08:08.213363+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1763,9 +1763,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 1.32,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.044,
+      "inputCostPerMillionUSD": 0.66,
+      "outputCostPerMillionUSD": 1.98,
+      "cacheReadCostPerMillionUSD": 0.022,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576",
       "brandAssetName": "deepseek",
@@ -3373,25 +3373,6 @@
       "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=512000"
-    },
-    {
-      "id": "z-ai/glm-5.2:free",
-      "displayName": "GLM 5.2 (free)",
-      "aliases": [
-        "z-ai/glm-5.2:free",
-        "z-ai/glm-5.2-20260616",
-        "z-ai/glm-5-2-20260616",
-        "glm-5.2-(free)",
-        "glm-5-2-(free)",
-        "glm-5.2:free"
-      ],
-      "providerID": "z-ai",
-      "family": "glm-5",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=128000"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -7036,7 +7017,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.0976,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -10391,7 +10372,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
