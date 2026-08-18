@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-18T01:50:52.543975+00:00",
+  "generatedAt": "2026-08-18T07:04:10.677343+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -7173,26 +7173,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
-    },
-    {
-      "id": "liquid/lfm-2.5-2.6b:free",
-      "displayName": "LFM2.5-2.6B (free)",
-      "aliases": [
-        "liquid/lfm-2.5-2.6b:free",
-        "liquid/lfm-2-5-2.6b:free",
-        "liquid/lfm-2.5-2.6b-20260811",
-        "liquid/lfm-2-5-2.6b-20260811",
-        "lfm2.5-2.6b-(free)",
-        "lfm-2.5-2.6b:free",
-        "lfm-2-5-2.6b:free"
-      ],
-      "providerID": "liquid",
-      "family": "lfm-2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=128000"
     },
     {
       "id": "inclusionai/ling-2.6-1t",
