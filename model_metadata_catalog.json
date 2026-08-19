@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-19T13:08:59.584361+00:00",
+  "generatedAt": "2026-08-19T18:53:22.601778+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3429,6 +3429,21 @@
       "notes": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex cod · context=202752"
     },
     {
+      "id": "~z-ai/glm-latest",
+      "displayName": "GLM Latest",
+      "aliases": [
+        "~z-ai/glm-latest",
+        "glm-latest"
+      ],
+      "providerID": "~z-ai",
+      "family": "glm-latest",
+      "inputCostPerMillionUSD": 1.4,
+      "outputCostPerMillionUSD": 4.4,
+      "cacheReadCostPerMillionUSD": 0.26,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "displayName": "Google Gemini Flash Latest",
       "aliases": [
@@ -6806,25 +6821,6 @@
       "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288"
     },
     {
-      "id": "ai21/jamba-large-1.7",
-      "displayName": "Jamba Large 1.7",
-      "aliases": [
-        "ai21/jamba-large-1.7",
-        "ai21/jamba-large-1-7",
-        "jamba-large-1.7",
-        "jamba-large-1-7"
-      ],
-      "providerID": "ai21",
-      "family": "jamba-large",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Jamba Large 1.7 is the latest model in the Jamba open family, offering improvements in grounding, instruction-following, and overall efficiency. Built on a hybrid SSM-Transformer architecture with a 256K context... · context=256000 · LiteLLM max_input=256000, max_output=256000",
-      "brandAssetName": "ai21",
-      "organizationName": "AI21 Labs"
-    },
-    {
       "id": "kwaipilot/kat-coder-air-v2.5",
       "displayName": "KAT-Coder-Air V2.5",
       "aliases": [
@@ -7055,7 +7051,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.1584,
+      "cacheReadCostPerMillionUSD": 0.0912,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
