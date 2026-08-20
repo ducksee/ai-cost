@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-20T13:11:18.101083+00:00",
+  "generatedAt": "2026-08-20T18:59:10.000096+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6736,6 +6736,42 @@
       "organizationName": "Tencent"
     },
     {
+      "id": "tencent/hy-mt2-1.8b",
+      "displayName": "Hy-MT2-1.8B",
+      "aliases": [
+        "tencent/hy-mt2-1.8b",
+        "tencent/hy-mt2-1.8b-20260521",
+        "hy-mt2-1.8b"
+      ],
+      "providerID": "tencent",
+      "family": "hy-mt2",
+      "inputCostPerMillionUSD": 0.044,
+      "outputCostPerMillionUSD": 0.177,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glos · context=8192",
+      "brandAssetName": "tencent",
+      "organizationName": "Tencent"
+    },
+    {
+      "id": "tencent/hy-mt2-30b-a3b",
+      "displayName": "Hy-MT2-30B-A3B",
+      "aliases": [
+        "tencent/hy-mt2-30b-a3b",
+        "tencent/hy-mt2-30b-a3b-20260521",
+        "hy-mt2-30b-a3b"
+      ],
+      "providerID": "tencent",
+      "family": "hy-mt2",
+      "inputCostPerMillionUSD": 0.074,
+      "outputCostPerMillionUSD": 0.295,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=8192",
+      "brandAssetName": "tencent",
+      "organizationName": "Tencent"
+    },
+    {
       "id": "tencent/hy3",
       "displayName": "Hy3",
       "aliases": [
@@ -7051,7 +7087,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.1584,
+      "cacheReadCostPerMillionUSD": 0.0944,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -7857,6 +7893,24 @@
       "outputCostPerMillionUSD": 0.04,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/ministral-8b",
+      "displayName": "Ministral 8B",
+      "aliases": [
+        "mistralai/ministral-8b",
+        "ministral-8b",
+        "vercel-ai-gateway/mistral/ministral-8b"
+      ],
+      "providerID": "mistral",
+      "family": "ministral-8b",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length... · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=4000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -8778,7 +8832,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
