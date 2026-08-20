@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-19T18:53:22.601778+00:00",
+  "generatedAt": "2026-08-20T01:51:34.904787+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1728,9 +1728,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0765,
-      "outputCostPerMillionUSD": 0.153,
-      "cacheReadCostPerMillionUSD": 0.0153,
+      "inputCostPerMillionUSD": 0.065,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -1763,9 +1763,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.66,
-      "outputCostPerMillionUSD": 1.98,
-      "cacheReadCostPerMillionUSD": 0.022,
+      "inputCostPerMillionUSD": 1.188,
+      "outputCostPerMillionUSD": 3.564,
+      "cacheReadCostPerMillionUSD": 0.0396,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576",
       "brandAssetName": "deepseek",
@@ -7051,7 +7051,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0912,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -10611,7 +10611,7 @@
       "outputCostPerMillionUSD": 3.2,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11237,23 +11237,6 @@
       "notes": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio underst · context=32000 · LiteLLM max_input=32000, max_output=16384",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
-    },
-    {
-      "id": "mancer/weaver",
-      "displayName": "Weaver (alpha)",
-      "aliases": [
-        "mancer/weaver",
-        "weaver-(alpha)",
-        "weaver",
-        "openrouter/mancer/weaver"
-      ],
-      "providerID": "mancer",
-      "family": "weaver",
-      "inputCostPerMillionUSD": 5.625,
-      "outputCostPerMillionUSD": 5.625,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations. · context=8000 · LiteLLM max_input=8000, max_output=2000"
     },
     {
       "id": "microsoft/wizardlm-2-8x22b",
