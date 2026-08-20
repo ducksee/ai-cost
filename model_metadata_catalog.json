@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-20T01:51:34.904787+00:00",
+  "generatedAt": "2026-08-20T07:06:33.056232+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1729,8 +1729,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.065,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "outputCostPerMillionUSD": 0.14,
+      "cacheReadCostPerMillionUSD": 0.014,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -10426,7 +10426,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
