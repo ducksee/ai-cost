@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-21T01:57:30.064605+00:00",
+  "generatedAt": "2026-08-21T07:08:03.934161+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1437,7 +1437,7 @@
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000 · LiteLLM supports_function_calling, max_input=256000, max_output=256000",
+      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000 · LiteLLM supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -1729,8 +1729,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.065,
-      "outputCostPerMillionUSD": 0.14,
-      "cacheReadCostPerMillionUSD": 0.014,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -1759,15 +1759,16 @@
       "aliases": [
         "deepseek/deepseek-v4-pro-0813",
         "deepseek/deepseek-v4-pro-20260813",
-        "deepseek-v4-pro-0813"
+        "deepseek-v4-pro-0813",
+        "openrouter/deepseek/deepseek-v4-pro-0813"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 1.188,
-      "outputCostPerMillionUSD": 3.564,
+      "inputCostPerMillionUSD": 1.32,
+      "outputCostPerMillionUSD": 3.96,
       "cacheReadCostPerMillionUSD": 0.0396,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576",
+      "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=384000",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -5445,7 +5446,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": 0.25,
-      "notes": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning  · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning  · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5560,7 +5561,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5583,7 +5584,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 3.125,
-      "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5698,7 +5699,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5721,7 +5722,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5836,7 +5837,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7244,7 +7245,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=128000"
+      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536"
     },
     {
       "id": "inclusionai/ling-2.6-1t",
@@ -8200,7 +8201,7 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "mistral",
       "organizationName": "Mistral",
-      "notes": "LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072"
+      "notes": "LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
       "id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -8272,7 +8273,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -8383,15 +8384,16 @@
       "aliases": [
         "meta/muse-glimmer-30b",
         "meta/muse-glimmer-30b-20260810",
-        "muse-glimmer-30b"
+        "muse-glimmer-30b",
+        "fireworks-ai/muse-glimmer-30b"
       ],
       "providerID": "meta",
       "family": "muse-glimmer",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.1,
+      "inputCostPerMillionUSD": 0.35,
+      "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072",
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -8597,7 +8599,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image gener · context=65536",
+      "notes": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image gener · context=65536 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=65536, max_output=4096",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
