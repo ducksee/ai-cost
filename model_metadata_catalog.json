@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-21T07:08:03.934161+00:00",
+  "generatedAt": "2026-08-21T13:11:06.144609+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1733,6 +1733,24 @@
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "displayName": "DeepSeek V4 Flash Vision Exp",
+      "aliases": [
+        "deepseek/deepseek-v4-flash-vision-exp",
+        "deepseek/deepseek-v4-flash-vision-exp-20260821",
+        "deepseek-v4-flash-vision-exp"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.66,
+      "cacheReadCostPerMillionUSD": 0.007,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
     },
     {
       "id": "deepseek/deepseek-v4-pro",
@@ -7088,7 +7106,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.1584,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
