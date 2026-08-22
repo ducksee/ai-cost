@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-22T06:59:10.808518+00:00",
+  "generatedAt": "2026-08-22T13:01:03.706168+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -247,6 +247,25 @@
       "brandAssetName": "codex",
       "organizationName": "OpenAI",
       "notes": "LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=4096"
+    },
+    {
+      "id": "codex/chat-latest",
+      "displayName": "ChatGPT Latest (chat-latest)",
+      "aliases": [
+        "chat-latest",
+        "openai/chat-latest",
+        "codex/chat-latest",
+        "chatgpt-latest-(chat-latest)"
+      ],
+      "providerID": "codex",
+      "family": "chat-latest",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 30.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "anthropic/claude-3-haiku",
@@ -1728,9 +1747,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 1.32,
-      "cacheReadCostPerMillionUSD": 0.014,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.66,
+      "cacheReadCostPerMillionUSD": 0.007,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
       "brandAssetName": "deepseek",
@@ -4495,6 +4514,24 @@
       "organizationName": "Codex"
     },
     {
+      "id": "codex/gpt-5-search-api",
+      "displayName": "GPT-5 Search API",
+      "aliases": [
+        "gpt-5-search-api",
+        "openai/gpt-5-search-api",
+        "codex/gpt-5-search-api"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5.1",
       "displayName": "GPT-5.1",
       "aliases": [
@@ -4877,6 +4914,29 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "codex/gpt-5.3-codex",
+      "displayName": "GPT-5.3 Codex",
+      "aliases": [
+        "gpt-5.3-codex",
+        "gpt-5-3-codex",
+        "openai/gpt-5.3-codex",
+        "openai/gpt-5-3-codex",
+        "codex/gpt-5.3-codex",
+        "codex/gpt-5-3-codex",
+        "azure/gpt-5.3-codex",
+        "azure/gpt-5-3-codex"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 1.75,
+      "outputCostPerMillionUSD": 14.0,
+      "cacheReadCostPerMillionUSD": 0.175,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "OpenAI"
+    },
+    {
       "id": "openai/gpt-5.3-codex",
       "displayName": "GPT-5.3-Codex",
       "aliases": [
@@ -4895,7 +4955,7 @@
       "outputCostPerMillionUSD": 14.0,
       "cacheReadCostPerMillionUSD": 0.175,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2. It ach · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
+      "notes": "GPT-5.3-Codex is OpenAI’s most advanced agentic coding model, combining the frontier software engineering performance of GPT-5.2-Codex with the broader reasoning and professional knowledge capabilities of GPT-5.2. It ach · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -5312,6 +5372,27 @@
       "organizationName": "Codex"
     },
     {
+      "id": "codex/gpt-5.5-cyber",
+      "displayName": "GPT-5.5 Cyber",
+      "aliases": [
+        "gpt-5.5-cyber",
+        "gpt-5-5-cyber",
+        "openai/gpt-5.5-cyber",
+        "openai/gpt-5-5-cyber",
+        "codex/gpt-5.5-cyber",
+        "codex/gpt-5-5-cyber"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 12.5,
+      "outputCostPerMillionUSD": 75.0,
+      "cacheReadCostPerMillionUSD": 1.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-5.5-pro",
       "displayName": "GPT-5.5 Pro",
       "aliases": [
@@ -5426,6 +5507,27 @@
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-5.6-cyber",
+      "displayName": "GPT-5.6 Cyber",
+      "aliases": [
+        "gpt-5.6-cyber",
+        "gpt-5-6-cyber",
+        "openai/gpt-5.6-cyber",
+        "openai/gpt-5-6-cyber",
+        "codex/gpt-5.6-cyber",
+        "codex/gpt-5-6-cyber"
+      ],
+      "providerID": "codex",
+      "family": "gpt-5",
+      "inputCostPerMillionUSD": 12.5,
+      "outputCostPerMillionUSD": 75.0,
+      "cacheReadCostPerMillionUSD": 1.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5582,9 +5684,9 @@
       ],
       "providerID": "codex",
       "family": "gpt-5",
-      "inputCostPerMillionUSD": 5.0,
-      "outputCostPerMillionUSD": 30.0,
-      "cacheReadCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 4.0,
+      "outputCostPerMillionUSD": 20.0,
+      "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": 2.5,
       "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
@@ -5628,9 +5730,9 @@
       ],
       "providerID": "codex",
       "family": "gpt-5",
-      "inputCostPerMillionUSD": 10.0,
-      "outputCostPerMillionUSD": 45.0,
-      "cacheReadCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 8.0,
+      "outputCostPerMillionUSD": 30.0,
+      "cacheReadCostPerMillionUSD": 0.8,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
@@ -5697,9 +5799,9 @@
       ],
       "providerID": "codex",
       "family": "gpt-5",
-      "inputCostPerMillionUSD": 5.0,
-      "outputCostPerMillionUSD": 30.0,
-      "cacheReadCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 4.0,
+      "outputCostPerMillionUSD": 20.0,
+      "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
       "brandAssetName": "codex",
@@ -5878,6 +5980,52 @@
       "inputCostPerMillionUSD": 2,
       "outputCostPerMillionUSD": 8,
       "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-image-1.5-image",
+      "displayName": "gpt-image-1.5 (image gen) image tokens",
+      "aliases": [
+        "gpt-image-1.5-image",
+        "gpt-image-1-5-image",
+        "openai/gpt-image-1.5-image",
+        "openai/gpt-image-1-5-image",
+        "codex/gpt-image-1.5-image",
+        "codex/gpt-image-1-5-image",
+        "gpt-image-1.5-(image-gen)-image-tokens",
+        "gpt-image-1-5-(image-gen)-image-tokens"
+      ],
+      "providerID": "codex",
+      "family": "gpt-image",
+      "inputCostPerMillionUSD": 8,
+      "outputCostPerMillionUSD": 32,
+      "cacheReadCostPerMillionUSD": 2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-image-1.5-text",
+      "displayName": "gpt-image-1.5 (image gen) text tokens",
+      "aliases": [
+        "gpt-image-1.5-text",
+        "gpt-image-1-5-text",
+        "openai/gpt-image-1.5-text",
+        "openai/gpt-image-1-5-text",
+        "codex/gpt-image-1.5-text",
+        "codex/gpt-image-1-5-text",
+        "gpt-image-1.5-(image-gen)-text-tokens",
+        "gpt-image-1-5-(image-gen)-text-tokens"
+      ],
+      "providerID": "codex",
+      "family": "gpt-image",
+      "inputCostPerMillionUSD": 5,
+      "outputCostPerMillionUSD": 10,
+      "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
@@ -9234,8 +9382,8 @@
       ],
       "providerID": "codex",
       "family": "o3",
-      "inputCostPerMillionUSD": 10,
-      "outputCostPerMillionUSD": 40,
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 8,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following.... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000 · Direct vendor pricing with cached-input tier from llm-prices",
@@ -9255,8 +9403,8 @@
       ],
       "providerID": "codex",
       "family": "o3",
-      "inputCostPerMillionUSD": 10,
-      "outputCostPerMillionUSD": 40,
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 8,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
