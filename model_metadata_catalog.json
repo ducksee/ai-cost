@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-22T18:48:58.364184+00:00",
+  "generatedAt": "2026-08-23T01:59:54.644405+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1731,9 +1731,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.065,
+      "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -1787,7 +1787,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 1.32,
       "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.0396,
+      "cacheReadCostPerMillionUSD": 0.0374,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=384000",
       "brandAssetName": "deepseek",
@@ -3520,7 +3520,8 @@
       "displayName": "GPT Audio Mini",
       "aliases": [
         "openai/gpt-audio-mini",
-        "gpt-audio-mini"
+        "gpt-audio-mini",
+        "azure/gpt-audio-mini"
       ],
       "providerID": "codex",
       "family": "gpt-audio",
@@ -6904,6 +6905,24 @@
       "organizationName": "Tencent"
     },
     {
+      "id": "tencent/hy-mt2-7b",
+      "displayName": "Hy-MT2-7B",
+      "aliases": [
+        "tencent/hy-mt2-7b",
+        "tencent/hy-mt2-7b-20260521",
+        "hy-mt2-7b"
+      ],
+      "providerID": "tencent",
+      "family": "hy-mt2",
+      "inputCostPerMillionUSD": 0.074,
+      "outputCostPerMillionUSD": 0.295,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based,  · context=8192",
+      "brandAssetName": "tencent",
+      "organizationName": "Tencent"
+    },
+    {
       "id": "tencent/hy3",
       "displayName": "Hy3",
       "aliases": [
@@ -6949,9 +6968,9 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling",
-      "inputCostPerMillionUSD": 0.95,
+      "inputCostPerMillionUSD": 1.0,
       "outputCostPerMillionUSD": 4.05,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
@@ -7253,7 +7272,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.0912,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8783,9 +8802,9 @@
       "family": "gemini-3",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image gener · context=65536 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=65536, max_output=4096",
+      "notes": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image gener · context=65536 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=4096",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -10134,8 +10153,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-30b",
-      "inputCostPerMillionUSD": 0.13,
-      "outputCostPerMillionUSD": 0.52,
+      "inputCostPerMillionUSD": 0.12,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
@@ -10865,8 +10884,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
-      "inputCostPerMillionUSD": 0.45,
-      "outputCostPerMillionUSD": 3.2,
+      "inputCostPerMillionUSD": 0.4,
+      "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000",
