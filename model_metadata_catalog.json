@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-23T13:02:13.593173+00:00",
+  "generatedAt": "2026-08-23T18:48:44.764023+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1732,8 +1732,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.13,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "outputCostPerMillionUSD": 0.08,
+      "cacheReadCostPerMillionUSD": 0.008,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -6968,9 +6968,9 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling",
-      "inputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.05,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
