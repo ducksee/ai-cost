@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-23T07:01:02.390504+00:00",
+  "generatedAt": "2026-08-23T13:02:13.593173+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -7946,7 +7946,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.06,
+      "cacheReadCostPerMillionUSD": 0.048,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
