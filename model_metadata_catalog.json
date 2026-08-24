@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-24T13:13:12.128173+00:00",
+  "generatedAt": "2026-08-24T18:59:16.809622+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1792,6 +1792,26 @@
       "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=384000",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "displayName": "Devstral 2 2512",
+      "aliases": [
+        "mistralai/devstral-2512",
+        "devstral-2-2512",
+        "devstral-2.2512",
+        "devstral-2512",
+        "mistral/devstral-2512"
+      ],
+      "providerID": "mistral",
+      "family": "devstral-2512",
+      "inputCostPerMillionUSD": 0.4,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.044,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144 · LiteLLM supports_function_calling, max_input=256000, max_output=256000",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -7253,7 +7273,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.5 is Moonshot AI's native multimodal model, delivering state-of-the-art visual coding capability and a self-directed agent swarm paradigm. Built on Kimi K2 with continued pretraining over approximately 15T mixed. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -7908,7 +7928,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.048,
+      "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
