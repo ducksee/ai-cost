@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-24T07:28:46.869916+00:00",
+  "generatedAt": "2026-08-24T13:13:12.128173+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -7432,44 +7432,6 @@
       "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536"
     },
     {
-      "id": "inclusionai/ling-2.6-1t",
-      "displayName": "Ling-2.6-1T",
-      "aliases": [
-        "inclusionai/ling-2.6-1t",
-        "inclusionai/ling-2-6-1t",
-        "inclusionai/ling-2.6-1t-20260423",
-        "inclusionai/ling-2-6-1t-20260423",
-        "ling-2.6-1t",
-        "ling-2-6-1t"
-      ],
-      "providerID": "inclusionai",
-      "family": "ling-2",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.625,
-      "cacheReadCostPerMillionUSD": 0.015,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It uses a “fast... · context=262144"
-    },
-    {
-      "id": "inclusionai/ling-2.6-flash",
-      "displayName": "Ling-2.6-flash",
-      "aliases": [
-        "inclusionai/ling-2.6-flash",
-        "inclusionai/ling-2-6-flash",
-        "inclusionai/ling-2.6-flash-20260421",
-        "inclusionai/ling-2-6-flash-20260421",
-        "ling-2.6-flash",
-        "ling-2-6-flash"
-      ],
-      "providerID": "inclusionai",
-      "family": "ling-2",
-      "inputCostPerMillionUSD": 0.01,
-      "outputCostPerMillionUSD": 0.03,
-      "cacheReadCostPerMillionUSD": 0.002,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling-2.6-flash is an instant (instruct) model from inclusionAI with 104B total parameters and 7.4B active parameters, designed for real-world agents that require fast responses, strong execution, and high token efficienc · context=262144"
-    },
-    {
       "id": "inclusionai/ling-3.0-flash",
       "displayName": "Ling-3.0-flash",
       "aliases": [
@@ -8865,25 +8827,6 @@
       "organizationName": "Nvidia"
     },
     {
-      "id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "displayName": "Nemotron 3 Nano 30B A3B (free)",
-      "aliases": [
-        "nvidia/nemotron-3-nano-30b-a3b:free",
-        "nvidia/nemotron-3-nano-30b-a3b",
-        "nemotron-3-nano-30b-a3b-(free)",
-        "nemotron-3-nano-30b-a3b:free"
-      ],
-      "providerID": "nvidia",
-      "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully... · context=256000",
-      "brandAssetName": "nvidia",
-      "organizationName": "Nvidia"
-    },
-    {
       "id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
       "displayName": "Nemotron 3 Nano Omni (free)",
       "aliases": [
@@ -9064,44 +9007,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000",
-      "brandAssetName": "nvidia",
-      "organizationName": "Nvidia"
-    },
-    {
-      "id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "displayName": "Nemotron Nano 12B 2 VL (free)",
-      "aliases": [
-        "nvidia/nemotron-nano-12b-v2-vl:free",
-        "nvidia/nemotron-nano-12b-v2-vl",
-        "nemotron-nano-12b-2-vl-(free)",
-        "nemotron-nano-12b-v2-vl:free"
-      ],
-      "providerID": "nvidia",
-      "family": "nemotron-nano",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron Nano 2 VL is a 12-billion-parameter open multimodal reasoning model designed for video understanding and document intelligence. It introduces a hybrid Transformer-Mamba architecture, combining transformer · context=128000",
-      "brandAssetName": "nvidia",
-      "organizationName": "Nvidia"
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2:free",
-      "displayName": "Nemotron Nano 9B V2 (free)",
-      "aliases": [
-        "nvidia/nemotron-nano-9b-v2:free",
-        "nvidia/nemotron-nano-9b-v2",
-        "nemotron-nano-9b-v2-(free)",
-        "nemotron-nano-9b-v2:free"
-      ],
-      "providerID": "nvidia",
-      "family": "nemotron-nano",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA-Nemotron-Nano-9B-v2 is a large language model (LLM) trained from scratch by NVIDIA, and designed as a unified model for both reasoning and non-reasoning tasks. It responds to user queries and... · context=128000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10137,7 +10042,7 @@
       "outputCostPerMillionUSD": 2.9,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively suppor · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively suppor · context=131072 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11045,25 +10950,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge · context=6144 · LiteLLM max_input=6144, max_output=4096"
-    },
-    {
-      "id": "inclusionai/ring-2.6-1t",
-      "displayName": "Ring-2.6-1T",
-      "aliases": [
-        "inclusionai/ring-2.6-1t",
-        "inclusionai/ring-2-6-1t",
-        "inclusionai/ring-2.6-1t-20260508",
-        "inclusionai/ring-2-6-1t-20260508",
-        "ring-2.6-1t",
-        "ring-2-6-1t"
-      ],
-      "providerID": "inclusionai",
-      "family": "ring-2",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.625,
-      "cacheReadCostPerMillionUSD": 0.015,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ring-2.6-1T is a 1T-parameter-scale thinking model with 63B active parameters, built for real-world agent workflows that require both strong capability and operational efficiency. It is optimized for coding agents, tool. · context=262144"
     },
     {
       "id": "thedrummer/rocinante-12b",
