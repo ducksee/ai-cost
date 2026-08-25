@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-25T07:08:22.880128+00:00",
+  "generatedAt": "2026-08-25T13:11:31.355085+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1747,9 +1747,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 1.32,
-      "cacheReadCostPerMillionUSD": 0.014,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.66,
+      "cacheReadCostPerMillionUSD": 0.007,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
       "brandAssetName": "deepseek",
@@ -10847,10 +10847,10 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.05,
-      "cacheWriteCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.425,
+      "outputCostPerMillionUSD": 2.55,
+      "cacheReadCostPerMillionUSD": 0.085,
+      "cacheWriteCostPerMillionUSD": 0.53125,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
@@ -10942,7 +10942,7 @@
       "family": "reka-edge",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in ima · context=16384"
     },
@@ -10957,7 +10957,7 @@
       "family": "reka-flash",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a.. · context=65536"
     },
