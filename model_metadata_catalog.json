@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-25T13:11:31.355085+00:00",
+  "generatedAt": "2026-08-25T18:56:58.217975+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -9902,28 +9902,6 @@
       "organizationName": "Qwen"
     },
     {
-      "id": "qwen/qwen-plus-2025-07-28:thinking",
-      "displayName": "Qwen Plus 0728 (thinking)",
-      "aliases": [
-        "qwen/qwen-plus-2025-07-28:thinking",
-        "qwen/qwen-plus-2025.07-28:thinking",
-        "qwen/qwen-plus-2025-07-28",
-        "qwen/qwen-plus-2025.07-28",
-        "qwen-plus-0728-(thinking)",
-        "qwen-plus-2025-07-28:thinking",
-        "qwen-plus-2025.07-28:thinking"
-      ],
-      "providerID": "qwen",
-      "family": "qwen-plus",
-      "inputCostPerMillionUSD": 0.26,
-      "outputCostPerMillionUSD": 0.78,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination. · context=1000000",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen-plus",
       "displayName": "Qwen-Plus",
       "aliases": [
@@ -10942,7 +10920,7 @@
       "family": "reka-edge",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in ima · context=16384"
     },
@@ -10957,7 +10935,7 @@
       "family": "reka-flash",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a.. · context=65536"
     },
