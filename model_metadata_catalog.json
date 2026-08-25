@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-24T18:59:16.809622+00:00",
+  "generatedAt": "2026-08-25T01:52:33.650771+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1731,9 +1731,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.08,
-      "cacheReadCostPerMillionUSD": 0.008,
+      "inputCostPerMillionUSD": 0.035,
+      "outputCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -1747,9 +1747,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.22,
-      "outputCostPerMillionUSD": 0.66,
-      "cacheReadCostPerMillionUSD": 0.007,
+      "inputCostPerMillionUSD": 0.44,
+      "outputCostPerMillionUSD": 1.32,
+      "cacheReadCostPerMillionUSD": 0.014,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
       "brandAssetName": "deepseek",
@@ -6988,9 +6988,9 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling",
-      "inputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4.05,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
@@ -7026,7 +7026,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=262144"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
     {
       "id": "thinkingmachines/inkling-small",
@@ -7059,7 +7059,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=262144"
+      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576"
     },
     {
       "id": "kwaipilot/kat-coder-air-v2.5",
