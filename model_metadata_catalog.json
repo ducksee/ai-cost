@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-25T01:52:33.650771+00:00",
+  "generatedAt": "2026-08-25T07:08:22.880128+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1732,8 +1732,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.035,
-      "outputCostPerMillionUSD": 0.12,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "outputCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.008,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -7935,6 +7935,25 @@
       "organizationName": "MiniMax"
     },
     {
+      "id": "minimax/minimax-m2.7:free",
+      "displayName": "MiniMax M2.7 (free)",
+      "aliases": [
+        "minimax/minimax-m2.7:free",
+        "minimax/minimax-m2.7-20260318",
+        "minimax-m2.7-(free)",
+        "minimax-m2.7:free"
+      ],
+      "providerID": "minimax",
+      "family": "minimax-m2",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=196608",
+      "brandAssetName": "minimax",
+      "organizationName": "MiniMax"
+    },
+    {
       "id": "minimax/minimax-m3",
       "displayName": "MiniMax M3",
       "aliases": [
@@ -7968,6 +7987,25 @@
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=524288",
+      "brandAssetName": "minimax",
+      "organizationName": "MiniMax"
+    },
+    {
+      "id": "minimax/minimax-m3:free",
+      "displayName": "MiniMax M3 (free)",
+      "aliases": [
+        "minimax/minimax-m3:free",
+        "minimax/minimax-m3-20260531",
+        "minimax-m3-(free)",
+        "minimax-m3:free"
+      ],
+      "providerID": "minimax",
+      "family": "minimax-m3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=1048576",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
