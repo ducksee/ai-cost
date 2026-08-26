@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-26T07:08:51.557768+00:00",
+  "generatedAt": "2026-08-26T13:16:41.124771+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1747,9 +1747,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 1.32,
-      "cacheReadCostPerMillionUSD": 0.014,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.66,
+      "cacheReadCostPerMillionUSD": 0.007,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
       "brandAssetName": "deepseek",
