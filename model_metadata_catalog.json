@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-26T01:58:35.560360+00:00",
+  "generatedAt": "2026-08-26T07:08:51.557768+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1731,8 +1731,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.035,
-      "outputCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.075,
       "cacheReadCostPerMillionUSD": 0.007,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
@@ -3130,7 +3130,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.38,
       "outputCostPerMillionUSD": 1.15,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -6965,15 +6965,16 @@
       "aliases": [
         "thinkingmachines/inkling",
         "thinkingmachines/inkling-20260715",
-        "inkling"
+        "inkling",
+        "together-ai/thinkingmachines/inkling"
       ],
       "providerID": "thinkingmachines",
       "family": "inkling",
-      "inputCostPerMillionUSD": 0.95,
+      "inputCostPerMillionUSD": 1.0,
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576 · LiteLLM supports_function_calling, max_input=524288, max_output=524288"
     },
     {
       "id": "thinkingmachines/inkling:batch",
@@ -7015,15 +7016,16 @@
       "aliases": [
         "thinkingmachines/inkling-small",
         "thinkingmachines/inkling-small-20260730",
-        "inkling-small"
+        "inkling-small",
+        "together-ai/thinkingmachines/inkling-small"
       ],
       "providerID": "thinkingmachines",
       "family": "inkling-small",
-      "inputCostPerMillionUSD": 0.45,
+      "inputCostPerMillionUSD": 0.5,
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576"
+      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576 · LiteLLM max_input=524288, max_output=524288"
     },
     {
       "id": "thinkingmachines/inkling-small:free",
@@ -8570,7 +8572,7 @@
         "meta/muse-glimmer-30b",
         "meta/muse-glimmer-30b-20260810",
         "muse-glimmer-30b",
-        "fireworks-ai/muse-glimmer-30b"
+        "together-ai/meta-models/muse-glimmer-30b"
       ],
       "providerID": "meta",
       "family": "muse-glimmer",
@@ -8578,7 +8580,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM max_input=131072, max_output=131072",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -8930,7 +8932,8 @@
         "nvidia/nemotron-3-ultra-550b-a55b",
         "nvidia/nemotron-3-ultra-550b-a55b-20260604",
         "nemotron-3-ultra",
-        "nemotron-3-ultra-550b-a55b"
+        "nemotron-3-ultra-550b-a55b",
+        "together-ai/nvidia/nemotron-3-ultra-550b-a55b"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -8938,7 +8941,7 @@
       "outputCostPerMillionUSD": 3.6,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288",
+      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288 · LiteLLM supports_reasoning, supports_function_calling, max_input=512288, max_output=512288",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10465,7 +10468,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It d · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -10577,15 +10580,16 @@
       "aliases": [
         "qwen/qwen3.5-9b",
         "qwen/qwen3.5-9b-20260310",
-        "qwen3.5-9b"
+        "qwen3.5-9b",
+        "together-ai/qwen/qwen3.5-9b"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.17,
+      "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -10625,7 +10629,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
@@ -10784,15 +10788,16 @@
       "aliases": [
         "qwen/qwen3.8-2.4t-a95b",
         "qwen/qwen3.8-2.4t-a95b-20260812",
-        "qwen3.8-2.4t-a95b"
+        "qwen3.8-2.4t-a95b",
+        "together-ai/qwen/qwen3.8-2.4t-a95b"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 6.25,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576",
+      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576 · LiteLLM max_input=1010000, max_output=1010000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
