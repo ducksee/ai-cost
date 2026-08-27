@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-27T09:50:07.305995+00:00",
+  "generatedAt": "2026-08-27T22:16:24.075373+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1747,9 +1747,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 1.32,
-      "cacheReadCostPerMillionUSD": 0.014,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.66,
+      "cacheReadCostPerMillionUSD": 0.007,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
       "brandAssetName": "deepseek",
@@ -6933,9 +6933,9 @@
       ],
       "providerID": "tencent",
       "family": "hy3",
-      "inputCostPerMillionUSD": 0.132,
-      "outputCostPerMillionUSD": 0.528,
-      "cacheReadCostPerMillionUSD": 0.033,
+      "inputCostPerMillionUSD": 0.0825,
+      "outputCostPerMillionUSD": 0.33,
+      "cacheReadCostPerMillionUSD": 0.020625,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effor · context=262144",
       "brandAssetName": "tencent",
@@ -7301,25 +7301,6 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
-      "id": "moonshotai/kimi-k2.7-code:batch",
-      "displayName": "Kimi K2.7 Code (batch)",
-      "aliases": [
-        "moonshotai/kimi-k2.7-code:batch",
-        "moonshotai/kimi-k2.7-code-20260612",
-        "kimi-k2.7-code-(batch)",
-        "kimi-k2.7-code:batch"
-      ],
-      "providerID": "kimi",
-      "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.95,
-      "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.19,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144",
-      "brandAssetName": "kimi",
-      "organizationName": "Kimi / MoonshotAI"
-    },
-    {
       "id": "moonshotai/kimi-k3",
       "displayName": "Kimi K3",
       "aliases": [
@@ -7433,6 +7414,27 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-fin:free",
+      "displayName": "Ling 3.0 Flash Fin (free)",
+      "aliases": [
+        "inclusionai/ling-3.0-flash-fin:free",
+        "inclusionai/ling-3-0-flash-fin:free",
+        "inclusionai/ling-3.0-flash-fin-20260827",
+        "inclusionai/ling-3-0-flash-fin-20260827",
+        "ling-3.0-flash-fin-(free)",
+        "ling-3-0-flash-fin-(free)",
+        "ling-3.0-flash-fin:free",
+        "ling-3-0-flash-fin:free"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144"
     },
     {
       "id": "inclusionai/ling-3.0-flash",
@@ -8082,24 +8084,6 @@
       "outputCostPerMillionUSD": 0.04,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
-      "id": "mistralai/ministral-8b",
-      "displayName": "Ministral 8B",
-      "aliases": [
-        "mistralai/ministral-8b",
-        "ministral-8b",
-        "vercel-ai-gateway/mistral/ministral-8b"
-      ],
-      "providerID": "mistral",
-      "family": "ministral-8b",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length... · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=4000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -8939,9 +8923,9 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=512288 · LiteLLM supports_reasoning, supports_function_calling, max_input=512288, max_output=512288",
+      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=512288, max_output=512288",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10614,7 +10598,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
@@ -10975,21 +10959,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge · context=6144 · LiteLLM max_input=6144, max_output=4096"
-    },
-    {
-      "id": "thedrummer/rocinante-12b",
-      "displayName": "Rocinante 12B",
-      "aliases": [
-        "thedrummer/rocinante-12b",
-        "rocinante-12b"
-      ],
-      "providerID": "thedrummer",
-      "family": "rocinante-12b",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Rocinante 12B is designed for engaging storytelling and rich prose. Early testers have reported: - Expanded vocabulary with unique and expressive word choices - Enhanced creativity for vivid narratives -... · context=65536"
     },
     {
       "id": "mistralai/mistral-saba",
