@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-28T22:20:53.415503+00:00",
+  "generatedAt": "2026-08-29T07:05:33.945465+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1679,7 +1679,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.1345,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=163840 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
@@ -3563,9 +3563,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.26,
+      "inputCostPerMillionUSD": 1.2,
+      "outputCostPerMillionUSD": 4.0,
+      "cacheReadCostPerMillionUSD": 0.24,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -9255,23 +9255,6 @@
       "organizationName": "Codex"
     },
     {
-      "id": "allenai/olmo-3-32b-think",
-      "displayName": "Olmo 3 32B Think",
-      "aliases": [
-        "allenai/olmo-3-32b-think",
-        "allenai/olmo-3-32b-think-20251121",
-        "olmo-3-32b-think",
-        "publicai/allenai/olmo-3-32b-think"
-      ],
-      "providerID": "allenai",
-      "family": "olmo-3",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Olmo 3 32B Think is a large-scale, 32-billion-parameter model purpose-built for deep reasoning, complex logic chains and advanced instruction-following scenarios. Its capacity enables strong performance on demanding eval · context=65536 · LiteLLM supports_reasoning, supports_function_calling, max_input=32768, max_output=4096"
-    },
-    {
       "id": "~openai/gpt-latest",
       "displayName": "OpenAI GPT Latest",
       "aliases": [
@@ -10984,21 +10967,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios. · context=1024000"
-    },
-    {
-      "id": "arcee-ai/virtuoso-large",
-      "displayName": "Virtuoso Large",
-      "aliases": [
-        "arcee-ai/virtuoso-large",
-        "virtuoso-large"
-      ],
-      "providerID": "arcee-ai",
-      "family": "virtuoso-large",
-      "inputCostPerMillionUSD": 0.75,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Virtuoso‑Large is Arcee's top‑tier general‑purpose LLM at 72 B parameters, tuned to tackle cross‑domain reasoning, creative writing and enterprise QA. Unlike many 70 B peers, it retains the 128 k... · context=131072"
     },
     {
       "id": "mistralai/voxtral-small-24b-2507",
