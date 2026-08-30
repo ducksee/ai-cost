@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-29T20:55:37.277166+00:00",
+  "generatedAt": "2026-08-30T05:25:08.925725+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1770,8 +1770,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.03,
-      "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": 0.007,
+      "outputCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -3181,15 +3181,15 @@
         "google/gemma-4-31b-it-20260402",
         "gemma-4-31b",
         "gemma-4-31b-it",
-        "sambanova/gemma-4-31b-it"
+        "gemini/gemma-4-31b-it"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.38,
-      "outputCostPerMillionUSD": 1.15,
+      "inputCostPerMillionUSD": 0.09,
+      "outputCostPerMillionUSD": 0.34,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_vision, max_input=131072, max_output=131072",
+      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3484,8 +3484,8 @@
         "z-ai/glm-5-3-20260816",
         "glm-5.3",
         "glm-5-3",
-        "zai/glm-5.3",
-        "zai/glm-5-3"
+        "together-ai/zai-org/glm-5.3",
+        "together-ai/zai-org/glm-5-3"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -3493,7 +3493,7 @@
       "outputCostPerMillionUSD": 4.4,
       "cacheReadCostPerMillionUSD": 0.26,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048575, max_output=128000"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -3514,7 +3514,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048575, max_output=1048575"
+      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048575, max_output=128000"
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
@@ -5877,7 +5877,9 @@
         "x-ai/grok-4.20-20260309",
         "x-ai/grok-4-20-20260309",
         "grok-4.20",
-        "grok-4-20"
+        "grok-4-20",
+        "xai/grok-4.20",
+        "xai/grok-4-20"
       ],
       "providerID": "xai",
       "family": "grok-4",
@@ -5885,7 +5887,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.20 is a reasoning model from SpaceXAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering... · context=2000000",
+      "notes": "Grok 4.20 is a reasoning model from SpaceXAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering... · context=2000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -5982,7 +5984,9 @@
         "x-ai/grok-4.20-multi-agent-20260309",
         "x-ai/grok-4-20-multi-agent-20260309",
         "grok-4.20-multi-agent",
-        "grok-4-20-multi-agent"
+        "grok-4-20-multi-agent",
+        "xai/grok-4.20-multi-agent",
+        "xai/grok-4-20-multi-agent"
       ],
       "providerID": "xai",
       "family": "grok-4",
@@ -5990,7 +5994,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information. · context=2000000",
+      "notes": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information. · context=2000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6032,7 +6036,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -6550,7 +6554,7 @@
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288, max_output=524288"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288"
     },
     {
       "id": "thinkingmachines/inkling:batch",
@@ -6601,7 +6605,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576 · LiteLLM supports_prompt_caching, max_input=524288, max_output=524288"
+      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576 · LiteLLM supports_prompt_caching, max_input=524288"
     },
     {
       "id": "thinkingmachines/inkling-small:batch",
@@ -7950,7 +7954,7 @@
       "family": "mistral-medium",
       "inputCostPerMillionUSD": 1.5,
       "outputCostPerMillionUSD": 7.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "mistral",
@@ -8279,7 +8283,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, max_input=131072, max_output=131072",
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, max_input=131072",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -8660,7 +8664,7 @@
       "outputCostPerMillionUSD": 3.6,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=512288, max_output=512288",
+      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=512288",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -9835,7 +9839,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -10119,7 +10123,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -10346,7 +10350,7 @@
       "outputCostPerMillionUSD": 6.25,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576 · LiteLLM supports_prompt_caching, max_input=1010000, max_output=1010000",
+      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576 · LiteLLM supports_prompt_caching, max_input=1010000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -10908,8 +10912,8 @@
       ],
       "providerID": "arcee-ai",
       "family": "trinity-large",
-      "inputCostPerMillionUSD": 0.22,
-      "outputCostPerMillionUSD": 0.85,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si · context=262144"
