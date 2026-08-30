@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-08-30T11:55:15.907717+00:00",
+  "generatedAt": "2026-08-30T16:41:36.616628+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1864,7 +1864,7 @@
       "family": "devstral-2512",
       "inputCostPerMillionUSD": 0.4,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.044,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144 · LiteLLM supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "mistral",
