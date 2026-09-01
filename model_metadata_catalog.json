@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-01T16:40:55.362534+00:00",
+  "generatedAt": "2026-09-01T21:02:53.461159+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -285,9 +285,9 @@
       "family": "claude-3",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 1.25,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": 0.3,
-      "notes": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/n · context=200000 · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096",
+      "notes": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/n · context=200000 · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -310,11 +310,11 @@
       "family": "claude-3",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 1.25,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096"
+      "organizationName": "Anthropic"
     },
     {
       "id": "claude/claude-3-opus",
@@ -335,11 +335,11 @@
       "family": "claude-3",
       "inputCostPerMillionUSD": 15,
       "outputCostPerMillionUSD": 75,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 1.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096"
+      "organizationName": "Anthropic"
     },
     {
       "id": "claude/claude-3.5-haiku",
@@ -364,11 +364,11 @@
       "family": "claude-3",
       "inputCostPerMillionUSD": 0.8,
       "outputCostPerMillionUSD": 4,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_function_calling, max_input=200000, max_output=8192"
+      "organizationName": "Anthropic"
     },
     {
       "id": "claude/claude-3.5-sonnet",
@@ -393,11 +393,11 @@
       "family": "claude-3",
       "inputCostPerMillionUSD": 3,
       "outputCostPerMillionUSD": 15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=8192"
+      "organizationName": "Anthropic"
     },
     {
       "id": "claude/claude-3.7-sonnet",
@@ -422,11 +422,11 @@
       "family": "claude-3",
       "inputCostPerMillionUSD": 3,
       "outputCostPerMillionUSD": 15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_function_calling, max_input=200000, max_output=8192"
+      "organizationName": "Anthropic"
     },
     {
       "id": "claude/claude-4.5-haiku",
@@ -451,11 +451,11 @@
       "family": "claude-4",
       "inputCostPerMillionUSD": 1,
       "outputCostPerMillionUSD": 5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000"
+      "organizationName": "Anthropic"
     },
     {
       "id": "anthropic/claude-fable-5",
@@ -470,9 +470,9 @@
       "family": "claude-fable",
       "inputCostPerMillionUSD": 10,
       "outputCostPerMillionUSD": 50,
-      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 1,
       "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -489,11 +489,11 @@
       "family": "claude-fable",
       "inputCostPerMillionUSD": 10,
       "outputCostPerMillionUSD": 50,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 1,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
-      "organizationName": "Claude",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-fable-5:batch",
@@ -515,6 +515,52 @@
       "organizationName": "Claude"
     },
     {
+      "id": "anthropic/claude-fable-5.1",
+      "displayName": "Claude Fable 5.1",
+      "aliases": [
+        "anthropic/claude-fable-5.1",
+        "anthropic/claude-fable-5-1",
+        "anthropic/claude-fable-5.1-20260831",
+        "anthropic/claude-fable-5-1-20260831",
+        "claude-fable-5.1",
+        "claude-fable-5-1",
+        "anthropic.claude-fable-5-1",
+        "anthropic.claude-fable-5.1"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 10,
+      "outputCostPerMillionUSD": 50,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": 12.5,
+      "notes": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "claude/claude-fable-5-1",
+      "displayName": "Claude Fable 5.1",
+      "aliases": [
+        "claude-fable-5-1",
+        "claude-fable-5.1",
+        "anthropic/claude-fable-5-1",
+        "anthropic/claude-fable-5.1",
+        "claude/claude-fable-5-1",
+        "claude/claude-fable-5.1",
+        "anthropic.claude-fable-5-1",
+        "anthropic.claude-fable-5.1"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 10,
+      "outputCostPerMillionUSD": 50,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "~anthropic/claude-fable-latest",
       "displayName": "Claude Fable Latest",
       "aliases": [
@@ -525,7 +571,7 @@
       "family": "claude-fable",
       "inputCostPerMillionUSD": 10.0,
       "outputCostPerMillionUSD": 50.0,
-      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 12.5,
       "notes": "This model always redirects to the latest model in the Claude Fable family. · context=1000000"
     },
@@ -554,7 +600,7 @@
       "outputCostPerMillionUSD": 5,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
+      "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -595,11 +641,11 @@
       "family": "claude-mythos",
       "inputCostPerMillionUSD": 10,
       "outputCostPerMillionUSD": 50,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 1,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
-      "organizationName": "Claude",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-opus-4",
@@ -621,7 +667,7 @@
       "outputCostPerMillionUSD": 75,
       "cacheReadCostPerMillionUSD": 1.5,
       "cacheWriteCostPerMillionUSD": 18.75,
-      "notes": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in... · context=200000 · LiteLLM supports_function_calling, max_input=200000, max_output=200000",
+      "notes": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in... · context=200000 · LiteLLM supports_function_calling, max_input=200000, max_output=200000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -643,11 +689,11 @@
       "family": "claude-opus",
       "inputCostPerMillionUSD": 15,
       "outputCostPerMillionUSD": 75,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 1.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling, max_input=200000, max_output=200000",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_function_calling, max_input=200000, max_output=200000"
+      "organizationName": "Anthropic"
     },
     {
       "id": "anthropic/claude-opus-4.1",
@@ -674,7 +720,7 @@
       "outputCostPerMillionUSD": 75,
       "cacheReadCostPerMillionUSD": 1.5,
       "cacheWriteCostPerMillionUSD": 18.75,
-      "notes": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=32000",
+      "notes": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=32000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -701,11 +747,11 @@
       "family": "claude-opus",
       "inputCostPerMillionUSD": 15,
       "outputCostPerMillionUSD": 75,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 1.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=32000",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=32000"
+      "organizationName": "Anthropic"
     },
     {
       "id": "anthropic/claude-opus-4.1:batch",
@@ -757,7 +803,7 @@
       "outputCostPerMillionUSD": 25,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance acro · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
+      "notes": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance acro · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -784,11 +830,11 @@
       "family": "claude-opus",
       "inputCostPerMillionUSD": 5,
       "outputCostPerMillionUSD": 25,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000"
+      "organizationName": "Anthropic"
     },
     {
       "id": "anthropic/claude-opus-4.5:batch",
@@ -836,7 +882,7 @@
       "outputCostPerMillionUSD": 25,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -859,11 +905,11 @@
       "family": "claude-opus",
       "inputCostPerMillionUSD": 5,
       "outputCostPerMillionUSD": 25,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "organizationName": "Anthropic"
     },
     {
       "id": "anthropic/claude-opus-4.6:batch",
@@ -911,7 +957,7 @@
       "outputCostPerMillionUSD": 25,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -934,11 +980,11 @@
       "family": "claude-opus",
       "inputCostPerMillionUSD": 5,
       "outputCostPerMillionUSD": 25,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
-      "organizationName": "Claude",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-opus-4.7:batch",
@@ -986,7 +1032,7 @@
       "outputCostPerMillionUSD": 25,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1009,11 +1055,11 @@
       "family": "claude-opus",
       "inputCostPerMillionUSD": 5,
       "outputCostPerMillionUSD": 25,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
-      "organizationName": "Claude",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-opus-4.8:batch",
@@ -1143,8 +1189,9 @@
       "family": "claude-sonnet",
       "inputCostPerMillionUSD": 6,
       "outputCostPerMillionUSD": 22.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.6,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1175,11 +1222,11 @@
       "family": "claude-sonnet",
       "inputCostPerMillionUSD": 3,
       "outputCostPerMillionUSD": 15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
       "brandAssetName": "claude",
-      "organizationName": "Anthropic",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000"
+      "organizationName": "Anthropic"
     },
     {
       "id": "anthropic/claude-sonnet-4.5",
@@ -1206,7 +1253,7 @@
       "outputCostPerMillionUSD": 15,
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": 3.75,
-      "notes": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
+      "notes": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -1302,7 +1349,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1320,11 +1367,11 @@
       "family": "claude-sonnet",
       "inputCostPerMillionUSD": 2,
       "outputCostPerMillionUSD": 10,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
-      "organizationName": "Claude",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "organizationName": "Claude"
     },
     {
       "id": "anthropic/claude-sonnet-5:batch",
@@ -1635,15 +1682,15 @@
         "deepseek/deepseek-v4-flash-0731",
         "deepseek/deepseek-v4-flash-20260731",
         "deepseek-v4-flash-0731",
-        "dashscope/deepseek-v4-flash-0731"
+        "azure-ai/deepseek-v4-flash-0731"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "inputCostPerMillionUSD": 0.19,
+      "outputCostPerMillionUSD": 0.51,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216",
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3087,15 +3134,15 @@
         "google/gemma-4-31b-it-20260402",
         "gemma-4-31b",
         "gemma-4-31b-it",
-        "gemini/gemma-4-31b-it"
+        "cerebras/gemma-4-31b"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.09,
-      "outputCostPerMillionUSD": 0.34,
+      "inputCostPerMillionUSD": 0.99,
+      "outputCostPerMillionUSD": 1.49,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
+      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=40960",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3390,16 +3437,16 @@
         "z-ai/glm-5-3-20260816",
         "glm-5.3",
         "glm-5-3",
-        "together-ai/zai-org/glm-5.3",
-        "together-ai/zai-org/glm-5-3"
+        "friendliai/zai-org/glm-5.3",
+        "friendliai/zai-org/glm-5-3"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 1.4,
-      "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.26,
+      "inputCostPerMillionUSD": 1.26,
+      "outputCostPerMillionUSD": 3.96,
+      "cacheReadCostPerMillionUSD": 0.234,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048575, max_output=128000"
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -3411,8 +3458,8 @@
         "z-ai/glm-5-3-flash-20260826",
         "glm-5.3-flash",
         "glm-5-3-flash",
-        "together-ai/zai-org/glm-5.3-flash",
-        "together-ai/zai-org/glm-5-3-flash"
+        "friendliai/zai-org/glm-5.3-flash",
+        "friendliai/zai-org/glm-5-3-flash"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -3420,7 +3467,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048575, max_output=128000"
+      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
@@ -10874,7 +10921,8 @@
       "aliases": [
         "qwen/qwen3.8-flash",
         "qwen/qwen3.8-flash-20260826",
-        "qwen3.8-flash"
+        "qwen3.8-flash",
+        "together-ai/qwen/qwen3.8-flash"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
@@ -10882,7 +10930,7 @@
       "outputCostPerMillionUSD": 0.47,
       "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": 0.2,
-      "notes": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video · context=1000000",
+      "notes": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video · context=1000000 · LiteLLM max_input=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
