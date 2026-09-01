@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-01T11:40:07.945496+00:00",
+  "generatedAt": "2026-09-01T16:40:55.362534+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -966,33 +966,6 @@
       "organizationName": "Claude"
     },
     {
-      "id": "anthropic/claude-opus-4.7-fast",
-      "displayName": "Claude Opus 4.7 (Fast)",
-      "aliases": [
-        "anthropic/claude-opus-4.7-fast",
-        "anthropic/claude-opus-4-7-fast",
-        "anthropic/claude-4.7-opus-fast-20260512",
-        "anthropic/claude-4-7-opus-fast-20260512",
-        "claude-opus-4.7-(fast)",
-        "claude-opus-4-7-(fast)",
-        "claude-4.7-opus-(fast)",
-        "claude-4-7-opus-(fast)",
-        "claude-opus-4.7-fast",
-        "claude-opus-4-7-fast",
-        "claude-4.7-opus-fast",
-        "claude-4-7-opus-fast"
-      ],
-      "providerID": "claude",
-      "family": "claude-opus",
-      "inputCostPerMillionUSD": 30.0,
-      "outputCostPerMillionUSD": 150.0,
-      "cacheReadCostPerMillionUSD": 3.0,
-      "cacheWriteCostPerMillionUSD": 37.5,
-      "notes": "Fast-mode variant of [Opus 4.7](/anthropic/claude-opus-4.7) - identical capabilities with higher output speed at premium 6x pricing.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/build-with-claude/ · context=1000000",
-      "brandAssetName": "claude",
-      "organizationName": "Claude"
-    },
-    {
       "id": "anthropic/claude-opus-4.8",
       "displayName": "Claude Opus 4.8",
       "aliases": [
@@ -1068,33 +1041,6 @@
       "organizationName": "Claude"
     },
     {
-      "id": "anthropic/claude-opus-4.8-fast",
-      "displayName": "Claude Opus 4.8 (Fast)",
-      "aliases": [
-        "anthropic/claude-opus-4.8-fast",
-        "anthropic/claude-opus-4-8-fast",
-        "anthropic/claude-4.8-opus-fast-20260528",
-        "anthropic/claude-4-8-opus-fast-20260528",
-        "claude-opus-4.8-(fast)",
-        "claude-opus-4-8-(fast)",
-        "claude-4.8-opus-(fast)",
-        "claude-4-8-opus-(fast)",
-        "claude-opus-4.8-fast",
-        "claude-opus-4-8-fast",
-        "claude-4.8-opus-fast",
-        "claude-4-8-opus-fast"
-      ],
-      "providerID": "claude",
-      "family": "claude-opus",
-      "inputCostPerMillionUSD": 10.0,
-      "outputCostPerMillionUSD": 50.0,
-      "cacheReadCostPerMillionUSD": 1.0,
-      "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "Fast-mode variant of [Opus 4.8](/anthropic/claude-opus-4.8) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 4.8.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/ · context=1000000",
-      "brandAssetName": "claude",
-      "organizationName": "Claude"
-    },
-    {
       "id": "anthropic/claude-opus-5",
       "displayName": "Claude Opus 5",
       "aliases": [
@@ -1134,27 +1080,6 @@
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 3.125,
       "notes": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis... · context=1000000",
-      "brandAssetName": "claude",
-      "organizationName": "Claude"
-    },
-    {
-      "id": "anthropic/claude-opus-5-fast",
-      "displayName": "Claude Opus 5 (Fast)",
-      "aliases": [
-        "anthropic/claude-opus-5-fast",
-        "anthropic/claude-opus-5-fast-20260723",
-        "claude-opus-5-(fast)",
-        "claude-5-opus-(fast)",
-        "claude-opus-5-fast",
-        "claude-5-opus-fast"
-      ],
-      "providerID": "claude",
-      "family": "claude-opus",
-      "inputCostPerMillionUSD": 10.0,
-      "outputCostPerMillionUSD": 50.0,
-      "cacheReadCostPerMillionUSD": 1.0,
-      "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "Fast-mode variant of [Opus 5](/anthropic/claude-opus-5) - identical capabilities with higher output speed at 2x pricing relative to regular Opus 5.\n\nLearn more in Anthropic's docs: https://platform.claude.com/docs/en/bui · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1750,9 +1675,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": 0.013,
+      "inputCostPerMillionUSD": 0.04998,
+      "outputCostPerMillionUSD": 0.09996,
+      "cacheReadCostPerMillionUSD": 0.009996,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -7943,6 +7868,25 @@
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=128000, max_output=50000",
       "organizationName": "inceptionlabs"
+    },
+    {
+      "id": "inception/mercury-2.5-preview",
+      "displayName": "Mercury 2.5 Preview",
+      "aliases": [
+        "inception/mercury-2.5-preview",
+        "inception/mercury-2-5-preview",
+        "inception/mercury-2.5-preview-20260831",
+        "inception/mercury-2-5-preview-20260831",
+        "mercury-2.5-preview",
+        "mercury-2-5-preview"
+      ],
+      "providerID": "inception",
+      "family": "mercury-2",
+      "inputCostPerMillionUSD": 0.04,
+      "outputCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.004,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving... · context=260000"
     },
     {
       "id": "xiaomi/mimo-v2.5",
