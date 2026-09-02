@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-02T04:35:13.186341+00:00",
+  "generatedAt": "2026-09-02T11:19:30.901619+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -557,6 +557,27 @@
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1:batch",
+      "displayName": "Claude Fable 5.1 (batch)",
+      "aliases": [
+        "anthropic/claude-fable-5.1:batch",
+        "anthropic/claude-fable-5.1-20260831",
+        "anthropic/claude-fable-5-1-20260831",
+        "claude-fable-5.1-(batch)",
+        "claude-fable-5-1-(batch)",
+        "claude-fable-5.1:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 25.0,
+      "cacheReadCostPerMillionUSD": 0.125,
+      "cacheWriteCostPerMillionUSD": 6.25,
+      "notes": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -3531,9 +3552,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.17,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.234,
+      "inputCostPerMillionUSD": 1.15,
+      "outputCostPerMillionUSD": 3.5,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
