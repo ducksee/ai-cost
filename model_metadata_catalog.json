@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-02T11:19:30.901619+00:00",
+  "generatedAt": "2026-09-02T16:35:26.175954+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3025,11 +3025,76 @@
       ],
       "providerID": "gemini",
       "family": "gemini-3",
-      "inputCostPerMillionUSD": 0.1875,
-      "outputCostPerMillionUSD": 0.9375,
-      "cacheReadCostPerMillionUSD": 0.01875,
-      "cacheWriteCostPerMillionUSD": 0.020833,
+      "inputCostPerMillionUSD": 0.375,
+      "outputCostPerMillionUSD": 1.875,
+      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheWriteCostPerMillionUSD": 0.041667,
       "notes": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "displayName": "Gemini 3.8 Flash",
+      "aliases": [
+        "google/gemini-3.8-flash",
+        "google/gemini-3-8-flash",
+        "google/gemini-3.8-flash-20260902",
+        "google/gemini-3-8-flash-20260902",
+        "gemini-3.8-flash",
+        "gemini-3-8-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": 0.041667,
+      "notes": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning. · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "gemini/gemini-3.8-flash",
+      "displayName": "Gemini 3.8 Flash",
+      "aliases": [
+        "gemini-3.8-flash",
+        "gemini-3-8-flash",
+        "google/gemini-3.8-flash",
+        "google/gemini-3-8-flash",
+        "gemini/gemini-3.8-flash",
+        "gemini/gemini-3-8-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-3.8-flash:batch",
+      "displayName": "Gemini 3.8 Flash (batch)",
+      "aliases": [
+        "google/gemini-3.8-flash:batch",
+        "google/gemini-3-8-flash:batch",
+        "google/gemini-3.8-flash-20260902",
+        "google/gemini-3-8-flash-20260902",
+        "gemini-3.8-flash-(batch)",
+        "gemini-3-8-flash-(batch)",
+        "gemini-3.8-flash:batch",
+        "gemini-3-8-flash:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-3",
+      "inputCostPerMillionUSD": 0.375,
+      "outputCostPerMillionUSD": 1.875,
+      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheWriteCostPerMillionUSD": 0.041667,
+      "notes": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning. · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
