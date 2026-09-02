@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-01T21:02:53.461159+00:00",
+  "generatedAt": "2026-09-02T04:35:13.186341+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1596,7 +1596,7 @@
       "family": "deepseek-chat",
       "inputCostPerMillionUSD": 1.23,
       "outputCostPerMillionUSD": 4.94,
-      "cacheReadCostPerMillionUSD": 0.55,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context... · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "deepseek",
@@ -1722,9 +1722,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.04998,
-      "outputCostPerMillionUSD": 0.09996,
-      "cacheReadCostPerMillionUSD": 0.009996,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.013,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -3506,6 +3506,21 @@
       "cacheReadCostPerMillionUSD": 0.24,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5V-Turbo is Z.ai’s first native multimodal agent foundation model, built for vision-based coding and agent-driven tasks. It natively handles image, video, and text inputs, excels at long-horizon planning, complex cod · context=202752 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=204800, max_output=131072"
+    },
+    {
+      "id": "~z-ai/glm-flash-latest",
+      "displayName": "GLM Flash Latest",
+      "aliases": [
+        "~z-ai/glm-flash-latest",
+        "glm-flash-latest"
+      ],
+      "providerID": "~z-ai",
+      "family": "glm-flash",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720"
     },
     {
       "id": "~z-ai/glm-latest",
@@ -10888,9 +10903,9 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 6.25,
-      "cacheReadCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1010000",
       "brandAssetName": "qwen",
