@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-02T16:35:26.175954+00:00",
+  "generatedAt": "2026-09-02T21:04:08.224706+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -8989,6 +8989,82 @@
       "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "displayName": "Muse Spark 1.3",
+      "aliases": [
+        "meta/muse-spark-1.3",
+        "meta/muse-spark-1-3",
+        "meta/muse-spark-1.3-20260902",
+        "meta/muse-spark-1-3-20260902",
+        "muse-spark-1.3",
+        "muse-spark-1-3"
+      ],
+      "providerID": "meta",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
+    },
+    {
+      "id": "meta-ai/muse-spark-1.3",
+      "displayName": "Muse Spark 1.3",
+      "aliases": [
+        "muse-spark-1.3",
+        "muse-spark-1-3",
+        "meta-ai/muse-spark-1.3",
+        "meta-ai/muse-spark-1-3"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "displayName": "Muse Spark 1.3 Contributor",
+      "aliases": [
+        "meta/muse-spark-1.3-contributor",
+        "meta/muse-spark-1-3-contributor",
+        "meta/muse-spark-1.3-contributor-20260902",
+        "meta/muse-spark-1-3-contributor-20260902",
+        "muse-spark-1.3-contributor",
+        "muse-spark-1-3-contributor"
+      ],
+      "providerID": "meta",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.002,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows. It is designed to track in · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
+    },
+    {
+      "id": "meta-ai/muse-spark-1.3-contributor",
+      "displayName": "Muse Spark 1.3 Contributor",
+      "aliases": [
+        "muse-spark-1.3-contributor",
+        "muse-spark-1-3-contributor",
+        "meta-ai/muse-spark-1.3-contributor",
+        "meta-ai/muse-spark-1-3-contributor"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.002,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
