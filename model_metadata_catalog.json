@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-03T04:34:11.704111+00:00",
+  "generatedAt": "2026-09-03T11:15:41.545258+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3617,9 +3617,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.092,
-      "outputCostPerMillionUSD": 3.432,
-      "cacheReadCostPerMillionUSD": 0.1794,
+      "inputCostPerMillionUSD": 1.12,
+      "outputCostPerMillionUSD": 3.52,
+      "cacheReadCostPerMillionUSD": 0.184,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
