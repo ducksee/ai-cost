@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-03T11:15:41.545258+00:00",
+  "generatedAt": "2026-09-03T16:26:09.796087+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3617,9 +3617,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.12,
-      "outputCostPerMillionUSD": 3.52,
-      "cacheReadCostPerMillionUSD": 0.184,
+      "inputCostPerMillionUSD": 1.134,
+      "outputCostPerMillionUSD": 3.564,
+      "cacheReadCostPerMillionUSD": 0.1863,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -10194,7 +10194,7 @@
       "family": "qwen2-5",
       "inputCostPerMillionUSD": 0.13,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images. · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "qwen",
