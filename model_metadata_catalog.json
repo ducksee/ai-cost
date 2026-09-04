@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-04T16:22:05.879586+00:00",
+  "generatedAt": "2026-09-04T20:46:16.037124+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6090,6 +6090,42 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-6-astra",
+      "displayName": "GPT-6 Astra",
+      "aliases": [
+        "openai/gpt-6-astra",
+        "openai/gpt-6-astra-20260903",
+        "gpt-6-astra"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 10.0,
+      "outputCostPerMillionUSD": 50.0,
+      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheWriteCostPerMillionUSD": 12.5,
+      "notes": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-hor · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "displayName": "GPT-6 Astra Pro",
+      "aliases": [
+        "openai/gpt-6-astra-pro",
+        "openai/gpt-6-astra-pro-20260903",
+        "gpt-6-astra-pro"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 10.0,
+      "outputCostPerMillionUSD": 50.0,
+      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheWriteCostPerMillionUSD": 12.5,
+      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-image-1",
       "displayName": "gpt-image-1 (image gen)",
       "aliases": [
@@ -6325,27 +6361,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Granite-4.0-H-Micro is a 3B parameter from the Granite 4 family of models. These models are the latest in a series of models released by IBM. They are fine-tuned for long... · context=131000 · LiteLLM supports_function_calling, max_input=131000, max_output=131000"
-    },
-    {
-      "id": "ibm-granite/granite-4.1-8b",
-      "displayName": "Granite 4.1 8B",
-      "aliases": [
-        "ibm-granite/granite-4.1-8b",
-        "ibm-granite/granite-4-1-8b",
-        "ibm-granite/granite-4.1-8b-20260429",
-        "ibm-granite/granite-4-1-8b-20260429",
-        "granite-4.1-8b",
-        "granite-4-1-8b",
-        "wandb/ibm-granite/granite-4.1-8b",
-        "wandb/ibm-granite/granite-4-1-8b"
-      ],
-      "providerID": "ibm-granite",
-      "family": "granite-4",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": 0.05,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks... · context=131072 · LiteLLM max_input=131072"
     },
     {
       "id": "ibm-granite/granite-4.2-8b",
@@ -7681,6 +7696,27 @@
       "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536"
     },
     {
+      "id": "inclusionai/ling-3.0-flash",
+      "displayName": "Ling 3.0 Flash",
+      "aliases": [
+        "inclusionai/ling-3.0-flash",
+        "inclusionai/ling-3-0-flash",
+        "inclusionai/ling-3.0-flash-20260723",
+        "inclusionai/ling-3-0-flash-20260723",
+        "ling-3.0-flash",
+        "ling-3-0-flash",
+        "novita/inclusionai/ling-3.0-flash",
+        "novita/inclusionai/ling-3-0-flash"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash-fin",
       "displayName": "Ling 3.0 Flash Fin",
       "aliases": [
@@ -7721,25 +7757,25 @@
       "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144"
     },
     {
-      "id": "inclusionai/ling-3.0-flash",
-      "displayName": "Ling-3.0-flash",
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "displayName": "Ling 3.0 Flash Sante (free)",
       "aliases": [
-        "inclusionai/ling-3.0-flash",
-        "inclusionai/ling-3-0-flash",
-        "inclusionai/ling-3.0-flash-20260723",
-        "inclusionai/ling-3-0-flash-20260723",
-        "ling-3.0-flash",
-        "ling-3-0-flash",
-        "novita/inclusionai/ling-3.0-flash",
-        "novita/inclusionai/ling-3-0-flash"
+        "inclusionai/ling-3.0-flash-sante:free",
+        "inclusionai/ling-3-0-flash-sante:free",
+        "inclusionai/ling-3.0-flash-sante-20260904",
+        "inclusionai/ling-3-0-flash-sante-20260904",
+        "ling-3.0-flash-sante-(free)",
+        "ling-3-0-flash-sante-(free)",
+        "ling-3.0-flash-sante:free",
+        "ling-3-0-flash-sante:free"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
     },
     {
       "id": "sao10k/l3-lunaris-8b",
@@ -10852,7 +10888,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -10932,7 +10968,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
