@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-03T21:02:47.591858+00:00",
+  "generatedAt": "2026-09-04T04:35:02.644535+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3606,9 +3606,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.07125,
-      "outputCostPerMillionUSD": 0.2375,
-      "cacheReadCostPerMillionUSD": 0.01425,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720"
     },
@@ -3621,9 +3621,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.148,
-      "outputCostPerMillionUSD": 3.608,
-      "cacheReadCostPerMillionUSD": 0.1886,
+      "inputCostPerMillionUSD": 1.15,
+      "outputCostPerMillionUSD": 3.5,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -6708,6 +6708,27 @@
       "organizationName": "xAI"
     },
     {
+      "id": "x-ai/grok-4.3:batch",
+      "displayName": "Grok 4.3 (batch)",
+      "aliases": [
+        "x-ai/grok-4.3:batch",
+        "x-ai/grok-4.3-20260430",
+        "x-ai/grok-4-3-20260430",
+        "grok-4.3-(batch)",
+        "grok-4-3-(batch)",
+        "grok-4.3:batch"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
       "id": "xai/grok-4.3-200k",
       "displayName": "Grok 4.3 >200k",
       "aliases": [
@@ -8583,7 +8604,7 @@
       "outputCostPerMillionUSD": 3.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144",
+      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=32768",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9351,6 +9372,27 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=1000000",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-content-safety",
+      "displayName": "Nemotron 3.5 Content Safety",
+      "aliases": [
+        "nvidia/nemotron-3.5-content-safety",
+        "nvidia/nemotron-3-5-content-safety",
+        "nvidia/nemotron-3.5-content-safety-20260604",
+        "nvidia/nemotron-3-5-content-safety-20260604",
+        "nemotron-3.5-content-safety",
+        "nemotron-3-5-content-safety"
+      ],
+      "providerID": "nvidia",
+      "family": "nemotron-3",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=131072",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
