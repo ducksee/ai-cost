@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-04T20:46:16.037124+00:00",
+  "generatedAt": "2026-09-05T04:30:35.421201+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6103,7 +6103,45 @@
       "outputCostPerMillionUSD": 50.0,
       "cacheReadCostPerMillionUSD": 1.0,
       "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-hor · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
+      "notes": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-hor · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6-astra:batch",
+      "displayName": "GPT-6 Astra (batch)",
+      "aliases": [
+        "openai/gpt-6-astra:batch",
+        "openai/gpt-6-astra-20260903",
+        "gpt-6-astra-(batch)",
+        "gpt-6-astra:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 25.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": 6.25,
+      "notes": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-hor · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-6-astra-272k",
+      "displayName": "GPT-6 Astra >272k",
+      "aliases": [
+        "gpt-6-astra-272k",
+        "openai/gpt-6-astra-272k",
+        "codex/gpt-6-astra-272k",
+        "gpt-6-astra->272k"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 20.0,
+      "outputCostPerMillionUSD": 75.0,
+      "cacheReadCostPerMillionUSD": 2.0,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6122,6 +6160,44 @@
       "cacheReadCostPerMillionUSD": 1.0,
       "cacheWriteCostPerMillionUSD": 12.5,
       "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro:batch",
+      "displayName": "GPT-6 Astra Pro (batch)",
+      "aliases": [
+        "openai/gpt-6-astra-pro:batch",
+        "openai/gpt-6-astra-pro-20260903",
+        "gpt-6-astra-pro-(batch)",
+        "gpt-6-astra-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 5.0,
+      "outputCostPerMillionUSD": 25.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": 6.25,
+      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-6-astra",
+      "displayName": "GPT-6 Astra ≤272k",
+      "aliases": [
+        "gpt-6-astra",
+        "openai/gpt-6-astra",
+        "codex/gpt-6-astra",
+        "gpt-6-astra-≤272k"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 10.0,
+      "outputCostPerMillionUSD": 50.0,
+      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -10360,7 +10436,7 @@
       "family": "qwen3-235b",
       "inputCostPerMillionUSD": 0.09,
       "outputCostPerMillionUSD": 0.55,
-      "cacheReadCostPerMillionUSD": 0.0175,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose  · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -11199,10 +11275,11 @@
     },
     {
       "id": "qwen/qwen3.8-max",
-      "displayName": "Qwen3.8 Max",
+      "displayName": "Qwen3.8 Max (0803)",
       "aliases": [
         "qwen/qwen3.8-max",
         "qwen/qwen3.8-max-20260803",
+        "qwen3.8-max-(0803)",
         "qwen3.8-max",
         "dashscope/qwen3.8-max"
       ],
@@ -11212,7 +11289,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=131072",
+      "notes": "Qwen3.8 Max (0803) is the August 3, 2026 checkpoint of Qwen3.8 Max, the flagship model in Alibaba's Qwen3.8 series and the general-availability successor to the Qwen3.8 Max Preview. It is... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
