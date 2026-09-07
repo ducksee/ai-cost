@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-07T04:42:52.015890+00:00",
+  "generatedAt": "2026-09-07T12:34:09.076362+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3595,9 +3595,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "inputCostPerMillionUSD": 0.07125,
+      "outputCostPerMillionUSD": 0.2375,
+      "cacheReadCostPerMillionUSD": 0.01425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720"
     },
@@ -3610,9 +3610,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.17,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.234,
+      "inputCostPerMillionUSD": 1.12,
+      "outputCostPerMillionUSD": 3.52,
+      "cacheReadCostPerMillionUSD": 0.208,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -8724,7 +8724,7 @@
       "outputCostPerMillionUSD": 3.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=32768",
+      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
