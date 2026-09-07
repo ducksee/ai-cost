@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-06T20:24:50.897910+00:00",
+  "generatedAt": "2026-09-07T04:42:52.015890+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1743,9 +1743,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.045,
-      "outputCostPerMillionUSD": 0.09,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.013,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -3357,7 +3357,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.11,
+      "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
