@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-08T11:20:45.303990+00:00",
+  "generatedAt": "2026-09-08T21:10:09.583865+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1726,9 +1726,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.14,
-      "outputCostPerMillionUSD": 0.28,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.11,
+      "outputCostPerMillionUSD": 0.33,
+      "cacheReadCostPerMillionUSD": 0.0035,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576",
       "brandAssetName": "deepseek",
@@ -1764,6 +1764,25 @@
       "cacheReadCostPerMillionUSD": 0.014,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=393216",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
+      "displayName": "DeepSeek V4 Flash Vision Exp (batch)",
+      "aliases": [
+        "deepseek/deepseek-v4-flash-vision-exp:batch",
+        "deepseek/deepseek-v4-flash-vision-exp-20260821",
+        "deepseek-v4-flash-vision-exp-(batch)",
+        "deepseek-v4-flash-vision-exp:batch"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.11,
+      "outputCostPerMillionUSD": 0.33,
+      "cacheReadCostPerMillionUSD": 0.0035,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1816,9 +1835,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 1.32,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "inputCostPerMillionUSD": 0.66,
+      "outputCostPerMillionUSD": 1.98,
+      "cacheReadCostPerMillionUSD": 0.022,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576",
       "brandAssetName": "deepseek",
@@ -3507,6 +3526,25 @@
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
+      "id": "z-ai/glm-5.2:batch",
+      "displayName": "GLM 5.2 (batch)",
+      "aliases": [
+        "z-ai/glm-5.2:batch",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2-(batch)",
+        "glm-5-2-(batch)",
+        "glm-5.2:batch"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.7,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
+    },
+    {
       "id": "z-ai/glm-5.3",
       "displayName": "GLM 5.3",
       "aliases": [
@@ -3526,6 +3564,25 @@
       "cacheReadCostPerMillionUSD": 0.234,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
+    },
+    {
+      "id": "z-ai/glm-5.3:batch",
+      "displayName": "GLM 5.3 (batch)",
+      "aliases": [
+        "z-ai/glm-5.3:batch",
+        "z-ai/glm-5.3-20260816",
+        "z-ai/glm-5-3-20260816",
+        "glm-5.3-(batch)",
+        "glm-5-3-(batch)",
+        "glm-5.3:batch"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.7,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.13,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -3563,11 +3620,11 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048575"
+      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -3595,9 +3652,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.07125,
-      "outputCostPerMillionUSD": 0.2375,
-      "cacheReadCostPerMillionUSD": 0.01425,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720"
     },
@@ -3610,9 +3667,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.12,
-      "outputCostPerMillionUSD": 3.52,
-      "cacheReadCostPerMillionUSD": 0.208,
+      "inputCostPerMillionUSD": 1.113,
+      "outputCostPerMillionUSD": 3.498,
+      "cacheReadCostPerMillionUSD": 0.2067,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -8175,15 +8232,15 @@
       "organizationName": "inceptionlabs"
     },
     {
-      "id": "inception/mercury-2.5-preview",
-      "displayName": "Mercury 2.5 Preview",
+      "id": "inception/mercury-2.5",
+      "displayName": "Mercury 2.5",
       "aliases": [
-        "inception/mercury-2.5-preview",
-        "inception/mercury-2-5-preview",
-        "inception/mercury-2.5-preview-20260831",
-        "inception/mercury-2-5-preview-20260831",
-        "mercury-2.5-preview",
-        "mercury-2-5-preview"
+        "inception/mercury-2.5",
+        "inception/mercury-2-5",
+        "inception/mercury-2.5-20260908",
+        "inception/mercury-2-5-20260908",
+        "mercury-2.5",
+        "mercury-2-5"
       ],
       "providerID": "inception",
       "family": "mercury-2",
@@ -8988,9 +9045,9 @@
       ],
       "providerID": "meta",
       "family": "muse-glimmer",
-      "inputCostPerMillionUSD": 0.35,
-      "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "inputCostPerMillionUSD": 0.175,
+      "outputCostPerMillionUSD": 0.75,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072",
       "brandAssetName": "meta",
@@ -9558,34 +9615,38 @@
       "organizationName": "Nvidia"
     },
     {
-      "id": "nex-agi/nex-n2-mini",
-      "displayName": "Nex-N2-Mini",
+      "id": "nex-agi/nex-n2.5-mini:free",
+      "displayName": "Nex-N2.5-Mini (free)",
       "aliases": [
-        "nex-agi/nex-n2-mini",
-        "nex-n2-mini"
+        "nex-agi/nex-n2.5-mini:free",
+        "nex-agi/nex-n2.5-mini-20260908",
+        "nex-n2.5-mini-(free)",
+        "nex-n2.5-mini:free"
       ],
       "providerID": "nex-agi",
       "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.025,
-      "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": 0.0025,
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2-Mini is an open-source agentic mixture-of-experts model from Nex AGI, the smaller sibling in the Nex-N2 series. It accepts text and image input and is built for coding, tool use,... · context=262144"
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144"
     },
     {
-      "id": "nex-agi/nex-n2-pro",
-      "displayName": "Nex-N2-Pro",
+      "id": "nex-agi/nex-n2.5-pro:free",
+      "displayName": "Nex-N2.5-Pro (free)",
       "aliases": [
-        "nex-agi/nex-n2-pro",
-        "nex-n2-pro"
+        "nex-agi/nex-n2.5-pro:free",
+        "nex-agi/nex-n2.5-pro-20260907",
+        "nex-n2.5-pro-(free)",
+        "nex-n2.5-pro:free"
       ],
       "providerID": "nex-agi",
       "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 1.0,
-      "cacheReadCostPerMillionUSD": 0.025,
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2-Pro is an agentic mixture-of-experts model from Nex AGI, with 17B active parameters out of 397B total. Built on the Qwen3.5 architecture, it accepts text and image input and produces... · context=262144"
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144"
     },
     {
       "id": "cohere/north-mini-code:free",
