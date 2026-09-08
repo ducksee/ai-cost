@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-07T21:31:37.461548+00:00",
+  "generatedAt": "2026-09-08T04:37:46.862491+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1598,7 +1598,7 @@
       "family": "deepseek-chat",
       "inputCostPerMillionUSD": 1.14,
       "outputCostPerMillionUSD": 4.56,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V3, a 685B-parameter, mixture-of-experts model, is the latest iteration of the flagship chat model family from the DeepSeek team. It succeeds the [DeepSeek V3](/deepseek/deepseek-chat-v3) model and performs real · context=163840 · LiteLLM supports_function_calling, max_input=128000, max_output=8192",
       "brandAssetName": "deepseek",
@@ -1617,7 +1617,7 @@
       "family": "deepseek-chat",
       "inputCostPerMillionUSD": 1.23,
       "outputCostPerMillionUSD": 4.94,
-      "cacheReadCostPerMillionUSD": 0.55,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.1 is a large hybrid reasoning model (671B parameters, 37B active) that supports both thinking and non-thinking modes via prompt templates. It extends the DeepSeek-V3 base with a two-phase long-context... · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "deepseek",
@@ -3357,7 +3357,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.08,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -3421,7 +3421,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.0605,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=202752 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "zai",
