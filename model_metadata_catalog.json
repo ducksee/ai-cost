@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-09T11:24:20.436365+00:00",
+  "generatedAt": "2026-09-09T16:38:59.780557+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3563,7 +3563,7 @@
       "outputCostPerMillionUSD": 3.96,
       "cacheReadCostPerMillionUSD": 0.234,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
       "id": "z-ai/glm-5.3:batch",
@@ -3671,7 +3671,7 @@
       "outputCostPerMillionUSD": 3.498,
       "cacheReadCostPerMillionUSD": 0.2067,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
+      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
     {
       "id": "~google/gemini-flash-latest",
@@ -7200,24 +7200,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Hermes 4 is a large-scale reasoning model built on Meta-Llama-3.1-405B and released by Nous Research. It introduces a hybrid reasoning mode, where the model can choose to deliberate internally with... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
-      "brandAssetName": "nous-research",
-      "organizationName": "Nous Research"
-    },
-    {
-      "id": "nousresearch/hermes-4-70b",
-      "displayName": "Hermes 4 70B",
-      "aliases": [
-        "nousresearch/hermes-4-70b",
-        "hermes-4-70b",
-        "nebius/nousresearch/hermes-4-70b"
-      ],
-      "providerID": "nous-research",
-      "family": "hermes-4",
-      "inputCostPerMillionUSD": 0.13,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B. It introduces the same hybrid mode as the larger 405B release, allowing the model to either... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "nous-research",
       "organizationName": "Nous Research"
     },
