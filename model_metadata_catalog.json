@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-08T21:10:09.583865+00:00",
+  "generatedAt": "2026-09-09T04:43:32.207398+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -263,7 +263,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -3376,7 +3376,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.11,
+      "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -6142,7 +6142,7 @@
         "openai/gpt-6-astra",
         "openai/gpt-6-astra-20260903",
         "gpt-6-astra",
-        "azure/gpt-6-astra"
+        "azure-ai/gpt-6-astra"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6237,7 +6237,7 @@
         "openai/gpt-6-astra",
         "codex/gpt-6-astra",
         "gpt-6-astra-≤272k",
-        "azure/gpt-6-astra"
+        "azure-ai/gpt-6-astra"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6499,9 +6499,9 @@
       ],
       "providerID": "ibm-granite",
       "family": "granite-4",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,... · context=131072"
     },
@@ -9454,7 +9454,7 @@
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10158,7 +10158,7 @@
       "outputCostPerMillionUSD": 8,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -10743,7 +10743,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
