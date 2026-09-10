@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-10T11:20:45.701372+00:00",
+  "generatedAt": "2026-09-10T16:24:50.911850+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1876,7 +1876,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task... · context=1048576",
+      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3479,7 +3479,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=202752 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=200000 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -3704,9 +3704,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.085,
-      "outputCostPerMillionUSD": 3.41,
-      "cacheReadCostPerMillionUSD": 0.2015,
+      "inputCostPerMillionUSD": 0.7,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -11206,7 +11206,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=16384",
       "brandAssetName": "qwen",
