@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-09T20:56:25.014473+00:00",
+  "generatedAt": "2026-09-10T04:43:55.358074+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1450,6 +1450,25 @@
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000 · LiteLLM supports_function_calling, max_input=128000, max_output=128000",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/codestral-2508:batch",
+      "displayName": "Codestral 2508 (batch)",
+      "aliases": [
+        "mistralai/codestral-2508:batch",
+        "mistralai/codestral-2508",
+        "codestral-2508-(batch)",
+        "codestral-2508:batch"
+      ],
+      "providerID": "mistral",
+      "family": "codestral-2508",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.45,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -3667,9 +3686,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 1.113,
-      "outputCostPerMillionUSD": 3.498,
-      "cacheReadCostPerMillionUSD": 0.2067,
+      "inputCostPerMillionUSD": 1.092,
+      "outputCostPerMillionUSD": 3.432,
+      "cacheReadCostPerMillionUSD": 0.2028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -3747,7 +3766,8 @@
       "aliases": [
         "openai/gpt-chat-latest",
         "openai/gpt-chat-latest-20260505",
-        "gpt-chat-latest"
+        "gpt-chat-latest",
+        "azure-ai/gpt-chat-latest"
       ],
       "providerID": "codex",
       "family": "gpt-chat",
@@ -3755,7 +3775,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates... · context=400000",
+      "notes": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8491,6 +8511,25 @@
       "organizationName": "Mistral"
     },
     {
+      "id": "mistralai/ministral-8b-2512:batch",
+      "displayName": "Ministral 3 8B 2512 (batch)",
+      "aliases": [
+        "mistralai/ministral-8b-2512:batch",
+        "mistralai/ministral-8b-2512",
+        "ministral-3-8b-2512-(batch)",
+        "ministral-8b-2512:batch"
+      ],
+      "providerID": "mistral",
+      "family": "ministral-8b",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.075,
+      "cacheReadCostPerMillionUSD": 0.0075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities. · context=262144",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
       "id": "mistral/ministral-3b-latest",
       "displayName": "Ministral 3B 24.10",
       "aliases": [
@@ -8626,6 +8665,26 @@
       "organizationName": "Mistral"
     },
     {
+      "id": "mistralai/mistral-large-2512:batch",
+      "displayName": "Mistral Large 3 2512 (batch)",
+      "aliases": [
+        "mistralai/mistral-large-2512:batch",
+        "mistralai/mistral-large-2512",
+        "mistral-large-3-2512-(batch)",
+        "mistral-large-3.2512-(batch)",
+        "mistral-large-2512:batch"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-large",
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.75,
+      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
       "id": "mistralai/mistral-medium-3",
       "displayName": "Mistral Medium 3",
       "aliases": [
@@ -8680,6 +8739,27 @@
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=131072, max_output=104857",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/mistral-medium-3.1:batch",
+      "displayName": "Mistral Medium 3.1 (batch)",
+      "aliases": [
+        "mistralai/mistral-medium-3.1:batch",
+        "mistralai/mistral-medium-3.1",
+        "mistralai/mistral-medium-3-1",
+        "mistral-medium-3.1-(batch)",
+        "mistral-medium-3-1-(batch)",
+        "mistral-medium-3.1:batch"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-medium",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -8893,6 +8973,25 @@
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/mistral-small-2603:batch",
+      "displayName": "Mistral Small 4 (batch)",
+      "aliases": [
+        "mistralai/mistral-small-2603:batch",
+        "mistralai/mistral-small-2603",
+        "mistral-small-4-(batch)",
+        "mistral-small-2603:batch"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-small",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.0075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -11279,7 +11378,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_prompt_caching, supports_vision, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1048576 · LiteLLM supports_prompt_caching, supports_vision, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
