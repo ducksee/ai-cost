@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-10T16:24:50.911850+00:00",
+  "generatedAt": "2026-09-10T20:53:04.590652+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -7932,6 +7932,27 @@
       "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-vl:free",
+      "displayName": "Ling 3.0 Flash VL (free)",
+      "aliases": [
+        "inclusionai/ling-3.0-flash-vl:free",
+        "inclusionai/ling-3-0-flash-vl:free",
+        "inclusionai/ling-3.0-flash-vl-20260910",
+        "inclusionai/ling-3-0-flash-vl-20260910",
+        "ling-3.0-flash-vl-(free)",
+        "ling-3-0-flash-vl-(free)",
+        "ling-3.0-flash-vl:free",
+        "ling-3-0-flash-vl:free"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=262144"
+    },
+    {
       "id": "sao10k/l3-lunaris-8b",
       "displayName": "Llama 3 8B Lunaris",
       "aliases": [
@@ -11206,7 +11227,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=16384",
       "brandAssetName": "qwen",
