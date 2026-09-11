@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-11T11:22:30.823921+00:00",
+  "generatedAt": "2026-09-11T16:29:12.694165+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3736,9 +3736,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.97,
-      "outputCostPerMillionUSD": 3.3077,
-      "cacheReadCostPerMillionUSD": 0.194,
+      "inputCostPerMillionUSD": 0.8727,
+      "outputCostPerMillionUSD": 3.36,
+      "cacheReadCostPerMillionUSD": 0.1639,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -7966,6 +7966,25 @@
       "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "displayName": "Ling 3.0 Flash VL",
+      "aliases": [
+        "inclusionai/ling-3.0-flash-vl",
+        "inclusionai/ling-3-0-flash-vl",
+        "inclusionai/ling-3.0-flash-vl-20260910",
+        "inclusionai/ling-3-0-flash-vl-20260910",
+        "ling-3.0-flash-vl",
+        "ling-3-0-flash-vl"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=131072"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash-vl:free",
       "displayName": "Ling 3.0 Flash VL (free)",
       "aliases": [
@@ -10317,20 +10336,36 @@
       "organizationName": "Codex"
     },
     {
-      "id": "~openai/gpt-latest",
-      "displayName": "OpenAI GPT Latest",
+      "id": "~openai/gpt-astra-latest",
+      "displayName": "OpenAI GPT Astra Latest",
       "aliases": [
-        "~openai/gpt-latest",
-        "openai-gpt-latest",
-        "gpt-latest"
+        "~openai/gpt-astra-latest",
+        "openai-gpt-astra-latest",
+        "gpt-astra-latest"
       ],
       "providerID": "~openai",
-      "family": "gpt-latest",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.2,
-      "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the OpenAI GPT family. · context=1050000"
+      "family": "gpt-astra",
+      "inputCostPerMillionUSD": 10.0,
+      "outputCostPerMillionUSD": 50.0,
+      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheWriteCostPerMillionUSD": 12.5,
+      "notes": "This model always redirects to the latest model in the OpenAI GPT Astra family. · context=1050000"
+    },
+    {
+      "id": "~openai/gpt-luna-latest",
+      "displayName": "OpenAI GPT Luna Latest",
+      "aliases": [
+        "~openai/gpt-luna-latest",
+        "openai-gpt-luna-latest",
+        "gpt-luna-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-luna",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheWriteCostPerMillionUSD": 0.25,
+      "notes": "This model always redirects to the latest model in the OpenAI GPT Luna family. · context=1050000"
     },
     {
       "id": "~openai/gpt-mini-latest",
@@ -10347,6 +10382,38 @@
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the OpenAI GPT Mini family. · context=400000"
+    },
+    {
+      "id": "~openai/gpt-sol-latest",
+      "displayName": "OpenAI GPT Sol Latest",
+      "aliases": [
+        "~openai/gpt-sol-latest",
+        "openai-gpt-sol-latest",
+        "gpt-sol-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-sol",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "This model always redirects to the latest model in the OpenAI GPT Sol family. · context=1050000"
+    },
+    {
+      "id": "~openai/gpt-terra-latest",
+      "displayName": "OpenAI GPT Terra Latest",
+      "aliases": [
+        "~openai/gpt-terra-latest",
+        "openai-gpt-terra-latest",
+        "gpt-terra-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-terra",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 12.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "This model always redirects to the latest model in the OpenAI GPT Terra family. · context=1050000"
     },
     {
       "id": "writer/palmyra-x5",
