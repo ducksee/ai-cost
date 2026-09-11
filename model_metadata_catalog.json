@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-10T20:53:04.590652+00:00",
+  "generatedAt": "2026-09-11T04:41:52.548507+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1762,7 +1762,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.05,
+      "inputCostPerMillionUSD": 0.04,
       "outputCostPerMillionUSD": 0.16,
       "cacheReadCostPerMillionUSD": 0.013,
       "cacheWriteCostPerMillionUSD": null,
@@ -3255,7 +3255,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
+      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3704,9 +3704,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.7,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 3.41,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -6533,15 +6533,17 @@
         "ibm-granite/granite-4.2-8b-20260831",
         "ibm-granite/granite-4-2-8b-20260831",
         "granite-4.2-8b",
-        "granite-4-2-8b"
+        "granite-4-2-8b",
+        "wandb/ibm-granite/granite-4.2-8b",
+        "wandb/ibm-granite/granite-4-2-8b"
       ],
       "providerID": "ibm-granite",
       "family": "granite-4",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,... · context=131072"
+      "notes": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning"
     },
     {
       "id": "xai/grok-3",
@@ -11417,7 +11419,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_prompt_caching, supports_vision, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11801,9 +11803,9 @@
       ],
       "providerID": "upstage",
       "family": "solar-pro4",
-      "inputCostPerMillionUSD": 0.03,
-      "outputCostPerMillionUSD": 0.12,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "inputCostPerMillionUSD": 0.09,
+      "outputCostPerMillionUSD": 0.36,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive · context=524288"
     },
