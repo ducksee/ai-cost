@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-12T04:35:43.638053+00:00",
+  "generatedAt": "2026-09-12T10:48:08.057840+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -141,38 +141,6 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
-    },
-    {
-      "id": "~anthropic/claude-haiku-latest",
-      "displayName": "Anthropic Claude Haiku Latest",
-      "aliases": [
-        "~anthropic/claude-haiku-latest",
-        "anthropic-claude-haiku-latest",
-        "claude-haiku-latest"
-      ],
-      "providerID": "~anthropic",
-      "family": "claude-haiku",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.1,
-      "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "This model always redirects to the latest model in the Anthropic Claude Haiku family. · context=200000"
-    },
-    {
-      "id": "~anthropic/claude-sonnet-latest",
-      "displayName": "Anthropic Claude Sonnet Latest",
-      "aliases": [
-        "~anthropic/claude-sonnet-latest",
-        "anthropic-claude-sonnet-latest",
-        "claude-sonnet-latest"
-      ],
-      "providerID": "~anthropic",
-      "family": "claude-sonnet",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.2,
-      "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the Anthropic Claude Sonnet family. · context=1000000"
     },
     {
       "id": "openrouter/auto",
@@ -649,6 +617,21 @@
       "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
+    },
+    {
+      "id": "~anthropic/claude-haiku-latest",
+      "displayName": "Claude Haiku Latest",
+      "aliases": [
+        "~anthropic/claude-haiku-latest",
+        "claude-haiku-latest"
+      ],
+      "providerID": "~anthropic",
+      "family": "claude-haiku",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "This model always redirects to the latest model in the Claude Haiku family. · context=200000"
     },
     {
       "id": "claude/claude-mythos-5",
@@ -1417,6 +1400,21 @@
       "organizationName": "Claude"
     },
     {
+      "id": "~anthropic/claude-sonnet-latest",
+      "displayName": "Claude Sonnet Latest",
+      "aliases": [
+        "~anthropic/claude-sonnet-latest",
+        "claude-sonnet-latest"
+      ],
+      "providerID": "~anthropic",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "This model always redirects to the latest model in the Claude Sonnet family. · context=1000000"
+    },
+    {
       "id": "mistral/codestral-latest",
       "displayName": "Codestral",
       "aliases": [
@@ -1762,9 +1760,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": 0.013,
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.07,
+      "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -3196,6 +3194,37 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "~google/gemini-flash-latest",
+      "displayName": "Gemini Flash Latest",
+      "aliases": [
+        "~google/gemini-flash-latest",
+        "gemini-flash-latest",
+        "gemini/gemini-flash-latest"
+      ],
+      "providerID": "~google",
+      "family": "gemini-flash",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": 0.041667,
+      "notes": "This model always redirects to the latest model in the Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing"
+    },
+    {
+      "id": "~google/gemini-pro-latest",
+      "displayName": "Gemini Pro Latest",
+      "aliases": [
+        "~google/gemini-pro-latest",
+        "gemini-pro-latest"
+      ],
+      "providerID": "~google",
+      "family": "gemini-pro",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.125,
+      "cacheWriteCostPerMillionUSD": 0.375,
+      "notes": "This model always redirects to the latest model in the Gemini Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535"
+    },
+    {
       "id": "google/gemma-2-27b-it",
       "displayName": "Gemma 2 27B",
       "aliases": [
@@ -3743,37 +3772,19 @@
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
     {
-      "id": "~google/gemini-flash-latest",
-      "displayName": "Google Gemini Flash Latest",
+      "id": "~openai/gpt-astra-latest",
+      "displayName": "GPT Astra Latest",
       "aliases": [
-        "~google/gemini-flash-latest",
-        "google-gemini-flash-latest",
-        "gemini-flash-latest",
-        "gemini/gemini-flash-latest"
+        "~openai/gpt-astra-latest",
+        "gpt-astra-latest"
       ],
-      "providerID": "~google",
-      "family": "gemini-flash",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 2.5,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": 0.041667,
-      "notes": "This model always redirects to the latest model in the Google Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing"
-    },
-    {
-      "id": "~google/gemini-pro-latest",
-      "displayName": "Google Gemini Pro Latest",
-      "aliases": [
-        "~google/gemini-pro-latest",
-        "google-gemini-pro-latest",
-        "gemini-pro-latest"
-      ],
-      "providerID": "~google",
-      "family": "gemini-pro",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.125,
-      "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "This model always redirects to the latest model in the Google Gemini Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535"
+      "providerID": "~openai",
+      "family": "gpt-astra",
+      "inputCostPerMillionUSD": 10.0,
+      "outputCostPerMillionUSD": 50.0,
+      "cacheReadCostPerMillionUSD": 1.0,
+      "cacheWriteCostPerMillionUSD": 12.5,
+      "notes": "This model always redirects to the latest model in the GPT Astra family. · context=1050000"
     },
     {
       "id": "openai/gpt-audio",
@@ -3828,6 +3839,66 @@
       "notes": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
+    },
+    {
+      "id": "~openai/gpt-luna-latest",
+      "displayName": "GPT Luna Latest",
+      "aliases": [
+        "~openai/gpt-luna-latest",
+        "gpt-luna-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-luna",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheWriteCostPerMillionUSD": 0.25,
+      "notes": "This model always redirects to the latest model in the GPT Luna family. · context=1050000"
+    },
+    {
+      "id": "~openai/gpt-mini-latest",
+      "displayName": "GPT Mini Latest",
+      "aliases": [
+        "~openai/gpt-mini-latest",
+        "gpt-mini-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-mini",
+      "inputCostPerMillionUSD": 0.75,
+      "outputCostPerMillionUSD": 4.5,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the GPT Mini family. · context=400000"
+    },
+    {
+      "id": "~openai/gpt-sol-latest",
+      "displayName": "GPT Sol Latest",
+      "aliases": [
+        "~openai/gpt-sol-latest",
+        "gpt-sol-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-sol",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "This model always redirects to the latest model in the GPT Sol family. · context=1050000"
+    },
+    {
+      "id": "~openai/gpt-terra-latest",
+      "displayName": "GPT Terra Latest",
+      "aliases": [
+        "~openai/gpt-terra-latest",
+        "gpt-terra-latest"
+      ],
+      "providerID": "~openai",
+      "family": "gpt-terra",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 12.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "This model always redirects to the latest model in the GPT Terra family. · context=1050000"
     },
     {
       "id": "codex/text-davinci-003",
@@ -7782,6 +7853,22 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
+      "id": "~moonshotai/kimi-latest",
+      "displayName": "Kimi Latest",
+      "aliases": [
+        "~moonshotai/kimi-latest",
+        "kimi-latest",
+        "moonshot/kimi-latest"
+      ],
+      "providerID": "~moonshotai",
+      "family": "kimi-latest",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072"
+    },
+    {
       "id": "poolside/laguna-s-2.1",
       "displayName": "Laguna S 2.1",
       "aliases": [
@@ -9142,23 +9229,6 @@
       "notes": "LiteLLM supports_function_calling, max_input=32000, max_output=8191"
     },
     {
-      "id": "~moonshotai/kimi-latest",
-      "displayName": "MoonshotAI Kimi Latest",
-      "aliases": [
-        "~moonshotai/kimi-latest",
-        "moonshotai-kimi-latest",
-        "kimi-latest",
-        "moonshot/kimi-latest"
-      ],
-      "providerID": "~moonshotai",
-      "family": "kimi-latest",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.15,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the MoonshotAI Kimi family. · context=1048576 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072"
-    },
-    {
       "id": "morph/morph-v3-fast",
       "displayName": "Morph V3 Fast",
       "aliases": [
@@ -10334,86 +10404,6 @@
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
-    },
-    {
-      "id": "~openai/gpt-astra-latest",
-      "displayName": "OpenAI GPT Astra Latest",
-      "aliases": [
-        "~openai/gpt-astra-latest",
-        "openai-gpt-astra-latest",
-        "gpt-astra-latest"
-      ],
-      "providerID": "~openai",
-      "family": "gpt-astra",
-      "inputCostPerMillionUSD": 10.0,
-      "outputCostPerMillionUSD": 50.0,
-      "cacheReadCostPerMillionUSD": 1.0,
-      "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "This model always redirects to the latest model in the OpenAI GPT Astra family. · context=1050000"
-    },
-    {
-      "id": "~openai/gpt-luna-latest",
-      "displayName": "OpenAI GPT Luna Latest",
-      "aliases": [
-        "~openai/gpt-luna-latest",
-        "openai-gpt-luna-latest",
-        "gpt-luna-latest"
-      ],
-      "providerID": "~openai",
-      "family": "gpt-luna",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.02,
-      "cacheWriteCostPerMillionUSD": 0.25,
-      "notes": "This model always redirects to the latest model in the OpenAI GPT Luna family. · context=1050000"
-    },
-    {
-      "id": "~openai/gpt-mini-latest",
-      "displayName": "OpenAI GPT Mini Latest",
-      "aliases": [
-        "~openai/gpt-mini-latest",
-        "openai-gpt-mini-latest",
-        "gpt-mini-latest"
-      ],
-      "providerID": "~openai",
-      "family": "gpt-mini",
-      "inputCostPerMillionUSD": 0.75,
-      "outputCostPerMillionUSD": 4.5,
-      "cacheReadCostPerMillionUSD": 0.075,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the OpenAI GPT Mini family. · context=400000"
-    },
-    {
-      "id": "~openai/gpt-sol-latest",
-      "displayName": "OpenAI GPT Sol Latest",
-      "aliases": [
-        "~openai/gpt-sol-latest",
-        "openai-gpt-sol-latest",
-        "gpt-sol-latest"
-      ],
-      "providerID": "~openai",
-      "family": "gpt-sol",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.2,
-      "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the OpenAI GPT Sol family. · context=1050000"
-    },
-    {
-      "id": "~openai/gpt-terra-latest",
-      "displayName": "OpenAI GPT Terra Latest",
-      "aliases": [
-        "~openai/gpt-terra-latest",
-        "openai-gpt-terra-latest",
-        "gpt-terra-latest"
-      ],
-      "providerID": "~openai",
-      "family": "gpt-terra",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 12.0,
-      "cacheReadCostPerMillionUSD": 0.2,
-      "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the OpenAI GPT Terra family. · context=1050000"
     },
     {
       "id": "writer/palmyra-x5",
