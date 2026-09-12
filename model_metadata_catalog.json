@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-11T20:58:22.458872+00:00",
+  "generatedAt": "2026-09-12T04:35:43.638053+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -9044,7 +9044,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=131072 · LiteLLM max_input=128000, max_output=128000",
+      "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000 · LiteLLM max_input=128000, max_output=128000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10699,7 +10699,7 @@
       "family": "qwen3-235b",
       "inputCostPerMillionUSD": 0.09,
       "outputCostPerMillionUSD": 0.55,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.0175,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose  · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -11730,6 +11730,38 @@
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,... · context=262144"
+    },
+    {
+      "id": "inference-net/schematron-v2-small",
+      "displayName": "Schematron V2 Small",
+      "aliases": [
+        "inference-net/schematron-v2-small",
+        "inference-net/schematron-v2-small-20260902",
+        "schematron-v2-small"
+      ],
+      "providerID": "inference-net",
+      "family": "schematron-v2",
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.23,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema · context=128000"
+    },
+    {
+      "id": "inference-net/schematron-v2-turbo",
+      "displayName": "Schematron V2 Turbo",
+      "aliases": [
+        "inference-net/schematron-v2-turbo",
+        "inference-net/schematron-v2-turbo-20260902",
+        "schematron-v2-turbo"
+      ],
+      "providerID": "inference-net",
+      "family": "schematron-v2",
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in re · context=128000"
     },
     {
       "id": "bytedance-seed/seed-1.6",
