@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-12T20:33:54.763417+00:00",
+  "generatedAt": "2026-09-13T04:49:19.216120+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1709,7 +1709,7 @@
       "outputCostPerMillionUSD": 0.28,
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=393216 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=393216 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1760,9 +1760,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.03,
-      "outputCostPerMillionUSD": 0.07,
-      "cacheReadCostPerMillionUSD": 0.003,
+      "inputCostPerMillionUSD": 0.0352,
+      "outputCostPerMillionUSD": 0.1056,
+      "cacheReadCostPerMillionUSD": 0.00112,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
     },
@@ -1776,9 +1776,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 1.32,
-      "cacheReadCostPerMillionUSD": 0.014,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=393216",
       "brandAssetName": "deepseek",
@@ -1866,7 +1866,8 @@
       "aliases": [
         "deepseek/deepseek-v4.1-flash",
         "deepseek/deepseek-v4.1-flash-20260910",
-        "deepseek-v4.1-flash"
+        "deepseek-v4.1-flash",
+        "openrouter/deepseek/deepseek-v4.1-flash"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
@@ -1874,7 +1875,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
+      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=384000",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3314,7 +3315,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -5940,7 +5941,9 @@
         "openai/gpt-5.6-luna-pro-20260709",
         "openai/gpt-5-6-luna-pro-20260709",
         "gpt-5.6-luna-pro",
-        "gpt-5-6-luna-pro"
+        "gpt-5-6-luna-pro",
+        "openrouter/openai/gpt-5.6-luna-pro",
+        "openrouter/openai/gpt-5-6-luna-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5948,7 +5951,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": 0.25,
-      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's · context=1050000",
+      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6078,7 +6081,9 @@
         "openai/gpt-5.6-sol-pro-20260709",
         "openai/gpt-5-6-sol-pro-20260709",
         "gpt-5.6-sol-pro",
-        "gpt-5-6-sol-pro"
+        "gpt-5-6-sol-pro",
+        "openrouter/openai/gpt-5.6-sol-pro",
+        "openrouter/openai/gpt-5-6-sol-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6086,7 +6091,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
+      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6216,7 +6221,9 @@
         "openai/gpt-5.6-terra-pro-20260709",
         "openai/gpt-5-6-terra-pro-20260709",
         "gpt-5.6-terra-pro",
-        "gpt-5-6-terra-pro"
+        "gpt-5-6-terra-pro",
+        "openrouter/openai/gpt-5.6-terra-pro",
+        "openrouter/openai/gpt-5-6-terra-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6224,7 +6231,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenA · context=1050000",
+      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenA · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6339,7 +6346,8 @@
       "aliases": [
         "openai/gpt-6-astra-pro",
         "openai/gpt-6-astra-pro-20260903",
-        "gpt-6-astra-pro"
+        "gpt-6-astra-pro",
+        "openrouter/openai/gpt-6-astra-pro"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6347,7 +6355,7 @@
       "outputCostPerMillionUSD": 50.0,
       "cacheReadCostPerMillionUSD": 1.0,
       "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000",
+      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's do · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8425,11 +8433,11 @@
       ],
       "providerID": "inception",
       "family": "mercury-2",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.75,
       "cacheReadCostPerMillionUSD": 0.004,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving... · context=260000"
+      "notes": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving... · context=260000 · LiteLLM supports_function_calling, max_input=260000, max_output=65536"
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -11179,8 +11187,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.29,
-      "outputCostPerMillionUSD": 2.4,
+      "inputCostPerMillionUSD": 0.26,
+      "outputCostPerMillionUSD": 2.08,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
@@ -11217,7 +11225,7 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.25,
+      "inputCostPerMillionUSD": 0.3125,
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.15625,
       "cacheWriteCostPerMillionUSD": null,
@@ -11538,7 +11546,8 @@
         "qwen/qwen3.8-max-0902",
         "qwen/qwen3.8-max-20260902",
         "qwen3.8-max-(0902)",
-        "qwen3.8-max-0902"
+        "qwen3.8-max-0902",
+        "openrouter/qwen/qwen3.8-max-0902"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
@@ -11546,7 +11555,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=1000000",
+      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
