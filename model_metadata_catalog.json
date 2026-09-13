@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-13T16:18:07.216020+00:00",
+  "generatedAt": "2026-09-13T20:51:03.336324+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -11742,7 +11742,7 @@
       "family": "schematron-v2",
       "inputCostPerMillionUSD": 0.05,
       "outputCostPerMillionUSD": 0.23,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema · context=128000"
     },
@@ -11758,7 +11758,7 @@
       "family": "schematron-v2",
       "inputCostPerMillionUSD": 0.03,
       "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in re · context=128000"
     },
