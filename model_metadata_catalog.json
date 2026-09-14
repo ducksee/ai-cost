@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-14T12:48:58.228768+00:00",
+  "generatedAt": "2026-09-14T21:50:07.236974+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -223,7 +223,8 @@
         "chat-latest",
         "openai/chat-latest",
         "codex/chat-latest",
-        "chatgpt-latest-(chat-latest)"
+        "chatgpt-latest-(chat-latest)",
+        "azure/chat-latest"
       ],
       "providerID": "codex",
       "family": "chat-latest",
@@ -231,7 +232,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -1566,6 +1567,36 @@
       "notes": "Uncensored and creative writing model based on Mistral Small 3.2 24B with good recall, prompt adherence, and intelligence. · context=131072"
     },
     {
+      "id": "~deepseek/deepseek-flash-latest",
+      "displayName": "DeepSeek Flash Latest",
+      "aliases": [
+        "~deepseek/deepseek-flash-latest",
+        "deepseek-flash-latest"
+      ],
+      "providerID": "~deepseek",
+      "family": "deepseek-flash",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.003,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
+    },
+    {
+      "id": "~deepseek/deepseek-pro-latest",
+      "displayName": "DeepSeek Pro Latest",
+      "aliases": [
+        "~deepseek/deepseek-pro-latest",
+        "deepseek-pro-latest"
+      ],
+      "providerID": "~deepseek",
+      "family": "deepseek-pro",
+      "inputCostPerMillionUSD": 0.57948,
+      "outputCostPerMillionUSD": 1.73844,
+      "cacheReadCostPerMillionUSD": 0.018438,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
+    },
+    {
       "id": "deepseek/deepseek-reasoner",
       "displayName": "DeepSeek Reasoner",
       "aliases": [
@@ -2416,33 +2447,6 @@
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices",
-      "brandAssetName": "gemini",
-      "organizationName": "Gemini CLI"
-    },
-    {
-      "id": "google/gemini-2.5-pro-preview-05-06",
-      "displayName": "Gemini 2.5 Pro Preview 05-06",
-      "aliases": [
-        "google/gemini-2.5-pro-preview-05-06",
-        "google/gemini-2.5-pro-preview-05.06",
-        "google/gemini-2-5-pro-preview-05-06",
-        "google/gemini-2.5-pro-preview-03-25",
-        "google/gemini-2.5-pro-preview-03.25",
-        "google/gemini-2-5-pro-preview-03-25",
-        "gemini-2.5-pro-preview-05-06",
-        "gemini-2.5-pro-preview-05.06",
-        "gemini-2-5-pro-preview-05-06",
-        "openrouter/google/gemini-2.5-pro-preview-05-06",
-        "openrouter/google/gemini-2.5-pro-preview-05.06",
-        "openrouter/google/gemini-2-5-pro-preview-05-06"
-      ],
-      "providerID": "gemini",
-      "family": "gemini-2",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 10,
-      "cacheReadCostPerMillionUSD": 0.125,
-      "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3766,9 +3770,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.92,
-      "outputCostPerMillionUSD": 3.1372,
-      "cacheReadCostPerMillionUSD": 0.184,
+      "inputCostPerMillionUSD": 0.9,
+      "outputCostPerMillionUSD": 3.069,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -4082,23 +4086,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023. · context=128000",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
-      "id": "openai/gpt-4-turbo-preview",
-      "displayName": "GPT-4 Turbo Preview",
-      "aliases": [
-        "openai/gpt-4-turbo-preview",
-        "gpt-4-turbo-preview"
-      ],
-      "providerID": "codex",
-      "family": "gpt-4",
-      "inputCostPerMillionUSD": 10.0,
-      "outputCostPerMillionUSD": 30.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "The preview GPT-4 model with improved instruction following, JSON mode, reproducible outputs, parallel function calling, and more. Training data: up to Dec 2023. **Note:** heavily rate limited by OpenAI while... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=128000, max_output=4096",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
