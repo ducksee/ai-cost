@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-14T21:50:07.236974+00:00",
+  "generatedAt": "2026-09-15T04:55:54.610197+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1577,7 +1577,7 @@
       "family": "deepseek-flash",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.003,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1590,9 +1590,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.57948,
-      "outputCostPerMillionUSD": 1.73844,
-      "cacheReadCostPerMillionUSD": 0.018438,
+      "inputCostPerMillionUSD": 0.66,
+      "outputCostPerMillionUSD": 1.98,
+      "cacheReadCostPerMillionUSD": 0.022,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -3770,9 +3770,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.9,
-      "outputCostPerMillionUSD": 3.069,
-      "cacheReadCostPerMillionUSD": 0.18,
+      "inputCostPerMillionUSD": 0.8775,
+      "outputCostPerMillionUSD": 2.97,
+      "cacheReadCostPerMillionUSD": 0.1755,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -5707,7 +5707,7 @@
       "outputCostPerMillionUSD": 75.0,
       "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_reasoning",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -9569,7 +9569,7 @@
       "family": "gemini-3",
       "inputCostPerMillionUSD": 0.5,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced... · context=131072 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
       "brandAssetName": "gemini",
