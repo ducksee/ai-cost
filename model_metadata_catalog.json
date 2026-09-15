@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-15T11:45:11.053826+00:00",
+  "generatedAt": "2026-09-15T16:59:51.453288+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1590,9 +1590,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.66,
-      "outputCostPerMillionUSD": 1.98,
-      "cacheReadCostPerMillionUSD": 0.022,
+      "inputCostPerMillionUSD": 0.57948,
+      "outputCostPerMillionUSD": 1.73844,
+      "cacheReadCostPerMillionUSD": 0.018438,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -3646,6 +3646,26 @@
       "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
+    },
+    {
+      "id": "z-ai/glm-5.2:free",
+      "displayName": "GLM 5.2 (free)",
+      "aliases": [
+        "z-ai/glm-5.2:free",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2-(free)",
+        "glm-5-2-(free)",
+        "glm-5.2:free",
+        "openrouter/z-ai/glm-5.2:free"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=32768 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=230400"
     },
     {
       "id": "z-ai/glm-5.3",
