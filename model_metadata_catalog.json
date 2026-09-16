@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-16T11:35:28.693209+00:00",
+  "generatedAt": "2026-09-16T16:56:46.079267+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1590,9 +1590,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.66,
-      "outputCostPerMillionUSD": 1.98,
-      "cacheReadCostPerMillionUSD": 0.022,
+      "inputCostPerMillionUSD": 0.57948,
+      "outputCostPerMillionUSD": 1.73844,
+      "cacheReadCostPerMillionUSD": 0.018438,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -12074,6 +12074,21 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tu · context=128000"
+    },
+    {
+      "id": "stealth/union-alpha",
+      "displayName": "Union Alpha",
+      "aliases": [
+        "stealth/union-alpha",
+        "union-alpha"
+      ],
+      "providerID": "stealth",
+      "family": "union-alpha",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model.... · context=262144"
     },
     {
       "id": "thedrummer/unslopnemo-12b",
