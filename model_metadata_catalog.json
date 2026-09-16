@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-15T21:21:59.662519+00:00",
+  "generatedAt": "2026-09-16T04:50:20.359927+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1590,9 +1590,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.57948,
-      "outputCostPerMillionUSD": 1.73844,
-      "cacheReadCostPerMillionUSD": 0.018438,
+      "inputCostPerMillionUSD": 0.66,
+      "outputCostPerMillionUSD": 1.98,
+      "cacheReadCostPerMillionUSD": 0.022,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -3362,25 +3362,6 @@
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=40960",
-      "brandAssetName": "gemini",
-      "organizationName": "Gemini CLI"
-    },
-    {
-      "id": "google/gemma-4-31b-it:batch",
-      "displayName": "Gemma 4 31B (batch)",
-      "aliases": [
-        "google/gemma-4-31b-it:batch",
-        "google/gemma-4-31b-it-20260402",
-        "gemma-4-31b-(batch)",
-        "gemma-4-31b-it:batch"
-      ],
-      "providerID": "gemini",
-      "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.39,
-      "outputCostPerMillionUSD": 0.97,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -6585,25 +6566,6 @@
       "organizationName": "OpenAI"
     },
     {
-      "id": "openai/gpt-oss-20b:batch",
-      "displayName": "gpt-oss-20b (batch)",
-      "aliases": [
-        "openai/gpt-oss-20b:batch",
-        "openai/gpt-oss-20b",
-        "gpt-oss-20b-(batch)",
-        "gpt-oss-20b:batch"
-      ],
-      "providerID": "codex",
-      "family": "gpt-oss",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
       "id": "openai/gpt-oss-safeguard-20b",
       "displayName": "gpt-oss-safeguard-20b",
       "aliases": [
@@ -7475,15 +7437,16 @@
       "aliases": [
         "tencent/hy4-preview",
         "tencent/hy4-preview-20260827",
-        "hy4-preview"
+        "hy4-preview",
+        "aihubmix/hy4-preview"
       ],
       "providerID": "tencent",
       "family": "hy4-preview",
-      "inputCostPerMillionUSD": 0.834,
-      "outputCostPerMillionUSD": 2.501,
-      "cacheReadCostPerMillionUSD": 0.042,
+      "inputCostPerMillionUSD": 0.845,
+      "outputCostPerMillionUSD": 2.535,
+      "cacheReadCostPerMillionUSD": 0.04225,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that... · context=1048576",
+      "notes": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=64000",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -7554,23 +7517,6 @@
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576 · LiteLLM supports_prompt_caching, max_input=524288"
-    },
-    {
-      "id": "thinkingmachines/inkling-small:batch",
-      "displayName": "Inkling Small (batch)",
-      "aliases": [
-        "thinkingmachines/inkling-small:batch",
-        "thinkingmachines/inkling-small-20260730",
-        "inkling-small-(batch)",
-        "inkling-small:batch"
-      ],
-      "providerID": "thinkingmachines",
-      "family": "inkling-small",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.1,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288"
     },
     {
       "id": "thinkingmachines/inkling-small:free",
@@ -8326,15 +8272,17 @@
         "meituan/longcat-2.0-20260720",
         "meituan/longcat-2-0-20260720",
         "longcat-2.0",
-        "longcat-2-0"
+        "longcat-2-0",
+        "aihubmix/longcat-2.0",
+        "aihubmix/longcat-2-0"
       ],
       "providerID": "meituan",
       "family": "longcat-2",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "inputCostPerMillionUSD": 0.7746,
+      "outputCostPerMillionUSD": 3.0984,
+      "cacheReadCostPerMillionUSD": 0.015492,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic... · context=1048756",
+      "notes": "LongCat 2.0 is a sparse mixture-of-experts language model from Meituan, with 48B active parameters out of 1.6T total. It is suited for coding, repository-level changes, long-horizon problem solving, and agentic... · context=1048756 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=131072",
       "brandAssetName": "meituan",
       "organizationName": "Meituan"
     },
@@ -9750,7 +9698,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 1.0,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.1875,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
