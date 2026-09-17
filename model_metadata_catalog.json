@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-17T04:54:10.859111+00:00",
+  "generatedAt": "2026-09-17T11:42:39.632705+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -3460,7 +3460,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.08,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -12080,7 +12080,8 @@
       "displayName": "Union Alpha",
       "aliases": [
         "stealth/union-alpha",
-        "union-alpha"
+        "union-alpha",
+        "openrouter/stealth/union-alpha"
       ],
       "providerID": "stealth",
       "family": "union-alpha",
@@ -12088,7 +12089,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model.... · context=262144"
+      "notes": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model.... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=131072"
     },
     {
       "id": "thedrummer/unslopnemo-12b",
