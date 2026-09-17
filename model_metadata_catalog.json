@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-17T17:00:31.805700+00:00",
+  "generatedAt": "2026-09-17T21:23:23.114659+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -6623,7 +6623,7 @@
       "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning"
+      "notes": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, max_input=131000"
     },
     {
       "id": "xai/grok-3",
@@ -11471,7 +11471,26 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262000",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
+      "id": "qwen/qwen3.8-27b:free",
+      "displayName": "Qwen3.8 27B (free)",
+      "aliases": [
+        "qwen/qwen3.8-27b:free",
+        "qwen/qwen3.8-27b-20260814",
+        "qwen3.8-27b-(free)",
+        "qwen3.8-27b:free"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
