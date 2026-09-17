@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-16T21:19:04.589260+00:00",
+  "generatedAt": "2026-09-17T04:54:10.859111+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1590,9 +1590,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.57948,
-      "outputCostPerMillionUSD": 1.73844,
-      "cacheReadCostPerMillionUSD": 0.018438,
+      "inputCostPerMillionUSD": 0.66,
+      "outputCostPerMillionUSD": 1.98,
+      "cacheReadCostPerMillionUSD": 0.022,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -1791,8 +1791,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.13,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720"
@@ -3208,11 +3208,11 @@
       ],
       "providerID": "~google",
       "family": "gemini-flash",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 2.5,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.75,
+      "outputCostPerMillionUSD": 3.75,
+      "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": 0.041667,
-      "notes": "This model always redirects to the latest model in the Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing"
+      "notes": "This model always redirects to the latest model in the Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing"
     },
     {
       "id": "~google/gemini-pro-latest",
@@ -3223,11 +3223,11 @@
       ],
       "providerID": "~google",
       "family": "gemini-pro",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.125,
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 12.0,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "This model always redirects to the latest model in the Gemini Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535"
+      "notes": "This model always redirects to the latest model in the Gemini Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536"
     },
     {
       "id": "google/gemma-2-27b-it",
@@ -3771,9 +3771,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.9,
-      "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.8775,
+      "outputCostPerMillionUSD": 2.97,
+      "cacheReadCostPerMillionUSD": 0.1755,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720"
     },
@@ -8390,9 +8390,9 @@
       "family": "mercury-2",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": 0.004,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving... · context=260000 · LiteLLM supports_function_calling, max_input=260000, max_output=65536"
+      "notes": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving... · context=260000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=260000, max_output=65536"
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -8442,7 +8442,7 @@
       ],
       "providerID": "minimax",
       "family": "minimax-m1",
-      "inputCostPerMillionUSD": 0.55,
+      "inputCostPerMillionUSD": 0.4,
       "outputCostPerMillionUSD": 2.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
@@ -9090,8 +9090,8 @@
       ],
       "providerID": "mistral",
       "family": "mistral-small",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.2,
+      "inputCostPerMillionUSD": 0.09375,
+      "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000 · LiteLLM max_input=128000, max_output=128000",
@@ -9617,7 +9617,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.05,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768",
       "brandAssetName": "nvidia",
@@ -9698,7 +9698,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 1.0,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.1875,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -11180,8 +11180,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.3125,
-      "outputCostPerMillionUSD": 1.25,
+      "inputCostPerMillionUSD": 0.1625,
+      "outputCostPerMillionUSD": 1.3,
       "cacheReadCostPerMillionUSD": 0.15625,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
