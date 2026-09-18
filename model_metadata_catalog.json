@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-18T16:24:36.555940+00:00",
+  "generatedAt": "2026-09-18T20:54:54.717232+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1610,9 +1610,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "inputCostPerMillionUSD": 0.14,
+      "outputCostPerMillionUSD": 0.42,
+      "cacheReadCostPerMillionUSD": 0.0042,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=393216"
     },
@@ -3863,8 +3863,8 @@
       "providerID": "~z-ai",
       "family": "glm-latest",
       "inputCostPerMillionUSD": 0.9,
-      "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 2.805,
+      "cacheReadCostPerMillionUSD": 0.146625,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=235929"
     },
@@ -11689,7 +11689,7 @@
         "qwen/qwen3.8-flash",
         "qwen/qwen3.8-flash-20260826",
         "qwen3.8-flash",
-        "together-ai/qwen/qwen3.8-flash"
+        "dashscope/qwen3.8-flash"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
@@ -11697,7 +11697,7 @@
       "outputCostPerMillionUSD": 0.47,
       "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": 0.2,
-      "notes": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video · context=1000000 · LiteLLM max_input=1000000",
+      "notes": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12248,6 +12248,22 @@
       "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=256000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "displayName": "Ternary Bonsai 2 27B",
+      "aliases": [
+        "prism-ml/ternary-bonsai-2-27b",
+        "prism-ml/ternary-bonsai-2-27b-20260918",
+        "ternary-bonsai-2-27b"
+      ],
+      "providerID": "prism-ml",
+      "family": "ternary-bonsai",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
