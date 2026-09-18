@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-18T11:16:17.292224+00:00",
+  "generatedAt": "2026-09-18T16:24:36.555940+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -183,7 +183,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your... · context=2000000",
+      "notes": "The experimental version of our Auto Router where we test new improvements. Use it to get the latest and greatest version of our general purpose auto router, but expect beta... · context=2000000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -1626,9 +1626,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.66,
-      "outputCostPerMillionUSD": 1.98,
-      "cacheReadCostPerMillionUSD": 0.022,
+      "inputCostPerMillionUSD": 0.57816,
+      "outputCostPerMillionUSD": 1.73448,
+      "cacheReadCostPerMillionUSD": 0.018396,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=393216"
     },
@@ -1849,9 +1849,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0558,
-      "outputCostPerMillionUSD": 0.1767,
-      "cacheReadCostPerMillionUSD": 0.0088,
+      "inputCostPerMillionUSD": 0.055,
+      "outputCostPerMillionUSD": 0.165,
+      "cacheReadCostPerMillionUSD": 0.00175,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=393216"
     },
@@ -3862,9 +3862,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.8775,
-      "outputCostPerMillionUSD": 2.97,
-      "cacheReadCostPerMillionUSD": 0.1755,
+      "inputCostPerMillionUSD": 0.9,
+      "outputCostPerMillionUSD": 3.0,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=235929"
     },
