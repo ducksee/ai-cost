@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-19T15:53:41.710491+00:00",
+  "generatedAt": "2026-09-19T20:41:21.287862+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1610,11 +1610,11 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.14,
-      "outputCostPerMillionUSD": 0.42,
-      "cacheReadCostPerMillionUSD": 0.0042,
+      "inputCostPerMillionUSD": 0.13,
+      "outputCostPerMillionUSD": 0.52,
+      "cacheReadCostPerMillionUSD": 0.0026,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=393216"
+      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -1849,11 +1849,11 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.055,
-      "outputCostPerMillionUSD": 0.165,
-      "cacheReadCostPerMillionUSD": 0.00175,
+      "inputCostPerMillionUSD": 0.04,
+      "outputCostPerMillionUSD": 0.08,
+      "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=393216"
+      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=943718"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -1962,9 +1962,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.003,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=384000",
       "brandAssetName": "deepseek",
@@ -3545,7 +3545,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -3828,7 +3828,9 @@
         "z-ai/glm-5.3-flashx-20260918",
         "z-ai/glm-5-3-flashx-20260918",
         "glm-5.3-flashx",
-        "glm-5-3-flashx"
+        "glm-5-3-flashx",
+        "openrouter/z-ai/glm-5.3-flashx",
+        "openrouter/z-ai/glm-5-3-flashx"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -3836,7 +3838,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576"
+      "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -3881,11 +3883,11 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.9,
-      "outputCostPerMillionUSD": 2.805,
-      "cacheReadCostPerMillionUSD": 0.146625,
+      "inputCostPerMillionUSD": 0.8442,
+      "outputCostPerMillionUSD": 2.6532,
+      "cacheReadCostPerMillionUSD": 0.15678,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=235929"
+      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=131072"
     },
     {
       "id": "~openai/gpt-astra-latest",
@@ -12274,7 +12276,8 @@
       "aliases": [
         "prism-ml/ternary-bonsai-2-27b",
         "prism-ml/ternary-bonsai-2-27b-20260918",
-        "ternary-bonsai-2-27b"
+        "ternary-bonsai-2-27b",
+        "openrouter/prism-ml/ternary-bonsai-2-27b"
       ],
       "providerID": "prism-ml",
       "family": "ternary-bonsai",
@@ -12282,7 +12285,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144"
+      "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
