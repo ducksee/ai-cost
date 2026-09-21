@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-21T12:49:49.102509+00:00",
+  "generatedAt": "2026-09-21T21:59:28.720517+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -667,30 +667,6 @@
       "organizationName": "Claude"
     },
     {
-      "id": "anthropic/claude-opus-4",
-      "displayName": "Claude Opus 4",
-      "aliases": [
-        "anthropic/claude-opus-4",
-        "anthropic/claude-4-opus-20250522",
-        "claude-opus-4",
-        "claude-4-opus",
-        "claude-opus-4-20250514",
-        "claude-opus-4.20250514",
-        "claude-4-20250514-opus",
-        "claude-4.20250514-opus",
-        "deepinfra/anthropic/claude-4-opus"
-      ],
-      "providerID": "claude",
-      "family": "claude-opus",
-      "inputCostPerMillionUSD": 15,
-      "outputCostPerMillionUSD": 75,
-      "cacheReadCostPerMillionUSD": 1.5,
-      "cacheWriteCostPerMillionUSD": 18.75,
-      "notes": "Claude Opus 4 is benchmarked as the world’s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in... · context=200000 · LiteLLM supports_function_calling, max_input=200000, max_output=200000 · Direct vendor pricing with cached-input tier from llm-prices",
-      "brandAssetName": "claude",
-      "organizationName": "Anthropic"
-    },
-    {
       "id": "claude/claude-opus-4",
       "displayName": "Claude Opus 4",
       "aliases": [
@@ -1195,7 +1171,7 @@
       "outputCostPerMillionUSD": 16.5,
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": 3.75,
-      "notes": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on  · context=1000000 · LiteLLM supports_function_calling, max_input=200000, max_output=200000",
+      "notes": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on  · context=200000 · LiteLLM supports_function_calling, max_input=200000, max_output=200000",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -1737,7 +1713,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.28,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.1345,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse att · context=163840 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=163840, max_output=163840",
       "brandAssetName": "deepseek",
@@ -1755,7 +1731,7 @@
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.27,
       "outputCostPerMillionUSD": 0.41,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=163840, max_output=65536",
       "brandAssetName": "deepseek",
@@ -1830,7 +1806,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.16,
+      "outputCostPerMillionUSD": 0.32,
       "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=943718"
@@ -3847,11 +3823,11 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.09,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=131072"
+      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=102400"
     },
     {
       "id": "~z-ai/glm-latest",
@@ -6672,26 +6648,6 @@
       "organizationName": "OpenAI"
     },
     {
-      "id": "openai/gpt-oss-120b:batch",
-      "displayName": "gpt-oss-120b (batch)",
-      "aliases": [
-        "openai/gpt-oss-120b:batch",
-        "openai/gpt-oss-120b",
-        "gpt-oss-120b-(batch)",
-        "gpt-oss-120b:batch",
-        "openrouter/openai/gpt-oss-120b:batch"
-      ],
-      "providerID": "codex",
-      "family": "gpt-oss",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=117964",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
       "id": "openai/gpt-oss-20b",
       "displayName": "gpt-oss-20b",
       "aliases": [
@@ -7260,7 +7216,7 @@
       "outputCostPerMillionUSD": 6,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.6 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7). · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -7305,6 +7261,29 @@
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=128000",
+      "brandAssetName": "xai",
+      "organizationName": "xAI"
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "displayName": "Grok 4.7",
+      "aliases": [
+        "x-ai/grok-4.7",
+        "x-ai/grok-4-7",
+        "x-ai/grok-4.7-20260916",
+        "x-ai/grok-4-7-20260916",
+        "grok-4.7",
+        "grok-4-7",
+        "xai/grok-4.7",
+        "xai/grok-4-7"
+      ],
+      "providerID": "xai",
+      "family": "grok-4",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and... · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=500000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -7401,9 +7380,9 @@
       ],
       "providerID": "~x-ai",
       "family": "grok-latest",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 1.6,
+      "outputCostPerMillionUSD": 4.8,
+      "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest Grok model from xAI. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=450000"
     },
@@ -7617,24 +7596,6 @@
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288"
-    },
-    {
-      "id": "thinkingmachines/inkling:batch",
-      "displayName": "Inkling (batch)",
-      "aliases": [
-        "thinkingmachines/inkling:batch",
-        "thinkingmachines/inkling-20260715",
-        "inkling-(batch)",
-        "inkling:batch",
-        "openrouter/thinkingmachines/inkling:batch"
-      ],
-      "providerID": "thinkingmachines",
-      "family": "inkling-batch",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 4.05,
-      "cacheReadCostPerMillionUSD": 0.17,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=471859"
     },
     {
       "id": "thinkingmachines/inkling:free",
@@ -7947,26 +7908,6 @@
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
-      "brandAssetName": "kimi",
-      "organizationName": "Kimi / MoonshotAI"
-    },
-    {
-      "id": "moonshotai/kimi-k3:batch",
-      "displayName": "Kimi K3 (batch)",
-      "aliases": [
-        "moonshotai/kimi-k3:batch",
-        "moonshotai/kimi-k3-20260715",
-        "kimi-k3-(batch)",
-        "kimi-k3:batch",
-        "openrouter/moonshotai/kimi-k3:batch"
-      ],
-      "providerID": "kimi",
-      "family": "kimi-k3",
-      "inputCostPerMillionUSD": 3.0,
-      "outputCostPerMillionUSD": 15.0,
-      "cacheReadCostPerMillionUSD": 0.3,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -8606,6 +8547,63 @@
       "organizationName": "Xiaomi"
     },
     {
+      "id": "xiaomi/mimo-v2.6-flash",
+      "displayName": "MiMo-V2.6-Flash",
+      "aliases": [
+        "xiaomi/mimo-v2.6-flash",
+        "xiaomi/mimo-v2.6-flash-20260921",
+        "mimo-v2.6-flash",
+        "openrouter/xiaomi/mimo-v2.6-flash"
+      ],
+      "providerID": "xiaomi",
+      "family": "mimo-v2",
+      "inputCostPerMillionUSD": 0.14,
+      "outputCostPerMillionUSD": 0.28,
+      "cacheReadCostPerMillionUSD": 0.0028,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "brandAssetName": "xiaomi",
+      "organizationName": "Xiaomi"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "displayName": "MiMo-V2.6-Pro",
+      "aliases": [
+        "xiaomi/mimo-v2.6-pro",
+        "xiaomi/mimo-v2.6-pro-20260921",
+        "mimo-v2.6-pro",
+        "openrouter/xiaomi/mimo-v2.6-pro"
+      ],
+      "providerID": "xiaomi",
+      "family": "mimo-v2",
+      "inputCostPerMillionUSD": 0.435,
+      "outputCostPerMillionUSD": 0.87,
+      "cacheReadCostPerMillionUSD": 0.0036,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "brandAssetName": "xiaomi",
+      "organizationName": "Xiaomi"
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "displayName": "MiMo-V2.6-Pro-UltraSpeed",
+      "aliases": [
+        "xiaomi/mimo-v2.6-pro-ultraspeed",
+        "xiaomi/mimo-v2.6-pro-ultraspeed-20260921",
+        "mimo-v2.6-pro-ultraspeed",
+        "openrouter/xiaomi/mimo-v2.6-pro-ultraspeed"
+      ],
+      "providerID": "xiaomi",
+      "family": "mimo-v2",
+      "inputCostPerMillionUSD": 4.35,
+      "outputCostPerMillionUSD": 8.7,
+      "cacheReadCostPerMillionUSD": 0.036,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "brandAssetName": "xiaomi",
+      "organizationName": "Xiaomi"
+    },
+    {
       "id": "minimax/minimax-m1",
       "displayName": "MiniMax M1",
       "aliases": [
@@ -8728,26 +8726,6 @@
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
-      "brandAssetName": "minimax",
-      "organizationName": "MiniMax"
-    },
-    {
-      "id": "minimax/minimax-m3:batch",
-      "displayName": "MiniMax M3 (batch)",
-      "aliases": [
-        "minimax/minimax-m3:batch",
-        "minimax/minimax-m3-20260531",
-        "minimax-m3-(batch)",
-        "minimax-m3:batch",
-        "openrouter/minimax/minimax-m3:batch"
-      ],
-      "providerID": "minimax",
-      "family": "minimax-m3",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.06,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=471859",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9777,7 +9755,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.05,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Nano 30B A3B is a small language MoE model with highest compute efficiency and accuracy for developers to build specialized agentic AI systems. The model is fully... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768",
       "brandAssetName": "nvidia",
@@ -11394,26 +11372,6 @@
       "organizationName": "Qwen"
     },
     {
-      "id": "qwen/qwen3.5-9b:batch",
-      "displayName": "Qwen3.5-9B (batch)",
-      "aliases": [
-        "qwen/qwen3.5-9b:batch",
-        "qwen/qwen3.5-9b-20260310",
-        "qwen3.5-9b-(batch)",
-        "qwen3.5-9b:batch",
-        "openrouter/qwen/qwen3.5-9b:batch"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.17,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen3.5-flash-02-23",
       "displayName": "Qwen3.5-Flash",
       "aliases": [
@@ -11625,26 +11583,6 @@
       "organizationName": "Qwen"
     },
     {
-      "id": "qwen/qwen3.8-2.4t-a95b:batch",
-      "displayName": "Qwen3.8 2.4T A95B (batch)",
-      "aliases": [
-        "qwen/qwen3.8-2.4t-a95b:batch",
-        "qwen/qwen3.8-2.4t-a95b-20260812",
-        "qwen3.8-2.4t-a95b-(batch)",
-        "qwen3.8-2.4t-a95b:batch",
-        "openrouter/qwen/qwen3.8-2.4t-a95b:batch"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-8",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1010000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1010000, max_output=909000",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen3.8-27b",
       "displayName": "Qwen3.8 27B",
       "aliases": [
@@ -11734,7 +11672,7 @@
       "family": "deepseek-r1",
       "inputCostPerMillionUSD": 0.55,
       "outputCostPerMillionUSD": 2.19,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.14,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass.... · context=64000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=65536, max_output=8192",
       "brandAssetName": "deepseek",
