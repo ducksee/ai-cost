@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-20T20:49:57.413907+00:00",
+  "generatedAt": "2026-09-21T04:57:03.050376+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1614,7 +1614,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
+      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=384000"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
@@ -1626,9 +1626,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.52668,
-      "outputCostPerMillionUSD": 1.58004,
-      "cacheReadCostPerMillionUSD": 0.017556,
+      "inputCostPerMillionUSD": 1.32,
+      "outputCostPerMillionUSD": 3.96,
+      "cacheReadCostPerMillionUSD": 0.044,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=384000"
     },
@@ -1830,7 +1830,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.12,
+      "outputCostPerMillionUSD": 0.16,
       "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=943718"
@@ -3851,7 +3851,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=943718"
+      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=131072"
     },
     {
       "id": "~z-ai/glm-latest",
