@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-22T11:39:46.224451+00:00",
+  "generatedAt": "2026-09-22T16:58:02.676580+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -21,7 +21,7 @@
       "outputCostPerMillionUSD": 1.6,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging.... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=32768"
+      "notes": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging.... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=32768"
     },
     {
       "id": "aion-labs/aion-3.0",
@@ -42,7 +42,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.75,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=32768"
+      "notes": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=32768"
     },
     {
       "id": "aion-labs/aion-3.0-mini",
@@ -63,7 +63,7 @@
       "outputCostPerMillionUSD": 1.4,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=32768"
+      "notes": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=32768"
     },
     {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -1136,6 +1136,77 @@
       "organizationName": "Claude"
     },
     {
+      "id": "anthropic/claude-opus-5.5",
+      "displayName": "Claude Opus 5.5",
+      "aliases": [
+        "anthropic/claude-opus-5.5",
+        "anthropic/claude-opus-5-5",
+        "anthropic/claude-opus-5.5-20260921",
+        "anthropic/claude-opus-5-5-20260921",
+        "claude-opus-5.5",
+        "claude-opus-5-5",
+        "claude-5.5-opus",
+        "claude-5-5-opus"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 5.0,
+      "notes": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "claude/claude-opus-5-5",
+      "displayName": "Claude Opus 5.5",
+      "aliases": [
+        "claude-opus-5-5",
+        "claude-opus-5.5",
+        "claude-5-5-opus",
+        "claude-5.5-opus",
+        "anthropic/claude-opus-5-5",
+        "anthropic/claude-opus-5.5",
+        "claude/claude-opus-5-5",
+        "claude/claude-opus-5.5"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "anthropic/claude-opus-5.5:batch",
+      "displayName": "Claude Opus 5.5 (batch)",
+      "aliases": [
+        "anthropic/claude-opus-5.5:batch",
+        "anthropic/claude-opus-5.5-20260921",
+        "anthropic/claude-opus-5-5-20260921",
+        "claude-opus-5.5-(batch)",
+        "claude-opus-5-5-(batch)",
+        "claude-5.5-opus-(batch)",
+        "claude-5-5-opus-(batch)",
+        "claude-opus-5.5:batch",
+        "claude-5.5-opus:batch",
+        "claude-5-5-opus:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-opus",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "~anthropic/claude-opus-latest",
       "displayName": "Claude Opus Latest",
       "aliases": [
@@ -1776,26 +1847,6 @@
       "organizationName": "DeepSeek"
     },
     {
-      "id": "deepseek/deepseek-v4-flash-0731:batch",
-      "displayName": "DeepSeek V4 Flash 0731 (batch)",
-      "aliases": [
-        "deepseek/deepseek-v4-flash-0731:batch",
-        "deepseek/deepseek-v4-flash-20260731",
-        "deepseek-v4-flash-0731-(batch)",
-        "deepseek-v4-flash-0731:batch",
-        "openrouter/deepseek/deepseek-v4-flash-0731:batch"
-      ],
-      "providerID": "deepseek",
-      "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.11,
-      "outputCostPerMillionUSD": 0.33,
-      "cacheReadCostPerMillionUSD": 0.0035,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=943718",
-      "brandAssetName": "deepseek",
-      "organizationName": "DeepSeek"
-    },
-    {
       "id": "~deepseek/deepseek-v4-flash-latest",
       "displayName": "DeepSeek V4 Flash Latest",
       "aliases": [
@@ -1826,26 +1877,6 @@
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=393216",
-      "brandAssetName": "deepseek",
-      "organizationName": "DeepSeek"
-    },
-    {
-      "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
-      "displayName": "DeepSeek V4 Flash Vision Exp (batch)",
-      "aliases": [
-        "deepseek/deepseek-v4-flash-vision-exp:batch",
-        "deepseek/deepseek-v4-flash-vision-exp-20260821",
-        "deepseek-v4-flash-vision-exp-(batch)",
-        "deepseek-v4-flash-vision-exp:batch",
-        "openrouter/deepseek/deepseek-v4-flash-vision-exp:batch"
-      ],
-      "providerID": "deepseek",
-      "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.11,
-      "outputCostPerMillionUSD": 0.33,
-      "cacheReadCostPerMillionUSD": 0.0035,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1888,26 +1919,6 @@
       "organizationName": "DeepSeek"
     },
     {
-      "id": "deepseek/deepseek-v4-pro-0813:batch",
-      "displayName": "DeepSeek V4 Pro 0813 (batch)",
-      "aliases": [
-        "deepseek/deepseek-v4-pro-0813:batch",
-        "deepseek/deepseek-v4-pro-20260813",
-        "deepseek-v4-pro-0813-(batch)",
-        "deepseek-v4-pro-0813:batch",
-        "openrouter/deepseek/deepseek-v4-pro-0813:batch"
-      ],
-      "providerID": "deepseek",
-      "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.66,
-      "outputCostPerMillionUSD": 1.98,
-      "cacheReadCostPerMillionUSD": 0.022,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=943718",
-      "brandAssetName": "deepseek",
-      "organizationName": "DeepSeek"
-    },
-    {
       "id": "deepseek/deepseek-v4.1-flash",
       "displayName": "DeepSeek V4.1 Flash",
       "aliases": [
@@ -1923,6 +1934,25 @@
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=384000",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "displayName": "DeepSeek V4.1 Flash (batch)",
+      "aliases": [
+        "deepseek/deepseek-v4.1-flash:batch",
+        "deepseek/deepseek-v4.1-flash-20260910",
+        "deepseek-v4.1-flash-(batch)",
+        "deepseek-v4.1-flash:batch"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.112,
+      "outputCostPerMillionUSD": 0.336,
+      "cacheReadCostPerMillionUSD": 0.00336,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3651,26 +3681,6 @@
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
-      "id": "z-ai/glm-5.2:batch",
-      "displayName": "GLM 5.2 (batch)",
-      "aliases": [
-        "z-ai/glm-5.2:batch",
-        "z-ai/glm-5.2-20260616",
-        "z-ai/glm-5-2-20260616",
-        "glm-5.2-(batch)",
-        "glm-5-2-(batch)",
-        "glm-5.2:batch",
-        "openrouter/z-ai/glm-5.2:batch"
-      ],
-      "providerID": "z-ai",
-      "family": "glm-5",
-      "inputCostPerMillionUSD": 0.7,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.07,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=943718"
-    },
-    {
       "id": "z-ai/glm-5.2:free",
       "displayName": "GLM 5.2 (free)",
       "aliases": [
@@ -3725,11 +3735,11 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.7,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "inputCostPerMillionUSD": 0.72,
+      "outputCostPerMillionUSD": 2.4,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=943718"
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -3769,11 +3779,11 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
+      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "z-ai/glm-5.3-flashx",
@@ -3839,9 +3849,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.84,
-      "outputCostPerMillionUSD": 2.64,
-      "cacheReadCostPerMillionUSD": 0.156,
+      "inputCostPerMillionUSD": 0.6538,
+      "outputCostPerMillionUSD": 2.0548,
+      "cacheReadCostPerMillionUSD": 0.12142,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=131072"
     },
@@ -6659,11 +6669,30 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "displayName": "gpt-oss-20b (batch)",
+      "aliases": [
+        "openai/gpt-oss-20b:batch",
+        "openai/gpt-oss-20b",
+        "gpt-oss-20b-(batch)",
+        "gpt-oss-20b:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-oss",
+      "inputCostPerMillionUSD": 0.024,
+      "outputCostPerMillionUSD": 0.112,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
     },
     {
       "id": "openai/gpt-oss-safeguard-20b",
@@ -7651,6 +7680,22 @@
       "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=262144"
     },
     {
+      "id": "typesafe/jev-1.13.0",
+      "displayName": "Jev 1.13",
+      "aliases": [
+        "jev-1.13.0",
+        "typesafe/jev-1.13.0",
+        "jev-1.13",
+        "jev-1-13"
+      ],
+      "providerID": "typesafe",
+      "family": "jev-1",
+      "inputCostPerMillionUSD": 0.042,
+      "outputCostPerMillionUSD": 0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null
+    },
+    {
       "id": "kwaipilot/kat-coder-pro-v2.5",
       "displayName": "KAT-Coder-Pro V2.5",
       "aliases": [
@@ -7891,6 +7936,26 @@
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "moonshotai/kimi-k3:batch",
+      "displayName": "Kimi K3 (batch)",
+      "aliases": [
+        "moonshotai/kimi-k3:batch",
+        "moonshotai/kimi-k3-20260715",
+        "kimi-k3-(batch)",
+        "kimi-k3:batch",
+        "openrouter/moonshotai/kimi-k3:batch"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k3",
+      "inputCostPerMillionUSD": 2.28,
+      "outputCostPerMillionUSD": 11.4,
+      "cacheReadCostPerMillionUSD": 0.228,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=16384",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -9357,26 +9422,6 @@
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, max_input=131072",
-      "brandAssetName": "meta",
-      "organizationName": "Meta"
-    },
-    {
-      "id": "meta/muse-glimmer-30b:batch",
-      "displayName": "Muse Glimmer 30B (batch)",
-      "aliases": [
-        "meta/muse-glimmer-30b:batch",
-        "meta/muse-glimmer-30b-20260810",
-        "muse-glimmer-30b-(batch)",
-        "muse-glimmer-30b:batch",
-        "openrouter/meta/muse-glimmer-30b:batch"
-      ],
-      "providerID": "meta",
-      "family": "muse-glimmer",
-      "inputCostPerMillionUSD": 0.175,
-      "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": 0.02,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=117964",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -11424,7 +11469,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=16384",
       "brandAssetName": "qwen",
