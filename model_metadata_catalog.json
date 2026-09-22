@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-21T21:59:28.720517+00:00",
+  "generatedAt": "2026-09-22T04:57:38.569338+00:00",
   "models": [
     {
       "id": "aion-labs/aion-2.0",
@@ -1806,7 +1806,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.32,
+      "outputCostPerMillionUSD": 0.64,
       "cacheReadCostPerMillionUSD": 0.016,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=943718"
@@ -3823,11 +3823,11 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=102400"
+      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=943718"
     },
     {
       "id": "~z-ai/glm-latest",
@@ -3839,9 +3839,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.91,
-      "outputCostPerMillionUSD": 2.86,
-      "cacheReadCostPerMillionUSD": 0.169,
+      "inputCostPerMillionUSD": 0.84,
+      "outputCostPerMillionUSD": 2.64,
+      "cacheReadCostPerMillionUSD": 0.156,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=131072"
     },
@@ -9959,6 +9959,23 @@
       "organizationName": "Nvidia"
     },
     {
+      "id": "nex-agi/nex-n2.5-mini",
+      "displayName": "Nex-N2.5-Mini",
+      "aliases": [
+        "nex-agi/nex-n2.5-mini",
+        "nex-agi/nex-n2.5-mini-20260908",
+        "nex-n2.5-mini",
+        "openrouter/nex-agi/nex-n2.5-mini"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.025,
+      "outputCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.0025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144, max_output=235929"
+    },
+    {
       "id": "nex-agi/nex-n2.5-mini:free",
       "displayName": "Nex-N2.5-Mini (free)",
       "aliases": [
@@ -9975,6 +9992,23 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "displayName": "Nex-N2.5-Pro",
+      "aliases": [
+        "nex-agi/nex-n2.5-pro",
+        "nex-agi/nex-n2.5-pro-20260907",
+        "nex-n2.5-pro",
+        "openrouter/nex-agi/nex-n2.5-pro"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144, max_output=235929"
     },
     {
       "id": "nex-agi/nex-n2.5-pro:free",
