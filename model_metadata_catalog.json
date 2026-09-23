@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-23T17:00:29.331976+00:00",
+  "generatedAt": "2026-09-23T21:30:32.299925+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -12045,6 +12045,25 @@
       "organizationName": "Qwen"
     },
     {
+      "id": "qwen/qwen3.8-max-prime",
+      "displayName": "Qwen3.8 Max Prime",
+      "aliases": [
+        "qwen/qwen3.8-max-prime",
+        "qwen/qwen3.8-max-prime-20260923",
+        "qwen3.8-max-prime",
+        "openrouter/qwen/qwen3.8-max-prime"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 4.0,
+      "outputCostPerMillionUSD": 12.0,
+      "cacheReadCostPerMillionUSD": 0.5,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point. It accepts text, image, and video... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=131072",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
       "id": "qwen/qwen3.8-omni-flash",
       "displayName": "Qwen3.8 Omni Flash",
       "aliases": [
@@ -12564,6 +12583,22 @@
       "notes": "Note: Sonar Pro pricing includes Perplexity search pricing. See [details here](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-reasoning-pro-and-sonar-pro) Sonar Reasoning Pro is a premier  · context=128000 · LiteLLM supports_reasoning, max_input=128000",
       "brandAssetName": "perplexity",
       "organizationName": "Perplexity"
+    },
+    {
+      "id": "stealth/space-bunny-alpha",
+      "displayName": "Space Bunny Alpha",
+      "aliases": [
+        "stealth/space-bunny-alpha",
+        "space-bunny-alpha",
+        "openrouter/stealth/space-bunny-alpha"
+      ],
+      "providerID": "stealth",
+      "family": "space-bunny",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
       "id": "stepfun/step-3.5-flash",
