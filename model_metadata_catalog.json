@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T04:52:28.003514+00:00",
+  "generatedAt": "2026-09-24T11:47:08.209116+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2062,6 +2062,24 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is... · context=512000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=512000, max_output=460800"
+    },
+    {
+      "id": "fireworks/ember-1",
+      "displayName": "Ember-1",
+      "aliases": [
+        "fireworks/ember-1",
+        "fireworks/ember-1-20260923",
+        "fireworks/ember-1.20260923",
+        "ember-1",
+        "openrouter/fireworks/ember-1"
+      ],
+      "providerID": "fireworks",
+      "family": "ember-1",
+      "inputCostPerMillionUSD": 3.0,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using r · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
     },
     {
       "id": "baidu/ernie-4.5-vl-424b-a47b",
@@ -7917,7 +7935,7 @@
       "outputCostPerMillionUSD": 0.295,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=32768 · LiteLLM max_input=8192, max_output=4096",
+      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=8192 · LiteLLM max_input=8192, max_output=4096",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
