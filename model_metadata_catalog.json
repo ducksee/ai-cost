@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-23T21:30:32.299925+00:00",
+  "generatedAt": "2026-09-24T04:52:28.003514+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2017,9 +2017,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "inputCostPerMillionUSD": 0.14,
+      "outputCostPerMillionUSD": 0.42,
+      "cacheReadCostPerMillionUSD": 0.0042,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718",
       "brandAssetName": "deepseek",
@@ -3806,9 +3806,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.72,
-      "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "inputCostPerMillionUSD": 0.45,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072"
     },
@@ -3873,9 +3873,30 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 0.37,
       "outputCostPerMillionUSD": 1.25,
-      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+    },
+    {
+      "id": "z-ai/glm-5.3-prime",
+      "displayName": "GLM 5.3 Prime",
+      "aliases": [
+        "z-ai/glm-5.3-prime",
+        "z-ai/glm-5-3-prime",
+        "z-ai/glm-5.3-prime-20260921",
+        "z-ai/glm-5-3-prime-20260921",
+        "glm-5.3-prime",
+        "glm-5-3-prime",
+        "openrouter/z-ai/glm-5.3-prime",
+        "openrouter/z-ai/glm-5-3-prime"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 2.8,
+      "outputCostPerMillionUSD": 8.8,
+      "cacheReadCostPerMillionUSD": 0.56,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration. It supports text input and output with a 1M-token. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=131072"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -5294,8 +5315,8 @@
         "openai/gpt-5-2-chat-20251211",
         "gpt-5.2-chat",
         "gpt-5-2-chat",
-        "openrouter/openai/gpt-5.2-chat",
-        "openrouter/openai/gpt-5-2-chat"
+        "azure/gpt-5.2-chat",
+        "azure/gpt-5-2-chat"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5303,7 +5324,7 @@
       "outputCostPerMillionUSD": 14.0,
       "cacheReadCostPerMillionUSD": 0.175,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on... · context=128000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=32000",
+      "notes": "GPT-5.2 Chat (AKA Instant) is the fast, lightweight member of the 5.2 family, optimized for low-latency chat while retaining strong general intelligence. It uses adaptive reasoning to selectively “think” on... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=111616, max_output=16384",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6963,6 +6984,26 @@
       "organizationName": "OpenAI"
     },
     {
+      "id": "openai/gpt-oss-120b:batch",
+      "displayName": "gpt-oss-120b (batch)",
+      "aliases": [
+        "openai/gpt-oss-120b:batch",
+        "openai/gpt-oss-120b",
+        "gpt-oss-120b-(batch)",
+        "gpt-oss-120b:batch",
+        "openrouter/openai/gpt-oss-120b:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-oss",
+      "inputCostPerMillionUSD": 0.0296,
+      "outputCostPerMillionUSD": 0.136,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=117964",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "openai/gpt-oss-20b",
       "displayName": "gpt-oss-20b",
       "aliases": [
@@ -7876,7 +7917,7 @@
       "outputCostPerMillionUSD": 0.295,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=8192 · LiteLLM max_input=8192, max_output=4096",
+      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=32768 · LiteLLM max_input=8192, max_output=4096",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -10310,23 +10351,6 @@
       "organizationName": "Nvidia"
     },
     {
-      "id": "nex-agi/nex-n2.5-mini",
-      "displayName": "Nex-N2.5-Mini",
-      "aliases": [
-        "nex-agi/nex-n2.5-mini",
-        "nex-agi/nex-n2.5-mini-20260908",
-        "nex-n2.5-mini",
-        "openrouter/nex-agi/nex-n2.5-mini"
-      ],
-      "providerID": "nex-agi",
-      "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.025,
-      "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": 0.0025,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144, max_output=235929"
-    },
-    {
       "id": "nex-agi/nex-n2.5-mini:free",
       "displayName": "Nex-N2.5-Mini (free)",
       "aliases": [
@@ -10343,23 +10367,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
-    },
-    {
-      "id": "nex-agi/nex-n2.5-pro",
-      "displayName": "Nex-N2.5-Pro",
-      "aliases": [
-        "nex-agi/nex-n2.5-pro",
-        "nex-agi/nex-n2.5-pro-20260907",
-        "nex-n2.5-pro",
-        "openrouter/nex-agi/nex-n2.5-pro"
-      ],
-      "providerID": "nex-agi",
-      "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.015,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
     },
     {
       "id": "nex-agi/nex-n2.5-pro:free",
@@ -10527,7 +10534,8 @@
         "o1-preview",
         "openai/o1-preview",
         "codex/o1-preview",
-        "o1-and-o1-preview"
+        "o1-and-o1-preview",
+        "azure/us/o1-preview"
       ],
       "providerID": "codex",
       "family": "o1-preview",
@@ -10535,7 +10543,7 @@
       "outputCostPerMillionUSD": 60,
       "cacheReadCostPerMillionUSD": 7.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, max_input=128000, max_output=32768",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -10893,7 +10901,7 @@
       "outputCostPerMillionUSD": 8,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=200000, max_output=100000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -11465,7 +11473,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
