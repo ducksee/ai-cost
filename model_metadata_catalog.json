@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-24T17:12:24.107892+00:00",
+  "generatedAt": "2026-09-24T21:31:31.140701+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2044,6 +2044,26 @@
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
+    },
+    {
+      "id": "mistralai/devstral-2512",
+      "displayName": "Devstral 2 2512",
+      "aliases": [
+        "mistralai/devstral-2512",
+        "devstral-2-2512",
+        "devstral-2.2512",
+        "devstral-2512",
+        "openrouter/mistralai/devstral-2512"
+      ],
+      "providerID": "mistral",
+      "family": "devstral-2512",
+      "inputCostPerMillionUSD": 0.4,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=262144, max_output=209715",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
     },
     {
       "id": "dots-studio/dots-3-note-preview:free",
@@ -9369,6 +9389,26 @@
       "organizationName": "Mistral"
     },
     {
+      "id": "mistralai/mistral-large-2512",
+      "displayName": "Mistral Large 3 2512",
+      "aliases": [
+        "mistralai/mistral-large-2512",
+        "mistral-large-3-2512",
+        "mistral-large-3.2512",
+        "mistral-large-2512",
+        "mistral/mistral-large-2512"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-large",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
       "id": "mistralai/mistral-large-2512:batch",
       "displayName": "Mistral Large 3 2512 (batch)",
       "aliases": [
@@ -10063,7 +10103,7 @@
       "family": "gemini-3",
       "inputCostPerMillionUSD": 0.5,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemini 3.1 Flash Image Preview, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines... · context=65536 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
       "brandAssetName": "gemini",
