@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-25T17:12:13.468888+00:00",
+  "generatedAt": "2026-09-25T21:35:40.132545+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3788,26 +3788,6 @@
       "cacheReadCostPerMillionUSD": 0.26,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
-    },
-    {
-      "id": "z-ai/glm-5.2:free",
-      "displayName": "GLM 5.2 (free)",
-      "aliases": [
-        "z-ai/glm-5.2:free",
-        "z-ai/glm-5.2-20260616",
-        "z-ai/glm-5-2-20260616",
-        "glm-5.2-(free)",
-        "glm-5-2-(free)",
-        "glm-5.2:free",
-        "openrouter/z-ai/glm-5.2:free"
-      ],
-      "providerID": "z-ai",
-      "family": "glm-5",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=131072 · LiteLLM supports_reasoning, max_input=32768, max_output=29491"
     },
     {
       "id": "z-ai/glm-5.3",
@@ -8123,6 +8103,21 @@
       "cacheWriteCostPerMillionUSD": null
     },
     {
+      "id": "typesafe/jev-router",
+      "displayName": "Jev Router",
+      "aliases": [
+        "typesafe/jev-router",
+        "jev-router"
+      ],
+      "providerID": "typesafe",
+      "family": "jev-router",
+      "inputCostPerMillionUSD": null,
+      "outputCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost. It runs on [Jev](https://openrouter.ai/~typesafe/jev-latest), TypeSafe's first System One model, and adapts as yo · context=1000000"
+    },
+    {
       "id": "kwaipilot/kat-coder-pro-v2.5",
       "displayName": "KAT-Coder-Pro V2.5",
       "aliases": [
@@ -9028,7 +9023,7 @@
       "outputCostPerMillionUSD": 0.87,
       "cacheReadCostPerMillionUSD": 0.0036,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -10996,6 +10991,22 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual und · context=32768 · LiteLLM supports_reasoning, supports_vision, max_input=32768, max_output=8192"
+    },
+    {
+      "id": "perceptron/perceptron-mk1.5",
+      "displayName": "Perceptron Mk1.5",
+      "aliases": [
+        "perceptron/perceptron-mk1.5",
+        "perceptron/perceptron-mk1.5-20260925",
+        "perceptron-mk1.5"
+      ],
+      "providerID": "perceptron",
+      "family": "perceptron-mk1",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,. · context=36864"
     },
     {
       "id": "microsoft/phi-4",
