@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-25T11:52:15.821418+00:00",
+  "generatedAt": "2026-09-25T17:12:13.468888+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3499,7 +3499,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -3807,7 +3807,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=32768 · LiteLLM supports_reasoning, max_input=32768, max_output=29491"
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=131072 · LiteLLM supports_reasoning, max_input=32768, max_output=29491"
     },
     {
       "id": "z-ai/glm-5.3",
@@ -10380,7 +10380,7 @@
       "outputCostPerMillionUSD": 0.24,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10408,42 +10408,6 @@
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000, max_output=65536",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
-    },
-    {
-      "id": "nex-agi/nex-n2.5-mini:free",
-      "displayName": "Nex-N2.5-Mini (free)",
-      "aliases": [
-        "nex-agi/nex-n2.5-mini:free",
-        "nex-agi/nex-n2.5-mini-20260908",
-        "nex-n2.5-mini-(free)",
-        "nex-n2.5-mini:free",
-        "openrouter/nex-agi/nex-n2.5-mini:free"
-      ],
-      "providerID": "nex-agi",
-      "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
-    },
-    {
-      "id": "nex-agi/nex-n2.5-pro:free",
-      "displayName": "Nex-N2.5-Pro (free)",
-      "aliases": [
-        "nex-agi/nex-n2.5-pro:free",
-        "nex-agi/nex-n2.5-pro-20260907",
-        "nex-n2.5-pro-(free)",
-        "nex-n2.5-pro:free",
-        "openrouter/nex-agi/nex-n2.5-pro:free"
-      ],
-      "providerID": "nex-agi",
-      "family": "nex-n2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
     },
     {
       "id": "cohere/north-mini-code:free",
