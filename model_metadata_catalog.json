@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-26T04:59:06.876286+00:00",
+  "generatedAt": "2026-09-26T11:26:00.541668+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1995,7 +1995,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.0042,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_vision, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -10985,7 +10985,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,. · context=36864 · LiteLLM supports_reasoning, supports_vision, max_input=36864, max_output=8192"
+      "notes": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,. · context=36864 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=36864, max_output=8192"
     },
     {
       "id": "microsoft/phi-4",
