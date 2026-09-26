@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-26T16:24:24.645929+00:00",
+  "generatedAt": "2026-09-26T21:11:15.045278+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1970,15 +1970,15 @@
         "deepseek/deepseek-v4-pro-0813",
         "deepseek/deepseek-v4-pro-20260813",
         "deepseek-v4-pro-0813",
-        "fireworks-ai/accounts/fireworks/models/deepseek-v4-pro-0813"
+        "sail/deepseek-ai/deepseek-v4-pro-0813"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 1.32,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.044,
+      "inputCostPerMillionUSD": 0.92,
+      "outputCostPerMillionUSD": 2.77,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -1989,15 +1989,15 @@
         "deepseek/deepseek-v4.1-flash",
         "deepseek/deepseek-v4.1-flash-20260910",
         "deepseek-v4.1-flash",
-        "nebius/deepseek-ai/deepseek-v4.1-flash"
+        "sail/deepseek-ai/deepseek-v4.1-flash"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_vision, max_input=1048576, max_output=1048576",
+      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3775,14 +3775,14 @@
         "z-ai/glm-5-3-20260816",
         "glm-5.3",
         "glm-5-3",
-        "friendliai/zai-org/glm-5.3",
-        "friendliai/zai-org/glm-5-3"
+        "sail/zai-org/glm-5.3",
+        "sail/zai-org/glm-5-3"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 1.26,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.234,
+      "inputCostPerMillionUSD": 0.98,
+      "outputCostPerMillionUSD": 3.08,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
@@ -3816,16 +3816,16 @@
         "z-ai/glm-5-3-flash-20260826",
         "glm-5.3-flash",
         "glm-5-3-flash",
-        "friendliai/zai-org/glm-5.3-flash",
-        "friendliai/zai-org/glm-5-3-flash"
+        "sail/zai-org/glm-5.3-flash",
+        "sail/zai-org/glm-5-3-flash"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.11,
+      "outputCostPerMillionUSD": 0.35,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576"
+      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
       "id": "z-ai/glm-5.3-flash:batch",
@@ -8323,15 +8323,15 @@
         "moonshotai/kimi-k3",
         "moonshotai/kimi-k3-20260715",
         "kimi-k3",
-        "moonshot/kimi-k3"
+        "sail/moonshotai/kimi-k3"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 3.0,
-      "outputCostPerMillionUSD": 15.0,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 12.5,
+      "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
+      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -11825,15 +11825,15 @@
         "qwen/qwen3.6-35b-a3b",
         "qwen/qwen3.6-35b-a3b-20260415",
         "qwen3.6-35b-a3b",
-        "scaleway/qwen/qwen3.6-35b-a3b"
+        "sail/qwen/qwen3.6-35b-a3b"
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=16384",
+      "notes": "Qwen3.6-35B-A3B is an open-weight multimodal model from Alibaba Cloud with 35 billion total parameters and 3 billion active parameters per token. It uses a hybrid sparse mixture-of-experts architecture combining Gated... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
