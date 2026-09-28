@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-28T13:57:16.729536+00:00",
+  "generatedAt": "2026-09-28T23:17:09.263094+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1522,6 +1522,77 @@
       "organizationName": "Claude"
     },
     {
+      "id": "anthropic/claude-sonnet-5.5",
+      "displayName": "Claude Sonnet 5.5",
+      "aliases": [
+        "anthropic/claude-sonnet-5.5",
+        "anthropic/claude-sonnet-5-5",
+        "anthropic/claude-sonnet-5.5-20260928",
+        "anthropic/claude-sonnet-5-5-20260928",
+        "claude-sonnet-5.5",
+        "claude-sonnet-5-5",
+        "claude-5.5-sonnet",
+        "claude-5-5-sonnet"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 10,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "claude/claude-sonnet-5.5",
+      "displayName": "Claude Sonnet 5.5",
+      "aliases": [
+        "claude-sonnet-5.5",
+        "claude-sonnet-5-5",
+        "claude-5.5-sonnet",
+        "claude-5-5-sonnet",
+        "anthropic/claude-sonnet-5.5",
+        "anthropic/claude-sonnet-5-5",
+        "claude/claude-sonnet-5.5",
+        "claude/claude-sonnet-5-5"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 10,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5:batch",
+      "displayName": "Claude Sonnet 5.5 (batch)",
+      "aliases": [
+        "anthropic/claude-sonnet-5.5:batch",
+        "anthropic/claude-sonnet-5.5-20260928",
+        "anthropic/claude-sonnet-5-5-20260928",
+        "claude-sonnet-5.5-(batch)",
+        "claude-sonnet-5-5-(batch)",
+        "claude-5.5-sonnet-(batch)",
+        "claude-5-5-sonnet-(batch)",
+        "claude-sonnet-5.5:batch",
+        "claude-5.5-sonnet:batch",
+        "claude-5-5-sonnet:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-sonnet",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "~anthropic/claude-sonnet-latest",
       "displayName": "Claude Sonnet Latest",
       "aliases": [
@@ -1906,7 +1977,7 @@
       "outputCostPerMillionUSD": 1.32,
       "cacheReadCostPerMillionUSD": 0.014,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1310720 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=384000",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3475,7 +3546,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -7010,7 +7081,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -8516,29 +8587,6 @@
       "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=235929"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-fin:free",
-      "displayName": "Ling 3.0 Flash Fin (free)",
-      "aliases": [
-        "inclusionai/ling-3.0-flash-fin:free",
-        "inclusionai/ling-3-0-flash-fin:free",
-        "inclusionai/ling-3.0-flash-fin-20260827",
-        "inclusionai/ling-3-0-flash-fin-20260827",
-        "ling-3.0-flash-fin-(free)",
-        "ling-3-0-flash-fin-(free)",
-        "ling-3.0-flash-fin:free",
-        "ling-3-0-flash-fin:free",
-        "openrouter/inclusionai/ling-3.0-flash-fin:free",
-        "openrouter/inclusionai/ling-3-0-flash-fin:free"
-      ],
-      "providerID": "inclusionai",
-      "family": "ling-3",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
       "id": "inclusionai/ling-3.0-flash-sante:free",
@@ -10351,7 +10399,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -10381,6 +10429,40 @@
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000, max_output=65536",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-mini",
+      "displayName": "Nex-N2.5-Mini",
+      "aliases": [
+        "nex-agi/nex-n2.5-mini",
+        "nex-agi/nex-n2.5-mini-20260908",
+        "nex-n2.5-mini",
+        "openrouter/nex-agi/nex-n2.5-mini"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.025,
+      "outputCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.0025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144, max_output=235929"
+    },
+    {
+      "id": "nex-agi/nex-n2.5-pro",
+      "displayName": "Nex-N2.5-Pro",
+      "aliases": [
+        "nex-agi/nex-n2.5-pro",
+        "nex-agi/nex-n2.5-pro-20260907",
+        "nex-n2.5-pro",
+        "openrouter/nex-agi/nex-n2.5-pro"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.25,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -12141,25 +12223,6 @@
       "organizationName": "DeepSeek"
     },
     {
-      "id": "deepseek/deepseek-r1-distill-llama-70b",
-      "displayName": "R1 Distill Llama 70B",
-      "aliases": [
-        "deepseek/deepseek-r1-distill-llama-70b",
-        "r1-distill-llama-70b",
-        "deepseek-r1-distill-llama-70b",
-        "deepinfra/deepseek-ai/deepseek-r1-distill-llama-70b"
-      ],
-      "providerID": "deepseek",
-      "family": "deepseek-r1",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advance · context=8192 · LiteLLM max_input=131072, max_output=131072",
-      "brandAssetName": "deepseek",
-      "organizationName": "DeepSeek"
-    },
-    {
       "id": "rekaai/reka-edge",
       "displayName": "Reka Edge",
       "aliases": [
@@ -12678,7 +12741,7 @@
       "family": "ternary-bonsai",
       "inputCostPerMillionUSD": 0.075,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768"
     },
