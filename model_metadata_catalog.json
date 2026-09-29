@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-28T23:17:09.263094+00:00",
+  "generatedAt": "2026-09-29T05:44:58.305818+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -9174,7 +9174,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.06,
+      "cacheReadCostPerMillionUSD": 0.042,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
@@ -11339,8 +11339,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-30b",
-      "inputCostPerMillionUSD": 0.12,
-      "outputCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 0.13,
+      "outputCostPerMillionUSD": 0.52,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
