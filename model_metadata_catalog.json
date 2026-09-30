@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-30T12:36:08.615598+00:00",
+  "generatedAt": "2026-09-30T22:16:49.424444+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3548,7 +3548,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -11485,8 +11485,8 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-30b",
-      "inputCostPerMillionUSD": 0.13,
-      "outputCostPerMillionUSD": 0.52,
+      "inputCostPerMillionUSD": 0.12,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
