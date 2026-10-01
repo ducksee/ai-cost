@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-01T13:16:57.771410+00:00",
+  "generatedAt": "2026-10-01T22:41:57.857589+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -191,6 +191,29 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
+    },
+    {
+      "id": "apodex/apodex-1.1-mini:free",
+      "displayName": "Apodex 1.1 Mini (free)",
+      "aliases": [
+        "apodex/apodex-1.1-mini:free",
+        "apodex/apodex-1-1-mini:free",
+        "apodex/apodex-1.1-mini-20261001",
+        "apodex/apodex-1-1-mini-20261001",
+        "apodex-1.1-mini-(free)",
+        "apodex-1-1-mini-(free)",
+        "apodex-1.1-mini:free",
+        "apodex-1-1-mini:free",
+        "openrouter/apodex/apodex-1.1-mini:free",
+        "openrouter/apodex/apodex-1-1-mini:free"
+      ],
+      "providerID": "apodex",
+      "family": "apodex-1",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=235929"
     },
     {
       "id": "openrouter/auto",
@@ -3548,7 +3571,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -11114,6 +11137,27 @@
       "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=262144 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=262144, max_output=131072"
     },
     {
+      "id": "unbiased/pareto-26.10-preview",
+      "displayName": "Pareto 26.10 Preview",
+      "aliases": [
+        "unbiased/pareto-26.10-preview",
+        "unbiased/pareto-26-10-preview",
+        "unbiased/pareto-26.10-preview-20260929",
+        "unbiased/pareto-26-10-preview-20260929",
+        "pareto-26.10-preview",
+        "pareto-26-10-preview",
+        "openrouter/unbiased/pareto-26.10-preview",
+        "openrouter/unbiased/pareto-26-10-preview"
+      ],
+      "providerID": "unbiased",
+      "family": "pareto-26",
+      "inputCostPerMillionUSD": 0.8,
+      "outputCostPerMillionUSD": 3.2,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the... · context=1048576 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+    },
+    {
       "id": "openrouter/pareto-code",
       "displayName": "Pareto Code Router",
       "aliases": [
@@ -12172,15 +12216,15 @@
         "qwen/qwen3.8-27b",
         "qwen/qwen3.8-27b-20260814",
         "qwen3.8-27b",
-        "wandb/qwen/qwen3.8-27b"
+        "nebius/qwen/qwen3.8-27b"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
-      "inputCostPerMillionUSD": 0.4,
+      "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.085,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262000",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
