@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-09-30T22:16:49.424444+00:00",
+  "generatedAt": "2026-10-01T05:55:37.818870+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -6933,31 +6933,6 @@
       "organizationName": "Codex"
     },
     {
-      "id": "openai/gpt-6.1-sol:batch",
-      "displayName": "GPT-6.1 Sol (batch)",
-      "aliases": [
-        "openai/gpt-6.1-sol:batch",
-        "openai/gpt-6-1-sol:batch",
-        "openai/gpt-6.1-sol-20260929",
-        "openai/gpt-6-1-sol-20260929",
-        "gpt-6.1-sol-(batch)",
-        "gpt-6-1-sol-(batch)",
-        "gpt-6.1-sol:batch",
-        "gpt-6-1-sol:batch",
-        "openrouter/openai/gpt-6.1-sol:batch",
-        "openrouter/openai/gpt-6-1-sol:batch"
-      ],
-      "providerID": "codex",
-      "family": "gpt-6",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.05,
-      "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
       "id": "codex/gpt-6.1-sol-272k",
       "displayName": "GPT-6.1 Sol >272k",
       "aliases": [
@@ -6999,31 +6974,6 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
-      "id": "openai/gpt-6.1-sol-pro:batch",
-      "displayName": "GPT-6.1 Sol Pro (batch)",
-      "aliases": [
-        "openai/gpt-6.1-sol-pro:batch",
-        "openai/gpt-6-1-sol-pro:batch",
-        "openai/gpt-6.1-sol-pro-20260929",
-        "openai/gpt-6-1-sol-pro-20260929",
-        "gpt-6.1-sol-pro-(batch)",
-        "gpt-6-1-sol-pro-(batch)",
-        "gpt-6.1-sol-pro:batch",
-        "gpt-6-1-sol-pro:batch",
-        "openrouter/openai/gpt-6.1-sol-pro:batch",
-        "openrouter/openai/gpt-6-1-sol-pro:batch"
-      ],
-      "providerID": "codex",
-      "family": "gpt-6",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.05,
-      "cacheWriteCostPerMillionUSD": 1.25,
       "notes": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -10545,7 +10495,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": 0.02975,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -12828,7 +12778,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=524288"
     },
     {
       "id": "stepfun/step-3.5-flash",
