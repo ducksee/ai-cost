@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-02T12:36:25.837702+00:00",
+  "generatedAt": "2026-10-02T22:14:54.689819+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3571,7 +3571,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -8752,6 +8752,25 @@
       "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
+      "id": "inclusionai/ling-3.1-flash",
+      "displayName": "Ling 3.1 Flash",
+      "aliases": [
+        "inclusionai/ling-3.1-flash",
+        "inclusionai/ling-3-1-flash",
+        "inclusionai/ling-3.1-flash-20261002",
+        "inclusionai/ling-3-1-flash-20261002",
+        "ling-3.1-flash",
+        "ling-3-1-flash"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144"
+    },
+    {
       "id": "sao10k/l3-lunaris-8b",
       "displayName": "Llama 3 8B Lunaris",
       "aliases": [
@@ -12867,6 +12886,23 @@
       "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=256000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
+    },
+    {
+      "id": "nvidia/switchyard",
+      "displayName": "Switchyard",
+      "aliases": [
+        "nvidia/switchyard",
+        "switchyard"
+      ],
+      "providerID": "nvidia",
+      "family": "switchyard",
+      "inputCostPerMillionUSD": null,
+      "outputCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular... · context=1000000",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
     },
     {
       "id": "prism-ml/ternary-bonsai-2-27b",
