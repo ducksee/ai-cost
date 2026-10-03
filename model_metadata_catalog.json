@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-02T22:14:54.689819+00:00",
+  "generatedAt": "2026-10-03T11:40:32.944638+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -8701,11 +8701,11 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "inputCostPerMillionUSD": 0.042,
+      "outputCostPerMillionUSD": 0.1232,
+      "cacheReadCostPerMillionUSD": 0.0084,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=235929"
+      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
       "id": "inclusionai/ling-3.0-flash-sante:free",
@@ -8760,7 +8760,9 @@
         "inclusionai/ling-3.1-flash-20261002",
         "inclusionai/ling-3-1-flash-20261002",
         "ling-3.1-flash",
-        "ling-3-1-flash"
+        "ling-3-1-flash",
+        "openrouter/inclusionai/ling-3.1-flash",
+        "openrouter/inclusionai/ling-3-1-flash"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
@@ -8768,7 +8770,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144"
+      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
       "id": "sao10k/l3-lunaris-8b",
@@ -10537,7 +10539,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": 0.02975,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -11990,11 +11992,11 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.1625,
-      "outputCostPerMillionUSD": 1.3,
-      "cacheReadCostPerMillionUSD": 0.15625,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=16384",
+      "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
