@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-03T21:16:34.022591+00:00",
+  "generatedAt": "2026-10-04T05:54:22.612055+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -8902,9 +8902,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.32,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
