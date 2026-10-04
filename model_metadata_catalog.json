@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-04T05:54:22.612055+00:00",
+  "generatedAt": "2026-10-04T12:23:09.286545+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -12244,7 +12244,7 @@
       "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.085,
-      "cacheWriteCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": 0.53125,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
