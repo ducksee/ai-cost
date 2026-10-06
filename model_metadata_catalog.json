@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-05T14:41:31.161108+00:00",
+  "generatedAt": "2026-10-06T00:03:49.740464+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3571,7 +3571,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -11464,7 +11464,7 @@
       "family": "qwen3-235b",
       "inputCostPerMillionUSD": 0.09,
       "outputCostPerMillionUSD": 0.55,
-      "cacheReadCostPerMillionUSD": 0.0175,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose  · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -11893,7 +11893,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.225,
+      "cacheReadCostPerMillionUSD": 0.22,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It d · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -12246,26 +12246,6 @@
       "cacheReadCostPerMillionUSD": 0.085,
       "cacheWriteCostPerMillionUSD": 0.53125,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3.8-27b:free",
-      "displayName": "Qwen3.8 27B (free)",
-      "aliases": [
-        "qwen/qwen3.8-27b:free",
-        "qwen/qwen3.8-27b-20260814",
-        "qwen3.8-27b-(free)",
-        "qwen3.8-27b:free",
-        "openrouter/qwen/qwen3.8-27b:free"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-8",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12828,22 +12808,6 @@
       "notes": "Note: Sonar Pro pricing includes Perplexity search pricing. See [details here](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-reasoning-pro-and-sonar-pro) Sonar Reasoning Pro is a premier  · context=128000 · LiteLLM supports_reasoning, max_input=128000",
       "brandAssetName": "perplexity",
       "organizationName": "Perplexity"
-    },
-    {
-      "id": "stealth/space-bunny-alpha",
-      "displayName": "Space Bunny Alpha",
-      "aliases": [
-        "stealth/space-bunny-alpha",
-        "space-bunny-alpha",
-        "openrouter/stealth/space-bunny-alpha"
-      ],
-      "providerID": "stealth",
-      "family": "space-bunny",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=524288"
     },
     {
       "id": "stepfun/step-3.5-flash",
