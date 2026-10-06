@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-06T06:22:03.311942+00:00",
+  "generatedAt": "2026-10-06T18:22:49.092249+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -8942,7 +8942,7 @@
       "family": "llama-4",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward... · context=1048576 · LiteLLM max_input=131072, max_output=8192",
       "brandAssetName": "meta",
@@ -9587,6 +9587,28 @@
       "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=262144, max_output=209715",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/mistral-large-4-0",
+      "displayName": "Mistral Large 4",
+      "aliases": [
+        "mistralai/mistral-large-4-0",
+        "mistralai/mistral-large-4.0",
+        "mistralai/mistral-large-4-0-20261006",
+        "mistralai/mistral-large-4.0-20261006",
+        "mistral-large-4",
+        "mistral-large-4-0",
+        "mistral-large-4.0"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-large",
+      "inputCostPerMillionUSD": 0.68,
+      "outputCostPerMillionUSD": 2.09,
+      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up... · context=524288",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10313,6 +10335,31 @@
       "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image) is Google's fastest, most cost-efficient Gemini image model, built for high-velocity developer pipelines and rapid-fire visual exploration. It delivers text-to-image gener · context=65536 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=4096",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-nano-banana-2.1",
+      "displayName": "Nano Banana 2.1",
+      "aliases": [
+        "google/gemini-nano-banana-2.1",
+        "google/gemini-nano-banana-2-1",
+        "google/gemini-nano-banana-2.1-20261006",
+        "google/gemini-nano-banana-2-1-20261006",
+        "nano-banana-2.1",
+        "nano-banana-2-1",
+        "gemini-nano-banana-2.1",
+        "gemini-nano-banana-2-1",
+        "gemini/gemini-nano-banana-2.1",
+        "gemini/gemini-nano-banana-2-1"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-nano",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,... · context=65536 · LiteLLM supports_reasoning, supports_vision, max_input=131072, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
