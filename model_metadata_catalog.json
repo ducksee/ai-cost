@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-08T06:05:39.486773+00:00",
+  "generatedAt": "2026-10-08T13:30:56.986376+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3771,7 +3771,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -9792,7 +9792,7 @@
       "outputCostPerMillionUSD": 2.09,
       "cacheReadCostPerMillionUSD": 0.068,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up... · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288",
+      "notes": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -12286,7 +12286,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -13081,6 +13081,24 @@
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=256000",
+      "brandAssetName": "stepfun",
+      "organizationName": "StepFun"
+    },
+    {
+      "id": "stepfun/step-5-preview",
+      "displayName": "Step 5 Preview",
+      "aliases": [
+        "stepfun/step-5-preview",
+        "stepfun/step-5-preview-20261008",
+        "step-5-preview"
+      ],
+      "providerID": "stepfun",
+      "family": "step-5",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 2.7,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
