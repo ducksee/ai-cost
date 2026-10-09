@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-08T23:21:31.934081+00:00",
+  "generatedAt": "2026-10-09T06:10:06.087665+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3752,7 +3752,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -8930,7 +8930,9 @@
         "inclusionai/ling-3.0-flash-sante-20260904",
         "inclusionai/ling-3-0-flash-sante-20260904",
         "ling-3.0-flash-sante",
-        "ling-3-0-flash-sante"
+        "ling-3-0-flash-sante",
+        "openrouter/inclusionai/ling-3.0-flash-sante",
+        "openrouter/inclusionai/ling-3-0-flash-sante"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
@@ -8938,7 +8940,7 @@
       "outputCostPerMillionUSD": 0.1232,
       "cacheReadCostPerMillionUSD": 0.0084,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
+      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
       "id": "inclusionai/ling-3.0-flash-vl",
@@ -9112,9 +9114,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.32,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
@@ -10797,7 +10799,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.0245,
+      "cacheReadCostPerMillionUSD": 0.02345,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -11987,7 +11989,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -12231,11 +12233,11 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.195,
-      "outputCostPerMillionUSD": 1.56,
+      "inputCostPerMillionUSD": 0.26,
+      "outputCostPerMillionUSD": 2.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to tho · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
+      "notes": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to tho · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=81920",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12250,11 +12252,11 @@
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.1625,
+      "outputCostPerMillionUSD": 1.3,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929",
+      "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12313,7 +12315,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -13117,7 +13119,8 @@
       "aliases": [
         "stepfun/step-5-preview",
         "stepfun/step-5-preview-20261008",
-        "step-5-preview"
+        "step-5-preview",
+        "openrouter/stepfun/step-5-preview"
       ],
       "providerID": "stepfun",
       "family": "step-5",
@@ -13125,7 +13128,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=64000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
