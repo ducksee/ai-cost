@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-09T13:18:33.741155+00:00",
+  "generatedAt": "2026-10-09T22:39:03.726069+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -222,7 +222,7 @@
         "openrouter/auto",
         "auto-router",
         "auto",
-        "openrouter/openrouter/auto"
+        "fireworks-ai/accounts/fireworks/routers/auto"
       ],
       "providerID": "openrouter",
       "family": "auto",
@@ -230,7 +230,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market. It routes you based on what the OpenRouter community collectively spends on... · context=2000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=2000000",
+      "notes": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market. It routes you based on what the OpenRouter community collectively spends on... · context=2000000 · LiteLLM supports_reasoning, supports_function_calling",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -258,8 +258,7 @@
       "aliases": [
         "openrouter/bodybuilder",
         "body-builder-(beta)",
-        "bodybuilder",
-        "openrouter/openrouter/bodybuilder"
+        "bodybuilder"
       ],
       "providerID": "openrouter",
       "family": "bodybuilder",
@@ -267,7 +266,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example:... · context=128000 · LiteLLM max_input=128000",
+      "notes": "Transform your natural language requests into structured OpenRouter API request objects. Describe what you want to accomplish with AI models, and Body Builder will construct the appropriate API calls. Example:... · context=128000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -321,7 +320,7 @@
         "claude-haiku-3.20240307",
         "claude-3-20240307-haiku",
         "claude-3.20240307-haiku",
-        "openrouter/anthropic/claude-3-haiku"
+        "vercel-ai-gateway/anthropic/claude-3-haiku"
       ],
       "providerID": "claude",
       "family": "claude-3",
@@ -329,7 +328,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=200000, max_output=4096",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=4096",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -403,8 +402,8 @@
         "claude-3.5-sonnet-20240620",
         "claude-sonnet-3-5-20240620",
         "claude-sonnet-3.5-20240620",
-        "openrouter/anthropic/claude-3.5-sonnet",
-        "openrouter/anthropic/claude-3-5-sonnet"
+        "replicate/anthropic/claude-3.5-sonnet",
+        "replicate/anthropic/claude-3-5-sonnet"
       ],
       "providerID": "claude",
       "family": "claude-3",
@@ -412,7 +411,7 @@
       "outputCostPerMillionUSD": 15,
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=200000, max_output=8192",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling",
       "brandAssetName": "claude",
       "organizationName": "Anthropic"
     },
@@ -684,8 +683,8 @@
         "claude-haiku-5-5",
         "claude-5.5-haiku",
         "claude-5-5-haiku",
-        "openrouter/anthropic/claude-haiku-5.5",
-        "openrouter/anthropic/claude-haiku-5-5"
+        "github-copilot/claude-haiku-5.5",
+        "github-copilot/claude-haiku-5-5"
       ],
       "providerID": "claude",
       "family": "claude-haiku",
@@ -693,7 +692,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": 0.125,
-      "notes": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=128000, max_output=16000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -710,9 +709,7 @@
         "claude-5-5-haiku-(batch)",
         "claude-haiku-5.5:batch",
         "claude-5.5-haiku:batch",
-        "claude-5-5-haiku:batch",
-        "claude-haiku-5-5:batch",
-        "openrouter/anthropic/claude-haiku-5.5:batch"
+        "claude-5-5-haiku:batch"
       ],
       "providerID": "claude",
       "family": "claude-haiku",
@@ -720,7 +717,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": 0.0625,
-      "notes": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -767,8 +764,8 @@
         "claude-haiku-5-5-≤100k",
         "claude-5.5-haiku-≤100k",
         "claude-5-5-haiku-≤100k",
-        "openrouter/anthropic/claude-haiku-5.5",
-        "openrouter/anthropic/claude-haiku-5-5"
+        "github-copilot/claude-haiku-5.5",
+        "github-copilot/claude-haiku-5-5"
       ],
       "providerID": "claude",
       "family": "claude-haiku",
@@ -776,7 +773,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=128000, max_output=16000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -875,8 +872,8 @@
         "claude-opus-4.1-20250805",
         "claude-4-1-opus-20250805",
         "claude-4.1-opus-20250805",
-        "openrouter/anthropic/claude-opus-4.1",
-        "openrouter/anthropic/claude-opus-4-1"
+        "vercel-ai-gateway/anthropic/claude-opus-4.1",
+        "vercel-ai-gateway/anthropic/claude-opus-4-1"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -904,8 +901,8 @@
         "claude-opus-4.1-20250805",
         "claude-4-1-opus-20250805",
         "claude-4.1-opus-20250805",
-        "openrouter/anthropic/claude-opus-4.1",
-        "openrouter/anthropic/claude-opus-4-1"
+        "vercel-ai-gateway/anthropic/claude-opus-4.1",
+        "vercel-ai-gateway/anthropic/claude-opus-4-1"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -2158,15 +2155,15 @@
       "aliases": [
         "deepseek/deepseek-v3.2-exp",
         "deepseek-v3.2-exp",
-        "openrouter/deepseek/deepseek-v3.2-exp"
+        "novita/deepseek/deepseek-v3.2-exp"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v3",
       "inputCostPerMillionUSD": 0.27,
       "outputCostPerMillionUSD": 0.41,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=163840, max_output=147456",
+      "notes": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention · context=163840 · LiteLLM supports_reasoning, supports_function_calling, max_input=163840, max_output=65536",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -2326,8 +2323,7 @@
         "mistralai/devstral-2512",
         "devstral-2-2512",
         "devstral-2.2512",
-        "devstral-2512",
-        "openrouter/mistralai/devstral-2512"
+        "devstral-2512"
       ],
       "providerID": "mistral",
       "family": "devstral-2512",
@@ -2335,7 +2331,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=262144, max_output=209715",
+      "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -2365,7 +2361,7 @@
         "fireworks/ember-1-20260923",
         "fireworks/ember-1.20260923",
         "ember-1",
-        "openrouter/fireworks/ember-1"
+        "fireworks-ai/accounts/fireworks/models/ember-1"
       ],
       "providerID": "fireworks",
       "family": "ember-1",
@@ -2373,7 +2369,7 @@
       "outputCostPerMillionUSD": 15.0,
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using r · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
+      "notes": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using r · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576"
     },
     {
       "id": "openrouter/free",
@@ -2381,8 +2377,7 @@
       "aliases": [
         "openrouter/free",
         "free-models-router",
-        "free",
-        "openrouter/openrouter/free"
+        "free"
       ],
       "providerID": "openrouter",
       "family": "free",
@@ -2390,7 +2385,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that... · context=200000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=200000",
+      "notes": "The simplest way to get free inference. openrouter/free is a router that selects free models at random from the models available on OpenRouter. The router smartly filters for models that... · context=200000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -2880,9 +2875,7 @@
         "gemini-2.5-pro-preview-06.05",
         "gemini-2-5-pro-preview-06-05",
         "gemini-2.5-pro-preview",
-        "gemini-2-5-pro-preview",
-        "openrouter/google/gemini-2.5-pro-preview",
-        "openrouter/google/gemini-2-5-pro-preview"
+        "gemini-2-5-pro-preview"
       ],
       "providerID": "gemini",
       "family": "gemini-2",
@@ -2890,7 +2883,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.125,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -3669,15 +3662,15 @@
         "google/gemma-2-27b-it",
         "gemma-2-27b",
         "gemma-2-27b-it",
-        "openrouter/google/gemma-2-27b-it"
+        "together-ai/google/gemma-2-27b-it"
       ],
       "providerID": "gemini",
       "family": "gemma-2",
-      "inputCostPerMillionUSD": 0.65,
-      "outputCostPerMillionUSD": 0.65,
+      "inputCostPerMillionUSD": 0.8,
+      "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini). Gemma models are well-suited for a variety of... · context=8192 · LiteLLM max_input=8192, max_output=2048",
+      "notes": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini). Gemma models are well-suited for a variety of... · context=8192 · LiteLLM max_input=8192",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -3752,7 +3745,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -3765,8 +3758,7 @@
         "google/gemma-4-26b-a4b-it:free",
         "google/gemma-4-26b-a4b-it-20260403",
         "gemma-4-26b-a4b--(free)",
-        "gemma-4-26b-a4b-it:free",
-        "openrouter/google/gemma-4-26b-a4b-it:free"
+        "gemma-4-26b-a4b-it:free"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
@@ -3774,7 +3766,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
+      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3805,8 +3797,7 @@
         "google/gemma-4-31b-it:free",
         "google/gemma-4-31b-it-20260402",
         "gemma-4-31b-(free)",
-        "gemma-4-31b-it:free",
-        "openrouter/google/gemma-4-31b-it:free"
+        "gemma-4-31b-it:free"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
@@ -3814,7 +3805,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
+      "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3893,7 +3884,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.08,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex... · context=204800",
       "brandAssetName": "zai",
@@ -6410,9 +6401,7 @@
         "openai/gpt-5.6-luna-pro-20260709",
         "openai/gpt-5-6-luna-pro-20260709",
         "gpt-5.6-luna-pro",
-        "gpt-5-6-luna-pro",
-        "openrouter/openai/gpt-5.6-luna-pro",
-        "openrouter/openai/gpt-5-6-luna-pro"
+        "gpt-5-6-luna-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6420,7 +6409,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": 0.25,
-      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6554,9 +6543,7 @@
         "openai/gpt-5.6-sol-pro-20260709",
         "openai/gpt-5-6-sol-pro-20260709",
         "gpt-5.6-sol-pro",
-        "gpt-5-6-sol-pro",
-        "openrouter/openai/gpt-5.6-sol-pro",
-        "openrouter/openai/gpt-5-6-sol-pro"
+        "gpt-5-6-sol-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6564,7 +6551,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6698,9 +6685,7 @@
         "openai/gpt-5.6-terra-pro-20260709",
         "openai/gpt-5-6-terra-pro-20260709",
         "gpt-5.6-terra-pro",
-        "gpt-5-6-terra-pro",
-        "openrouter/openai/gpt-5.6-terra-pro",
-        "openrouter/openai/gpt-5-6-terra-pro"
+        "gpt-5-6-terra-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6708,7 +6693,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6826,8 +6811,7 @@
       "aliases": [
         "openai/gpt-6-astra-pro",
         "openai/gpt-6-astra-pro-20260903",
-        "gpt-6-astra-pro",
-        "openrouter/openai/gpt-6-astra-pro"
+        "gpt-6-astra-pro"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6835,7 +6819,7 @@
       "outputCostPerMillionUSD": 50.0,
       "cacheReadCostPerMillionUSD": 1.0,
       "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7406,8 +7390,7 @@
         "openai/gpt-oss-120b:batch",
         "openai/gpt-oss-120b",
         "gpt-oss-120b-(batch)",
-        "gpt-oss-120b:batch",
-        "openrouter/openai/gpt-oss-120b:batch"
+        "gpt-oss-120b:batch"
       ],
       "providerID": "codex",
       "family": "gpt-oss",
@@ -7415,7 +7398,7 @@
       "outputCostPerMillionUSD": 0.136,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=117964",
+      "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8505,8 +8488,7 @@
       "displayName": "Jev Router",
       "aliases": [
         "typesafe/jev-router",
-        "jev-router",
-        "openrouter/typesafe/jev-router"
+        "jev-router"
       ],
       "providerID": "typesafe",
       "family": "jev-router",
@@ -8514,7 +8496,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost. It runs on [Jev](https://openrouter.ai/~typesafe/jev-latest), TypeSafe's first System One model, and adapts as yo · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000"
+      "notes": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost. It runs on [Jev](https://openrouter.ai/~typesafe/jev-latest), TypeSafe's first System One model, and adapts as yo · context=1000000"
     },
     {
       "id": "moonshotai/kimi-k2",
@@ -8784,9 +8766,7 @@
         "poolside/laguna-s-2.1-20260720",
         "poolside/laguna-s-2-1-20260720",
         "laguna-s-2.1",
-        "laguna-s-2-1",
-        "openrouter/poolside/laguna-s-2.1",
-        "openrouter/poolside/laguna-s-2-1"
+        "laguna-s-2-1"
       ],
       "providerID": "poolside",
       "family": "laguna-s",
@@ -8794,7 +8774,7 @@
       "outputCostPerMillionUSD": 0.18,
       "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072"
+      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=1048576"
     },
     {
       "id": "poolside/laguna-s-2.1:free",
@@ -8805,8 +8785,7 @@
         "poolside/laguna-s-2-1-20260720",
         "laguna-s-2.1-(free)",
         "laguna-s-2-1-(free)",
-        "laguna-s-2.1:free",
-        "openrouter/poolside/laguna-s-2.1:free"
+        "laguna-s-2.1:free"
       ],
       "providerID": "poolside",
       "family": "laguna-s",
@@ -8814,7 +8793,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=262144"
     },
     {
       "id": "poolside/laguna-xs-2.1",
@@ -8825,9 +8804,7 @@
         "poolside/laguna-xs-2.1-20260625",
         "poolside/laguna-xs-2-1-20260625",
         "laguna-xs-2.1",
-        "laguna-xs-2-1",
-        "openrouter/poolside/laguna-xs-2.1",
-        "openrouter/poolside/laguna-xs-2-1"
+        "laguna-xs-2-1"
       ],
       "providerID": "poolside",
       "family": "laguna-xs",
@@ -8835,7 +8812,7 @@
       "outputCostPerMillionUSD": 0.12,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
     },
     {
       "id": "poolside/laguna-xs-2.1:free",
@@ -8846,8 +8823,7 @@
         "poolside/laguna-xs-2-1-20260625",
         "laguna-xs-2.1-(free)",
         "laguna-xs-2-1-(free)",
-        "laguna-xs-2.1:free",
-        "openrouter/poolside/laguna-xs-2.1:free"
+        "laguna-xs-2.1:free"
       ],
       "providerID": "poolside",
       "family": "laguna-xs",
@@ -8855,7 +8831,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
     },
     {
       "id": "liquid/lfm-2.5-2.6b:free",
@@ -9336,15 +9312,15 @@
         "xiaomi/mimo-v2.5",
         "xiaomi/mimo-v2.5-20260422",
         "mimo-v2.5",
-        "openrouter/xiaomi/mimo-v2.5"
+        "novita/xiaomimimo/mimo-v2.5"
       ],
       "providerID": "xiaomi",
       "family": "mimo-v2",
-      "inputCostPerMillionUSD": 0.14,
-      "outputCostPerMillionUSD": 0.28,
-      "cacheReadCostPerMillionUSD": 0.0028,
+      "inputCostPerMillionUSD": 0.168,
+      "outputCostPerMillionUSD": 0.336,
+      "cacheReadCostPerMillionUSD": 0.0034,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding.. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=131072",
+      "notes": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding.. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -9355,15 +9331,15 @@
         "xiaomi/mimo-v2.5-pro",
         "xiaomi/mimo-v2.5-pro-20260422",
         "mimo-v2.5-pro",
-        "openrouter/xiaomi/mimo-v2.5-pro"
+        "novita/xiaomimimo/mimo-v2.5-pro"
       ],
       "providerID": "xiaomi",
       "family": "mimo-v2",
-      "inputCostPerMillionUSD": 0.435,
-      "outputCostPerMillionUSD": 0.87,
-      "cacheReadCostPerMillionUSD": 0.0036,
+      "inputCostPerMillionUSD": 0.522,
+      "outputCostPerMillionUSD": 1.044,
+      "cacheReadCostPerMillionUSD": 0.0043,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1050000, max_output=131072",
+      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -9429,8 +9405,7 @@
       "displayName": "MiniMax M1",
       "aliases": [
         "minimax/minimax-m1",
-        "minimax-m1",
-        "openrouter/minimax/minimax-m1"
+        "minimax-m1"
       ],
       "providerID": "minimax",
       "family": "minimax-m1",
@@ -9438,7 +9413,7 @@
       "outputCostPerMillionUSD": 2.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000, max_output=40000",
+      "notes": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" · context=1000000",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9465,8 +9440,7 @@
       "aliases": [
         "minimax/minimax-m2-her",
         "minimax/minimax-m2-her-20260123",
-        "minimax-m2-her",
-        "openrouter/minimax/minimax-m2-her"
+        "minimax-m2-her"
       ],
       "providerID": "minimax",
       "family": "minimax-m2",
@@ -9474,7 +9448,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich  · context=65536 · LiteLLM supports_prompt_caching, max_input=65536, max_output=2048",
+      "notes": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich  · context=65536",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9555,8 +9529,7 @@
       "displayName": "MiniMax-01",
       "aliases": [
         "minimax/minimax-01",
-        "minimax-01",
-        "openrouter/minimax/minimax-01"
+        "minimax-01"
       ],
       "providerID": "minimax",
       "family": "minimax-01",
@@ -9564,7 +9537,7 @@
       "outputCostPerMillionUSD": 1.1,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context... · context=1000192 · LiteLLM supports_vision, max_input=1000192, max_output=900172",
+      "notes": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context... · context=1000192",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9869,9 +9842,7 @@
         "mistralai/mistral-medium-3.1",
         "mistralai/mistral-medium-3-1",
         "mistral-medium-3.1",
-        "mistral-medium-3-1",
-        "openrouter/mistralai/mistral-medium-3.1",
-        "openrouter/mistralai/mistral-medium-3-1"
+        "mistral-medium-3-1"
       ],
       "providerID": "mistral",
       "family": "mistral-medium",
@@ -9879,7 +9850,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=131072, max_output=104857",
+      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9992,8 +9963,7 @@
       "aliases": [
         "mistral-saba-latest",
         "mistral/mistral-saba-latest",
-        "mistral-saba",
-        "openrouter/mistralai/mistral-saba"
+        "mistral-saba"
       ],
       "providerID": "mistral",
       "family": "mistral-saba",
@@ -10002,8 +9972,7 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "mistral",
-      "organizationName": "Mistral",
-      "notes": "LiteLLM supports_prompt_caching, supports_function_calling, max_input=32768, max_output=26214"
+      "organizationName": "Mistral"
     },
     {
       "id": "mistralai/mistral-small-24b-instruct-2501",
@@ -10085,9 +10054,7 @@
         "mistral-small-3.2-24b-instruct",
         "mistral-small-3-2-24b-instruct",
         "mistral-small-3.2-24b-instruct-2506",
-        "mistral-small-3-2-24b-instruct-2506",
-        "openrouter/mistralai/mistral-small-3.2-24b-instruct",
-        "openrouter/mistralai/mistral-small-3-2-24b-instruct"
+        "mistral-small-3-2-24b-instruct-2506"
       ],
       "providerID": "mistral",
       "family": "mistral-small",
@@ -10095,7 +10062,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000 · LiteLLM supports_vision, supports_function_calling, max_input=256000, max_output=16384",
+      "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10164,15 +10131,15 @@
       "aliases": [
         "mistralai/mixtral-8x22b-instruct",
         "mixtral-8x22b-instruct",
-        "openrouter/mistralai/mixtral-8x22b-instruct"
+        "vercel-ai-gateway/mistral/mixtral-8x22b-instruct"
       ],
       "providerID": "mistral",
       "family": "mixtral-8x22b",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
+      "inputCostPerMillionUSD": 1.2,
+      "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include: -  · context=65536 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=65536, max_output=52428",
+      "notes": "Mistral's official instruct fine-tuned version of [Mixtral 8x22B](/models/mistralai/mixtral-8x22b). It uses 39B active parameters out of 141B, offering unparalleled cost efficiency for its size. Its strengths include: -  · context=65536 · LiteLLM supports_function_calling, max_input=65536, max_output=2048",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10640,8 +10607,7 @@
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
         "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning-20260428",
         "nemotron-3-nano-omni-(free)",
-        "nemotron-3-nano-omni-30b-a3b-reasoning:free",
-        "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free"
+        "nemotron-3-nano-omni-30b-a3b-reasoning:free"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -10649,7 +10615,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and... · context=256000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=65536",
+      "notes": "NVIDIA Nemotron™ 3 Nano Omni is a 30B-A3B open multimodal model designed to function as a perception and context sub-agent in enterprise agent systems. It accepts text, image, video, and... · context=256000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10681,8 +10647,7 @@
         "nvidia/nemotron-3-super-120b-a12b:free",
         "nvidia/nemotron-3-super-120b-a12b-20230311",
         "nemotron-3-super-(free)",
-        "nemotron-3-super-120b-a12b:free",
-        "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+        "nemotron-3-super-120b-a12b:free"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -10690,7 +10655,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=235929",
+      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10721,8 +10686,7 @@
         "nvidia/nemotron-3-ultra-550b-a55b:free",
         "nvidia/nemotron-3-ultra-550b-a55b-20260604",
         "nemotron-3-ultra-(free)",
-        "nemotron-3-ultra-550b-a55b:free",
-        "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
+        "nemotron-3-ultra-550b-a55b:free"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -10730,7 +10694,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=1000000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10743,9 +10707,7 @@
         "nvidia/nemotron-3.5-content-safety-20260604",
         "nvidia/nemotron-3-5-content-safety-20260604",
         "nemotron-3.5-content-safety",
-        "nemotron-3-5-content-safety",
-        "openrouter/nvidia/nemotron-3.5-content-safety",
-        "openrouter/nvidia/nemotron-3-5-content-safety"
+        "nemotron-3-5-content-safety"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -10753,7 +10715,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=131072 · LiteLLM supports_reasoning, supports_vision, max_input=131072, max_output=117964",
+      "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=131072",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10768,9 +10730,7 @@
         "nemotron-3.5-content-safety-(free)",
         "nemotron-3-5-content-safety-(free)",
         "nemotron-3.5-content-safety:free",
-        "nemotron-3-5-content-safety:free",
-        "openrouter/nvidia/nemotron-3.5-content-safety:free",
-        "openrouter/nvidia/nemotron-3-5-content-safety:free"
+        "nemotron-3-5-content-safety:free"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -10778,7 +10738,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=128000 · LiteLLM supports_reasoning, supports_vision, max_input=128000, max_output=8192",
+      "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=128000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -10799,7 +10759,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.02345,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -10816,9 +10776,7 @@
         "nemotron-3.5-lightning-(free)",
         "nemotron-3-5-lightning-(free)",
         "nemotron-3.5-lightning:free",
-        "nemotron-3-5-lightning:free",
-        "openrouter/nvidia/nemotron-3.5-lightning:free",
-        "openrouter/nvidia/nemotron-3-5-lightning:free"
+        "nemotron-3-5-lightning:free"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -10826,7 +10784,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1000000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -11210,8 +11168,7 @@
         "openai/o3-mini-high",
         "openai/o3-mini-high-2025-01-31",
         "openai/o3-mini-high-2025.01-31",
-        "o3-mini-high",
-        "openrouter/openai/o3-mini-high"
+        "o3-mini-high"
       ],
       "providerID": "codex",
       "family": "o3-mini",
@@ -11219,7 +11176,7 @@
       "outputCostPerMillionUSD": 4.4,
       "cacheReadCostPerMillionUSD": 0.55,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mat · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mat · context=200000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -11333,8 +11290,7 @@
         "openai/o4-mini-high",
         "openai/o4-mini-high-2025-04-16",
         "openai/o4-mini-high-2025.04-16",
-        "o4-mini-high",
-        "openrouter/openai/o4-mini-high"
+        "o4-mini-high"
       ],
       "providerID": "codex",
       "family": "o4-mini",
@@ -11342,7 +11298,7 @@
       "outputCostPerMillionUSD": 4.4,
       "cacheReadCostPerMillionUSD": 0.275,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while ret · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while ret · context=200000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -11546,28 +11502,6 @@
       "notes": "LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=128000"
     },
     {
-      "id": "qwen/qwen-plus-2025-07-28",
-      "displayName": "Qwen Plus 0728",
-      "aliases": [
-        "qwen/qwen-plus-2025-07-28",
-        "qwen/qwen-plus-2025.07-28",
-        "qwen-plus-0728",
-        "qwen-plus-2025-07-28",
-        "qwen-plus-2025.07-28",
-        "dashscope/qwen-plus-2025-07-28",
-        "dashscope/qwen-plus-2025.07-28"
-      ],
-      "providerID": "qwen",
-      "family": "qwen-plus",
-      "inputCostPerMillionUSD": 0.26,
-      "outputCostPerMillionUSD": 0.78,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination. · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=997952, max_output=32768",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen-plus",
       "displayName": "Qwen-Plus",
       "aliases": [
@@ -11685,27 +11619,7 @@
       "outputCostPerMillionUSD": 0.24,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for... · context=131072 · LiteLLM supports_function_calling, max_input=40960, max_output=40960",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3-235b-a22b",
-      "displayName": "Qwen3 235B A22B",
-      "aliases": [
-        "qwen/qwen3-235b-a22b",
-        "qwen/qwen3-235b-a22b-04-28",
-        "qwen/qwen3-235b-a22b-04.28",
-        "qwen3-235b-a22b",
-        "deepinfra/qwen/qwen3-235b-a22b"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-235b",
-      "inputCostPerMillionUSD": 0.18,
-      "outputCostPerMillionUSD": 0.54,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and. · context=131072 · LiteLLM supports_function_calling, max_input=40960, max_output=40960",
+      "notes": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for... · context=40960 · LiteLLM supports_function_calling, max_input=40960, max_output=40960",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11744,7 +11658,7 @@
       "outputCostPerMillionUSD": 2.9,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively suppor · context=131072 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively suppor · context=128000 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11764,7 +11678,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
+      "notes": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique... · context=40960 · LiteLLM supports_reasoning, supports_function_calling, max_input=129024, max_output=16384",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11787,24 +11701,6 @@
       "organizationName": "Qwen"
     },
     {
-      "id": "qwen/qwen3-30b-a3b-thinking-2507",
-      "displayName": "Qwen3 30B A3B Thinking 2507",
-      "aliases": [
-        "qwen/qwen3-30b-a3b-thinking-2507",
-        "qwen3-30b-a3b-thinking-2507",
-        "fireworks-ai/accounts/fireworks/models/qwen3-30b-a3b-thinking-2507"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-30b",
-      "inputCostPerMillionUSD": 0.9,
-      "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal · context=81920 · LiteLLM max_input=262144, max_output=262144",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen3-32b",
       "displayName": "Qwen3 32B",
       "aliases": [
@@ -11821,26 +11717,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-32B is a dense 32.8B parameter causal language model from the Qwen3 series, optimized for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for... · context=131072 · LiteLLM supports_function_calling, max_input=40960, max_output=40960",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3-8b",
-      "displayName": "Qwen3 8B",
-      "aliases": [
-        "qwen/qwen3-8b",
-        "qwen/qwen3-8b-04-28",
-        "qwen/qwen3-8b-04.28",
-        "qwen3-8b",
-        "fireworks-ai/accounts/fireworks/models/qwen3-8b"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-8b",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,... · context=131072 · LiteLLM supports_reasoning, max_input=40960, max_output=40960",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11871,15 +11747,15 @@
         "qwen/qwen3-coder-480b-a35b-07.25",
         "qwen3-coder-480b-a35b",
         "qwen3-coder",
-        "openrouter/qwen/qwen3-coder"
+        "vercel-ai-gateway/alibaba/qwen3-coder"
       ],
       "providerID": "qwen",
       "family": "qwen3-coder",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.4,
+      "outputCostPerMillionUSD": 1.6,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over. · context=262144 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=262144, max_output=65536",
+      "notes": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over. · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=66536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11918,61 +11794,6 @@
       "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Coder-Next is an open-weight causal language model optimized for coding agents and local development workflows. It uses a sparse MoE design with 80B total parameters and only 3B activated per... · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3-coder-plus",
-      "displayName": "Qwen3 Coder Plus",
-      "aliases": [
-        "qwen/qwen3-coder-plus",
-        "qwen3-coder-plus",
-        "dashscope/qwen3-coder-plus"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-coder",
-      "inputCostPerMillionUSD": 0.65,
-      "outputCostPerMillionUSD": 3.25,
-      "cacheReadCostPerMillionUSD": 0.13,
-      "cacheWriteCostPerMillionUSD": 0.8125,
-      "notes": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=997952, max_output=65536",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3-max",
-      "displayName": "Qwen3 Max",
-      "aliases": [
-        "qwen/qwen3-max",
-        "qwen3-max",
-        "dashscope/qwen3-max"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-max",
-      "inputCostPerMillionUSD": 0.78,
-      "outputCostPerMillionUSD": 3.9,
-      "cacheReadCostPerMillionUSD": 0.156,
-      "cacheWriteCostPerMillionUSD": 0.975,
-      "notes": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It. · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=258048, max_output=65536",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3-max-thinking",
-      "displayName": "Qwen3 Max Thinking",
-      "aliases": [
-        "qwen/qwen3-max-thinking",
-        "qwen/qwen3-max-thinking-20260123",
-        "qwen3-max-thinking",
-        "deepinfra/qwen/qwen3-max-thinking"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-max",
-      "inputCostPerMillionUSD": 1.2,
-      "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.24,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning · context=262144 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=256000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12033,24 +11854,6 @@
       "organizationName": "Qwen"
     },
     {
-      "id": "qwen/qwen3-vl-235b-a22b-thinking",
-      "displayName": "Qwen3 VL 235B A22B Thinking",
-      "aliases": [
-        "qwen/qwen3-vl-235b-a22b-thinking",
-        "qwen3-vl-235b-a22b-thinking",
-        "dashscope/qwen3-vl-235b-a22b-thinking"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-vl",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math.... · context=131072 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=32768",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen3-vl-30b-a3b-instruct",
       "displayName": "Qwen3 VL 30B A3B Instruct",
       "aliases": [
@@ -12087,24 +11890,6 @@
       "organizationName": "Qwen"
     },
     {
-      "id": "qwen/qwen3-vl-32b-instruct",
-      "displayName": "Qwen3 VL 32B Instruct",
-      "aliases": [
-        "qwen/qwen3-vl-32b-instruct",
-        "qwen3-vl-32b-instruct",
-        "dashscope/qwen3-vl-32b-instruct"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-vl",
-      "inputCostPerMillionUSD": 0.16,
-      "outputCostPerMillionUSD": 0.64,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual percepti · context=131072 · LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=32768",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
       "id": "qwen/qwen3-vl-8b-instruct",
       "displayName": "Qwen3 VL 8B Instruct",
       "aliases": [
@@ -12116,27 +11901,9 @@
       "family": "qwen3-vl",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interle · context=262144 · LiteLLM max_input=4096, max_output=4096",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3-vl-8b-thinking",
-      "displayName": "Qwen3 VL 8B Thinking",
-      "aliases": [
-        "qwen/qwen3-vl-8b-thinking",
-        "qwen3-vl-8b-thinking",
-        "openrouter/qwen/qwen3-vl-8b-thinking"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-vl",
-      "inputCostPerMillionUSD": 0.18,
-      "outputCostPerMillionUSD": 2.1,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enha · context=131072 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12169,9 +11936,7 @@
         "qwen3.5-plus-2026-02-15",
         "qwen3.5-plus-2026.02-15",
         "qwen3.5-plus-02-15",
-        "qwen3.5-plus-02.15",
-        "openrouter/qwen/qwen3.5-plus-02-15",
-        "openrouter/qwen/qwen3.5-plus-02.15"
+        "qwen3.5-plus-02.15"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
@@ -12179,7 +11944,7 @@
       "outputCostPerMillionUSD": 1.56,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a vari · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "The Qwen3.5 native vision-language series Plus models are built on a hybrid architecture that integrates linear attention mechanisms with sparse mixture-of-experts models, achieving higher inference efficiency. In a vari · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12190,8 +11955,7 @@
         "qwen/qwen3.5-plus-20260420",
         "qwen3.5-plus-2026-04-20",
         "qwen3.5-plus-2026.04-20",
-        "qwen3.5-plus-20260420",
-        "openrouter/qwen/qwen3.5-plus-20260420"
+        "qwen3.5-plus-20260420"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
@@ -12199,7 +11963,7 @@
       "outputCostPerMillionUSD": 1.8,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Qwen3.5 Plus (April 2026) is a large-scale multimodal language model from Alibaba. It accepts text, image, and video input and produces text output, with a 1M token context window. This... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12210,15 +11974,15 @@
         "qwen/qwen3.5-122b-a10b",
         "qwen/qwen3.5-122b-a10b-20260224",
         "qwen3.5-122b-a10b",
-        "openrouter/qwen/qwen3.5-122b-a10b"
+        "libertai/qwen3.5-122b-a10b"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.26,
-      "outputCostPerMillionUSD": 2.08,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 1.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929",
+      "notes": "The Qwen3.5 122B-A10B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. In terms of · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12229,15 +11993,15 @@
         "qwen/qwen3.5-27b",
         "qwen/qwen3.5-27b-20260224",
         "qwen3.5-27b",
-        "openrouter/qwen/qwen3.5-27b"
+        "novita/qwen/qwen3.5-27b"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.26,
-      "outputCostPerMillionUSD": 2.6,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 2.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to tho · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=81920",
+      "notes": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to tho · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12248,15 +12012,15 @@
         "qwen/qwen3.5-35b-a3b",
         "qwen/qwen3.5-35b-a3b-20260224",
         "qwen3.5-35b-a3b",
-        "openrouter/qwen/qwen3.5-35b-a3b"
+        "novita/qwen/qwen3.5-35b-a3b"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
-      "inputCostPerMillionUSD": 0.1625,
-      "outputCostPerMillionUSD": 1.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
+      "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12288,9 +12052,7 @@
         "qwen/qwen3.5-flash-20260224",
         "qwen3.5-flash",
         "qwen3.5-flash-02-23",
-        "qwen3.5-flash-02.23",
-        "openrouter/qwen/qwen3.5-flash-02-23",
-        "openrouter/qwen/qwen3.5-flash-02.23"
+        "qwen3.5-flash-02.23"
       ],
       "providerID": "qwen",
       "family": "qwen3-5",
@@ -12298,7 +12060,7 @@
       "outputCostPerMillionUSD": 0.26,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to t · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "The Qwen3.5 native vision-language Flash models are built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. Compared to t · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12345,8 +12107,7 @@
       "displayName": "Qwen3.6 Flash",
       "aliases": [
         "qwen/qwen3.6-flash",
-        "qwen3.6-flash",
-        "openrouter/qwen/qwen3.6-flash"
+        "qwen3.6-flash"
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
@@ -12354,26 +12115,7 @@
       "outputCostPerMillionUSD": 1.125,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": 0.234375,
-      "notes": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series. It supports text, image, and video input with a 1M token context window. Tiered pricing kicks in... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen3.6-max-preview",
-      "displayName": "Qwen3.6 Max Preview",
-      "aliases": [
-        "qwen/qwen3.6-max-preview",
-        "qwen/qwen3.6-max-preview-20260420",
-        "qwen3.6-max-preview",
-        "openrouter/qwen/qwen3.6-max-preview"
-      ],
-      "providerID": "qwen",
-      "family": "qwen3-6",
-      "inputCostPerMillionUSD": 1.027,
-      "outputCostPerMillionUSD": 6.162,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": 1.28375,
-      "notes": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and.. · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=65536",
+      "notes": "Qwen3.6 Flash is a fast, efficient language model from Alibaba's Qwen 3.6 series. It supports text, image, and video input with a 1M token context window. Tiered pricing kicks in... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12385,7 +12127,7 @@
         "qwen/qwen3.6-plus-04-02",
         "qwen/qwen3.6-plus-04.02",
         "qwen3.6-plus",
-        "openrouter/qwen/qwen3.6-plus"
+        "together-ai/qwen/qwen3.6-plus"
       ],
       "providerID": "qwen",
       "family": "qwen3-6",
@@ -12393,7 +12135,7 @@
       "outputCostPerMillionUSD": 3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": 0.40625,
-      "notes": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it de · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it de · context=1000000 · LiteLLM supports_reasoning, max_input=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12420,8 +12162,7 @@
       "aliases": [
         "qwen/qwen3.7-flash",
         "qwen/qwen3.7-flash-20260727",
-        "qwen3.7-flash",
-        "openrouter/qwen/qwen3.7-flash"
+        "qwen3.7-flash"
       ],
       "providerID": "qwen",
       "family": "qwen3-7",
@@ -12429,7 +12170,7 @@
       "outputCostPerMillionUSD": 0.13,
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": 0.038,
-      "notes": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real- · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real- · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12535,16 +12276,15 @@
         "qwen/qwen3.8-max-0902",
         "qwen/qwen3.8-max-20260902",
         "qwen3.8-max-(0902)",
-        "qwen3.8-max-0902",
-        "openrouter/qwen/qwen3.8-max-0902"
+        "qwen3.8-max-0902"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
       "inputCostPerMillionUSD": 2.0,
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=131072",
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12554,8 +12294,7 @@
       "aliases": [
         "qwen/qwen3.8-max-prime",
         "qwen/qwen3.8-max-prime-20260923",
-        "qwen3.8-max-prime",
-        "openrouter/qwen/qwen3.8-max-prime"
+        "qwen3.8-max-prime"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
@@ -12563,7 +12302,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point. It accepts text, image, and video... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=131072",
+      "notes": "Qwen3.8 Max Prime is a higher-throughput variant of Qwen3.8 Max from Alibaba's Qwen team, served as a separate SKU at a higher price point. It accepts text, image, and video... · context=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12695,8 +12434,7 @@
       "aliases": [
         "undi95/remm-slerp-l2-13b",
         "remm-slerp-13b",
-        "remm-slerp-l2-13b",
-        "openrouter/undi95/remm-slerp-l2-13b"
+        "remm-slerp-l2-13b"
       ],
       "providerID": "undi95",
       "family": "remm-slerp",
@@ -12704,7 +12442,7 @@
       "outputCostPerMillionUSD": 0.65,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge · context=6144 · LiteLLM max_input=6144, max_output=5529"
+      "notes": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge · context=6144"
     },
     {
       "id": "mistralai/mistral-saba",
@@ -12713,8 +12451,7 @@
         "mistralai/mistral-saba",
         "mistralai/mistral-saba-2502",
         "saba",
-        "mistral-saba",
-        "openrouter/mistralai/mistral-saba"
+        "mistral-saba"
       ],
       "providerID": "mistral",
       "family": "mistral-saba",
@@ -12722,7 +12459,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated · context=32768 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=32768, max_output=26214",
+      "notes": "Mistral Saba is a 24B-parameter language model specifically designed for the Middle East and South Asia, delivering accurate and contextually relevant responses while maintaining efficient performance. Trained on curated · context=32768",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -13190,9 +12927,7 @@
         "bytedance/ui-tars-1-5-7b",
         "ui-tars-7b",
         "ui-tars-1.5-7b",
-        "ui-tars-1-5-7b",
-        "openrouter/bytedance/ui-tars-1.5-7b",
-        "openrouter/bytedance/ui-tars-1-5-7b"
+        "ui-tars-1-5-7b"
       ],
       "providerID": "bytedance",
       "family": "ui-tars",
@@ -13200,7 +12935,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with · context=128000 · LiteLLM supports_prompt_caching, supports_vision, max_input=128000, max_output=2048",
+      "notes": "UI-TARS-1.5 is a multimodal vision-language agent optimized for GUI-based environments, including desktop interfaces, web browsers, mobile systems, and games. Built by ByteDance, it builds upon the UI-TARS framework with · context=128000",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -13243,8 +12978,7 @@
       "displayName": "Voxtral Small 24B 2507",
       "aliases": [
         "mistralai/voxtral-small-24b-2507",
-        "voxtral-small-24b-2507",
-        "openrouter/mistralai/voxtral-small-24b-2507"
+        "voxtral-small-24b-2507"
       ],
       "providerID": "mistral",
       "family": "voxtral-small",
@@ -13252,7 +12986,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio underst · context=32768 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=32768, max_output=26214",
+      "notes": "Voxtral Small is an enhancement of Mistral Small 3, incorporating state-of-the-art audio input capabilities while retaining best-in-class text performance. It excels at speech transcription, translation and audio underst · context=32768",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -13262,8 +12996,7 @@
       "aliases": [
         "mancer/weaver",
         "weaver-(alpha)",
-        "weaver",
-        "openrouter/mancer/weaver"
+        "weaver"
       ],
       "providerID": "mancer",
       "family": "weaver",
@@ -13271,7 +13004,7 @@
       "outputCostPerMillionUSD": 0.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations. · context=8000 · LiteLLM max_input=8000, max_output=6000"
+      "notes": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations. · context=8000"
     },
     {
       "id": "microsoft/wizardlm-2-8x22b",
