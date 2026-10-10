@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-10T05:53:51.713114+00:00",
+  "generatedAt": "2026-10-10T12:33:19.946821+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1970,7 +1970,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0044,
+      "inputCostPerMillionUSD": 0.0001,
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": null,
@@ -1985,8 +1985,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 5.0,
+      "inputCostPerMillionUSD": 0.22,
+      "outputCostPerMillionUSD": 4.0,
       "cacheReadCostPerMillionUSD": 0.219,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
@@ -2167,9 +2167,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0054,
+      "inputCostPerMillionUSD": 0.0116,
       "outputCostPerMillionUSD": 1.28,
-      "cacheReadCostPerMillionUSD": 0.0054,
+      "cacheReadCostPerMillionUSD": 0.0116,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -8593,9 +8593,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.446,
-      "outputCostPerMillionUSD": 14.9,
-      "cacheReadCostPerMillionUSD": 0.29,
+      "inputCostPerMillionUSD": 0.31,
+      "outputCostPerMillionUSD": 14.89,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -10581,7 +10581,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.02345,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
