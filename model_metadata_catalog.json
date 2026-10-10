@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-09T22:39:03.726069+00:00",
+  "generatedAt": "2026-10-10T05:53:51.713114+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -11,9 +11,7 @@
         "aion-labs/aion-3.5-20260923",
         "aion-labs/aion-3-5-20260923",
         "aion-3.5",
-        "aion-3-5",
-        "openrouter/aion-labs/aion-3.5",
-        "openrouter/aion-labs/aion-3-5"
+        "aion-3-5"
       ],
       "providerID": "aion-labs",
       "family": "aion-3",
@@ -21,7 +19,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.75,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion 3.5 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Aion 3.5 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each... · context=262144"
     },
     {
       "id": "aion-labs/aion-3.5-mini",
@@ -32,9 +30,7 @@
         "aion-labs/aion-3.5-mini-20260923",
         "aion-labs/aion-3-5-mini-20260923",
         "aion-3.5-mini",
-        "aion-3-5-mini",
-        "openrouter/aion-labs/aion-3.5-mini",
-        "openrouter/aion-labs/aion-3-5-mini"
+        "aion-3-5-mini"
       ],
       "providerID": "aion-labs",
       "family": "aion-3",
@@ -42,7 +38,7 @@
       "outputCostPerMillionUSD": 1.4,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion 3.5 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It is the smaller, lower-cost sibling of Aion 3.5 and uses... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Aion 3.5 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It is the smaller, lower-cost sibling of Aion 3.5 and uses... · context=262144"
     },
     {
       "id": "aion-labs/aion-2.0",
@@ -53,9 +49,7 @@
         "aion-labs/aion-2.0-20260223",
         "aion-labs/aion-2-0-20260223",
         "aion-2.0",
-        "aion-2-0",
-        "openrouter/aion-labs/aion-2.0",
-        "openrouter/aion-labs/aion-2-0"
+        "aion-2-0"
       ],
       "providerID": "aion-labs",
       "family": "aion-2",
@@ -63,7 +57,7 @@
       "outputCostPerMillionUSD": 1.6,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging.... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=32768"
+      "notes": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging.... · context=131072"
     },
     {
       "id": "aion-labs/aion-3.0",
@@ -74,9 +68,7 @@
         "aion-labs/aion-3.0-20260707",
         "aion-labs/aion-3-0-20260707",
         "aion-3.0",
-        "aion-3-0",
-        "openrouter/aion-labs/aion-3.0",
-        "openrouter/aion-labs/aion-3-0"
+        "aion-3-0"
       ],
       "providerID": "aion-labs",
       "family": "aion-3",
@@ -84,7 +76,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.75,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=32768"
+      "notes": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute... · context=131072"
     },
     {
       "id": "aion-labs/aion-3.0-mini",
@@ -95,9 +87,7 @@
         "aion-labs/aion-3.0-mini-20260707",
         "aion-labs/aion-3-0-mini-20260707",
         "aion-3.0-mini",
-        "aion-3-0-mini",
-        "openrouter/aion-labs/aion-3.0-mini",
-        "openrouter/aion-labs/aion-3-0-mini"
+        "aion-3-0-mini"
       ],
       "providerID": "aion-labs",
       "family": "aion-3",
@@ -105,7 +95,7 @@
       "outputCostPerMillionUSD": 1.4,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=32768"
+      "notes": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each... · context=131072"
     },
     {
       "id": "aion-labs/aion-rp-llama-3.1-8b",
@@ -116,9 +106,7 @@
         "aion-rp-1.0-(8b)",
         "aion-rp-1-0-(8b)",
         "aion-rp-llama-3.1-8b",
-        "aion-rp-llama-3-1-8b",
-        "openrouter/aion-labs/aion-rp-llama-3.1-8b",
-        "openrouter/aion-labs/aion-rp-llama-3-1-8b"
+        "aion-rp-llama-3-1-8b"
       ],
       "providerID": "aion-labs",
       "family": "aion-rp",
@@ -126,7 +114,7 @@
       "outputCostPerMillionUSD": 1.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned  · context=32768 · LiteLLM max_input=32768, max_output=29491"
+      "notes": "Aion-RP-Llama-3.1-8B ranks the highest in the character evaluation portion of the RPBench-Auto benchmark, a roleplaying-specific variant of Arena-Hard-Auto, where LLMs evaluate each other’s responses. It is a fine-tuned  · context=32768"
     },
     {
       "id": "amazon/amazon-nova-lite",
@@ -203,9 +191,7 @@
         "apodex-1.1-mini-(free)",
         "apodex-1-1-mini-(free)",
         "apodex-1.1-mini:free",
-        "apodex-1-1-mini:free",
-        "openrouter/apodex/apodex-1.1-mini:free",
-        "openrouter/apodex/apodex-1-1-mini:free"
+        "apodex-1-1-mini:free"
       ],
       "providerID": "apodex",
       "family": "apodex-1",
@@ -213,7 +199,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=235929"
+      "notes": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,... · context=262144"
     },
     {
       "id": "openrouter/auto",
@@ -518,8 +504,7 @@
         "anthropic/claude-fable-5:batch",
         "anthropic/claude-5-fable-20260609",
         "claude-fable-5-(batch)",
-        "claude-fable-5:batch",
-        "openrouter/anthropic/claude-fable-5:batch"
+        "claude-fable-5:batch"
       ],
       "providerID": "claude",
       "family": "claude-fable",
@@ -527,7 +512,7 @@
       "outputCostPerMillionUSD": 25.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -586,8 +571,7 @@
         "anthropic/claude-fable-5-1-20260831",
         "claude-fable-5.1-(batch)",
         "claude-fable-5-1-(batch)",
-        "claude-fable-5.1:batch",
-        "openrouter/anthropic/claude-fable-5.1:batch"
+        "claude-fable-5.1:batch"
       ],
       "providerID": "claude",
       "family": "claude-fable",
@@ -595,7 +579,7 @@
       "outputCostPerMillionUSD": 25.0,
       "cacheReadCostPerMillionUSD": 0.125,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -604,8 +588,7 @@
       "displayName": "Claude Fable Latest",
       "aliases": [
         "~anthropic/claude-fable-latest",
-        "claude-fable-latest",
-        "openrouter/~anthropic/claude-fable-latest"
+        "claude-fable-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-fable",
@@ -613,7 +596,7 @@
       "outputCostPerMillionUSD": 50.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "This model always redirects to the latest model in the Claude Fable family. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the Claude Fable family. · context=1000000"
     },
     {
       "id": "anthropic/claude-haiku-4.5",
@@ -657,9 +640,7 @@
         "claude-4-5-haiku-(batch)",
         "claude-haiku-4.5:batch",
         "claude-4.5-haiku:batch",
-        "claude-4-5-haiku:batch",
-        "claude-haiku-4-5:batch",
-        "openrouter/anthropic/claude-haiku-4.5:batch"
+        "claude-4-5-haiku:batch"
       ],
       "providerID": "claude",
       "family": "claude-haiku",
@@ -667,7 +648,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": 0.625,
-      "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
+      "notes": "Claude Haiku 4.5 is Anthropic’s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4’s performance... · context=200000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -782,8 +763,7 @@
       "displayName": "Claude Haiku Latest",
       "aliases": [
         "~anthropic/claude-haiku-latest",
-        "claude-haiku-latest",
-        "openrouter/~anthropic/claude-haiku-latest"
+        "claude-haiku-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-haiku",
@@ -791,7 +771,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": 0.125,
-      "notes": "This model always redirects to the latest model in the Claude Haiku family. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the Claude Haiku family. · context=1000000"
     },
     {
       "id": "claude/claude-mythos-5",
@@ -927,9 +907,7 @@
         "claude-4-1-opus-(batch)",
         "claude-opus-4.1:batch",
         "claude-4.1-opus:batch",
-        "claude-4-1-opus:batch",
-        "claude-opus-4-1:batch",
-        "openrouter/anthropic/claude-opus-4.1:batch"
+        "claude-4-1-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -937,7 +915,7 @@
       "outputCostPerMillionUSD": 37.5,
       "cacheReadCostPerMillionUSD": 0.75,
       "cacheWriteCostPerMillionUSD": 9.375,
-      "notes": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=32000",
+      "notes": "Claude Opus 4.1 is an updated version of Anthropic’s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains... · context=200000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1012,9 +990,7 @@
         "claude-4-5-opus-(batch)",
         "claude-opus-4.5:batch",
         "claude-4.5-opus:batch",
-        "claude-4-5-opus:batch",
-        "claude-opus-4-5:batch",
-        "openrouter/anthropic/claude-opus-4.5:batch"
+        "claude-4-5-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -1022,7 +998,7 @@
       "outputCostPerMillionUSD": 12.5,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 3.125,
-      "notes": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance acro · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=64000",
+      "notes": "Claude Opus 4.5 is Anthropic’s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance acro · context=200000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1089,9 +1065,7 @@
         "claude-4-6-opus-(batch)",
         "claude-opus-4.6:batch",
         "claude-4.6-opus:batch",
-        "claude-4-6-opus:batch",
-        "claude-opus-4-6:batch",
-        "openrouter/anthropic/claude-opus-4.6:batch"
+        "claude-4-6-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -1099,7 +1073,7 @@
       "outputCostPerMillionUSD": 12.5,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 3.125,
-      "notes": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Opus 4.6 is Anthropic’s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1166,9 +1140,7 @@
         "claude-4-7-opus-(batch)",
         "claude-opus-4.7:batch",
         "claude-4.7-opus:batch",
-        "claude-4-7-opus:batch",
-        "claude-opus-4-7:batch",
-        "openrouter/anthropic/claude-opus-4.7:batch"
+        "claude-4-7-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -1176,7 +1148,7 @@
       "outputCostPerMillionUSD": 12.5,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 3.125,
-      "notes": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1243,9 +1215,7 @@
         "claude-4-8-opus-(batch)",
         "claude-opus-4.8:batch",
         "claude-4.8-opus:batch",
-        "claude-4-8-opus:batch",
-        "claude-opus-4-8:batch",
-        "openrouter/anthropic/claude-opus-4.8:batch"
+        "claude-4-8-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -1253,7 +1223,7 @@
       "outputCostPerMillionUSD": 12.5,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 3.125,
-      "notes": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1308,8 +1278,7 @@
         "claude-opus-5-(batch)",
         "claude-5-opus-(batch)",
         "claude-opus-5:batch",
-        "claude-5-opus:batch",
-        "openrouter/anthropic/claude-opus-5:batch"
+        "claude-5-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -1317,7 +1286,7 @@
       "outputCostPerMillionUSD": 12.5,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": 3.125,
-      "notes": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Opus 5 is Anthropic’s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1384,9 +1353,7 @@
         "claude-5-5-opus-(batch)",
         "claude-opus-5.5:batch",
         "claude-5.5-opus:batch",
-        "claude-5-5-opus:batch",
-        "claude-opus-5-5:batch",
-        "openrouter/anthropic/claude-opus-5.5:batch"
+        "claude-5-5-opus:batch"
       ],
       "providerID": "claude",
       "family": "claude-opus",
@@ -1394,7 +1361,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1403,8 +1370,7 @@
       "displayName": "Claude Opus Latest",
       "aliases": [
         "~anthropic/claude-opus-latest",
-        "claude-opus-latest",
-        "openrouter/~anthropic/claude-opus-latest"
+        "claude-opus-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-opus",
@@ -1412,7 +1378,7 @@
       "outputCostPerMillionUSD": 20.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 5.0,
-      "notes": "This model always redirects to the latest model in the Claude Opus family. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the Claude Opus family. · context=1000000"
     },
     {
       "id": "anthropic/claude-sonnet-4",
@@ -1528,9 +1494,7 @@
         "claude-4-5-sonnet-(batch)",
         "claude-sonnet-4.5:batch",
         "claude-4.5-sonnet:batch",
-        "claude-4-5-sonnet:batch",
-        "claude-sonnet-4-5:batch",
-        "openrouter/anthropic/claude-sonnet-4.5:batch"
+        "claude-4-5-sonnet:batch"
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
@@ -1538,7 +1502,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": 1.875,
-      "notes": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=64000",
+      "notes": "Claude Sonnet 4.5 is Anthropic’s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1665,9 +1629,7 @@
         "claude-4-6-sonnet-(batch)",
         "claude-sonnet-4.6:batch",
         "claude-4.6-sonnet:batch",
-        "claude-4-6-sonnet:batch",
-        "claude-sonnet-4-6:batch",
-        "openrouter/anthropic/claude-sonnet-4.6:batch"
+        "claude-4-6-sonnet:batch"
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
@@ -1675,7 +1637,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": 1.875,
-      "notes": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project m · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1730,8 +1692,7 @@
         "claude-sonnet-5-(batch)",
         "claude-5-sonnet-(batch)",
         "claude-sonnet-5:batch",
-        "claude-5-sonnet:batch",
-        "openrouter/anthropic/claude-sonnet-5:batch"
+        "claude-5-sonnet:batch"
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
@@ -1739,7 +1700,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, m · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1802,9 +1763,7 @@
         "claude-5-5-sonnet-(batch)",
         "claude-sonnet-5.5:batch",
         "claude-5.5-sonnet:batch",
-        "claude-5-5-sonnet:batch",
-        "claude-sonnet-5-5:batch",
-        "openrouter/anthropic/claude-sonnet-5.5:batch"
+        "claude-5-5-sonnet:batch"
       ],
       "providerID": "claude",
       "family": "claude-sonnet",
@@ -1812,7 +1771,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "notes": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing... · context=1000000",
       "brandAssetName": "claude",
       "organizationName": "Claude"
     },
@@ -1821,8 +1780,7 @@
       "displayName": "Claude Sonnet Latest",
       "aliases": [
         "~anthropic/claude-sonnet-latest",
-        "claude-sonnet-latest",
-        "openrouter/~anthropic/claude-sonnet-latest"
+        "claude-sonnet-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-sonnet",
@@ -1830,7 +1788,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the Claude Sonnet family. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the Claude Sonnet family. · context=1000000"
     },
     {
       "id": "mistral/codestral-latest",
@@ -1876,8 +1834,7 @@
         "mistralai/codestral-2508:batch",
         "mistralai/codestral-2508",
         "codestral-2508-(batch)",
-        "codestral-2508:batch",
-        "openrouter/mistralai/codestral-2508:batch"
+        "codestral-2508:batch"
       ],
       "providerID": "mistral",
       "family": "codestral-2508",
@@ -1885,7 +1842,7 @@
       "outputCostPerMillionUSD": 0.45,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=256000, max_output=204800",
+      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -1917,8 +1874,7 @@
         "cohere/command-a-plus-05-2026",
         "cohere/command-a-plus-05.2026",
         "command-a+",
-        "command-a-plus",
-        "openrouter/cohere/command-a-plus"
+        "command-a-plus"
       ],
       "providerID": "cohere",
       "family": "command-a",
@@ -1926,7 +1882,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Command A+ is Cohere's flagship model for enterprise agentic workflows. It accepts text and image inputs with a 192K context window, supports native tool calling with strict tool schemas, structured... · context=192000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=192000, max_output=64000",
+      "notes": "Command A+ is Cohere's flagship model for enterprise agentic workflows. It accepts text and image inputs with a 192K context window, supports native tool calling with strict tool schemas, structured... · context=192000",
       "brandAssetName": "cohere",
       "organizationName": "Cohere"
     },
@@ -1995,8 +1951,7 @@
       "displayName": "Cydonia 24B V4.1",
       "aliases": [
         "thedrummer/cydonia-24b-v4.1",
-        "cydonia-24b-v4.1",
-        "openrouter/thedrummer/cydonia-24b-v4.1"
+        "cydonia-24b-v4.1"
       ],
       "providerID": "thedrummer",
       "family": "cydonia-24b",
@@ -2004,39 +1959,37 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Uncensored and creative writing model based on Mistral Small 3.2 24B with good recall, prompt adherence, and intelligence. · context=131072 · LiteLLM supports_prompt_caching, max_input=131072, max_output=117964"
+      "notes": "Uncensored and creative writing model based on Mistral Small 3.2 24B with good recall, prompt adherence, and intelligence. · context=131072"
     },
     {
       "id": "~deepseek/deepseek-flash-latest",
       "displayName": "DeepSeek Flash Latest",
       "aliases": [
         "~deepseek/deepseek-flash-latest",
-        "deepseek-flash-latest",
-        "openrouter/~deepseek/deepseek-flash-latest"
+        "deepseek-flash-latest"
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "inputCostPerMillionUSD": 0.0044,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
+      "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
     {
       "id": "~deepseek/deepseek-pro-latest",
       "displayName": "DeepSeek Pro Latest",
       "aliases": [
         "~deepseek/deepseek-pro-latest",
-        "deepseek-pro-latest",
-        "openrouter/~deepseek/deepseek-pro-latest"
+        "deepseek-pro-latest"
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 1.32,
-      "outputCostPerMillionUSD": 3.96,
-      "cacheReadCostPerMillionUSD": 0.044,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.219,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=384000"
+      "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
     {
       "id": "deepseek/deepseek-reasoner",
@@ -2210,16 +2163,15 @@
       "displayName": "DeepSeek V4 Flash Latest",
       "aliases": [
         "~deepseek/deepseek-v4-flash-latest",
-        "deepseek-v4-flash-latest",
-        "openrouter/~deepseek/deepseek-v4-flash-latest"
+        "deepseek-v4-flash-latest"
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.64,
-      "cacheReadCostPerMillionUSD": 0.016,
+      "inputCostPerMillionUSD": 0.0054,
+      "outputCostPerMillionUSD": 1.28,
+      "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=943718"
+      "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
     {
       "id": "deepseek/deepseek-v4-flash-vision-exp",
@@ -2303,8 +2255,7 @@
         "deepseek/deepseek-v4.1-flash:batch",
         "deepseek/deepseek-v4.1-flash-20260910",
         "deepseek-v4.1-flash-(batch)",
-        "deepseek-v4.1-flash:batch",
-        "openrouter/deepseek/deepseek-v4.1-flash:batch"
+        "deepseek-v4.1-flash:batch"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
@@ -2312,7 +2263,7 @@
       "outputCostPerMillionUSD": 0.336,
       "cacheReadCostPerMillionUSD": 0.00336,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -2342,8 +2293,7 @@
         "dots-studio/dots-3-note-preview:free",
         "dots-studio/dots-3-note-preview-20260813",
         "dots3-note-preview-(free)",
-        "dots-3-note-preview:free",
-        "openrouter/dots-studio/dots-3-note-preview:free"
+        "dots-3-note-preview:free"
       ],
       "providerID": "dots-studio",
       "family": "dots-3",
@@ -2351,7 +2301,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is... · context=512000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=512000, max_output=460800"
+      "notes": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is... · context=512000"
     },
     {
       "id": "fireworks/ember-1",
@@ -2395,8 +2345,7 @@
       "aliases": [
         "sakana/fugu-max",
         "sakana/fugu-max-20260911",
-        "fugu-max",
-        "openrouter/sakana/fugu-max"
+        "fugu-max"
       ],
       "providerID": "sakana",
       "family": "fugu-max",
@@ -2404,7 +2353,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000"
     },
     {
       "id": "sakana/fugu-ultra",
@@ -2412,8 +2361,7 @@
       "aliases": [
         "sakana/fugu-ultra",
         "sakana/fugu-ultra-20260615",
-        "fugu-ultra",
-        "openrouter/sakana/fugu-ultra"
+        "fugu-ultra"
       ],
       "providerID": "sakana",
       "family": "fugu-ultra",
@@ -2421,7 +2369,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Fugu Ultra is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "Fugu Ultra is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000"
     },
     {
       "id": "sakana/fugu-ultra-v2",
@@ -2429,8 +2377,7 @@
       "aliases": [
         "sakana/fugu-ultra-v2",
         "sakana/fugu-ultra-v2-20260911",
-        "fugu-ultra-v2",
-        "openrouter/sakana/fugu-ultra-v2"
+        "fugu-ultra-v2"
       ],
       "providerID": "sakana",
       "family": "fugu-ultra",
@@ -2438,7 +2385,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+      "notes": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to... · context=1000000"
     },
     {
       "id": "openrouter/fusion",
@@ -2688,9 +2635,7 @@
         "gemini-2.5-flash-(batch)",
         "gemini-2-5-flash-(batch)",
         "gemini-2.5-flash:batch",
-        "gemini-2-5-flash:batch",
-        "openrouter/google/gemini-2.5-flash:batch",
-        "openrouter/google/gemini-2-5-flash:batch"
+        "gemini-2-5-flash:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-2",
@@ -2698,7 +2643,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2732,9 +2677,7 @@
         "gemini-2.5-flash-lite-(batch)",
         "gemini-2-5-flash-lite-(batch)",
         "gemini-2.5-flash-lite:batch",
-        "gemini-2-5-flash-lite:batch",
-        "openrouter/google/gemini-2.5-flash-lite:batch",
-        "openrouter/google/gemini-2-5-flash-lite:batch"
+        "gemini-2-5-flash-lite:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-2",
@@ -2742,7 +2685,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -2825,9 +2768,7 @@
         "gemini-2.5-pro-(batch)",
         "gemini-2-5-pro-(batch)",
         "gemini-2.5-pro:batch",
-        "gemini-2-5-pro:batch",
-        "openrouter/google/gemini-2.5-pro:batch",
-        "openrouter/google/gemini-2-5-pro:batch"
+        "gemini-2-5-pro:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-2",
@@ -2835,7 +2776,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.125,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3009,8 +2950,7 @@
         "google/gemini-3-flash-preview:batch",
         "google/gemini-3-flash-preview-20251217",
         "gemini-3-flash-preview-(batch)",
-        "gemini-3-flash-preview:batch",
-        "openrouter/google/gemini-3-flash-preview:batch"
+        "gemini-3-flash-preview:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3018,7 +2958,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3095,9 +3035,7 @@
         "gemini-3.1-flash-lite-(batch)",
         "gemini-3-1-flash-lite-(batch)",
         "gemini-3.1-flash-lite:batch",
-        "gemini-3-1-flash-lite:batch",
-        "openrouter/google/gemini-3.1-flash-lite:batch",
-        "openrouter/google/gemini-3-1-flash-lite:batch"
+        "gemini-3-1-flash-lite:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3105,7 +3043,7 @@
       "outputCostPerMillionUSD": 0.75,
       "cacheReadCostPerMillionUSD": 0.0125,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.1 Flash Lite is Google’s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3211,9 +3149,7 @@
         "gemini-3.1-pro-preview-(batch)",
         "gemini-3-1-pro-preview-(batch)",
         "gemini-3.1-pro-preview:batch",
-        "gemini-3-1-pro-preview:batch",
-        "openrouter/google/gemini-3.1-pro-preview:batch",
-        "openrouter/google/gemini-3-1-pro-preview:batch"
+        "gemini-3-1-pro-preview:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3221,7 +3157,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the mu · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.1 Pro Preview is Google’s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the mu · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3330,9 +3266,7 @@
         "gemini-3.5-flash-(batch)",
         "gemini-3-5-flash-(batch)",
         "gemini-3.5-flash:batch",
-        "gemini-3-5-flash:batch",
-        "openrouter/google/gemini-3.5-flash:batch",
-        "openrouter/google/gemini-3-5-flash:batch"
+        "gemini-3-5-flash:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3340,7 +3274,7 @@
       "outputCostPerMillionUSD": 4.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3376,9 +3310,7 @@
         "gemini-3.5-flash-lite-(batch)",
         "gemini-3-5-flash-lite-(batch)",
         "gemini-3.5-flash-lite:batch",
-        "gemini-3-5-flash-lite:batch",
-        "openrouter/google/gemini-3.5-flash-lite:batch",
-        "openrouter/google/gemini-3-5-flash-lite:batch"
+        "gemini-3-5-flash-lite:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3386,7 +3318,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows. · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3468,9 +3400,7 @@
         "gemini-3.6-flash-(batch)",
         "gemini-3-6-flash-(batch)",
         "gemini-3.6-flash:batch",
-        "gemini-3-6-flash:batch",
-        "openrouter/google/gemini-3.6-flash:batch",
-        "openrouter/google/gemini-3-6-flash:batch"
+        "gemini-3-6-flash:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3478,7 +3408,7 @@
       "outputCostPerMillionUSD": 1.875,
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": 0.041667,
-      "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3539,9 +3469,7 @@
         "gemini-3.7-flash-(batch)",
         "gemini-3-7-flash-(batch)",
         "gemini-3.7-flash:batch",
-        "gemini-3-7-flash:batch",
-        "openrouter/google/gemini-3.7-flash:batch",
-        "openrouter/google/gemini-3-7-flash:batch"
+        "gemini-3-7-flash:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3549,7 +3477,7 @@
       "outputCostPerMillionUSD": 1.875,
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": 0.041667,
-      "notes": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step... · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3610,9 +3538,7 @@
         "gemini-3.8-flash-(batch)",
         "gemini-3-8-flash-(batch)",
         "gemini-3.8-flash:batch",
-        "gemini-3-8-flash:batch",
-        "openrouter/google/gemini-3.8-flash:batch",
-        "openrouter/google/gemini-3-8-flash:batch"
+        "gemini-3-8-flash:batch"
       ],
       "providerID": "gemini",
       "family": "gemini-3",
@@ -3620,7 +3546,7 @@
       "outputCostPerMillionUSD": 1.875,
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": 0.041667,
-      "notes": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
+      "notes": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning. · context=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -4063,8 +3989,7 @@
         "z-ai/glm-5-3-20260816",
         "glm-5.3-(batch)",
         "glm-5-3-(batch)",
-        "glm-5.3:batch",
-        "openrouter/z-ai/glm-5.3:batch"
+        "glm-5.3:batch"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -4072,7 +3997,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072"
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576"
     },
     {
       "id": "z-ai/glm-5.3-flash",
@@ -4106,9 +4031,7 @@
         "glm-5.3-flash-(batch)",
         "glm-5-3-flash-(batch)",
         "glm-5.3-flash:batch",
-        "glm-5-3-flash:batch",
-        "openrouter/z-ai/glm-5.3-flash:batch",
-        "openrouter/z-ai/glm-5-3-flash:batch"
+        "glm-5-3-flash:batch"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -4116,7 +4039,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+      "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
     },
     {
       "id": "z-ai/glm-5.3-flashx",
@@ -4127,9 +4050,7 @@
         "z-ai/glm-5.3-flashx-20260918",
         "z-ai/glm-5-3-flashx-20260918",
         "glm-5.3-flashx",
-        "glm-5-3-flashx",
-        "openrouter/z-ai/glm-5.3-flashx",
-        "openrouter/z-ai/glm-5-3-flashx"
+        "glm-5-3-flashx"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -4137,7 +4058,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+      "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576"
     },
     {
       "id": "z-ai/glm-5.3-prime",
@@ -4148,9 +4069,7 @@
         "z-ai/glm-5.3-prime-20260921",
         "z-ai/glm-5-3-prime-20260921",
         "glm-5.3-prime",
-        "glm-5-3-prime",
-        "openrouter/z-ai/glm-5.3-prime",
-        "openrouter/z-ai/glm-5-3-prime"
+        "glm-5-3-prime"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
@@ -4158,7 +4077,7 @@
       "outputCostPerMillionUSD": 8.8,
       "cacheReadCostPerMillionUSD": 0.56,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration. It supports text input and output with a 1M-token. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=131072"
+      "notes": "GLM-5.3-Prime is the high-speed variant of Z.ai's GLM-5.3, inheriting its full capabilities while delivering 1.5–2× the output throughput through inference acceleration. It supports text input and output with a 1M-token. · context=1000000"
     },
     {
       "id": "z-ai/glm-5v-turbo",
@@ -4182,40 +4101,37 @@
       "displayName": "GLM Flash Latest",
       "aliases": [
         "~z-ai/glm-flash-latest",
-        "glm-flash-latest",
-        "openrouter/~z-ai/glm-flash-latest"
+        "glm-flash-latest"
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.04,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0125,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1310720, max_output=943718"
+      "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
     {
       "id": "~z-ai/glm-latest",
       "displayName": "GLM Latest",
       "aliases": [
         "~z-ai/glm-latest",
-        "glm-latest",
-        "openrouter/~z-ai/glm-latest"
+        "glm-latest"
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.6538,
-      "outputCostPerMillionUSD": 2.0548,
-      "cacheReadCostPerMillionUSD": 0.12142,
+      "inputCostPerMillionUSD": 0.039,
+      "outputCostPerMillionUSD": 4.8,
+      "cacheReadCostPerMillionUSD": 0.038,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1310720, max_output=131072"
+      "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
     {
       "id": "~openai/gpt-astra-latest",
       "displayName": "GPT Astra Latest",
       "aliases": [
         "~openai/gpt-astra-latest",
-        "gpt-astra-latest",
-        "openrouter/~openai/gpt-astra-latest"
+        "gpt-astra-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-astra",
@@ -4223,7 +4139,7 @@
       "outputCostPerMillionUSD": 50.0,
       "cacheReadCostPerMillionUSD": 1.0,
       "cacheWriteCostPerMillionUSD": 12.5,
-      "notes": "This model always redirects to the latest model in the GPT Astra family. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the GPT Astra family. · context=1050000"
     },
     {
       "id": "openai/gpt-audio",
@@ -4285,8 +4201,7 @@
       "displayName": "GPT Luna Latest",
       "aliases": [
         "~openai/gpt-luna-latest",
-        "gpt-luna-latest",
-        "openrouter/~openai/gpt-luna-latest"
+        "gpt-luna-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-luna",
@@ -4294,15 +4209,14 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": 0.125,
-      "notes": "This model always redirects to the latest model in the GPT Luna family. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the GPT Luna family. · context=1050000"
     },
     {
       "id": "~openai/gpt-mini-latest",
       "displayName": "GPT Mini Latest",
       "aliases": [
         "~openai/gpt-mini-latest",
-        "gpt-mini-latest",
-        "openrouter/~openai/gpt-mini-latest"
+        "gpt-mini-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-mini",
@@ -4310,15 +4224,14 @@
       "outputCostPerMillionUSD": 4.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the GPT Mini family. · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the GPT Mini family. · context=400000"
     },
     {
       "id": "~openai/gpt-sol-latest",
       "displayName": "GPT Sol Latest",
       "aliases": [
         "~openai/gpt-sol-latest",
-        "gpt-sol-latest",
-        "openrouter/~openai/gpt-sol-latest"
+        "gpt-sol-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-sol",
@@ -4326,15 +4239,14 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the GPT Sol family. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the GPT Sol family. · context=1050000"
     },
     {
       "id": "~openai/gpt-terra-latest",
       "displayName": "GPT Terra Latest",
       "aliases": [
         "~openai/gpt-terra-latest",
-        "gpt-terra-latest",
-        "openrouter/~openai/gpt-terra-latest"
+        "gpt-terra-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-terra",
@@ -4342,7 +4254,7 @@
       "outputCostPerMillionUSD": 12.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "This model always redirects to the latest model in the GPT Terra family. · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000"
+      "notes": "This model always redirects to the latest model in the GPT Terra family. · context=1050000"
     },
     {
       "id": "codex/text-davinci-003",
@@ -4396,9 +4308,7 @@
         "gpt-3.5-turbo-(batch)",
         "gpt-3-5-turbo-(batch)",
         "gpt-3.5-turbo:batch",
-        "gpt-3-5-turbo:batch",
-        "openrouter/openai/gpt-3.5-turbo:batch",
-        "openrouter/openai/gpt-3-5-turbo:batch"
+        "gpt-3-5-turbo:batch"
       ],
       "providerID": "codex",
       "family": "gpt-3",
@@ -4406,7 +4316,7 @@
       "outputCostPerMillionUSD": 0.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021. · context=16385 · LiteLLM supports_function_calling, max_input=16385, max_output=4096",
+      "notes": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021. · context=16385",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4518,8 +4428,7 @@
         "openai/gpt-4-turbo:batch",
         "openai/gpt-4-turbo",
         "gpt-4-turbo-(batch)",
-        "gpt-4-turbo:batch",
-        "openrouter/openai/gpt-4-turbo:batch"
+        "gpt-4-turbo:batch"
       ],
       "providerID": "codex",
       "family": "gpt-4",
@@ -4527,7 +4436,7 @@
       "outputCostPerMillionUSD": 15.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023. · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=4096",
+      "notes": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023. · context=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4594,8 +4503,7 @@
         "openai/gpt-4-1-2025-04-14",
         "gpt-4.1-(batch)",
         "gpt-4-1-(batch)",
-        "gpt-4.1:batch",
-        "openrouter/openai/gpt-4.1:batch"
+        "gpt-4.1:batch"
       ],
       "providerID": "codex",
       "family": "gpt-4",
@@ -4603,7 +4511,7 @@
       "outputCostPerMillionUSD": 4.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o an · context=1047576 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1047576, max_output=32768",
+      "notes": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o an · context=1047576",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4672,9 +4580,7 @@
         "gpt-4.1-mini-(batch)",
         "gpt-4-1-mini-(batch)",
         "gpt-4.1-mini:batch",
-        "gpt-4-1-mini:batch",
-        "openrouter/openai/gpt-4.1-mini:batch",
-        "openrouter/openai/gpt-4-1-mini:batch"
+        "gpt-4-1-mini:batch"
       ],
       "providerID": "codex",
       "family": "gpt-4",
@@ -4682,7 +4588,7 @@
       "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard... · context=1047576 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1047576, max_output=32768",
+      "notes": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard... · context=1047576",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4751,9 +4657,7 @@
         "gpt-4.1-nano-(batch)",
         "gpt-4-1-nano-(batch)",
         "gpt-4.1-nano:batch",
-        "gpt-4-1-nano:batch",
-        "openrouter/openai/gpt-4.1-nano:batch",
-        "openrouter/openai/gpt-4-1-nano:batch"
+        "gpt-4-1-nano:batch"
       ],
       "providerID": "codex",
       "family": "gpt-4",
@@ -4761,7 +4665,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.0125,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million... · context=1047576 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1047576, max_output=32768",
+      "notes": "For tasks that demand low latency, GPT‑4.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million... · context=1047576",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4902,8 +4806,7 @@
         "openai/gpt-4o:batch",
         "openai/gpt-4o",
         "gpt-4o-(batch)",
-        "gpt-4o:batch",
-        "openrouter/openai/gpt-4o:batch"
+        "gpt-4o:batch"
       ],
       "providerID": "codex",
       "family": "gpt-4o",
@@ -4911,7 +4814,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as... · context=128000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=16384 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as... · context=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -4986,8 +4889,7 @@
         "openai/gpt-4o-mini:batch",
         "openai/gpt-4o-mini",
         "gpt-4o-mini-(batch)",
-        "gpt-4o-mini:batch",
-        "openrouter/openai/gpt-4o-mini:batch"
+        "gpt-4o-mini:batch"
       ],
       "providerID": "codex",
       "family": "gpt-4o",
@@ -4995,7 +4897,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable... · context=128000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=16384 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable... · context=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5050,8 +4952,7 @@
         "openai/gpt-5-2025-08-07",
         "openai/gpt-5.2025-08.07",
         "gpt-5-(batch)",
-        "gpt-5:batch",
-        "openrouter/openai/gpt-5:batch"
+        "gpt-5:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5059,7 +4960,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.0625,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accura · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5 is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accura · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5068,8 +4969,7 @@
       "displayName": "GPT-5 Image",
       "aliases": [
         "openai/gpt-5-image",
-        "gpt-5-image",
-        "openrouter/openai/gpt-5-image"
+        "gpt-5-image"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5077,7 +4977,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's GPT-5 model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while inco · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=400000, max_output=128000",
+      "notes": "[GPT-5](https://openrouter.ai/openai/gpt-5) Image combines OpenAI's GPT-5 model with state-of-the-art image generation capabilities. It offers major improvements in reasoning, code quality, and user experience while inco · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5086,8 +4986,7 @@
       "displayName": "GPT-5 Image Mini",
       "aliases": [
         "openai/gpt-5-image-mini",
-        "gpt-5-image-mini",
-        "openrouter/openai/gpt-5-image-mini"
+        "gpt-5-image-mini"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5095,7 +4994,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model fe · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=400000, max_output=128000",
+      "notes": "GPT-5 Image Mini combines OpenAI's advanced language capabilities, powered by [GPT-5 Mini](https://openrouter.ai/openai/gpt-5-mini), with GPT Image 1 Mini for efficient image generation. This natively multimodal model fe · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5150,8 +5049,7 @@
         "openai/gpt-5-mini-2025-08-07",
         "openai/gpt-5-mini-2025.08-07",
         "gpt-5-mini-(batch)",
-        "gpt-5-mini:batch",
-        "openrouter/openai/gpt-5-mini:batch"
+        "gpt-5-mini:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5159,7 +5057,7 @@
       "outputCostPerMillionUSD": 1.0,
       "cacheReadCostPerMillionUSD": 0.0125,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost.... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost.... · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5214,8 +5112,7 @@
         "openai/gpt-5-nano-2025-08-07",
         "openai/gpt-5-nano-2025.08-07",
         "gpt-5-nano-(batch)",
-        "gpt-5-nano:batch",
-        "openrouter/openai/gpt-5-nano:batch"
+        "gpt-5-nano:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5223,7 +5120,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.0025,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger... · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5274,8 +5171,7 @@
         "openai/gpt-5-pro-2025-10-06",
         "openai/gpt-5-pro-2025.10-06",
         "gpt-5-pro-(batch)",
-        "gpt-5-pro:batch",
-        "openrouter/openai/gpt-5-pro:batch"
+        "gpt-5-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5283,7 +5179,7 @@
       "outputCostPerMillionUSD": 60.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and... · context=400000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5 Pro is OpenAI’s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and... · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5366,8 +5262,7 @@
         "openai/gpt-5-1-20251113",
         "gpt-5.1-(batch)",
         "gpt-5-1-(batch)",
-        "gpt-5.1:batch",
-        "openrouter/openai/gpt-5.1:batch"
+        "gpt-5.1:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5375,7 +5270,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.0625,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive rea · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive rea · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5555,8 +5450,7 @@
         "openai/gpt-5-2-20251211",
         "gpt-5.2-(batch)",
         "gpt-5-2-(batch)",
-        "gpt-5.2:batch",
-        "openrouter/openai/gpt-5.2:batch"
+        "gpt-5.2:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5564,7 +5458,7 @@
       "outputCostPerMillionUSD": 7.0,
       "cacheReadCostPerMillionUSD": 0.0875,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickl · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickl · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5654,9 +5548,7 @@
         "gpt-5.2-pro-(batch)",
         "gpt-5-2-pro-(batch)",
         "gpt-5.2-pro:batch",
-        "gpt-5-2-pro:batch",
-        "openrouter/openai/gpt-5.2-pro:batch",
-        "openrouter/openai/gpt-5-2-pro:batch"
+        "gpt-5-2-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5664,7 +5556,7 @@
       "outputCostPerMillionUSD": 84.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,... · context=400000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5.2 Pro is OpenAI’s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,... · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5769,8 +5661,7 @@
         "openai/gpt-5-4-20260305",
         "gpt-5.4-(batch)",
         "gpt-5-4-(batch)",
-        "gpt-5.4:batch",
-        "openrouter/openai/gpt-5.4:batch"
+        "gpt-5.4:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5778,7 +5669,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.125,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.4 is OpenAI’s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5815,9 +5706,7 @@
         "openai/gpt-5.4-image-2.20260421",
         "openai/gpt-5-4-image-2-20260421",
         "gpt-5.4-image-2",
-        "gpt-5-4-image-2",
-        "openrouter/openai/gpt-5.4-image-2",
-        "openrouter/openai/gpt-5-4-image-2"
+        "gpt-5-4-image-2"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5825,7 +5714,7 @@
       "outputCostPerMillionUSD": 15.0,
       "cacheReadCostPerMillionUSD": 2.0,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "[GPT-5.4](https://openrouter.ai/openai/gpt-5.4) Image 2 combines OpenAI's GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2. It enables rich multimodal workflows, allowing users to seamle · context=272000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=272000, max_output=128000",
+      "notes": "[GPT-5.4](https://openrouter.ai/openai/gpt-5.4) Image 2 combines OpenAI's GPT-5.4 model with state-of-the-art image generation capabilities from GPT Image 2. It enables rich multimodal workflows, allowing users to seamle · context=272000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5886,9 +5775,7 @@
         "gpt-5.4-mini-(batch)",
         "gpt-5-4-mini-(batch)",
         "gpt-5.4-mini:batch",
-        "gpt-5-4-mini:batch",
-        "openrouter/openai/gpt-5.4-mini:batch",
-        "openrouter/openai/gpt-5-4-mini:batch"
+        "gpt-5-4-mini:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5896,7 +5783,7 @@
       "outputCostPerMillionUSD": 2.25,
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,... · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -5957,9 +5844,7 @@
         "gpt-5.4-nano-(batch)",
         "gpt-5-4-nano-(batch)",
         "gpt-5.4-nano:batch",
-        "gpt-5-4-nano:batch",
-        "openrouter/openai/gpt-5.4-nano:batch",
-        "openrouter/openai/gpt-5-4-nano:batch"
+        "gpt-5-4-nano:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -5967,7 +5852,7 @@
       "outputCostPerMillionUSD": 0.625,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency... · context=400000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6005,9 +5890,7 @@
         "gpt-5.4-pro-(batch)",
         "gpt-5-4-pro-(batch)",
         "gpt-5.4-pro:batch",
-        "gpt-5-4-pro:batch",
-        "openrouter/openai/gpt-5.4-pro:batch",
-        "openrouter/openai/gpt-5-4-pro:batch"
+        "gpt-5-4-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6015,7 +5898,7 @@
       "outputCostPerMillionUSD": 90.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K... · context=1050000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6123,8 +6006,7 @@
         "openai/gpt-5-5-20260423",
         "gpt-5.5-(batch)",
         "gpt-5-5-(batch)",
-        "gpt-5.5:batch",
-        "openrouter/openai/gpt-5.5:batch"
+        "gpt-5.5:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6132,7 +6014,7 @@
       "outputCostPerMillionUSD": 15.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.5 is OpenAI’s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6214,9 +6096,7 @@
         "gpt-5.5-pro-(batch)",
         "gpt-5-5-pro-(batch)",
         "gpt-5.5-pro:batch",
-        "gpt-5-5-pro:batch",
-        "openrouter/openai/gpt-5.5-pro:batch",
-        "openrouter/openai/gpt-5-5-pro:batch"
+        "gpt-5-5-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6224,7 +6104,7 @@
       "outputCostPerMillionUSD": 90.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.5 Pro is OpenAI’s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6355,9 +6235,7 @@
         "gpt-5.6-luna-(batch)",
         "gpt-5-6-luna-(batch)",
         "gpt-5.6-luna:batch",
-        "gpt-5-6-luna:batch",
-        "openrouter/openai/gpt-5.6-luna:batch",
-        "openrouter/openai/gpt-5-6-luna:batch"
+        "gpt-5-6-luna:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6365,7 +6243,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning  · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning  · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6424,9 +6302,7 @@
         "gpt-5.6-luna-pro-(batch)",
         "gpt-5-6-luna-pro-(batch)",
         "gpt-5.6-luna-pro:batch",
-        "gpt-5-6-luna-pro:batch",
-        "openrouter/openai/gpt-5.6-luna-pro:batch",
-        "openrouter/openai/gpt-5-6-luna-pro:batch"
+        "gpt-5-6-luna-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6434,7 +6310,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6497,9 +6373,7 @@
         "gpt-5.6-sol-(batch)",
         "gpt-5-6-sol-(batch)",
         "gpt-5.6-sol:batch",
-        "gpt-5-6-sol:batch",
-        "openrouter/openai/gpt-5.6-sol:batch",
-        "openrouter/openai/gpt-5-6-sol:batch"
+        "gpt-5-6-sol:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6507,7 +6381,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6566,9 +6440,7 @@
         "gpt-5.6-sol-pro-(batch)",
         "gpt-5-6-sol-pro-(batch)",
         "gpt-5.6-sol-pro:batch",
-        "gpt-5-6-sol-pro:batch",
-        "openrouter/openai/gpt-5.6-sol-pro:batch",
-        "openrouter/openai/gpt-5-6-sol-pro:batch"
+        "gpt-5-6-sol-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6576,7 +6448,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6639,9 +6511,7 @@
         "gpt-5.6-terra-(batch)",
         "gpt-5-6-terra-(batch)",
         "gpt-5.6-terra:batch",
-        "gpt-5-6-terra:batch",
-        "openrouter/openai/gpt-5.6-terra:batch",
-        "openrouter/openai/gpt-5-6-terra:batch"
+        "gpt-5-6-terra:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6649,7 +6519,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6708,9 +6578,7 @@
         "gpt-5.6-terra-pro-(batch)",
         "gpt-5-6-terra-pro-(batch)",
         "gpt-5.6-terra-pro:batch",
-        "gpt-5-6-terra-pro:batch",
-        "openrouter/openai/gpt-5.6-terra-pro:batch",
-        "openrouter/openai/gpt-5-6-terra-pro:batch"
+        "gpt-5-6-terra-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-5",
@@ -6718,7 +6586,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6773,8 +6641,7 @@
         "openai/gpt-6-astra:batch",
         "openai/gpt-6-astra-20260903",
         "gpt-6-astra-(batch)",
-        "gpt-6-astra:batch",
-        "openrouter/openai/gpt-6-astra:batch"
+        "gpt-6-astra:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6782,7 +6649,7 @@
       "outputCostPerMillionUSD": 25.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-hor · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-hor · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6830,8 +6697,7 @@
         "openai/gpt-6-astra-pro:batch",
         "openai/gpt-6-astra-pro-20260903",
         "gpt-6-astra-pro-(batch)",
-        "gpt-6-astra-pro:batch",
-        "openrouter/openai/gpt-6-astra-pro:batch"
+        "gpt-6-astra-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6839,7 +6705,7 @@
       "outputCostPerMillionUSD": 25.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": 6.25,
-      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6889,8 +6755,7 @@
         "openai/gpt-6-luna:batch",
         "openai/gpt-6-luna-20260922",
         "gpt-6-luna-(batch)",
-        "gpt-6-luna:batch",
-        "openrouter/openai/gpt-6-luna:batch"
+        "gpt-6-luna:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6898,7 +6763,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": 0.0625,
-      "notes": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6927,8 +6792,7 @@
       "aliases": [
         "openai/gpt-6-luna-pro",
         "openai/gpt-6-luna-pro-20260922",
-        "gpt-6-luna-pro",
-        "openrouter/openai/gpt-6-luna-pro"
+        "gpt-6-luna-pro"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6936,7 +6800,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": 0.125,
-      "notes": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spend · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spend · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6947,8 +6811,7 @@
         "openai/gpt-6-luna-pro:batch",
         "openai/gpt-6-luna-pro-20260922",
         "gpt-6-luna-pro-(batch)",
-        "gpt-6-luna-pro:batch",
-        "openrouter/openai/gpt-6-luna-pro:batch"
+        "gpt-6-luna-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -6956,7 +6819,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": 0.0625,
-      "notes": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spend · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spend · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7006,8 +6869,7 @@
         "openai/gpt-6-sol:batch",
         "openai/gpt-6-sol-20260922",
         "gpt-6-sol-(batch)",
-        "gpt-6-sol:batch",
-        "openrouter/openai/gpt-6-sol:batch"
+        "gpt-6-sol:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7015,7 +6877,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7044,8 +6906,7 @@
       "aliases": [
         "openai/gpt-6-sol-pro",
         "openai/gpt-6-sol-pro-20260922",
-        "gpt-6-sol-pro",
-        "openrouter/openai/gpt-6-sol-pro"
+        "gpt-6-sol-pro"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7053,7 +6914,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends f · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends f · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7064,8 +6925,7 @@
         "openai/gpt-6-sol-pro:batch",
         "openai/gpt-6-sol-pro-20260922",
         "gpt-6-sol-pro-(batch)",
-        "gpt-6-sol-pro:batch",
-        "openrouter/openai/gpt-6-sol-pro:batch"
+        "gpt-6-sol-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7073,7 +6933,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends f · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends f · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7131,9 +6991,7 @@
         "gpt-6.1-sol-(batch)",
         "gpt-6-1-sol-(batch)",
         "gpt-6.1-sol:batch",
-        "gpt-6-1-sol:batch",
-        "openrouter/openai/gpt-6.1-sol:batch",
-        "openrouter/openai/gpt-6-1-sol:batch"
+        "gpt-6-1-sol:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7141,7 +6999,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional... · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7177,9 +7035,7 @@
         "openai/gpt-6.1-sol-pro-20260929",
         "openai/gpt-6-1-sol-pro-20260929",
         "gpt-6.1-sol-pro",
-        "gpt-6-1-sol-pro",
-        "openrouter/openai/gpt-6.1-sol-pro",
-        "openrouter/openai/gpt-6-1-sol-pro"
+        "gpt-6-1-sol-pro"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7187,7 +7043,7 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7202,9 +7058,7 @@
         "gpt-6.1-sol-pro-(batch)",
         "gpt-6-1-sol-pro-(batch)",
         "gpt-6.1-sol-pro:batch",
-        "gpt-6-1-sol-pro:batch",
-        "openrouter/openai/gpt-6.1-sol-pro:batch",
-        "openrouter/openai/gpt-6-1-sol-pro:batch"
+        "gpt-6-1-sol-pro:batch"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7212,7 +7066,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": 1.25,
-      "notes": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
+      "notes": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7427,8 +7281,7 @@
         "openai/gpt-oss-20b:batch",
         "openai/gpt-oss-20b",
         "gpt-oss-20b-(batch)",
-        "gpt-oss-20b:batch",
-        "openrouter/openai/gpt-oss-20b:batch"
+        "gpt-oss-20b:batch"
       ],
       "providerID": "codex",
       "family": "gpt-oss",
@@ -7436,7 +7289,7 @@
       "outputCostPerMillionUSD": 0.112,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=117964",
+      "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7850,8 +7703,7 @@
         "x-ai/grok-4-3-20260430",
         "grok-4.3-(batch)",
         "grok-4-3-(batch)",
-        "grok-4.3:batch",
-        "openrouter/x-ai/grok-4.3:batch"
+        "grok-4.3:batch"
       ],
       "providerID": "xai",
       "family": "grok-4",
@@ -7859,7 +7711,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=900000",
+      "notes": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual... · context=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -8192,8 +8044,7 @@
       "displayName": "Grok Latest",
       "aliases": [
         "~x-ai/grok-latest",
-        "grok-latest",
-        "openrouter/~x-ai/grok-latest"
+        "grok-latest"
       ],
       "providerID": "~x-ai",
       "family": "grok-latest",
@@ -8201,7 +8052,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest Grok model from xAI. · context=500000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=500000, max_output=450000"
+      "notes": "This model always redirects to the latest Grok model from xAI. · context=500000"
     },
     {
       "id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -8270,8 +8121,7 @@
       "displayName": "Hunyuan A13B Instruct",
       "aliases": [
         "tencent/hunyuan-a13b-instruct",
-        "hunyuan-a13b-instruct",
-        "openrouter/tencent/hunyuan-a13b-instruct"
+        "hunyuan-a13b-instruct"
       ],
       "providerID": "tencent",
       "family": "hunyuan-a13b",
@@ -8279,7 +8129,7 @@
       "outputCostPerMillionUSD": 0.57,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark... · context=131072 · LiteLLM supports_reasoning, max_input=131072, max_output=117964",
+      "notes": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark... · context=131072",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8289,8 +8139,7 @@
       "aliases": [
         "tencent/hy-mt2-1.8b",
         "tencent/hy-mt2-1.8b-20260521",
-        "hy-mt2-1.8b",
-        "openrouter/tencent/hy-mt2-1.8b"
+        "hy-mt2-1.8b"
       ],
       "providerID": "tencent",
       "family": "hy-mt2",
@@ -8298,7 +8147,7 @@
       "outputCostPerMillionUSD": 0.177,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glos · context=8192 · LiteLLM max_input=8192, max_output=4096",
+      "notes": "Hy-MT2-1.8B is a compact 1.8B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glos · context=8192",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8308,8 +8157,7 @@
       "aliases": [
         "tencent/hy-mt2-30b-a3b",
         "tencent/hy-mt2-30b-a3b-20260521",
-        "hy-mt2-30b-a3b",
-        "openrouter/tencent/hy-mt2-30b-a3b"
+        "hy-mt2-30b-a3b"
       ],
       "providerID": "tencent",
       "family": "hy-mt2",
@@ -8317,7 +8165,7 @@
       "outputCostPerMillionUSD": 0.295,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=8192 · LiteLLM max_input=8192, max_output=4096",
+      "notes": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, · context=8192",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8327,8 +8175,7 @@
       "aliases": [
         "tencent/hy-mt2-7b",
         "tencent/hy-mt2-7b-20260521",
-        "hy-mt2-7b",
-        "openrouter/tencent/hy-mt2-7b"
+        "hy-mt2-7b"
       ],
       "providerID": "tencent",
       "family": "hy-mt2",
@@ -8336,7 +8183,7 @@
       "outputCostPerMillionUSD": 0.295,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based,  · context=8192 · LiteLLM max_input=8192, max_output=4096",
+      "notes": "Hy-MT2-7B is a 7B-parameter translation model from Tencent. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based,  · context=8192",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8365,8 +8212,7 @@
       "aliases": [
         "tencent/hy3-preview",
         "tencent/hy3-preview-20260421",
-        "hy3-preview",
-        "openrouter/tencent/hy3-preview"
+        "hy3-preview"
       ],
       "providerID": "tencent",
       "family": "hy3-preview",
@@ -8374,7 +8220,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=235929",
+      "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8421,8 +8267,7 @@
         "thinkingmachines/inkling:free",
         "thinkingmachines/inkling-20260715",
         "inkling-(free)",
-        "inkling:free",
-        "openrouter/thinkingmachines/inkling:free"
+        "inkling:free"
       ],
       "providerID": "thinkingmachines",
       "family": "inkling-free",
@@ -8430,7 +8275,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=262144"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576"
     },
     {
       "id": "thinkingmachines/inkling-small",
@@ -8456,8 +8301,7 @@
         "thinkingmachines/inkling-small:free",
         "thinkingmachines/inkling-small-20260730",
         "inkling-small-(free)",
-        "inkling-small:free",
-        "openrouter/thinkingmachines/inkling-small:free"
+        "inkling-small:free"
       ],
       "providerID": "thinkingmachines",
       "family": "inkling-small",
@@ -8465,7 +8309,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=262144"
+      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=1048576"
     },
     {
       "id": "typesafe/jev-1.13.0",
@@ -8728,8 +8572,7 @@
         "moonshotai/kimi-k3:batch",
         "moonshotai/kimi-k3-20260715",
         "kimi-k3-(batch)",
-        "kimi-k3:batch",
-        "openrouter/moonshotai/kimi-k3:batch"
+        "kimi-k3:batch"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
@@ -8737,7 +8580,7 @@
       "outputCostPerMillionUSD": 11.4,
       "cacheReadCostPerMillionUSD": 0.228,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=16384",
+      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -8746,16 +8589,15 @@
       "displayName": "Kimi Latest",
       "aliases": [
         "~moonshotai/kimi-latest",
-        "kimi-latest",
-        "openrouter/~moonshotai/kimi-latest"
+        "kimi-latest"
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 3.0,
-      "outputCostPerMillionUSD": 15.0,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "inputCostPerMillionUSD": 0.446,
+      "outputCostPerMillionUSD": 14.9,
+      "cacheReadCostPerMillionUSD": 0.29,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718"
+      "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
     {
       "id": "poolside/laguna-s-2.1",
@@ -8843,9 +8685,7 @@
         "liquid/lfm-2-5-2.6b-20260811",
         "lfm2.5-2.6b-(free)",
         "lfm-2.5-2.6b:free",
-        "lfm-2-5-2.6b:free",
-        "openrouter/liquid/lfm-2.5-2.6b:free",
-        "openrouter/liquid/lfm-2-5-2.6b:free"
+        "lfm-2-5-2.6b:free"
       ],
       "providerID": "liquid",
       "family": "lfm-2",
@@ -8853,7 +8693,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536 · LiteLLM supports_reasoning, supports_function_calling, max_input=65536, max_output=8192"
+      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536"
     },
     {
       "id": "inclusionai/ling-3.0-flash",
@@ -8885,9 +8725,7 @@
         "inclusionai/ling-3.0-flash-fin-20260827",
         "inclusionai/ling-3-0-flash-fin-20260827",
         "ling-3.0-flash-fin",
-        "ling-3-0-flash-fin",
-        "openrouter/inclusionai/ling-3.0-flash-fin",
-        "openrouter/inclusionai/ling-3-0-flash-fin"
+        "ling-3-0-flash-fin"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
@@ -8895,7 +8733,7 @@
       "outputCostPerMillionUSD": 0.1232,
       "cacheReadCostPerMillionUSD": 0.0084,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144"
     },
     {
       "id": "inclusionai/ling-3.0-flash-sante",
@@ -8906,9 +8744,7 @@
         "inclusionai/ling-3.0-flash-sante-20260904",
         "inclusionai/ling-3-0-flash-sante-20260904",
         "ling-3.0-flash-sante",
-        "ling-3-0-flash-sante",
-        "openrouter/inclusionai/ling-3.0-flash-sante",
-        "openrouter/inclusionai/ling-3-0-flash-sante"
+        "ling-3-0-flash-sante"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
@@ -8916,7 +8752,7 @@
       "outputCostPerMillionUSD": 0.1232,
       "cacheReadCostPerMillionUSD": 0.0084,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
     },
     {
       "id": "inclusionai/ling-3.0-flash-vl",
@@ -8927,9 +8763,7 @@
         "inclusionai/ling-3.0-flash-vl-20260910",
         "inclusionai/ling-3-0-flash-vl-20260910",
         "ling-3.0-flash-vl",
-        "ling-3-0-flash-vl",
-        "openrouter/inclusionai/ling-3.0-flash-vl",
-        "openrouter/inclusionai/ling-3-0-flash-vl"
+        "ling-3-0-flash-vl"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
@@ -8937,7 +8771,7 @@
       "outputCostPerMillionUSD": 0.0616,
       "cacheReadCostPerMillionUSD": 0.0042,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=262144"
     },
     {
       "id": "inclusionai/ling-3.1-flash",
@@ -8948,9 +8782,7 @@
         "inclusionai/ling-3.1-flash-20261002",
         "inclusionai/ling-3-1-flash-20261002",
         "ling-3.1-flash",
-        "ling-3-1-flash",
-        "openrouter/inclusionai/ling-3.1-flash",
-        "openrouter/inclusionai/ling-3-1-flash"
+        "ling-3-1-flash"
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
@@ -8958,7 +8790,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144"
     },
     {
       "id": "sao10k/l3-lunaris-8b",
@@ -8966,8 +8798,7 @@
       "aliases": [
         "sao10k/l3-lunaris-8b",
         "llama-3-8b-lunaris",
-        "l3-lunaris-8b",
-        "openrouter/sao10k/l3-lunaris-8b"
+        "l3-lunaris-8b"
       ],
       "providerID": "sao10k",
       "family": "l3-lunaris",
@@ -8975,7 +8806,7 @@
       "outputCostPerMillionUSD": 0.05,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3. It's a strategic merge of multiple models, designed to balance creativity with improved logic and general knowledge.... · context=8192 · LiteLLM max_input=8192, max_output=7372"
+      "notes": "Lunaris 8B is a versatile generalist and roleplaying model based on Llama 3. It's a strategic merge of multiple models, designed to balance creativity with improved logic and general knowledge.... · context=8192"
     },
     {
       "id": "meta-llama/llama-3.1-70b-instruct",
@@ -9026,8 +8857,7 @@
         "sao10k/l3.1-euryale-70b",
         "llama-3.1-euryale-70b-v2.2",
         "llama-3-1-euryale-70b-v2.2",
-        "l3.1-euryale-70b",
-        "openrouter/sao10k/l3.1-euryale-70b"
+        "l3.1-euryale-70b"
       ],
       "providerID": "sao10k",
       "family": "l3-1",
@@ -9035,7 +8865,7 @@
       "outputCostPerMillionUSD": 0.85,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b). · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=16384"
+      "notes": "Euryale L3.1 70B v2.2 is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.1](/models/sao10k/l3-euryale-70b). · context=131072"
     },
     {
       "id": "meta-llama/llama-3.2-1b-instruct",
@@ -9106,8 +8936,7 @@
         "sao10k/l3.3-euryale-70b-v2.3",
         "llama-3.3-euryale-70b",
         "llama-3-3-euryale-70b",
-        "l3.3-euryale-70b",
-        "openrouter/sao10k/l3.3-euryale-70b"
+        "l3.3-euryale-70b"
       ],
       "providerID": "sao10k",
       "family": "l3-3",
@@ -9115,7 +8944,7 @@
       "outputCostPerMillionUSD": 0.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.2](/models/sao10k/l3-euryale-70b). · context=131072 · LiteLLM max_input=131072, max_output=16384"
+      "notes": "Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.2](/models/sao10k/l3-euryale-70b). · context=131072"
     },
     {
       "id": "meta-llama/llama-4-maverick",
@@ -9257,8 +9086,7 @@
       "displayName": "Magnum v4 72B",
       "aliases": [
         "anthracite-org/magnum-v4-72b",
-        "magnum-v4-72b",
-        "openrouter/anthracite-org/magnum-v4-72b"
+        "magnum-v4-72b"
       ],
       "providerID": "anthracite-org",
       "family": "magnum-v4",
@@ -9266,7 +9094,7 @@
       "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=32768 · LiteLLM max_input=32768, max_output=4096"
+      "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=32768"
     },
     {
       "id": "inception/mercury-2",
@@ -9350,7 +9178,7 @@
         "xiaomi/mimo-v2.6-flash",
         "xiaomi/mimo-v2.6-flash-20260921",
         "mimo-v2.6-flash",
-        "openrouter/xiaomi/mimo-v2.6-flash"
+        "xiaomi-mimo/mimo-v2.6-flash"
       ],
       "providerID": "xiaomi",
       "family": "mimo-v2",
@@ -9369,7 +9197,7 @@
         "xiaomi/mimo-v2.6-pro",
         "xiaomi/mimo-v2.6-pro-20260921",
         "mimo-v2.6-pro",
-        "openrouter/xiaomi/mimo-v2.6-pro"
+        "xiaomi-mimo/mimo-v2.6-pro"
       ],
       "providerID": "xiaomi",
       "family": "mimo-v2",
@@ -9387,8 +9215,7 @@
       "aliases": [
         "xiaomi/mimo-v2.6-pro-ultraspeed",
         "xiaomi/mimo-v2.6-pro-ultraspeed-20260921",
-        "mimo-v2.6-pro-ultraspeed",
-        "openrouter/xiaomi/mimo-v2.6-pro-ultraspeed"
+        "mimo-v2.6-pro-ultraspeed"
       ],
       "providerID": "xiaomi",
       "family": "mimo-v2",
@@ -9396,7 +9223,7 @@
       "outputCostPerMillionUSD": 8.7,
       "cacheReadCostPerMillionUSD": 0.036,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "MiMo-V2.6-Pro-UltraSpeed is the fast speed edition of Xiaomi's flagship foundation model, MiMo-V2.6-Pro. Built from the same 1T MiMo-V2.6-Pro checkpoint, it matches the original model in quality while delivering roughly  · context=1048576",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -9605,8 +9432,7 @@
         "mistralai/ministral-8b-2512:batch",
         "mistralai/ministral-8b-2512",
         "ministral-3-8b-2512-(batch)",
-        "ministral-8b-2512:batch",
-        "openrouter/mistralai/ministral-8b-2512:batch"
+        "ministral-8b-2512:batch"
       ],
       "providerID": "mistral",
       "family": "ministral-8b",
@@ -9614,7 +9440,7 @@
       "outputCostPerMillionUSD": 0.075,
       "cacheReadCostPerMillionUSD": 0.0075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities. · context=262144 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=262144, max_output=209715",
+      "notes": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities. · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9762,8 +9588,7 @@
         "mistralai/mistral-large-2512",
         "mistral-large-3-2512-(batch)",
         "mistral-large-3.2512-(batch)",
-        "mistral-large-2512:batch",
-        "openrouter/mistralai/mistral-large-2512:batch"
+        "mistral-large-2512:batch"
       ],
       "providerID": "mistral",
       "family": "mistral-large",
@@ -9771,7 +9596,7 @@
       "outputCostPerMillionUSD": 0.75,
       "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=262144, max_output=209715",
+      "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9863,8 +9688,7 @@
         "mistralai/mistral-medium-3-1",
         "mistral-medium-3.1-(batch)",
         "mistral-medium-3-1-(batch)",
-        "mistral-medium-3.1:batch",
-        "openrouter/mistralai/mistral-medium-3.1:batch"
+        "mistral-medium-3.1:batch"
       ],
       "providerID": "mistral",
       "family": "mistral-medium",
@@ -9872,7 +9696,7 @@
       "outputCostPerMillionUSD": 1.0,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=131072, max_output=104857",
+      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9908,8 +9732,7 @@
         "mistralai/mistral-medium-3-5-20260430",
         "mistral-medium-3.5-(batch)",
         "mistral-medium-3-5-(batch)",
-        "mistral-medium-3-5:batch",
-        "openrouter/mistralai/mistral-medium-3-5:batch"
+        "mistral-medium-3-5:batch"
       ],
       "providerID": "mistral",
       "family": "mistral-medium",
@@ -9917,7 +9740,7 @@
       "outputCostPerMillionUSD": 3.75,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=209715",
+      "notes": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10093,8 +9916,7 @@
         "mistralai/mistral-small-2603:batch",
         "mistralai/mistral-small-2603",
         "mistral-small-4-(batch)",
-        "mistral-small-2603:batch",
-        "openrouter/mistralai/mistral-small-2603:batch"
+        "mistral-small-2603:batch"
       ],
       "providerID": "mistral",
       "family": "mistral-small",
@@ -10102,7 +9924,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.0075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=209715",
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10759,7 +10581,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheReadCostPerMillionUSD": 0.02345,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
@@ -10794,8 +10616,7 @@
       "aliases": [
         "nex-agi/nex-n2.5-mini",
         "nex-agi/nex-n2.5-mini-20260908",
-        "nex-n2.5-mini",
-        "openrouter/nex-agi/nex-n2.5-mini"
+        "nex-n2.5-mini"
       ],
       "providerID": "nex-agi",
       "family": "nex-n2",
@@ -10803,7 +10624,7 @@
       "outputCostPerMillionUSD": 0.1,
       "cacheReadCostPerMillionUSD": 0.0025,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=262144, max_output=235929"
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144"
     },
     {
       "id": "nex-agi/nex-n2.5-pro",
@@ -10811,8 +10632,7 @@
       "aliases": [
         "nex-agi/nex-n2.5-pro",
         "nex-agi/nex-n2.5-pro-20260907",
-        "nex-n2.5-pro",
-        "openrouter/nex-agi/nex-n2.5-pro"
+        "nex-n2.5-pro"
       ],
       "providerID": "nex-agi",
       "family": "nex-n2",
@@ -10820,7 +10640,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929"
+      "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144"
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -10829,8 +10649,7 @@
         "cohere/north-mini-code:free",
         "cohere/north-mini-code-20260617",
         "north-mini-code-(free)",
-        "north-mini-code:free",
-        "openrouter/cohere/north-mini-code:free"
+        "north-mini-code:free"
       ],
       "providerID": "cohere",
       "family": "north-mini",
@@ -10838,7 +10657,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized... · context=256000 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=64000",
+      "notes": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized... · context=256000",
       "brandAssetName": "cohere",
       "organizationName": "Cohere"
     },
@@ -10848,8 +10667,7 @@
       "aliases": [
         "amazon/nova-2-lite-v1",
         "nova-2-lite",
-        "nova-2-lite-v1",
-        "openrouter/amazon/nova-2-lite-v1"
+        "nova-2-lite-v1"
       ],
       "providerID": "amazon",
       "family": "nova-2",
@@ -10857,7 +10675,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text. Nova 2 Lite demonstrates standout capabilities in processing... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65535",
+      "notes": "Nova 2 Lite is a fast, cost-effective reasoning model for everyday workloads that can process text, images, and videos to generate text. Nova 2 Lite demonstrates standout capabilities in processing... · context=1000000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -11088,8 +10906,7 @@
         "openai/o3-2025-04-16",
         "openai/o3-2025.04-16",
         "o3-(batch)",
-        "o3:batch",
-        "openrouter/openai/o3:batch"
+        "o3:batch"
       ],
       "providerID": "codex",
       "family": "o3-batch",
@@ -11097,7 +10914,7 @@
       "outputCostPerMillionUSD": 4.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following.... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following.... · context=200000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -11148,8 +10965,7 @@
         "openai/o3-mini-2025-01-31",
         "openai/o3-mini-2025.01-31",
         "o3-mini-(batch)",
-        "o3-mini:batch",
-        "openrouter/openai/o3-mini:batch"
+        "o3-mini:batch"
       ],
       "providerID": "codex",
       "family": "o3-mini",
@@ -11157,7 +10973,7 @@
       "outputCostPerMillionUSD": 2.2,
       "cacheReadCostPerMillionUSD": 0.275,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to. · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to. · context=200000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -11270,8 +11086,7 @@
         "openai/o4-mini-2025-04-16",
         "openai/o4-mini-2025.04-16",
         "o4-mini-(batch)",
-        "o4-mini:batch",
-        "openrouter/openai/o4-mini:batch"
+        "o4-mini:batch"
       ],
       "providerID": "codex",
       "family": "o4-mini",
@@ -11279,7 +11094,7 @@
       "outputCostPerMillionUSD": 2.2,
       "cacheReadCostPerMillionUSD": 0.1375,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive re · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive re · context=200000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -11345,8 +11160,7 @@
       "aliases": [
         "writer/palmyra-x5",
         "writer/palmyra-x5-20250428",
-        "palmyra-x5",
-        "openrouter/writer/palmyra-x5"
+        "palmyra-x5"
       ],
       "providerID": "writer",
       "family": "palmyra-x5",
@@ -11354,7 +11168,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million... · context=1040000 · LiteLLM max_input=1040000, max_output=8192"
+      "notes": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million... · context=1040000"
     },
     {
       "id": "unbiased/pareto",
@@ -11362,8 +11176,7 @@
       "aliases": [
         "unbiased/pareto",
         "unbiased/pareto-20260917",
-        "pareto",
-        "openrouter/unbiased/pareto"
+        "pareto"
       ],
       "providerID": "unbiased",
       "family": "pareto",
@@ -11371,7 +11184,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=262144 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=262144, max_output=131072"
+      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=262144"
     },
     {
       "id": "unbiased/pareto-26.10-preview",
@@ -11382,9 +11195,7 @@
         "unbiased/pareto-26.10-preview-20260929",
         "unbiased/pareto-26-10-preview-20260929",
         "pareto-26.10-preview",
-        "pareto-26-10-preview",
-        "openrouter/unbiased/pareto-26.10-preview",
-        "openrouter/unbiased/pareto-26-10-preview"
+        "pareto-26-10-preview"
       ],
       "providerID": "unbiased",
       "family": "pareto-26",
@@ -11392,7 +11203,7 @@
       "outputCostPerMillionUSD": 3.2,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the... · context=1048576 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the... · context=1048576"
     },
     {
       "id": "openrouter/pareto-code",
@@ -11418,8 +11229,7 @@
       "aliases": [
         "perceptron/perceptron-mk1",
         "perceptron/perceptron-mk1-20260512",
-        "perceptron-mk1",
-        "openrouter/perceptron/perceptron-mk1"
+        "perceptron-mk1"
       ],
       "providerID": "perceptron",
       "family": "perceptron-mk1",
@@ -11427,7 +11237,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual und · context=32768 · LiteLLM supports_reasoning, supports_vision, max_input=32768, max_output=8192"
+      "notes": "Perceptron Mk1 (Mark One) is Perceptron's highest-quality vision-language model for video and embodied reasoning.** It accepts image and video inputs paired with natural language queries, and produces detailed visual und · context=32768"
     },
     {
       "id": "perceptron/perceptron-mk1.5",
@@ -11435,8 +11245,7 @@
       "aliases": [
         "perceptron/perceptron-mk1.5",
         "perceptron/perceptron-mk1.5-20260925",
-        "perceptron-mk1.5",
-        "openrouter/perceptron/perceptron-mk1.5"
+        "perceptron-mk1.5"
       ],
       "providerID": "perceptron",
       "family": "perceptron-mk1",
@@ -11444,7 +11253,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,. · context=36864 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=36864, max_output=8192"
+      "notes": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,. · context=36864"
     },
     {
       "id": "microsoft/phi-4",
@@ -12368,8 +12177,7 @@
       "aliases": [
         "rekaai/reka-edge",
         "rekaai/reka-edge-2603",
-        "reka-edge",
-        "openrouter/rekaai/reka-edge"
+        "reka-edge"
       ],
       "providerID": "rekaai",
       "family": "reka-edge",
@@ -12377,15 +12185,14 @@
       "outputCostPerMillionUSD": 0.1,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in ima · context=16384 · LiteLLM supports_vision, supports_function_calling, max_input=16384, max_output=14745"
+      "notes": "Reka Edge is an extremely efficient 7B multimodal vision-language model that accepts image/video+text inputs and generates text outputs. This model is optimized specifically to deliver industry-leading performance in ima · context=16384"
     },
     {
       "id": "rekaai/reka-flash-3",
       "displayName": "Reka Flash 3",
       "aliases": [
         "rekaai/reka-flash-3",
-        "reka-flash-3",
-        "openrouter/rekaai/reka-flash-3"
+        "reka-flash-3"
       ],
       "providerID": "rekaai",
       "family": "reka-flash",
@@ -12393,15 +12200,14 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a.. · context=65536 · LiteLLM supports_reasoning, max_input=65536, max_output=58982"
+      "notes": "Reka Flash 3 is a general-purpose, instruction-tuned large language model with 21 billion parameters, developed by Reka. It excels at general chat, coding tasks, instruction-following, and function calling. Featuring a.. · context=65536"
     },
     {
       "id": "relace/relace-apply-3",
       "displayName": "Relace Apply 3",
       "aliases": [
         "relace/relace-apply-3",
-        "relace-apply-3",
-        "openrouter/relace/relace-apply-3"
+        "relace-apply-3"
       ],
       "providerID": "relace",
       "family": "relace-apply",
@@ -12409,7 +12215,7 @@
       "outputCostPerMillionUSD": 1.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at... · context=256000 · LiteLLM max_input=256000, max_output=128000"
+      "notes": "Relace Apply 3 is a specialized code-patching LLM that merges AI-suggested edits straight into your source files. It can apply updates from GPT-4o, Claude, and others into your files at... · context=256000"
     },
     {
       "id": "relace/relace-search",
@@ -12417,8 +12223,7 @@
       "aliases": [
         "relace/relace-search",
         "relace/relace-search-20251208",
-        "relace-search",
-        "openrouter/relace/relace-search"
+        "relace-search"
       ],
       "providerID": "relace",
       "family": "relace-search",
@@ -12426,7 +12231,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The relace-search model uses 4-12 `view_file` and `grep` tools in parallel to explore a codebase and return relevant files to the user request. In contrast to RAG, relace-search performs agentic... · context=256000 · LiteLLM supports_function_calling, max_input=256000, max_output=128000"
+      "notes": "The relace-search model uses 4-12 `view_file` and `grep` tools in parallel to explore a codebase and return relevant files to the user request. In contrast to RAG, relace-search performs agentic... · context=256000"
     },
     {
       "id": "undi95/remm-slerp-l2-13b",
@@ -12469,8 +12274,7 @@
       "aliases": [
         "sakana/sakana-namazu",
         "sakana/namazu-20260811",
-        "sakana-namazu",
-        "openrouter/sakana/sakana-namazu"
+        "sakana-namazu"
       ],
       "providerID": "sakana",
       "family": "sakana-namazu",
@@ -12478,7 +12282,7 @@
       "outputCostPerMillionUSD": 4.0,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536"
+      "notes": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,... · context=262144"
     },
     {
       "id": "inference-net/schematron-v2-small",
@@ -12486,8 +12290,7 @@
       "aliases": [
         "inference-net/schematron-v2-small",
         "inference-net/schematron-v2-small-20260902",
-        "schematron-v2-small",
-        "openrouter/inference-net/schematron-v2-small"
+        "schematron-v2-small"
       ],
       "providerID": "inference-net",
       "family": "schematron-v2",
@@ -12495,7 +12298,7 @@
       "outputCostPerMillionUSD": 0.23,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema · context=128000 · LiteLLM supports_prompt_caching, max_input=128000, max_output=4096"
+      "notes": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema · context=128000"
     },
     {
       "id": "inference-net/schematron-v2-turbo",
@@ -12503,8 +12306,7 @@
       "aliases": [
         "inference-net/schematron-v2-turbo",
         "inference-net/schematron-v2-turbo-20260902",
-        "schematron-v2-turbo",
-        "openrouter/inference-net/schematron-v2-turbo"
+        "schematron-v2-turbo"
       ],
       "providerID": "inference-net",
       "family": "schematron-v2",
@@ -12512,7 +12314,7 @@
       "outputCostPerMillionUSD": 0.15,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in re · context=128000 · LiteLLM supports_prompt_caching, max_input=128000, max_output=8192"
+      "notes": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in re · context=128000"
     },
     {
       "id": "bytedance-seed/seed-1.6",
@@ -12523,9 +12325,7 @@
         "bytedance-seed/seed-1.6-20250625",
         "bytedance-seed/seed-1-6-20250625",
         "seed-1.6",
-        "seed-1-6",
-        "openrouter/bytedance-seed/seed-1.6",
-        "openrouter/bytedance-seed/seed-1-6"
+        "seed-1-6"
       ],
       "providerID": "bytedance",
       "family": "seed-1",
@@ -12533,7 +12333,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team. It incorporates multimodal capabilities and adaptive deep thinking with a 256K context window. · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
+      "notes": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team. It incorporates multimodal capabilities and adaptive deep thinking with a 256K context window. · context=262144",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12546,9 +12346,7 @@
         "bytedance-seed/seed-1.6-flash-20250625",
         "bytedance-seed/seed-1-6-flash-20250625",
         "seed-1.6-flash",
-        "seed-1-6-flash",
-        "openrouter/bytedance-seed/seed-1.6-flash",
-        "openrouter/bytedance-seed/seed-1-6-flash"
+        "seed-1-6-flash"
       ],
       "providerID": "bytedance",
       "family": "seed-1",
@@ -12556,7 +12354,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
+      "notes": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of... · context=262144",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12569,9 +12367,7 @@
         "bytedance-seed/seed-2-1-turbo-20260810",
         "bytedance-seed/seed-2.1-turbo-20260810",
         "seed-2.1-turbo",
-        "seed-2-1-turbo",
-        "openrouter/bytedance-seed/seed-2-1-turbo",
-        "openrouter/bytedance-seed/seed-2.1-turbo"
+        "seed-2-1-turbo"
       ],
       "providerID": "bytedance",
       "family": "seed-2",
@@ -12579,7 +12375,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=235929",
+      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12615,9 +12411,7 @@
         "bytedance-seed/seed-2.0-lite-20260309",
         "bytedance-seed/seed-2-0-lite-20260309",
         "seed-2.0-lite",
-        "seed-2-0-lite",
-        "openrouter/bytedance-seed/seed-2.0-lite",
-        "openrouter/bytedance-seed/seed-2-0-lite"
+        "seed-2-0-lite"
       ],
       "providerID": "bytedance",
       "family": "seed-2",
@@ -12625,7 +12419,7 @@
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production w · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=131072",
+      "notes": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production w · context=262144",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12657,8 +12451,7 @@
       "displayName": "Skyfall 36B V2",
       "aliases": [
         "thedrummer/skyfall-36b-v2",
-        "skyfall-36b-v2",
-        "openrouter/thedrummer/skyfall-36b-v2"
+        "skyfall-36b-v2"
       ],
       "providerID": "thedrummer",
       "family": "skyfall-36b",
@@ -12666,7 +12459,7 @@
       "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling. · context=32768 · LiteLLM supports_prompt_caching, max_input=32768, max_output=29491"
+      "notes": "Skyfall 36B v2 is an enhanced iteration of Mistral Small 2501, specifically fine-tuned for improved creativity, nuanced writing, role-playing, and coherent storytelling. · context=32768"
     },
     {
       "id": "upstage/solar-mini4",
@@ -12675,8 +12468,7 @@
         "upstage/solar-mini4",
         "upstage/solar-mini4-20260922",
         "solar-mini-4",
-        "solar-mini4",
-        "openrouter/upstage/solar-mini4"
+        "solar-mini4"
       ],
       "providerID": "upstage",
       "family": "solar-mini4",
@@ -12684,15 +12476,14 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response... · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=524288, max_output=131072"
+      "notes": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response... · context=524288"
     },
     {
       "id": "upstage/solar-pro-3",
       "displayName": "Solar Pro 3",
       "aliases": [
         "upstage/solar-pro-3",
-        "solar-pro-3",
-        "openrouter/upstage/solar-pro-3"
+        "solar-pro-3"
       ],
       "providerID": "upstage",
       "family": "solar-pro",
@@ -12700,7 +12491,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational effici · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=131072, max_output=117964"
+      "notes": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational effici · context=131072"
     },
     {
       "id": "upstage/solar-pro4",
@@ -12709,8 +12500,7 @@
         "upstage/solar-pro4",
         "upstage/solar-pro4-20260810",
         "solar-pro-4",
-        "solar-pro4",
-        "openrouter/upstage/solar-pro4"
+        "solar-pro4"
       ],
       "providerID": "upstage",
       "family": "solar-pro4",
@@ -12718,7 +12508,7 @@
       "outputCostPerMillionUSD": 0.36,
       "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=524288, max_output=131072"
+      "notes": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive · context=524288"
     },
     {
       "id": "perplexity/sonar",
@@ -12776,8 +12566,7 @@
       "displayName": "Sonar Pro Search",
       "aliases": [
         "perplexity/sonar-pro-search",
-        "sonar-pro-search",
-        "openrouter/perplexity/sonar-pro-search"
+        "sonar-pro-search"
       ],
       "providerID": "perplexity",
       "family": "sonar-pro",
@@ -12785,7 +12574,7 @@
       "outputCostPerMillionUSD": 15.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Exclusively available on the OpenRouter API, Sonar Pro's new Pro Search mode is Perplexity's most advanced agentic search system. It is designed for deeper reasoning and analysis. Pricing is based... · context=200000 · LiteLLM supports_reasoning, supports_vision, max_input=200000, max_output=8000",
+      "notes": "Exclusively available on the OpenRouter API, Sonar Pro's new Pro Search mode is Perplexity's most advanced agentic search system. It is designed for deeper reasoning and analysis. Pricing is based... · context=200000",
       "brandAssetName": "perplexity",
       "organizationName": "Perplexity"
     },
@@ -12813,9 +12602,7 @@
         "stepfun/step-3.5-flash",
         "stepfun/step-3-5-flash",
         "step-3.5-flash",
-        "step-3-5-flash",
-        "openrouter/stepfun/step-3.5-flash",
-        "openrouter/stepfun/step-3-5-flash"
+        "step-3-5-flash"
       ],
       "providerID": "stepfun",
       "family": "step-3",
@@ -12823,7 +12610,7 @@
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token.... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=65536",
+      "notes": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token.... · context=262144",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
@@ -12856,8 +12643,7 @@
       "aliases": [
         "stepfun/step-5-preview",
         "stepfun/step-5-preview-20261008",
-        "step-5-preview",
-        "openrouter/stepfun/step-5-preview"
+        "step-5-preview"
       ],
       "providerID": "stepfun",
       "family": "step-5",
@@ -12865,7 +12651,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=64000",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
@@ -12892,8 +12678,7 @@
       "aliases": [
         "prism-ml/ternary-bonsai-2-27b",
         "prism-ml/ternary-bonsai-2-27b-20260918",
-        "ternary-bonsai-2-27b",
-        "openrouter/prism-ml/ternary-bonsai-2-27b"
+        "ternary-bonsai-2-27b"
       ],
       "providerID": "prism-ml",
       "family": "ternary-bonsai",
@@ -12901,15 +12686,14 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768"
+      "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144"
     },
     {
       "id": "arcee-ai/trinity-large-thinking",
       "displayName": "Trinity Large Thinking",
       "aliases": [
         "arcee-ai/trinity-large-thinking",
-        "trinity-large-thinking",
-        "openrouter/arcee-ai/trinity-large-thinking"
+        "trinity-large-thinking"
       ],
       "providerID": "arcee-ai",
       "family": "trinity-large",
@@ -12917,7 +12701,7 @@
       "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=80000"
+      "notes": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si · context=262144"
     },
     {
       "id": "bytedance/ui-tars-1.5-7b",
@@ -12946,8 +12730,7 @@
         "cognitivecomputations/dolphin-mistral-24b-venice-edition",
         "venice/uncensored",
         "uncensored",
-        "dolphin-mistral-24b-venice-edition",
-        "openrouter/cognitivecomputations/dolphin-mistral-24b-venice-edition"
+        "dolphin-mistral-24b-venice-edition"
       ],
       "providerID": "cognitivecomputations",
       "family": "dolphin-mistral",
@@ -12955,15 +12738,14 @@
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tu · context=128000 · LiteLLM max_input=128000, max_output=8192"
+      "notes": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tu · context=128000"
     },
     {
       "id": "thedrummer/unslopnemo-12b",
       "displayName": "UnslopNemo 12B",
       "aliases": [
         "thedrummer/unslopnemo-12b",
-        "unslopnemo-12b",
-        "openrouter/thedrummer/unslopnemo-12b"
+        "unslopnemo-12b"
       ],
       "providerID": "thedrummer",
       "family": "unslopnemo-12b",
@@ -12971,7 +12753,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios. · context=1024000 · LiteLLM max_input=1024000, max_output=819200"
+      "notes": "UnslopNemo v4.1 is the latest addition from the creator of Rocinante, designed for adventure writing and role-play scenarios. · context=1024000"
     },
     {
       "id": "mistralai/voxtral-small-24b-2507",
