@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-10T21:45:38.745537+00:00",
+  "generatedAt": "2026-10-11T05:48:01.410452+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2167,9 +2167,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0095,
-      "outputCostPerMillionUSD": 1.28,
-      "cacheReadCostPerMillionUSD": 0.0095,
+      "inputCostPerMillionUSD": 0.0161,
+      "outputCostPerMillionUSD": 0.64,
+      "cacheReadCostPerMillionUSD": 0.0161,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4105,9 +4105,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.04,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheReadCostPerMillionUSD": 0.0125,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -4120,9 +4120,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.039,
+      "inputCostPerMillionUSD": 0.07,
       "outputCostPerMillionUSD": 4.8,
-      "cacheReadCostPerMillionUSD": 0.038,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8593,9 +8593,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.289,
-      "outputCostPerMillionUSD": 14.9,
-      "cacheReadCostPerMillionUSD": 0.29,
+      "inputCostPerMillionUSD": 0.44,
+      "outputCostPerMillionUSD": 14.89,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -12053,8 +12053,8 @@
       "family": "qwen3-8",
       "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.085,
-      "cacheWriteCostPerMillionUSD": 0.53125,
+      "cacheReadCostPerMillionUSD": 0.0198,
+      "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
