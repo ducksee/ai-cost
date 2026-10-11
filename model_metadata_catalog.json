@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-11T12:51:40.669756+00:00",
+  "generatedAt": "2026-10-11T21:58:39.954037+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1985,9 +1985,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.21912,
-      "outputCostPerMillionUSD": 0.65736,
-      "cacheReadCostPerMillionUSD": 0.006972,
+      "inputCostPerMillionUSD": 0.20988,
+      "outputCostPerMillionUSD": 0.62964,
+      "cacheReadCostPerMillionUSD": 0.006678,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2167,9 +2167,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.018,
+      "inputCostPerMillionUSD": 0.0161,
       "outputCostPerMillionUSD": 0.64,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheReadCostPerMillionUSD": 0.0161,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4120,9 +4120,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.07,
+      "inputCostPerMillionUSD": 0.079,
       "outputCostPerMillionUSD": 4.8,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.059,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8593,9 +8593,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.75,
-      "outputCostPerMillionUSD": 14.9,
-      "cacheReadCostPerMillionUSD": 0.29,
+      "inputCostPerMillionUSD": 0.62,
+      "outputCostPerMillionUSD": 16.5,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
