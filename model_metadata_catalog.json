@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-11T05:48:01.410452+00:00",
+  "generatedAt": "2026-10-11T12:51:40.669756+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1970,9 +1970,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0001,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.005,
+      "inputCostPerMillionUSD": 0.0348,
+      "outputCostPerMillionUSD": 0.1392,
+      "cacheReadCostPerMillionUSD": 0.000696,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2167,9 +2167,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0161,
+      "inputCostPerMillionUSD": 0.018,
       "outputCostPerMillionUSD": 0.64,
-      "cacheReadCostPerMillionUSD": 0.0161,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -8593,9 +8593,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 14.89,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "inputCostPerMillionUSD": 0.75,
+      "outputCostPerMillionUSD": 14.9,
+      "cacheReadCostPerMillionUSD": 0.29,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -10495,7 +10495,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 1.0,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
