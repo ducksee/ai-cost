@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-13T14:13:04.011923+00:00",
+  "generatedAt": "2026-10-13T22:45:37.661242+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -179,27 +179,6 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
-    },
-    {
-      "id": "apodex/apodex-1.1-mini:free",
-      "displayName": "Apodex 1.1 Mini (free)",
-      "aliases": [
-        "apodex/apodex-1.1-mini:free",
-        "apodex/apodex-1-1-mini:free",
-        "apodex/apodex-1.1-mini-20261001",
-        "apodex/apodex-1-1-mini-20261001",
-        "apodex-1.1-mini-(free)",
-        "apodex-1-1-mini-(free)",
-        "apodex-1.1-mini:free",
-        "apodex-1-1-mini:free"
-      ],
-      "providerID": "apodex",
-      "family": "apodex-1",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,... · context=262144"
     },
     {
       "id": "openrouter/auto",
@@ -1970,9 +1949,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0438,
-      "outputCostPerMillionUSD": 0.1752,
-      "cacheReadCostPerMillionUSD": 0.000876,
+      "inputCostPerMillionUSD": 0.0441,
+      "outputCostPerMillionUSD": 0.765,
+      "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1985,9 +1964,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.24948,
-      "outputCostPerMillionUSD": 0.74844,
-      "cacheReadCostPerMillionUSD": 0.007938,
+      "inputCostPerMillionUSD": 0.18084,
+      "outputCostPerMillionUSD": 0.54252,
+      "cacheReadCostPerMillionUSD": 0.005754,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2242,7 +2221,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.000876,
+      "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -3567,6 +3546,62 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-4-argon",
+      "displayName": "Gemini 4 Argon",
+      "aliases": [
+        "google/gemini-4-argon",
+        "google/gemini-4-argon-20261013",
+        "gemini-4-argon",
+        "gemini/gemini-4-argon"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 0.1875,
+      "notes": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "gemini/gemini-4-argon",
+      "displayName": "Gemini 4 Argon",
+      "aliases": [
+        "gemini-4-argon",
+        "google/gemini-4-argon",
+        "gemini/gemini-4-argon"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-4-argon:batch",
+      "displayName": "Gemini 4 Argon (batch)",
+      "aliases": [
+        "google/gemini-4-argon:batch",
+        "google/gemini-4-argon-20261013",
+        "gemini-4-argon-(batch)",
+        "gemini-4-argon:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 0.1875,
+      "notes": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "displayName": "Gemini Flash Latest",
       "aliases": [
@@ -3687,7 +3722,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4066,15 +4101,17 @@
         "z-ai/glm-5.3-flashx-20260918",
         "z-ai/glm-5-3-flashx-20260918",
         "glm-5.3-flashx",
-        "glm-5-3-flashx"
+        "glm-5-3-flashx",
+        "tencent/glm-5.3-flashx",
+        "tencent/glm-5-3-flashx"
       ],
       "providerID": "z-ai",
       "family": "glm-5",
       "inputCostPerMillionUSD": 0.37,
       "outputCostPerMillionUSD": 1.25,
-      "cacheReadCostPerMillionUSD": 0.09,
+      "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576"
+      "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
     },
     {
       "id": "z-ai/glm-5.3-prime",
@@ -4121,7 +4158,7 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0261,
+      "inputCostPerMillionUSD": 0.0297,
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": 0.0108,
       "cacheWriteCostPerMillionUSD": null,
@@ -4136,9 +4173,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.055,
-      "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.06,
+      "inputCostPerMillionUSD": 0.063,
+      "outputCostPerMillionUSD": 4.4,
+      "cacheReadCostPerMillionUSD": 0.0586,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8609,9 +8646,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.73,
-      "outputCostPerMillionUSD": 10.0,
-      "cacheReadCostPerMillionUSD": 0.55,
+      "inputCostPerMillionUSD": 0.72,
+      "outputCostPerMillionUSD": 24.0,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -8712,6 +8749,26 @@
       "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=65536"
     },
     {
+      "id": "liquid/lfm-2.5-24b-a2b",
+      "displayName": "LFM2.5-24B-A2B",
+      "aliases": [
+        "liquid/lfm-2.5-24b-a2b",
+        "liquid/lfm-2-5-24b-a2b",
+        "liquid/lfm-2.5-24b-a2b-20261012",
+        "liquid/lfm-2-5-24b-a2b-20261012",
+        "lfm2.5-24b-a2b",
+        "lfm-2.5-24b-a2b",
+        "lfm-2-5-24b-a2b"
+      ],
+      "providerID": "liquid",
+      "family": "lfm-2",
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.7,
+      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid... · context=128000"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash",
       "displayName": "Ling 3.0 Flash",
       "aliases": [
@@ -8733,44 +8790,6 @@
       "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
-      "id": "inclusionai/ling-3.0-flash-fin",
-      "displayName": "Ling 3.0 Flash Fin",
-      "aliases": [
-        "inclusionai/ling-3.0-flash-fin",
-        "inclusionai/ling-3-0-flash-fin",
-        "inclusionai/ling-3.0-flash-fin-20260827",
-        "inclusionai/ling-3-0-flash-fin-20260827",
-        "ling-3.0-flash-fin",
-        "ling-3-0-flash-fin"
-      ],
-      "providerID": "inclusionai",
-      "family": "ling-3",
-      "inputCostPerMillionUSD": 0.042,
-      "outputCostPerMillionUSD": 0.1232,
-      "cacheReadCostPerMillionUSD": 0.0084,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144"
-    },
-    {
-      "id": "inclusionai/ling-3.0-flash-sante",
-      "displayName": "Ling 3.0 Flash Sante",
-      "aliases": [
-        "inclusionai/ling-3.0-flash-sante",
-        "inclusionai/ling-3-0-flash-sante",
-        "inclusionai/ling-3.0-flash-sante-20260904",
-        "inclusionai/ling-3-0-flash-sante-20260904",
-        "ling-3.0-flash-sante",
-        "ling-3-0-flash-sante"
-      ],
-      "providerID": "inclusionai",
-      "family": "ling-3",
-      "inputCostPerMillionUSD": 0.042,
-      "outputCostPerMillionUSD": 0.1232,
-      "cacheReadCostPerMillionUSD": 0.0084,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
-    },
-    {
       "id": "inclusionai/ling-3.0-flash-vl",
       "displayName": "Ling 3.0 Flash VL",
       "aliases": [
@@ -8783,11 +8802,11 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.021,
-      "outputCostPerMillionUSD": 0.0616,
-      "cacheReadCostPerMillionUSD": 0.0042,
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=262144"
+      "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=131072"
     },
     {
       "id": "inclusionai/ling-3.1-flash",
@@ -8802,9 +8821,9 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.225,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144"
     },
@@ -11746,7 +11765,7 @@
       "outputCostPerMillionUSD": 0.2,
       "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interle · context=262144 · LiteLLM max_input=4096, max_output=4096",
+      "notes": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interle · context=262144 · LiteLLM max_input=262144, max_output=4096",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -11861,7 +11880,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.25,
       "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 Series 35B-A3B is a native vision-language model designed with a hybrid architecture that integrates linear attention mechanisms and a sparse mixture-of-experts model, achieving higher inference efficiency. I · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
