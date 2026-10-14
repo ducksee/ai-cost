@@ -11616,7 +11616,7 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1125,
+    "input": 0.06535,
     "output": 4.0
   },
   {
@@ -11644,7 +11644,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.268,
+    "input": 0.2,
     "output": 7.0
   },
   {
@@ -11707,7 +11707,7 @@
     "model": "~z-ai/glm-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0288,
+    "input": 0.0315,
     "output": 2.2
   },
   {
