@@ -11102,18 +11102,18 @@
     "output": 7.5
   },
   {
-    "model": "unbiased/pareto",
-    "type": "tokens",
-    "channel_type": 20,
-    "input": 1.25,
-    "output": 3.75
-  },
-  {
     "model": "unbiased/pareto-26.10-preview",
     "type": "tokens",
     "channel_type": 20,
     "input": 0.4,
     "output": 1.6
+  },
+  {
+    "model": "unbiased/pareto-26.9",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.25,
+    "output": 3.75
   },
   {
     "model": "undi95/remm-slerp-l2-13b",
@@ -11609,15 +11609,15 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02205,
-    "output": 0.3825
+    "input": 0.01755,
+    "output": 0.4455
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.09042,
-    "output": 0.27126
+    "input": 0.1125,
+    "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
@@ -11644,8 +11644,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.36,
-    "output": 12.0
+    "input": 0.35,
+    "output": 7.5
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -11683,6 +11683,13 @@
     "output": 6.0
   },
   {
+    "model": "~unbiased/pareto-latest",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.25,
+    "output": 3.75
+  },
+  {
     "model": "~x-ai/grok-latest",
     "type": "tokens",
     "channel_type": 20,
@@ -11693,7 +11700,7 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01485,
+    "input": 0.018,
     "output": 0.45
   },
   {

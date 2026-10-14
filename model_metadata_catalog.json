@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-13T22:45:37.661242+00:00",
+  "generatedAt": "2026-10-14T04:54:55.686180+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1949,8 +1949,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0441,
-      "outputCostPerMillionUSD": 0.765,
+      "inputCostPerMillionUSD": 0.0351,
+      "outputCostPerMillionUSD": 0.891,
       "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -1964,9 +1964,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.18084,
-      "outputCostPerMillionUSD": 0.54252,
-      "cacheReadCostPerMillionUSD": 0.005754,
+      "inputCostPerMillionUSD": 0.225,
+      "outputCostPerMillionUSD": 8.0,
+      "cacheReadCostPerMillionUSD": 0.23,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -4158,7 +4158,7 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0297,
+      "inputCostPerMillionUSD": 0.036,
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": 0.0108,
       "cacheWriteCostPerMillionUSD": null,
@@ -7284,7 +7284,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8646,9 +8646,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.72,
-      "outputCostPerMillionUSD": 24.0,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "inputCostPerMillionUSD": 0.7,
+      "outputCostPerMillionUSD": 15.0,
+      "cacheReadCostPerMillionUSD": 0.32,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -11224,22 +11224,6 @@
       "notes": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million... · context=1040000"
     },
     {
-      "id": "unbiased/pareto",
-      "displayName": "Pareto",
-      "aliases": [
-        "unbiased/pareto",
-        "unbiased/pareto-20260917",
-        "pareto"
-      ],
-      "providerID": "unbiased",
-      "family": "pareto",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 7.5,
-      "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=262144"
-    },
-    {
       "id": "unbiased/pareto-26.10-preview",
       "displayName": "Pareto 26.10 Preview",
       "aliases": [
@@ -11259,6 +11243,25 @@
       "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the... · context=1048576"
     },
     {
+      "id": "unbiased/pareto-26.9",
+      "displayName": "Pareto 26.9",
+      "aliases": [
+        "unbiased/pareto-26.9",
+        "unbiased/pareto-26-9",
+        "unbiased/pareto-26.9-20260917",
+        "unbiased/pareto-26-9-20260917",
+        "pareto-26.9",
+        "pareto-26-9"
+      ],
+      "providerID": "unbiased",
+      "family": "pareto-26",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=262144"
+    },
+    {
       "id": "openrouter/pareto-code",
       "displayName": "Pareto Code Router",
       "aliases": [
@@ -11275,6 +11278,21 @@
       "notes": "The Pareto Router maintains a tiered shortlist of strong coding models, ranked by [Artificial Analysis](https://artificialanalysis.ai/) coding percentiles. Set min_coding_score between 0 and 1 on the [pareto-router plugi · context=2000000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
+    },
+    {
+      "id": "~unbiased/pareto-latest",
+      "displayName": "Pareto Latest",
+      "aliases": [
+        "~unbiased/pareto-latest",
+        "pareto-latest"
+      ],
+      "providerID": "~unbiased",
+      "family": "pareto-latest",
+      "inputCostPerMillionUSD": 2.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "This model always redirects to the latest model in the Pareto family. · context=262144"
     },
     {
       "id": "perceptron/perceptron-mk1",
@@ -11782,7 +11800,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 3.6,
-      "cacheReadCostPerMillionUSD": 0.225,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 series 397B-A17B native vision-language model is built on a hybrid architecture that integrates a linear attention mechanism with a sparse mixture-of-experts model, achieving higher inference efficiency. It d · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
