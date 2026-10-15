@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-15T17:01:54.377387+00:00",
+  "generatedAt": "2026-10-15T21:23:31.158448+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1925,7 +1925,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0216,
+      "inputCostPerMillionUSD": 0.01116,
       "outputCostPerMillionUSD": 0.72,
       "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
@@ -2122,9 +2122,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0144,
-      "outputCostPerMillionUSD": 0.576,
-      "cacheReadCostPerMillionUSD": 0.0108,
+      "inputCostPerMillionUSD": 0.0085,
+      "outputCostPerMillionUSD": 0.64,
+      "cacheReadCostPerMillionUSD": 0.0085,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2197,7 +2197,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.0054,
+      "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -3698,7 +3698,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4003,7 +4003,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.099,
+      "cacheReadCostPerMillionUSD": 0.399,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
     },
@@ -4134,7 +4134,7 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.036,
+      "inputCostPerMillionUSD": 0.0225,
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": 0.01125,
       "cacheWriteCostPerMillionUSD": null,
@@ -8623,9 +8623,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 14.0,
-      "cacheReadCostPerMillionUSD": 0.3,
+      "inputCostPerMillionUSD": 0.29,
+      "outputCostPerMillionUSD": 12.0,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -10244,6 +10244,25 @@
       "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
+    },
+    {
+      "id": "meta/muse-spark-open",
+      "displayName": "Muse Spark Open",
+      "aliases": [
+        "meta/muse-spark-open",
+        "meta/muse-spark-open-20261015",
+        "muse-spark-open",
+        "fireworks-ai/accounts/fireworks/models/muse-spark-open"
+      ],
+      "providerID": "meta",
+      "family": "muse-spark",
+      "inputCostPerMillionUSD": 1.25,
+      "outputCostPerMillionUSD": 4.25,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the rep · context=1048576 · LiteLLM supports_vision, supports_function_calling, max_input=1048576",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
     },
     {
       "id": "meta/muse-wonder",
@@ -11959,7 +11978,7 @@
       "family": "qwen3-6",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.6 27B is a dense 27-billion-parameter language model from the Qwen Team at Alibaba, released in April 2026. It features hybrid multimodal capabilities — accepting text, image, and video inputs... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
