@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-15T11:30:40.614454+00:00",
+  "generatedAt": "2026-10-15T17:01:54.377387+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1360,30 +1360,6 @@
       "notes": "This model always redirects to the latest model in the Claude Opus family. · context=1000000"
     },
     {
-      "id": "anthropic/claude-sonnet-4",
-      "displayName": "Claude Sonnet 4",
-      "aliases": [
-        "anthropic/claude-sonnet-4",
-        "anthropic/claude-4-sonnet-20250522",
-        "claude-sonnet-4",
-        "claude-4-sonnet",
-        "claude-sonnet-4-20250514",
-        "claude-sonnet-4.20250514",
-        "claude-4-20250514-sonnet",
-        "claude-4.20250514-sonnet",
-        "deepinfra/anthropic/claude-4-sonnet"
-      ],
-      "providerID": "claude",
-      "family": "claude-sonnet",
-      "inputCostPerMillionUSD": 3,
-      "outputCostPerMillionUSD": 15,
-      "cacheReadCostPerMillionUSD": 0.3,
-      "cacheWriteCostPerMillionUSD": 3.75,
-      "notes": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on  · context=200000 · LiteLLM supports_function_calling, max_input=200000, max_output=200000 · Direct vendor pricing with cached-input tier from llm-prices",
-      "brandAssetName": "claude",
-      "organizationName": "Anthropic"
-    },
-    {
       "id": "claude/claude-sonnet-4-200k",
       "displayName": "Claude Sonnet 4 >200k",
       "aliases": [
@@ -1949,7 +1925,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.02376,
+      "inputCostPerMillionUSD": 0.0216,
       "outputCostPerMillionUSD": 0.72,
       "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
@@ -1964,9 +1940,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.225,
+      "inputCostPerMillionUSD": 0.1307,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.23,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -4027,7 +4003,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.029,
+      "cacheReadCostPerMillionUSD": 0.099,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
     },
@@ -4173,9 +4149,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.024,
+      "inputCostPerMillionUSD": 0.0608,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.0223,
+      "cacheReadCostPerMillionUSD": 0.0565,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8647,9 +8623,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.29,
-      "outputCostPerMillionUSD": 24.0,
-      "cacheReadCostPerMillionUSD": 0.28,
+      "inputCostPerMillionUSD": 0.44,
+      "outputCostPerMillionUSD": 14.0,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -9917,8 +9893,8 @@
       ],
       "providerID": "mistral",
       "family": "mistral-small",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.2,
+      "inputCostPerMillionUSD": 0.09375,
+      "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000",
@@ -10665,6 +10641,50 @@
       "organizationName": "Nvidia"
     },
     {
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "displayName": "Nemotron 3.5 Super VL",
+      "aliases": [
+        "nvidia/nemotron-3.5-super-vl",
+        "nvidia/nemotron-3-5-super-vl",
+        "nvidia/nemotron-3.5-super-vl-20261015",
+        "nvidia/nemotron-3-5-super-vl-20261015",
+        "nemotron-3.5-super-vl",
+        "nemotron-3-5-super-vl"
+      ],
+      "providerID": "nvidia",
+      "family": "nemotron-3",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1048576",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
+    },
+    {
+      "id": "nvidia/nemotron-3.5-super-vl:free",
+      "displayName": "Nemotron 3.5 Super VL (free)",
+      "aliases": [
+        "nvidia/nemotron-3.5-super-vl:free",
+        "nvidia/nemotron-3-5-super-vl:free",
+        "nvidia/nemotron-3.5-super-vl-20261015",
+        "nvidia/nemotron-3-5-super-vl-20261015",
+        "nemotron-3.5-super-vl-(free)",
+        "nemotron-3-5-super-vl-(free)",
+        "nemotron-3.5-super-vl:free",
+        "nemotron-3-5-super-vl:free"
+      ],
+      "providerID": "nvidia",
+      "family": "nemotron-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1000000",
+      "brandAssetName": "nvidia",
+      "organizationName": "Nvidia"
+    },
+    {
       "id": "nex-agi/nex-n2.5-mini",
       "displayName": "Nex-N2.5-Mini",
       "aliases": [
@@ -11223,25 +11243,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million... · context=1040000"
-    },
-    {
-      "id": "unbiased/pareto-26.10-preview",
-      "displayName": "Pareto 26.10 Preview",
-      "aliases": [
-        "unbiased/pareto-26.10-preview",
-        "unbiased/pareto-26-10-preview",
-        "unbiased/pareto-26.10-preview-20260929",
-        "unbiased/pareto-26-10-preview-20260929",
-        "pareto-26.10-preview",
-        "pareto-26-10-preview"
-      ],
-      "providerID": "unbiased",
-      "family": "pareto-26",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 3.2,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the... · context=1048576"
     },
     {
       "id": "unbiased/pareto-26.9",
