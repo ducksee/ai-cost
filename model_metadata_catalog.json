@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-15T21:23:31.158448+00:00",
+  "generatedAt": "2026-10-16T04:33:02.999002+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1925,8 +1925,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.01116,
-      "outputCostPerMillionUSD": 0.72,
+      "inputCostPerMillionUSD": 0.018,
+      "outputCostPerMillionUSD": 0.684,
       "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -1940,9 +1940,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1307,
-      "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.249,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2122,9 +2122,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0085,
-      "outputCostPerMillionUSD": 0.64,
-      "cacheReadCostPerMillionUSD": 0.0085,
+      "inputCostPerMillionUSD": 0.00846,
+      "outputCostPerMillionUSD": 0.576,
+      "cacheReadCostPerMillionUSD": 0.00846,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2197,7 +2197,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.003,
+      "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -3536,7 +3536,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.1875,
-      "notes": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3554,7 +3554,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -4003,7 +4003,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.399,
+      "cacheReadCostPerMillionUSD": 0.078,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
     },
@@ -4062,9 +4062,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
     },
@@ -4134,9 +4134,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0225,
-      "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": 0.01125,
+      "inputCostPerMillionUSD": 0.01584,
+      "outputCostPerMillionUSD": 1.125,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -8623,9 +8623,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.29,
-      "outputCostPerMillionUSD": 12.0,
-      "cacheReadCostPerMillionUSD": 0.18,
+      "inputCostPerMillionUSD": 0.294,
+      "outputCostPerMillionUSD": 28.0,
+      "cacheReadCostPerMillionUSD": 0.284,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -9995,6 +9995,41 @@
       "brandAssetName": "mistral",
       "organizationName": "Mistral",
       "notes": "LiteLLM max_input=32000, max_output=8192"
+    },
+    {
+      "id": "moondream/moondream3-preview",
+      "displayName": "Moondream 3 Preview",
+      "aliases": [
+        "moondream/moondream3-preview",
+        "moondream/moondream3-preview-20261013",
+        "moondream-3-preview",
+        "moondream3-preview"
+      ],
+      "providerID": "moondream",
+      "family": "moondream3-preview",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Moondream 3 Preview is a vision-language model from Moondream with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and visual reasoning over images, with... · context=32000"
+    },
+    {
+      "id": "moondream/moondream3.1-9b-a2b",
+      "displayName": "Moondream 3.1",
+      "aliases": [
+        "moondream/moondream3.1-9b-a2b",
+        "moondream/moondream3.1-9b-a2b-20261013",
+        "moondream-3.1",
+        "moondream-3-1",
+        "moondream3.1-9b-a2b"
+      ],
+      "providerID": "moondream",
+      "family": "moondream3-1",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Moondream 3.1 is a vision-language model from Moondream, the successor to Moondream 3 Preview, with 9B total parameters and 2B active (mixture-of-experts). It handles visual question answering, captioning, OCR, and... · context=32000"
     },
     {
       "id": "morph/morph-v3-fast",
@@ -11711,7 +11746,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -12741,7 +12776,7 @@
       "family": "step-5",
       "inputCostPerMillionUSD": 1.0,
       "outputCostPerMillionUSD": 2.7,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1048576",
       "brandAssetName": "stepfun",
