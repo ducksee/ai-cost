@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-16T11:25:35.115845+00:00",
+  "generatedAt": "2026-10-16T16:40:02.385907+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -216,6 +216,25 @@
       "notes": "The experimental version of our Auto Router where we test new improvements. Use it to get the latest and greatest version of our general purpose auto router, but expect beta... · context=2000000",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
+    },
+    {
+      "id": "reflection/beam-1.0-501b-a23b",
+      "displayName": "Beam 1.0 501B A23B",
+      "aliases": [
+        "reflection/beam-1.0-501b-a23b",
+        "reflection/beam-1-0-501b-a23b",
+        "reflection/beam-1.0-501b-a23b-20261016",
+        "reflection/beam-1-0-501b-a23b-20261016",
+        "beam-1.0-501b-a23b",
+        "beam-1-0-501b-a23b"
+      ],
+      "providerID": "reflection",
+      "family": "beam-1",
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a... · context=1048576"
     },
     {
       "id": "openrouter/bodybuilder",
@@ -1926,7 +1945,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-flash",
       "inputCostPerMillionUSD": 0.036,
-      "outputCostPerMillionUSD": 0.684,
+      "outputCostPerMillionUSD": 0.6633,
       "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -1940,9 +1959,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.249,
+      "inputCostPerMillionUSD": 0.24948,
+      "outputCostPerMillionUSD": 0.74844,
+      "cacheReadCostPerMillionUSD": 0.007938,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -4134,9 +4153,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0134,
-      "outputCostPerMillionUSD": 0.8192,
-      "cacheReadCostPerMillionUSD": 0.0125,
+      "inputCostPerMillionUSD": 0.01125,
+      "outputCostPerMillionUSD": 0.9,
+      "cacheReadCostPerMillionUSD": 0.01125,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },

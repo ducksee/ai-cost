@@ -2240,6 +2240,13 @@
     "output": 0.2
   },
   {
+    "model": "beam-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "bge-reranker-v2-m3",
     "type": "tokens",
     "channel_type": 1,
@@ -11270,6 +11277,13 @@
     "output": 0.235
   },
   {
+    "model": "reflection/beam-1.0-501b-a23b",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.125,
+    "output": 0.5
+  },
+  {
     "model": "rekaai/reka-edge",
     "type": "tokens",
     "channel_type": 20,
@@ -12016,14 +12030,14 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.018,
-    "output": 0.342
+    "output": 0.33165
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.125,
-    "output": 2.5
+    "input": 0.12474,
+    "output": 0.37422
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
@@ -12106,8 +12120,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0067,
-    "output": 0.4096
+    "input": 0.005625,
+    "output": 0.45
   },
   {
     "model": "~z-ai/glm-latest",
