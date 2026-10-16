@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-16T08:15:56.986733+00:00",
+  "generatedAt": "2026-10-16T11:25:35.115845+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2122,9 +2122,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.00522,
-      "outputCostPerMillionUSD": 1.152,
-      "cacheReadCostPerMillionUSD": 0.00522,
+      "inputCostPerMillionUSD": 0.0068,
+      "outputCostPerMillionUSD": 1.28,
+      "cacheReadCostPerMillionUSD": 0.0068,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4134,9 +4134,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.01323,
-      "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": 0.01125,
+      "inputCostPerMillionUSD": 0.0134,
+      "outputCostPerMillionUSD": 0.8192,
+      "cacheReadCostPerMillionUSD": 0.0125,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -8932,9 +8932,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.59,
-      "outputCostPerMillionUSD": 0.79,
-      "cacheReadCostPerMillionUSD": 0.295,
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.32,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",

@@ -9180,8 +9180,8 @@
     "model": "meta-llama/llama-3.3-70b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.295,
-    "output": 0.395
+    "input": 0.05,
+    "output": 0.16
   },
   {
     "model": "meta-llama/llama-4-maverick",
@@ -12029,8 +12029,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.00261,
-    "output": 0.576
+    "input": 0.0034,
+    "output": 0.64
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12106,8 +12106,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.006615,
-    "output": 0.45
+    "input": 0.0067,
+    "output": 0.4096
   },
   {
     "model": "~z-ai/glm-latest",
