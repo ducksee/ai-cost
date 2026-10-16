@@ -2247,6 +2247,20 @@
     "output": 0.005
   },
   {
+    "model": "big-pickle",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "cat-jam-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "chat-latest",
     "type": "tokens",
     "channel_type": 1,
@@ -2287,6 +2301,20 @@
     "channel_type": 1,
     "input": 1.0,
     "output": 1.0
+  },
+  {
+    "model": "exo-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "fledge-alpha-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "gemma4:31b",
@@ -2586,8 +2614,8 @@
     "model": "gpt-5",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.625,
-    "output": 5.0
+    "input": 0.535,
+    "output": 4.25
   },
   {
     "model": "gpt-5-chat",
@@ -2607,8 +2635,8 @@
     "model": "gpt-5-codex",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.625,
-    "output": 5.0
+    "input": 0.535,
+    "output": 4.25
   },
   {
     "model": "gpt-5-mini",
@@ -2642,8 +2670,8 @@
     "model": "gpt-5.1",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.625,
-    "output": 5.0
+    "input": 0.535,
+    "output": 4.25
   },
   {
     "model": "gpt-5.1-chat",
@@ -2663,8 +2691,8 @@
     "model": "gpt-5.1-codex",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.625,
-    "output": 5.0
+    "input": 0.535,
+    "output": 4.25
   },
   {
     "model": "gpt-5.1-codex-max",
@@ -2731,6 +2759,13 @@
   },
   {
     "model": "gpt-5.3-codex",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.875,
+    "output": 7.0
+  },
+  {
+    "model": "gpt-5.3-codex-spark",
     "type": "tokens",
     "channel_type": 1,
     "input": 0.875,
@@ -2810,8 +2845,36 @@
     "model": "gpt-5.6-terra",
     "type": "tokens",
     "channel_type": 1,
+    "input": 1.25,
+    "output": 7.5
+  },
+  {
+    "model": "gpt-6-astra",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 5.0,
+    "output": 25.0
+  },
+  {
+    "model": "gpt-6-luna",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.05,
+    "output": 0.25
+  },
+  {
+    "model": "gpt-6-sol",
+    "type": "tokens",
+    "channel_type": 1,
     "input": 1.0,
-    "output": 6.0
+    "output": 5.0
+  },
+  {
+    "model": "gpt-6.1-sol",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.0,
+    "output": 5.0
   },
   {
     "model": "gpt-audio",
@@ -2961,6 +3024,146 @@
     "output": 0.00225
   },
   {
+    "model": "hy3-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "hy3-preview-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "laguna-s-2.1-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "ling-2.6-flash-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "ling-3.0-flash-fin-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "ling-3.0-flash-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "ling-3.0-tiny-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "ling-3.1-flash-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "ll-alpha-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "longcat-2.0-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "longcat-2.5-preview-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "mimo-v2-flash-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "mimo-v2-omni-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "mimo-v2-pro-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "mimo-v2.5-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "mimo-v2.6-flash-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "muse-spark-1.2",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.625,
+    "output": 2.125
+  },
+  {
+    "model": "muse-spark-1.2-contributor-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "muse-spark-1.3",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.625,
+    "output": 2.125
+  },
+  {
+    "model": "muse-spark-1.3-contributor-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "nemotron-3-nano:30b",
     "type": "tokens",
     "channel_type": 1,
@@ -2975,11 +3178,46 @@
     "output": 0.45
   },
   {
+    "model": "nemotron-3-super-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "nemotron-3-ultra",
     "type": "tokens",
     "channel_type": 1,
     "input": 0.5,
     "output": 1.5
+  },
+  {
+    "model": "nemotron-3-ultra-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "nemotron-3.5-lightning-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "nemotron-3.5-super-vl-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "north-mini-code-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "o1",
@@ -3122,6 +3360,13 @@
     "output": 0
   },
   {
+    "model": "ring-2.6-1t-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "sora-2",
     "type": "times",
     "channel_type": 1,
@@ -3148,6 +3393,20 @@
     "channel_type": 1,
     "input": 0,
     "output": 250.0
+  },
+  {
+    "model": "space-bunny-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "step-5-preview-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "text-embedding-3-large",
@@ -3178,6 +3437,13 @@
     "output": 0
   },
   {
+    "model": "trinity-large-preview-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "tts-1",
     "type": "tokens",
     "channel_type": 1,
@@ -3189,6 +3455,13 @@
     "type": "tokens",
     "channel_type": 1,
     "input": 15.0,
+    "output": 0
+  },
+  {
+    "model": "x-preview-f-free",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
     "output": 0
   },
   {
@@ -4529,6 +4802,13 @@
     "output": 25.0
   },
   {
+    "model": "claude-fable-5-1",
+    "type": "tokens",
+    "channel_type": 14,
+    "input": 5.0,
+    "output": 25.0
+  },
+  {
     "model": "claude-haiku-4-5",
     "type": "tokens",
     "channel_type": 14,
@@ -4548,6 +4828,13 @@
     "channel_type": 14,
     "input": 0.5,
     "output": 2.5
+  },
+  {
+    "model": "claude-haiku-5-5",
+    "type": "tokens",
+    "channel_type": 14,
+    "input": 0.05,
+    "output": 0.25
   },
   {
     "model": "claude-mythos-5",
@@ -4641,6 +4928,13 @@
     "output": 12.5
   },
   {
+    "model": "claude-opus-5-5",
+    "type": "tokens",
+    "channel_type": 14,
+    "input": 2.0,
+    "output": 10.0
+  },
+  {
     "model": "claude-sonnet-4",
     "type": "tokens",
     "channel_type": 14,
@@ -4684,6 +4978,13 @@
   },
   {
     "model": "claude-sonnet-5",
+    "type": "tokens",
+    "channel_type": 14,
+    "input": 1.0,
+    "output": 5.0
+  },
+  {
+    "model": "claude-sonnet-5-5",
     "type": "tokens",
     "channel_type": 14,
     "input": 1.0,
@@ -5568,8 +5869,8 @@
     "model": "glm-4.7",
     "type": "tokens",
     "channel_type": 16,
-    "input": 0.28571,
-    "output": 1.14286
+    "input": 0.3,
+    "output": 1.1
   },
   {
     "model": "glm-4.7-flash",
@@ -5584,6 +5885,13 @@
     "channel_type": 16,
     "input": 0.03571,
     "output": 0.21429
+  },
+  {
+    "model": "glm-4.7-free",
+    "type": "tokens",
+    "channel_type": 16,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "glm-4v-flash",
@@ -5603,8 +5911,15 @@
     "model": "glm-5",
     "type": "tokens",
     "channel_type": 16,
-    "input": 0.42857,
-    "output": 1.57143
+    "input": 0.5,
+    "output": 1.6
+  },
+  {
+    "model": "glm-5-free",
+    "type": "tokens",
+    "channel_type": 16,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "glm-5-turbo",
@@ -5617,8 +5932,8 @@
     "model": "glm-5.1",
     "type": "tokens",
     "channel_type": 16,
-    "input": 0.57143,
-    "output": 2.0
+    "input": 0.7,
+    "output": 2.2
   },
   {
     "model": "glm-5.2",
@@ -5631,15 +5946,22 @@
     "model": "glm-5.3",
     "type": "tokens",
     "channel_type": 16,
-    "input": 0.57143,
-    "output": 2.0
+    "input": 0.7,
+    "output": 2.2
   },
   {
     "model": "glm-5.3-flash",
     "type": "tokens",
     "channel_type": 16,
-    "input": 0.05714,
-    "output": 0.2
+    "input": 0.075,
+    "output": 0.25
+  },
+  {
+    "model": "glm-5.3-flash-free",
+    "type": "tokens",
+    "channel_type": 16,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "glm-5v-turbo",
@@ -6335,6 +6657,13 @@
     "output": 0.14286
   },
   {
+    "model": "qwen3-coder",
+    "type": "tokens",
+    "channel_type": 17,
+    "input": 0.225,
+    "output": 0.9
+  },
+  {
     "model": "qwen3-coder-30b-a3b-instruct",
     "type": "tokens",
     "channel_type": 17,
@@ -6653,8 +6982,8 @@
     "model": "qwen3.5-plus",
     "type": "tokens",
     "channel_type": 17,
-    "input": 0.05714,
-    "output": 0.34286
+    "input": 0.1,
+    "output": 0.6
   },
   {
     "model": "qwen3.6-27b",
@@ -6688,8 +7017,15 @@
     "model": "qwen3.6-plus",
     "type": "tokens",
     "channel_type": 17,
-    "input": 0.14286,
-    "output": 0.85714
+    "input": 0.25,
+    "output": 1.5
+  },
+  {
+    "model": "qwen3.6-plus-free",
+    "type": "tokens",
+    "channel_type": 17,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "qwen3.7-flash",
@@ -6720,11 +7056,18 @@
     "output": 0.57143
   },
   {
+    "model": "qwen3.8-flash",
+    "type": "tokens",
+    "channel_type": 17,
+    "input": 0.075,
+    "output": 0.235
+  },
+  {
     "model": "qwen3.8-max",
     "type": "tokens",
     "channel_type": 17,
-    "input": 0.85714,
-    "output": 2.57143
+    "input": 1.0,
+    "output": 3.0
   },
   {
     "model": "qwen3.8-max-prime",
@@ -11637,7 +11980,7 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.009,
+    "input": 0.018,
     "output": 0.342
   },
   {
@@ -11651,8 +11994,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.00423,
-    "output": 0.288
+    "input": 0.00261,
+    "output": 0.576
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -11728,8 +12071,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.00792,
-    "output": 0.5625
+    "input": 0.006615,
+    "output": 0.45
   },
   {
     "model": "~z-ai/glm-latest",
@@ -12071,15 +12414,29 @@
     "model": "gemini-3.6-flash",
     "type": "tokens",
     "channel_type": 25,
-    "input": 0.375,
-    "output": 1.875
+    "input": 0.75,
+    "output": 3.75
   },
   {
     "model": "gemini-3.7-flash",
     "type": "tokens",
     "channel_type": 25,
-    "input": 0.375,
-    "output": 1.875
+    "input": 0.75,
+    "output": 3.75
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "type": "tokens",
+    "channel_type": 25,
+    "input": 0.75,
+    "output": 3.75
+  },
+  {
+    "model": "gemini-4-argon",
+    "type": "tokens",
+    "channel_type": 25,
+    "input": 1.0,
+    "output": 5.0
   },
   {
     "model": "gemini-embedding-001",
@@ -12453,11 +12810,39 @@
     "output": 0.6
   },
   {
+    "model": "minimax-m2.1",
+    "type": "tokens",
+    "channel_type": 27,
+    "input": 0.15,
+    "output": 0.6
+  },
+  {
+    "model": "minimax-m2.1-free",
+    "type": "tokens",
+    "channel_type": 27,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "minimax-m2.5",
+    "type": "tokens",
+    "channel_type": 27,
+    "input": 0.15,
+    "output": 0.6
+  },
+  {
+    "model": "minimax-m2.5-free",
+    "type": "tokens",
+    "channel_type": 27,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "minimax-m2.7",
     "type": "tokens",
     "channel_type": 27,
-    "input": 0.3,
-    "output": 1.2
+    "input": 0.15,
+    "output": 0.6
   },
   {
     "model": "minimax-m3",
@@ -12465,6 +12850,13 @@
     "channel_type": 27,
     "input": 0.15,
     "output": 0.6
+  },
+  {
+    "model": "minimax-m3-free",
+    "type": "tokens",
+    "channel_type": 27,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "DeepSeek-R1-0528",
@@ -12624,8 +13016,8 @@
     "model": "deepseek-v4-flash",
     "type": "tokens",
     "channel_type": 28,
-    "input": 0.075,
-    "output": 0.3
+    "input": 0.07,
+    "output": 0.14
   },
   {
     "model": "deepseek-v4-flash-0731",
@@ -12635,18 +13027,25 @@
     "output": 0.3
   },
   {
+    "model": "deepseek-v4-flash-free",
+    "type": "tokens",
+    "channel_type": 28,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "deepseek-v4-flash-vision-exp",
     "type": "tokens",
     "channel_type": 28,
-    "input": 0.075,
-    "output": 0.3
+    "input": 0.07,
+    "output": 0.14
   },
   {
     "model": "deepseek-v4-pro",
     "type": "tokens",
     "channel_type": 28,
-    "input": 0.33,
-    "output": 0.99
+    "input": 0.87,
+    "output": 1.92
   },
   {
     "model": "deepseek-v4-pro-0813",
@@ -12666,8 +13065,15 @@
     "model": "deepseek-v4.1-flash",
     "type": "tokens",
     "channel_type": 28,
-    "input": 0.005,
+    "input": 0.15,
     "output": 0.6
+  },
+  {
+    "model": "deepseek-v4.1-flash-free",
+    "type": "tokens",
+    "channel_type": 28,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "Kimi-K2-Instruct",
@@ -12680,8 +13086,8 @@
     "model": "kimi-k2",
     "type": "tokens",
     "channel_type": 29,
-    "input": 0.28571,
-    "output": 1.14286
+    "input": 0.2,
+    "output": 1.25
   },
   {
     "model": "kimi-k2-0711-preview",
@@ -12701,8 +13107,8 @@
     "model": "kimi-k2-thinking",
     "type": "tokens",
     "channel_type": 29,
-    "input": 0.28571,
-    "output": 1.14286
+    "input": 0.2,
+    "output": 1.25
   },
   {
     "model": "kimi-k2-thinking-turbo",
@@ -12722,8 +13128,15 @@
     "model": "kimi-k2.5",
     "type": "tokens",
     "channel_type": 29,
-    "input": 0.28571,
+    "input": 0.3,
     "output": 1.5
+  },
+  {
+    "model": "kimi-k2.5-free",
+    "type": "tokens",
+    "channel_type": 29,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "kimi-k2.6",
@@ -12750,8 +13163,8 @@
     "model": "kimi-k3",
     "type": "tokens",
     "channel_type": 29,
-    "input": 1.25,
-    "output": 6.25
+    "input": 1.5,
+    "output": 7.5
   },
   {
     "model": "kimi-latest",
@@ -14427,6 +14840,13 @@
     "output": 3.0
   },
   {
+    "model": "grok-4.7",
+    "type": "tokens",
+    "channel_type": 56,
+    "input": 1.0,
+    "output": 3.0
+  },
+  {
     "model": "grok-build-0.1",
     "type": "tokens",
     "channel_type": 56,
@@ -14444,8 +14864,8 @@
     "model": "grok-code",
     "type": "tokens",
     "channel_type": 56,
-    "input": 0.1,
-    "output": 0.75
+    "input": 0,
+    "output": 0
   },
   {
     "model": "grok-code-fast",

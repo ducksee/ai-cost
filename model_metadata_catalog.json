@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-16T04:33:02.999002+00:00",
+  "generatedAt": "2026-10-16T08:11:21.718570+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1925,7 +1925,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.018,
+      "inputCostPerMillionUSD": 0.036,
       "outputCostPerMillionUSD": 0.684,
       "cacheReadCostPerMillionUSD": 0.0054,
       "cacheWriteCostPerMillionUSD": null,
@@ -2122,9 +2122,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.00846,
-      "outputCostPerMillionUSD": 0.576,
-      "cacheReadCostPerMillionUSD": 0.00846,
+      "inputCostPerMillionUSD": 0.00522,
+      "outputCostPerMillionUSD": 1.152,
+      "cacheReadCostPerMillionUSD": 0.00522,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3698,7 +3698,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4134,9 +4134,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.01584,
-      "outputCostPerMillionUSD": 1.125,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "inputCostPerMillionUSD": 0.01323,
+      "outputCostPerMillionUSD": 0.9,
+      "cacheReadCostPerMillionUSD": 0.01125,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
