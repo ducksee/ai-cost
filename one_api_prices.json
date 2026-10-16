@@ -7164,8 +7164,8 @@
     "model": "adept/fuyu-8b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "ai21labs/jamba-1.5-large-instruct",
@@ -7220,8 +7220,8 @@
     "model": "aisingapore/sea-lion-7b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "amazon/amazon-nova-lite",
@@ -7448,6 +7448,13 @@
     "output": 6.25
   },
   {
+    "model": "anthropic/claude-sonnet-4",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.5,
+    "output": 7.5
+  },
+  {
     "model": "anthropic/claude-sonnet-4.5",
     "type": "tokens",
     "channel_type": 20,
@@ -7502,6 +7509,13 @@
     "channel_type": 20,
     "input": 0.5,
     "output": 2.5
+  },
+  {
+    "model": "apodex/apodex-1.1-mini:free",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "arcee-ai/trinity-large-thinking",
@@ -8578,8 +8592,8 @@
     "model": "google/codegemma-1.1-7b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "google/codegemma-7b",
@@ -8592,15 +8606,15 @@
     "model": "google/deplot",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "google/diffusiongemma-26b-a4b-it",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "google/gemini-2.5-flash",
@@ -8921,8 +8935,8 @@
     "model": "google/recurrentgemma-2b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "gryphe/mythomax-l2-13b",
@@ -8949,29 +8963,29 @@
     "model": "ibm/granite-3.0-3b-a800m-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "ibm/granite-3.0-8b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "ibm/granite-34b-code-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "ibm/granite-8b-code-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "inception/mercury-2",
@@ -8995,11 +9009,18 @@
     "output": 0.09
   },
   {
+    "model": "inclusionai/ling-3.0-flash-fin",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.021,
+    "output": 0.0616
+  },
+  {
     "model": "inclusionai/ling-3.0-flash-sante",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0.021,
+    "output": 0.0616
   },
   {
     "model": "inclusionai/ling-3.0-flash-vl",
@@ -9278,8 +9299,8 @@
     "model": "microsoft/kosmos-2",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "microsoft/phi-3-vision-128k-instruct",
@@ -9467,8 +9488,8 @@
     "model": "mistralai/codestral-22b-instruct-v0.1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "mistralai/codestral-2508",
@@ -9537,8 +9558,8 @@
     "model": "mistralai/mistral-large-2-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "mistralai/mistral-large-2407",
@@ -9663,8 +9684,8 @@
     "model": "mistralai/mixtral-8x22b-v0.1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "mistralai/voxtral-small-24b-2507",
@@ -9796,57 +9817,57 @@
     "model": "nv-mistralai/mistral-nemo-12b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/ai-synthetic-video-detector",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/cosmos-reason2-8b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/embed-qa-4",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/ising-calibration-1.5-31b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-3.1-nemoguard-8b-content-safety",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-3.1-nemoguard-8b-topic-control",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-3.1-nemotron-51b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-3.1-nemotron-70b-instruct",
@@ -9859,8 +9880,8 @@
     "model": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
@@ -9873,43 +9894,43 @@
     "model": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-3.2-nv-embedqa-1b-v1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/llama3-chatqa-1.5-70b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/mistral-nemo-minitron-8b-8k-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nemotron-3-embed-1b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nemotron-3-nano-30b-a3b",
@@ -10013,85 +10034,85 @@
     "model": "nvidia/nemotron-4-340b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nemotron-4-340b-reward",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nemotron-nano-3-30b-a3b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nemotron-parse",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nemotron-parse-2.0",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/neva-22b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nv-embedqa-mistral-7b-v2",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/nvclip",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/riva-translate-4b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/riva-translate-4b-instruct-v2",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/switchyard",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "nvidia/vila",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "openai/gpt-3.5-turbo",
@@ -11343,8 +11364,8 @@
     "model": "snowflake/arctic-embed-l",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "stepfun/step-3.5-flash",
@@ -11480,6 +11501,20 @@
     "output": 7.5
   },
   {
+    "model": "unbiased/pareto",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.25,
+    "output": 3.75
+  },
+  {
+    "model": "unbiased/pareto-26.10-preview",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.4,
+    "output": 1.6
+  },
+  {
     "model": "unbiased/pareto-26.9",
     "type": "tokens",
     "channel_type": 20,
@@ -11518,29 +11553,29 @@
     "model": "writer/palmyra-creative-122b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "writer/palmyra-fin-70b-32k",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "writer/palmyra-med-70b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "writer/palmyra-med-70b-32k",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "writer/palmyra-x5",
@@ -11945,8 +11980,8 @@
     "model": "zyphra/zamba2-7b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "~anthropic/claude-fable-latest",
@@ -13380,8 +13415,8 @@
     "model": "mistral-large-3:675b",
     "type": "tokens",
     "channel_type": 30,
-    "input": 0.0,
-    "output": 0.0
+    "input": 0,
+    "output": 0
   },
   {
     "model": "mistral-large-4",
