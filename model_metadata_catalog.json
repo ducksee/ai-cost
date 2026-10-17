@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-17T15:36:31.778556+00:00",
+  "generatedAt": "2026-10-17T20:37:08.450973+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.08,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.002,
+      "cacheReadCostPerMillionUSD": 0.008,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0139,
+      "inputCostPerMillionUSD": 0.0045,
       "outputCostPerMillionUSD": 1.28,
-      "cacheReadCostPerMillionUSD": 0.0139,
+      "cacheReadCostPerMillionUSD": 0.0045,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2249,15 +2249,16 @@
       "aliases": [
         "deepseek/deepseek-v4.1-flash-1017",
         "deepseek/deepseek-v4.1-flash-20261017",
-        "deepseek-v4.1-flash-1017"
+        "deepseek-v4.1-flash-1017",
+        "deepinfra/deepseek-ai/deepseek-v4.1-flash-1017"
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.003,
+      "inputCostPerMillionUSD": 0.14,
+      "outputCostPerMillionUSD": 0.42,
+      "cacheReadCostPerMillionUSD": 0.0042,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model... · context=1048576",
+      "notes": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -10762,9 +10763,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.08,
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1048576",
       "brandAssetName": "nvidia",
