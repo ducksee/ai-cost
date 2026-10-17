@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-16T21:09:33.457313+00:00",
+  "generatedAt": "2026-10-17T04:27:37.879975+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.036,
-      "outputCostPerMillionUSD": 0.6435,
-      "cacheReadCostPerMillionUSD": 0.0054,
+      "inputCostPerMillionUSD": 0.04,
+      "outputCostPerMillionUSD": 0.7,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.00846,
-      "outputCostPerMillionUSD": 1.2672,
-      "cacheReadCostPerMillionUSD": 0.00846,
+      "inputCostPerMillionUSD": 0.021,
+      "outputCostPerMillionUSD": 0.528,
+      "cacheReadCostPerMillionUSD": 0.0056,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2218,7 +2218,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.0054,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -3784,6 +3784,22 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "elorian/glimpse",
+      "displayName": "Glimpse",
+      "aliases": [
+        "elorian/glimpse",
+        "elorian/glimpse-20261016",
+        "glimpse"
+      ],
+      "providerID": "elorian",
+      "family": "glimpse",
+      "inputCostPerMillionUSD": 0.6,
+      "outputCostPerMillionUSD": 3.0,
+      "cacheReadCostPerMillionUSD": 0.06,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than... · context=262144"
+    },
+    {
       "id": "z-ai/glm-4.5",
       "displayName": "GLM 4.5",
       "aliases": [
@@ -4155,9 +4171,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.01188,
-      "outputCostPerMillionUSD": 0.73944,
-      "cacheReadCostPerMillionUSD": 0.01125,
+      "inputCostPerMillionUSD": 0.055,
+      "outputCostPerMillionUSD": 0.65,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -4170,9 +4186,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.0608,
-      "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.0565,
+      "inputCostPerMillionUSD": 0.079,
+      "outputCostPerMillionUSD": 4.8,
+      "cacheReadCostPerMillionUSD": 0.078,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -10728,9 +10744,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1048576",
       "brandAssetName": "nvidia",
@@ -12166,6 +12182,25 @@
       "cacheReadCostPerMillionUSD": 0.064,
       "cacheWriteCostPerMillionUSD": 0.4,
       "notes": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=65536",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
+      "id": "qwen/qwen3.7-plus:batch",
+      "displayName": "Qwen3.7 Plus (batch)",
+      "aliases": [
+        "qwen/qwen3.7-plus:batch",
+        "qwen/qwen3.7-plus-20260602",
+        "qwen3.7-plus-(batch)",
+        "qwen3.7-plus:batch"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-7",
+      "inputCostPerMillionUSD": 0.23,
+      "outputCostPerMillionUSD": 0.92,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its... · context=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
