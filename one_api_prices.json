@@ -12085,8 +12085,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.00325,
-    "output": 0.225
+    "input": 0.00196,
+    "output": 0.072
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12106,8 +12106,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.125,
-    "output": 4.0
+    "input": 0.1245,
+    "output": 5.968
   },
   {
     "model": "~openai/gpt-astra-latest",
