@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-18T11:06:43.546151+00:00",
+  "generatedAt": "2026-10-18T15:52:55.969665+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.01208,
-      "outputCostPerMillionUSD": 0.143616,
-      "cacheReadCostPerMillionUSD": 0.001523,
+      "inputCostPerMillionUSD": 0.0065,
+      "outputCostPerMillionUSD": 0.45,
+      "cacheReadCostPerMillionUSD": 0.0065,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4205,9 +4205,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.0632,
-      "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.0588,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 2.2,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8679,9 +8679,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.27,
-      "outputCostPerMillionUSD": 14.0,
-      "cacheReadCostPerMillionUSD": 0.27,
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 8.0,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
