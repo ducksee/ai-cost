@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-17T20:37:08.450973+00:00",
+  "generatedAt": "2026-10-18T04:35:20.632019+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,8 +1946,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.08,
-      "outputCostPerMillionUSD": 0.5,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.008,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0045,
-      "outputCostPerMillionUSD": 1.28,
-      "cacheReadCostPerMillionUSD": 0.0045,
+      "inputCostPerMillionUSD": 0.01592,
+      "outputCostPerMillionUSD": 0.143616,
+      "cacheReadCostPerMillionUSD": 0.001523,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2218,7 +2218,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.003,
+      "cacheReadCostPerMillionUSD": 0.0016,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -4190,9 +4190,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 1.6,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "inputCostPerMillionUSD": 0.048,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -10763,9 +10763,9 @@
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.08,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1048576",
       "brandAssetName": "nvidia",
@@ -11355,6 +11355,25 @@
       "notes": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million... · context=1040000"
     },
     {
+      "id": "unbiased/pareto-26.10",
+      "displayName": "Pareto 26.10",
+      "aliases": [
+        "unbiased/pareto-26.10",
+        "unbiased/pareto-26-10",
+        "unbiased/pareto-26.10-20261015",
+        "unbiased/pareto-26-10-20261015",
+        "pareto-26.10",
+        "pareto-26-10"
+      ],
+      "providerID": "unbiased",
+      "family": "pareto-26",
+      "inputCostPerMillionUSD": 0.8,
+      "outputCostPerMillionUSD": 3.2,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=1048576"
+    },
+    {
       "id": "unbiased/pareto-26.9",
       "displayName": "Pareto 26.9",
       "aliases": [
@@ -11400,11 +11419,11 @@
       ],
       "providerID": "~unbiased",
       "family": "pareto-latest",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 7.5,
-      "cacheReadCostPerMillionUSD": 0.25,
+      "inputCostPerMillionUSD": 0.8,
+      "outputCostPerMillionUSD": 3.2,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the Pareto family. · context=262144"
+      "notes": "This model always redirects to the latest model in the Pareto family. · context=1048576"
     },
     {
       "id": "perceptron/perceptron-mk1",
