@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-18T04:35:20.632019+00:00",
+  "generatedAt": "2026-10-18T11:06:43.546151+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2143,7 +2143,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.01592,
+      "inputCostPerMillionUSD": 0.01208,
       "outputCostPerMillionUSD": 0.143616,
       "cacheReadCostPerMillionUSD": 0.001523,
       "cacheWriteCostPerMillionUSD": null,
