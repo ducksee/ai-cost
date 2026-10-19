@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-18T20:44:44.495381+00:00",
+  "generatedAt": "2026-10-19T04:41:59.839112+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.12,
+      "inputCostPerMillionUSD": 0.225,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.23,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.00392,
-      "outputCostPerMillionUSD": 0.144,
-      "cacheReadCostPerMillionUSD": 0.001523,
+      "inputCostPerMillionUSD": 0.01208,
+      "outputCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.00336,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4205,9 +4205,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "inputCostPerMillionUSD": 0.079,
+      "outputCostPerMillionUSD": 1.4,
+      "cacheReadCostPerMillionUSD": 0.078,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8679,7 +8679,7 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.249,
+      "inputCostPerMillionUSD": 0.239,
       "outputCostPerMillionUSD": 11.936,
       "cacheReadCostPerMillionUSD": 0.21,
       "cacheWriteCostPerMillionUSD": null,
@@ -10100,7 +10100,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code · context=81920 · LiteLLM max_input=16000, max_output=16000"
+      "notes": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code · context=262144 · LiteLLM max_input=16000, max_output=16000"
     },
     {
       "id": "morph/morph-v3-large",
