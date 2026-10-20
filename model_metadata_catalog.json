@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-20T11:38:30.799551+00:00",
+  "generatedAt": "2026-10-20T17:07:58.709040+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.225,
+      "inputCostPerMillionUSD": 0.1307,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.23,
+      "cacheReadCostPerMillionUSD": 0.13,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0114,
-      "outputCostPerMillionUSD": 0.45,
-      "cacheReadCostPerMillionUSD": 0.0114,
+      "inputCostPerMillionUSD": 0.01592,
+      "outputCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.003304,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2218,7 +2218,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.0016,
+      "cacheReadCostPerMillionUSD": 0.000566,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -2636,29 +2636,6 @@
       "organizationName": "Google"
     },
     {
-      "id": "google/gemini-2.5-flash:batch",
-      "displayName": "Gemini 2.5 Flash (batch)",
-      "aliases": [
-        "google/gemini-2.5-flash:batch",
-        "google/gemini-2-5-flash:batch",
-        "google/gemini-2.5-flash",
-        "google/gemini-2-5-flash",
-        "gemini-2.5-flash-(batch)",
-        "gemini-2-5-flash-(batch)",
-        "gemini-2.5-flash:batch",
-        "gemini-2-5-flash:batch"
-      ],
-      "providerID": "gemini",
-      "family": "gemini-2",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 2.5,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
-      "brandAssetName": "gemini",
-      "organizationName": "Gemini CLI"
-    },
-    {
       "id": "google/gemini-2.5-flash-lite",
       "displayName": "Gemini 2.5 Flash Lite",
       "aliases": [
@@ -2767,29 +2744,6 @@
       "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Google"
-    },
-    {
-      "id": "google/gemini-2.5-pro:batch",
-      "displayName": "Gemini 2.5 Pro (batch)",
-      "aliases": [
-        "google/gemini-2.5-pro:batch",
-        "google/gemini-2-5-pro:batch",
-        "google/gemini-2.5-pro",
-        "google/gemini-2-5-pro",
-        "gemini-2.5-pro-(batch)",
-        "gemini-2-5-pro-(batch)",
-        "gemini-2.5-pro:batch",
-        "gemini-2-5-pro:batch"
-      ],
-      "providerID": "gemini",
-      "family": "gemini-2",
-      "inputCostPerMillionUSD": 1.25,
-      "outputCostPerMillionUSD": 10,
-      "cacheReadCostPerMillionUSD": 0.125,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 2.5 Pro is Google’s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs “thinking” capabilities, enabling it to reason through responses with enhanced a · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
-      "brandAssetName": "gemini",
-      "organizationName": "Gemini CLI"
     },
     {
       "id": "gemini/gemini-2.5-pro-200k",
@@ -3977,7 +3931,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 3.15,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5 is Z.ai’s flagship open-source foundation model engineered for complex systems design and long-horizon agent workflows. Built for expert developers, it delivers production-grade performance on large-scale programmi · context=204800",
       "brandAssetName": "zai",
@@ -4190,7 +4144,7 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.037476,
+      "inputCostPerMillionUSD": 0.048,
       "outputCostPerMillionUSD": 0.16,
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
@@ -4783,7 +4737,7 @@
         "gpt-4o",
         "gpt-4o-2024-08-06",
         "gpt-4o-2024.08-06",
-        "azure/gpt-4o"
+        "azure/eu/gpt-4o"
       ],
       "providerID": "codex",
       "family": "gpt-4o",
@@ -4791,7 +4745,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as... · context=128000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=16384 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as... · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=16384 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -4804,7 +4758,7 @@
         "codex/gpt-4o",
         "gpt-4o-2024-08-06",
         "gpt-4o-2024.08-06",
-        "azure/gpt-4o"
+        "azure/eu/gpt-4o"
       ],
       "providerID": "codex",
       "family": "gpt-4o",
@@ -4812,7 +4766,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=16384",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=16384",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -4912,7 +4866,7 @@
         "codex/gpt-4o-mini",
         "gpt-4o-mini-2024-07-18",
         "gpt-4o-mini-2024.07-18",
-        "azure/global-standard/gpt-4o-mini"
+        "azure/eu/gpt-4o-mini"
       ],
       "providerID": "codex",
       "family": "gpt-4o",
@@ -4920,7 +4874,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=16384",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=16384",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -4932,7 +4886,7 @@
         "gpt-4o-mini",
         "gpt-4o-mini-2024-07-18",
         "gpt-4o-mini-2024.07-18",
-        "azure/global-standard/gpt-4o-mini"
+        "azure/eu/gpt-4o-mini"
       ],
       "providerID": "codex",
       "family": "gpt-4o",
@@ -4940,7 +4894,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable... · context=128000 · LiteLLM supports_vision, supports_function_calling, max_input=128000, max_output=16384 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable... · context=128000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=128000, max_output=16384 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -10971,15 +10925,15 @@
         "o1",
         "o1-2024-12-17",
         "o1-2024.12-17",
-        "azure/o1"
+        "azure/eu/o1"
       ],
       "providerID": "codex",
       "family": "o1",
-      "inputCostPerMillionUSD": 15.0,
-      "outputCostPerMillionUSD": 60.0,
-      "cacheReadCostPerMillionUSD": 7.5,
+      "inputCostPerMillionUSD": 16.5,
+      "outputCostPerMillionUSD": 66.0,
+      "cacheReadCostPerMillionUSD": 8.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
+      "notes": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason... · context=200000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=200000, max_output=100000",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -11147,7 +11101,7 @@
         "openai/o3-mini-2025-01-31",
         "openai/o3-mini-2025.01-31",
         "o3-mini",
-        "azure/o3-mini"
+        "azure/eu/o3-mini"
       ],
       "providerID": "codex",
       "family": "o3-mini",
@@ -11248,7 +11202,7 @@
         "o3-mini",
         "openai/o3-mini",
         "codex/o3-mini",
-        "azure/o3-mini"
+        "azure/eu/o3-mini"
       ],
       "providerID": "codex",
       "family": "o3-mini",
@@ -11839,7 +11793,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",

@@ -10818,8 +10818,8 @@
     "model": "openai/o1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 7.5,
-    "output": 30.0
+    "input": 8.25,
+    "output": 33.0
   },
   {
     "model": "openai/o1-pro",
@@ -12099,15 +12099,15 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1125,
+    "input": 0.06535,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0057,
-    "output": 0.225
+    "input": 0.00796,
+    "output": 0.06
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12183,7 +12183,7 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.018738,
+    "input": 0.024,
     "output": 0.08
   },
   {
