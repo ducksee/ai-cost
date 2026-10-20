@@ -3185,6 +3185,13 @@
     "output": 0
   },
   {
+    "model": "muse-wonder-1.0",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 2.0,
+    "output": 10.0
+  },
+  {
     "model": "nemotron-3-nano:30b",
     "type": "tokens",
     "channel_type": 1,
@@ -12106,7 +12113,7 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.00796,
+    "input": 0.0084,
     "output": 0.06
   },
   {
@@ -12128,7 +12135,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.119,
-    "output": 8.0
+    "output": 12.0
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12183,8 +12190,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.024,
-    "output": 0.08
+    "input": 0.023538,
+    "output": 0.06
   },
   {
     "model": "~z-ai/glm-latest",
