@@ -10069,8 +10069,8 @@
     "model": "nvidia/nemotron-3.5-super-vl",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.05,
-    "output": 0.2
+    "input": 0.075,
+    "output": 0.25
   },
   {
     "model": "nvidia/nemotron-3.5-super-vl:free",
@@ -11616,8 +11616,8 @@
     "model": "upstage/solar-pro4",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.045,
-    "output": 0.18
+    "input": 0.075,
+    "output": 0.3
   },
   {
     "model": "writer/palmyra-creative-122b",
@@ -12099,15 +12099,15 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.06535,
+    "input": 0.1008,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.00796,
-    "output": 0.06
+    "input": 0.0057,
+    "output": 0.225
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12190,8 +12190,8 @@
     "model": "~z-ai/glm-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0255,
-    "output": 3.0
+    "input": 0.0395,
+    "output": 0.7
   },
   {
     "model": "gemini-1.5-flash",
