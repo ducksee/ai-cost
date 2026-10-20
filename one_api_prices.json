@@ -12092,14 +12092,14 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.025,
-    "output": 0.012
+    "input": 0.035,
+    "output": 0.25
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1008,
+    "input": 0.1125,
     "output": 4.0
   },
   {
@@ -12183,7 +12183,7 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.024,
+    "input": 0.018738,
     "output": 0.08
   },
   {

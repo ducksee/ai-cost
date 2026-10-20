@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-20T04:52:05.166084+00:00",
+  "generatedAt": "2026-10-20T11:38:30.799551+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.024,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "inputCostPerMillionUSD": 0.07,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.008,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.2016,
+      "inputCostPerMillionUSD": 0.225,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.23,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -3738,7 +3738,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4190,7 +4190,7 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.048,
+      "inputCostPerMillionUSD": 0.037476,
       "outputCostPerMillionUSD": 0.16,
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
@@ -12217,7 +12217,7 @@
       "inputCostPerMillionUSD": 2.5,
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.5,
-      "cacheWriteCostPerMillionUSD": 1.84375,
+      "cacheWriteCostPerMillionUSD": 3.125,
       "notes": "Qwen3.7-Max is the flagship model in Alibaba's Qwen3.7 series. It supports text input and output and is designed for agent-centric workloads, with particular strengths in coding, office and productivity tasks,... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=991808, max_output=65536",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
@@ -12292,7 +12292,7 @@
       "family": "qwen3-8",
       "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
