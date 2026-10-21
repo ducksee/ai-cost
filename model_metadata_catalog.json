@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-21T04:49:24.099606+00:00",
+  "generatedAt": "2026-10-21T11:50:18.493217+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.07,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.008,
+      "inputCostPerMillionUSD": 0.049,
+      "outputCostPerMillionUSD": 0.375,
+      "cacheReadCostPerMillionUSD": 0.001176,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.021,
-      "outputCostPerMillionUSD": 0.528,
-      "cacheReadCostPerMillionUSD": 0.0056,
+      "inputCostPerMillionUSD": 0.0475,
+      "outputCostPerMillionUSD": 0.1568,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3692,7 +3692,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4145,7 +4145,7 @@
       "providerID": "~z-ai",
       "family": "glm-flash",
       "inputCostPerMillionUSD": 0.051691,
-      "outputCostPerMillionUSD": 0.375,
+      "outputCostPerMillionUSD": 0.12,
       "cacheReadCostPerMillionUSD": 0.00375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -10323,7 +10323,7 @@
       "outputCostPerMillionUSD": 4.25,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the rep · context=1048576 · LiteLLM supports_vision, supports_function_calling, max_input=1048576",
+      "notes": "Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the rep · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
