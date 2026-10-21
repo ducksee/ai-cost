@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-21T17:13:23.018506+00:00",
+  "generatedAt": "2026-10-21T21:43:20.827229+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1947,7 +1947,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-flash",
       "inputCostPerMillionUSD": 0.049,
-      "outputCostPerMillionUSD": 0.375,
+      "outputCostPerMillionUSD": 0.105,
       "cacheReadCostPerMillionUSD": 0.001176,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -2331,6 +2331,23 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Extract is a description-driven entity extraction model from ScaleDown. Instead of a fixed set of entity types, callers describe the fields they want in plain English through `provider.options.scaledown.entities`, and th · context=1000000"
+    },
+    {
+      "id": "recursive/flint-v1.0:free",
+      "displayName": "Flint (free)",
+      "aliases": [
+        "recursive/flint-v1.0:free",
+        "recursive/flint-v1.0-20261021",
+        "flint-(free)",
+        "flint-v1.0:free"
+      ],
+      "providerID": "recursive",
+      "family": "flint-v1",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Flint is an open-weight mixture-of-experts model from Recursive, with about 2.5B active parameters out of 40B total, built by Recursive's autoresearch system Eureka Machine for coding agents. It is suited... · context=262144"
     },
     {
       "id": "openrouter/free",
@@ -3692,7 +3709,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4144,9 +4161,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.051691,
-      "outputCostPerMillionUSD": 0.12,
-      "cacheReadCostPerMillionUSD": 0.00375,
+      "inputCostPerMillionUSD": 0.00441,
+      "outputCostPerMillionUSD": 0.1015,
+      "cacheReadCostPerMillionUSD": 0.00315,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -8634,7 +8651,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.238,
-      "outputCostPerMillionUSD": 24.0,
+      "outputCostPerMillionUSD": 16.0,
       "cacheReadCostPerMillionUSD": 0.228,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -10568,7 +10585,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "nvidia",

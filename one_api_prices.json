@@ -11347,6 +11347,13 @@
     "output": 0.235
   },
   {
+    "model": "recursive/flint-v1.0:free",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "reflection/beam-1.0-501b-a23b",
     "type": "tokens",
     "channel_type": 20,
@@ -12114,7 +12121,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0245,
-    "output": 0.1875
+    "output": 0.0525
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
@@ -12149,7 +12156,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.119,
-    "output": 12.0
+    "output": 8.0
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12204,8 +12211,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.025846,
-    "output": 0.06
+    "input": 0.002205,
+    "output": 0.05075
   },
   {
     "model": "~z-ai/glm-latest",
