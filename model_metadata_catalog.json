@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-22T04:48:06.483555+00:00",
+  "generatedAt": "2026-10-22T11:53:59.053025+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.2235,
+      "inputCostPerMillionUSD": 0.225,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.22,
+      "cacheReadCostPerMillionUSD": 0.23,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -3686,7 +3686,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4138,9 +4138,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0146,
-      "outputCostPerMillionUSD": 0.1443,
-      "cacheReadCostPerMillionUSD": 0.0146,
+      "inputCostPerMillionUSD": 0.0052,
+      "outputCostPerMillionUSD": 0.1985,
+      "cacheReadCostPerMillionUSD": 0.0052,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },

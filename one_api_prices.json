@@ -12127,7 +12127,7 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.11175,
+    "input": 0.1125,
     "output": 4.0
   },
   {
@@ -12211,8 +12211,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0073,
-    "output": 0.07215
+    "input": 0.0026,
+    "output": 0.09925
   },
   {
     "model": "~z-ai/glm-latest",
