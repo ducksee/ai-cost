@@ -12163,7 +12163,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.119,
-    "output": 8.0
+    "output": 12.0
   },
   {
     "model": "~openai/gpt-astra-latest",

@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-22T17:11:26.791333+00:00",
+  "generatedAt": "2026-10-22T21:36:35.250878+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3686,7 +3686,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -8628,7 +8628,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.238,
-      "outputCostPerMillionUSD": 16.0,
+      "outputCostPerMillionUSD": 24.0,
       "cacheReadCostPerMillionUSD": 0.228,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
