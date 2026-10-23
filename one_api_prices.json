@@ -9747,8 +9747,8 @@
     "model": "mistralai/mistral-small-3.2-24b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.046875,
-    "output": 0.125
+    "input": 0.0375,
+    "output": 0.1
   },
   {
     "model": "mistralai/mixtral-8x22b-instruct",
@@ -12134,15 +12134,15 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.06535,
+    "input": 0.11235,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0211,
-    "output": 0.08645
+    "input": 0.02375,
+    "output": 0.0784
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12162,8 +12162,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.119,
-    "output": 12.0
+    "input": 0.1195,
+    "output": 5.968
   },
   {
     "model": "~openai/gpt-astra-latest",
