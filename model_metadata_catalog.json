@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-23T17:08:11.369768+00:00",
+  "generatedAt": "2026-10-23T21:25:03.390554+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.019,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.002,
+      "inputCostPerMillionUSD": 0.07,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.008,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -3686,7 +3686,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4138,9 +4138,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0052,
-      "outputCostPerMillionUSD": 0.1985,
-      "cacheReadCostPerMillionUSD": 0.0052,
+      "inputCostPerMillionUSD": 0.0285,
+      "outputCostPerMillionUSD": 0.0923,
+      "cacheReadCostPerMillionUSD": 0.0285,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -8619,6 +8619,24 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
+      "id": "moonshotai/kimi-k3.1-pro",
+      "displayName": "Kimi K3.1 Pro",
+      "aliases": [
+        "moonshotai/kimi-k3.1-pro",
+        "moonshotai/kimi-k3.1-pro-20261023",
+        "kimi-k3.1-pro"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k3",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 10.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
       "id": "~moonshotai/kimi-latest",
       "displayName": "Kimi Latest",
       "aliases": [
@@ -8628,7 +8646,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.238,
-      "outputCostPerMillionUSD": 16.0,
+      "outputCostPerMillionUSD": 24.0,
       "cacheReadCostPerMillionUSD": 0.228,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
