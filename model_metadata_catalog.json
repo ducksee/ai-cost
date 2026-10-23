@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-23T11:40:14.483352+00:00",
+  "generatedAt": "2026-10-23T17:08:11.369768+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.07,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.008,
+      "inputCostPerMillionUSD": 0.019,
+      "outputCostPerMillionUSD": 0.6,
+      "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.2565,
+      "inputCostPerMillionUSD": 0.1188,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.26,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0475,
-      "outputCostPerMillionUSD": 0.1568,
-      "cacheReadCostPerMillionUSD": 0.028,
+      "inputCostPerMillionUSD": 0.0422,
+      "outputCostPerMillionUSD": 0.1729,
+      "cacheReadCostPerMillionUSD": 0.0275,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
