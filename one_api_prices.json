@@ -12267,7 +12267,7 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02555,
+    "input": 0.02535,
     "output": 0.0351
   },
   {

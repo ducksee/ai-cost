@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-24T15:57:25.396918+00:00",
+  "generatedAt": "2026-10-24T20:50:54.456150+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -4007,7 +4007,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.078,
+      "cacheReadCostPerMillionUSD": 0.0897,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
     },
@@ -4138,7 +4138,7 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0511,
+      "inputCostPerMillionUSD": 0.0507,
       "outputCostPerMillionUSD": 0.0702,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
@@ -4308,52 +4308,6 @@
       "organizationName": "Codex"
     },
     {
-      "id": "openai/gpt-3.5-turbo",
-      "displayName": "GPT-3.5 Turbo",
-      "aliases": [
-        "openai/gpt-3.5-turbo",
-        "openai/gpt-3-5-turbo",
-        "gpt-3.5-turbo",
-        "gpt-3-5-turbo",
-        "gpt-3.5-turbo-0125",
-        "gpt-3-5-turbo-0125",
-        "azure/gpt-3.5-turbo",
-        "azure/gpt-3-5-turbo"
-      ],
-      "providerID": "codex",
-      "family": "gpt-3",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 1.5,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021. · context=16385 · LiteLLM supports_function_calling, max_input=4097, max_output=4096",
-      "brandAssetName": "codex",
-      "organizationName": "OpenAI"
-    },
-    {
-      "id": "openai/gpt-3.5-turbo:batch",
-      "displayName": "GPT-3.5 Turbo (batch)",
-      "aliases": [
-        "openai/gpt-3.5-turbo:batch",
-        "openai/gpt-3-5-turbo:batch",
-        "openai/gpt-3.5-turbo",
-        "openai/gpt-3-5-turbo",
-        "gpt-3.5-turbo-(batch)",
-        "gpt-3-5-turbo-(batch)",
-        "gpt-3.5-turbo:batch",
-        "gpt-3-5-turbo:batch"
-      ],
-      "providerID": "codex",
-      "family": "gpt-3",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021. · context=16385",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
       "id": "openai/gpt-3.5-turbo-0613",
       "displayName": "GPT-3.5 Turbo (older v0613)",
       "aliases": [
@@ -4392,25 +4346,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model offers four times the context length of gpt-3.5-turbo, allowing it to support approximately 20 pages of text in a single request at a higher cost. Training data: up... · context=16385 · LiteLLM supports_prompt_caching, max_input=16385, max_output=4096",
-      "brandAssetName": "codex",
-      "organizationName": "Codex"
-    },
-    {
-      "id": "openai/gpt-3.5-turbo-instruct",
-      "displayName": "GPT-3.5 Turbo Instruct",
-      "aliases": [
-        "openai/gpt-3.5-turbo-instruct",
-        "openai/gpt-3-5-turbo-instruct",
-        "gpt-3.5-turbo-instruct",
-        "gpt-3-5-turbo-instruct"
-      ],
-      "providerID": "codex",
-      "family": "gpt-3",
-      "inputCostPerMillionUSD": 1.5,
-      "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021. · context=4095 · LiteLLM max_input=8192, max_output=4096",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8700,7 +8635,8 @@
       "aliases": [
         "moonshotai/kimi-k3.1-pro",
         "moonshotai/kimi-k3.1-pro-20261023",
-        "kimi-k3.1-pro"
+        "kimi-k3.1-pro",
+        "opencode-go/kimi-k3.1-pro"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
@@ -8708,7 +8644,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -8718,7 +8654,8 @@
       "aliases": [
         "kimi-k3.1-pro",
         "moonshot-ai/kimi-k3.1-pro",
-        "kimi/kimi-k3.1-pro"
+        "kimi/kimi-k3.1-pro",
+        "opencode-go/kimi-k3.1-pro"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
@@ -8726,7 +8663,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -12942,7 +12879,8 @@
       "aliases": [
         "stepfun/step-5-preview",
         "stepfun/step-5-preview-20261008",
-        "step-5-preview"
+        "step-5-preview",
+        "opencode-go/step-5-preview"
       ],
       "providerID": "stepfun",
       "family": "step-5",
@@ -12950,7 +12888,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1048576",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
