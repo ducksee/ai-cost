@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-24T11:02:18.269089+00:00",
+  "generatedAt": "2026-10-24T15:57:25.396918+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2144,8 +2144,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.0422,
-      "outputCostPerMillionUSD": 0.1694,
-      "cacheReadCostPerMillionUSD": 0.028,
+      "outputCostPerMillionUSD": 0.1763,
+      "cacheReadCostPerMillionUSD": 0.027,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4138,9 +4138,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0262,
-      "outputCostPerMillionUSD": 0.1028,
-      "cacheReadCostPerMillionUSD": 0.0262,
+      "inputCostPerMillionUSD": 0.0511,
+      "outputCostPerMillionUSD": 0.0702,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },

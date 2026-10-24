@@ -12191,7 +12191,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0211,
-    "output": 0.0847
+    "output": 0.08815
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12267,8 +12267,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0131,
-    "output": 0.0514
+    "input": 0.02555,
+    "output": 0.0351
   },
   {
     "model": "~z-ai/glm-latest",
