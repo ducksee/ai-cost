@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-23T21:25:03.390554+00:00",
+  "generatedAt": "2026-10-24T04:37:55.326414+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1946,9 +1946,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.07,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.008,
+      "inputCostPerMillionUSD": 0.02,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2144,8 +2144,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.0422,
-      "outputCostPerMillionUSD": 0.1729,
-      "cacheReadCostPerMillionUSD": 0.0275,
+      "outputCostPerMillionUSD": 0.1694,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2218,7 +2218,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -4138,9 +4138,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0285,
-      "outputCostPerMillionUSD": 0.0923,
-      "cacheReadCostPerMillionUSD": 0.0285,
+      "inputCostPerMillionUSD": 0.0262,
+      "outputCostPerMillionUSD": 0.1028,
+      "cacheReadCostPerMillionUSD": 0.0262,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -8554,12 +8554,31 @@
       "providerID": "kimi",
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
-      "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "outputCostPerMillionUSD": 4,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K2.6 is Moonshot AI's next-generation multimodal model, designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "kimi/kimi-k2.6",
+      "displayName": "Kimi K2.6",
+      "aliases": [
+        "kimi-k2.6",
+        "moonshot-ai/kimi-k2.6",
+        "kimi/kimi-k2.6",
+        "azure-ai/kimi-k2.6"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k2",
+      "inputCostPerMillionUSD": 0.95,
+      "outputCostPerMillionUSD": 4,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI",
+      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
       "id": "moonshotai/kimi-k2.7-code",
@@ -8573,12 +8592,50 @@
       "providerID": "kimi",
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
-      "outputCostPerMillionUSD": 4.0,
-      "cacheReadCostPerMillionUSD": 0.19,
+      "outputCostPerMillionUSD": 4,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "kimi/kimi-k2.7-code",
+      "displayName": "Kimi K2.7 Code",
+      "aliases": [
+        "kimi-k2.7-code",
+        "moonshot-ai/kimi-k2.7-code",
+        "kimi/kimi-k2.7-code",
+        "cloudflare/@cf/moonshotai/kimi-k2.7-code"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k2",
+      "inputCostPerMillionUSD": 0.95,
+      "outputCostPerMillionUSD": 4,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI",
+      "notes": "LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
+    },
+    {
+      "id": "kimi/kimi-k2.7-code-highspeed",
+      "displayName": "Kimi K2.7 Code Highspeed",
+      "aliases": [
+        "kimi-k2.7-code-highspeed",
+        "moonshot-ai/kimi-k2.7-code-highspeed",
+        "kimi/kimi-k2.7-code-highspeed",
+        "tencent/kimi-k2.7-code-highspeed"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k2",
+      "inputCostPerMillionUSD": 1.9,
+      "outputCostPerMillionUSD": 8,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI",
+      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=256000, max_output=256000"
     },
     {
       "id": "moonshotai/kimi-k3",
@@ -8591,11 +8648,30 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 12.5,
-      "cacheReadCostPerMillionUSD": 0.25,
+      "inputCostPerMillionUSD": 3,
+      "outputCostPerMillionUSD": 15,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
+      "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "kimi/kimi-k3",
+      "displayName": "Kimi K3",
+      "aliases": [
+        "kimi-k3",
+        "moonshot-ai/kimi-k3",
+        "kimi/kimi-k3",
+        "sail/moonshotai/kimi-k3"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k3",
+      "inputCostPerMillionUSD": 3,
+      "outputCostPerMillionUSD": 15,
+      "cacheReadCostPerMillionUSD": 0.3,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -8628,11 +8704,47 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 10.0,
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576",
+      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "kimi/kimi-k3.1-pro",
+      "displayName": "Kimi K3.1 Pro",
+      "aliases": [
+        "kimi-k3.1-pro",
+        "moonshot-ai/kimi-k3.1-pro",
+        "kimi/kimi-k3.1-pro"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k3",
+      "inputCostPerMillionUSD": 2,
+      "outputCostPerMillionUSD": 10,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "kimi",
+      "organizationName": "Kimi / MoonshotAI"
+    },
+    {
+      "id": "kimi/kimi-k3.1-pro-highspeed",
+      "displayName": "Kimi K3.1 Pro Highspeed",
+      "aliases": [
+        "kimi-k3.1-pro-highspeed",
+        "moonshot-ai/kimi-k3.1-pro-highspeed",
+        "kimi/kimi-k3.1-pro-highspeed"
+      ],
+      "providerID": "kimi",
+      "family": "kimi-k3",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -8646,7 +8758,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.238,
-      "outputCostPerMillionUSD": 24.0,
+      "outputCostPerMillionUSD": 16.0,
       "cacheReadCostPerMillionUSD": 0.228,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -9390,7 +9502,8 @@
       "aliases": [
         "minimax/minimax-m3.1-flash",
         "minimax/minimax-m3.1-flash-20261019",
-        "minimax-m3.1-flash"
+        "minimax-m3.1-flash",
+        "together-ai/minimaxai/minimax-m3.1-flash"
       ],
       "providerID": "minimax",
       "family": "minimax-m3",
@@ -9398,7 +9511,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576",
+      "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576 · LiteLLM supports_prompt_caching, max_input=1048576",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
