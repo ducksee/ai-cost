@@ -9191,6 +9191,13 @@
     "output": 10.0
   },
   {
+    "model": "liquid/lfm-2.5-2.6b",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.175,
+    "output": 0.25
+  },
+  {
     "model": "liquid/lfm-2.5-2.6b:free",
     "type": "tokens",
     "channel_type": 20,
@@ -12191,7 +12198,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0211,
-    "output": 0.08815
+    "output": 0.0847
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12267,15 +12274,15 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02535,
-    "output": 0.0351
+    "input": 0.02555,
+    "output": 0.03805
   },
   {
     "model": "~z-ai/glm-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0375,
-    "output": 2.1475
+    "input": 0.03515,
+    "output": 2.19215
   },
   {
     "model": "gemini-1.5-flash",

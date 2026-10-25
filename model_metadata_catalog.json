@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-24T20:50:54.456150+00:00",
+  "generatedAt": "2026-10-25T04:42:30.191453+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2144,8 +2144,8 @@
       "providerID": "~deepseek",
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.0422,
-      "outputCostPerMillionUSD": 0.1763,
-      "cacheReadCostPerMillionUSD": 0.027,
+      "outputCostPerMillionUSD": 0.1694,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4007,7 +4007,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.0897,
+      "cacheReadCostPerMillionUSD": 0.078,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
     },
@@ -4138,8 +4138,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0507,
-      "outputCostPerMillionUSD": 0.0702,
+      "inputCostPerMillionUSD": 0.0511,
+      "outputCostPerMillionUSD": 0.0761,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -4153,9 +4153,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 4.295,
-      "cacheReadCostPerMillionUSD": 0.075,
+      "inputCostPerMillionUSD": 0.0703,
+      "outputCostPerMillionUSD": 4.3843,
+      "cacheReadCostPerMillionUSD": 0.0703,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -4225,7 +4225,7 @@
       "outputCostPerMillionUSD": 30.0,
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
+      "notes": "GPT Chat Latest points to OpenAI's stable API alias `chat-latest` that always resolves to the latest Instant chat model used in ChatGPT. As OpenAI rolls out new Instant model updates... · context=400000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8775,6 +8775,26 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
+    },
+    {
+      "id": "liquid/lfm-2.5-2.6b",
+      "displayName": "LFM2.5-2.6B",
+      "aliases": [
+        "liquid/lfm-2.5-2.6b",
+        "liquid/lfm-2-5-2.6b",
+        "liquid/lfm-2.5-2.6b-20260811",
+        "liquid/lfm-2-5-2.6b-20260811",
+        "lfm2.5-2.6b",
+        "lfm-2.5-2.6b",
+        "lfm-2-5-2.6b"
+      ],
+      "providerID": "liquid",
+      "family": "lfm-2",
+      "inputCostPerMillionUSD": 0.35,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or... · context=128000"
     },
     {
       "id": "liquid/lfm-2.5-2.6b:free",
