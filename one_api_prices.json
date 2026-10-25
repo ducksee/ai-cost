@@ -12198,7 +12198,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0211,
-    "output": 0.0847
+    "output": 0.08815
   },
   {
     "model": "~google/gemini-flash-latest",
