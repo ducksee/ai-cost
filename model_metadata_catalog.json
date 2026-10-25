@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-25T04:42:30.191453+00:00",
+  "generatedAt": "2026-10-25T11:31:38.953953+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -4138,8 +4138,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0511,
-      "outputCostPerMillionUSD": 0.0761,
+      "inputCostPerMillionUSD": 0.0513,
+      "outputCostPerMillionUSD": 0.0701,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -8694,9 +8694,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.19,
-      "outputCostPerMillionUSD": 8.94,
-      "cacheReadCostPerMillionUSD": 0.19,
+      "inputCostPerMillionUSD": 0.18,
+      "outputCostPerMillionUSD": 16.0,
+      "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },

@@ -12218,8 +12218,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.095,
-    "output": 4.47
+    "input": 0.09,
+    "output": 8.0
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12274,8 +12274,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02555,
-    "output": 0.03805
+    "input": 0.02565,
+    "output": 0.03505
   },
   {
     "model": "~z-ai/glm-latest",
