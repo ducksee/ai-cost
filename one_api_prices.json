@@ -12218,7 +12218,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.09,
+    "input": 0.0955,
     "output": 8.0
   },
   {

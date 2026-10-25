@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-25T16:21:03.942031+00:00",
+  "generatedAt": "2026-10-25T20:51:55.648956+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -8694,9 +8694,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.18,
+      "inputCostPerMillionUSD": 0.191,
       "outputCostPerMillionUSD": 16.0,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "cacheReadCostPerMillionUSD": 0.181,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
