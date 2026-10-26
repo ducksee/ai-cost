@@ -12190,7 +12190,7 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.12825,
+    "input": 0.1033,
     "output": 4.0
   },
   {
@@ -12218,8 +12218,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.09,
-    "output": 8.0
+    "input": 0.076,
+    "output": 10.0
   },
   {
     "model": "~openai/gpt-astra-latest",

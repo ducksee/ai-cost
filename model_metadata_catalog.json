@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T04:48:22.423371+00:00",
+  "generatedAt": "2026-10-26T13:04:51.185394+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.2565,
+      "inputCostPerMillionUSD": 0.2066,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.26,
+      "cacheReadCostPerMillionUSD": 0.21,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -3686,7 +3686,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -3725,7 +3725,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.99,
       "outputCostPerMillionUSD": 1.49,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=40960",
       "brandAssetName": "gemini",
@@ -8694,9 +8694,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.18,
-      "outputCostPerMillionUSD": 16.0,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "inputCostPerMillionUSD": 0.152,
+      "outputCostPerMillionUSD": 20.0,
+      "cacheReadCostPerMillionUSD": 0.142,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -12960,21 +12960,6 @@
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144"
-    },
-    {
-      "id": "arcee-ai/trinity-large-thinking",
-      "displayName": "Trinity Large Thinking",
-      "aliases": [
-        "arcee-ai/trinity-large-thinking",
-        "trinity-large-thinking"
-      ],
-      "providerID": "arcee-ai",
-      "family": "trinity-large",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 0.8,
-      "cacheReadCostPerMillionUSD": 0.06,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si · context=262144"
     },
     {
       "id": "bytedance/ui-tars-1.5-7b",
