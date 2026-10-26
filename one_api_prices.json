@@ -12190,15 +12190,15 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0594,
+    "input": 0.12825,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0211,
-    "output": 0.08815
+    "input": 0.02375,
+    "output": 0.0784
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12218,7 +12218,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0955,
+    "input": 0.09,
     "output": 8.0
   },
   {
@@ -12274,15 +12274,15 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02565,
-    "output": 0.03505
+    "input": 0.02065,
+    "output": 0.0379
   },
   {
     "model": "~z-ai/glm-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.03515,
-    "output": 2.19215
+    "input": 0.03495,
+    "output": 0.7
   },
   {
     "model": "gemini-1.5-flash",

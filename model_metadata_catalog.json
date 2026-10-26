@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-25T20:51:55.648956+00:00",
+  "generatedAt": "2026-10-26T04:48:22.423371+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1961,9 +1961,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1188,
+      "inputCostPerMillionUSD": 0.2565,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.26,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2143,9 +2143,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0422,
-      "outputCostPerMillionUSD": 0.1763,
-      "cacheReadCostPerMillionUSD": 0.027,
+      "inputCostPerMillionUSD": 0.0475,
+      "outputCostPerMillionUSD": 0.1568,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3725,7 +3725,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.99,
       "outputCostPerMillionUSD": 1.49,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=131072, max_output=40960",
       "brandAssetName": "gemini",
@@ -4007,7 +4007,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.078,
+      "cacheReadCostPerMillionUSD": 0.0689,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
     },
@@ -4138,8 +4138,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0513,
-      "outputCostPerMillionUSD": 0.0701,
+      "inputCostPerMillionUSD": 0.0413,
+      "outputCostPerMillionUSD": 0.0758,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -4153,9 +4153,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
-      "inputCostPerMillionUSD": 0.0703,
-      "outputCostPerMillionUSD": 4.3843,
-      "cacheReadCostPerMillionUSD": 0.0703,
+      "inputCostPerMillionUSD": 0.0699,
+      "outputCostPerMillionUSD": 1.4,
+      "cacheReadCostPerMillionUSD": 0.0689,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest GLM model from Z.ai. · context=1048576"
     },
@@ -8694,9 +8694,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.191,
+      "inputCostPerMillionUSD": 0.18,
       "outputCostPerMillionUSD": 16.0,
-      "cacheReadCostPerMillionUSD": 0.181,
+      "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
