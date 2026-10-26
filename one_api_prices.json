@@ -8127,6 +8127,20 @@
     "output": 7.5
   },
   {
+    "model": "codex/gpt-6.1-terra",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.5,
+    "output": 2.5
+  },
+  {
+    "model": "codex/gpt-6.1-terra-272k",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.0,
+    "output": 3.75
+  },
+  {
     "model": "codex/gpt-image-1",
     "type": "tokens",
     "channel_type": 20,
@@ -10843,6 +10857,20 @@
     "output": 2.5
   },
   {
+    "model": "openai/gpt-6.1-terra",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.5,
+    "output": 2.5
+  },
+  {
+    "model": "openai/gpt-6.1-terra:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.25,
+    "output": 1.25
+  },
+  {
     "model": "openai/gpt-audio",
     "type": "tokens",
     "channel_type": 20,
@@ -12183,22 +12211,22 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01,
-    "output": 0.5
+    "input": 0.02,
+    "output": 0.25
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1033,
+    "input": 0.0594,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02375,
-    "output": 0.0784
+    "input": 0.0211,
+    "output": 0.0847
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12218,7 +12246,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.076,
+    "input": 0.1,
     "output": 10.0
   },
   {
@@ -12253,8 +12281,8 @@
     "model": "~openai/gpt-terra-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 1.0,
-    "output": 6.0
+    "input": 0.5,
+    "output": 2.5
   },
   {
     "model": "~unbiased/pareto-latest",

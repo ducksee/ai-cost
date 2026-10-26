@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T13:04:51.185394+00:00",
+  "generatedAt": "2026-10-26T22:40:36.537176+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1804,25 +1804,6 @@
       "organizationName": "Mistral"
     },
     {
-      "id": "mistralai/codestral-2508:batch",
-      "displayName": "Codestral 2508 (batch)",
-      "aliases": [
-        "mistralai/codestral-2508:batch",
-        "mistralai/codestral-2508",
-        "codestral-2508-(batch)",
-        "codestral-2508:batch"
-      ],
-      "providerID": "mistral",
-      "family": "codestral-2508",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.45,
-      "cacheReadCostPerMillionUSD": 0.015,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
       "id": "cohere/command-a",
       "displayName": "Command A",
       "aliases": [
@@ -1946,9 +1927,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.02,
-      "outputCostPerMillionUSD": 1.0,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "inputCostPerMillionUSD": 0.04,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1961,9 +1942,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.2066,
+      "inputCostPerMillionUSD": 0.1188,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.21,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2143,8 +2124,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0475,
-      "outputCostPerMillionUSD": 0.1568,
+      "inputCostPerMillionUSD": 0.0422,
+      "outputCostPerMillionUSD": 0.1694,
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
@@ -2218,7 +2199,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheReadCostPerMillionUSD": 0.000954,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
       "brandAssetName": "deepseek",
@@ -3686,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4283,10 +4264,10 @@
       ],
       "providerID": "~openai",
       "family": "gpt-terra",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 12.0,
-      "cacheReadCostPerMillionUSD": 0.2,
-      "cacheWriteCostPerMillionUSD": 2.5,
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 1.25,
       "notes": "This model always redirects to the latest model in the GPT Terra family. · context=1050000"
     },
     {
@@ -7064,6 +7045,96 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-6.1-terra",
+      "displayName": "GPT-6.1 Terra",
+      "aliases": [
+        "openai/gpt-6.1-terra",
+        "openai/gpt-6-1-terra",
+        "openai/gpt-6.1-terra-20261026",
+        "openai/gpt-6-1-terra-20261026",
+        "gpt-6.1-terra",
+        "gpt-6-1-terra"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6.1-terra:batch",
+      "displayName": "GPT-6.1 Terra (batch)",
+      "aliases": [
+        "openai/gpt-6.1-terra:batch",
+        "openai/gpt-6-1-terra:batch",
+        "openai/gpt-6.1-terra-20261026",
+        "openai/gpt-6-1-terra-20261026",
+        "gpt-6.1-terra-(batch)",
+        "gpt-6-1-terra-(batch)",
+        "gpt-6.1-terra:batch",
+        "gpt-6-1-terra:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheWriteCostPerMillionUSD": 0.625,
+      "notes": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-6.1-terra-272k",
+      "displayName": "GPT-6.1 Terra >272k",
+      "aliases": [
+        "gpt-6.1-terra-272k",
+        "gpt-6-1-terra-272k",
+        "openai/gpt-6.1-terra-272k",
+        "openai/gpt-6-1-terra-272k",
+        "codex/gpt-6.1-terra-272k",
+        "codex/gpt-6-1-terra-272k",
+        "gpt-6.1-terra->272k",
+        "gpt-6-1-terra->272k"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "codex/gpt-6.1-terra",
+      "displayName": "GPT-6.1 Terra ≤272k",
+      "aliases": [
+        "gpt-6.1-terra",
+        "gpt-6-1-terra",
+        "openai/gpt-6.1-terra",
+        "openai/gpt-6-1-terra",
+        "codex/gpt-6.1-terra",
+        "codex/gpt-6-1-terra",
+        "gpt-6.1-terra-≤272k",
+        "gpt-6-1-terra-≤272k"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-image-1",
       "displayName": "gpt-image-1 (image gen)",
       "aliases": [
@@ -8694,9 +8765,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.152,
+      "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 20.0,
-      "cacheReadCostPerMillionUSD": 0.142,
+      "cacheReadCostPerMillionUSD": 0.19,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -9547,25 +9618,6 @@
       "organizationName": "Mistral"
     },
     {
-      "id": "mistralai/ministral-8b-2512:batch",
-      "displayName": "Ministral 3 8B 2512 (batch)",
-      "aliases": [
-        "mistralai/ministral-8b-2512:batch",
-        "mistralai/ministral-8b-2512",
-        "ministral-3-8b-2512-(batch)",
-        "ministral-8b-2512:batch"
-      ],
-      "providerID": "mistral",
-      "family": "ministral-8b",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.075,
-      "cacheReadCostPerMillionUSD": 0.0075,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities. · context=262144",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
       "id": "mistral/ministral-3b-latest",
       "displayName": "Ministral 3B 24.10",
       "aliases": [
@@ -9702,26 +9754,6 @@
       "organizationName": "Mistral"
     },
     {
-      "id": "mistralai/mistral-large-2512:batch",
-      "displayName": "Mistral Large 3 2512 (batch)",
-      "aliases": [
-        "mistralai/mistral-large-2512:batch",
-        "mistralai/mistral-large-2512",
-        "mistral-large-3-2512-(batch)",
-        "mistral-large-3.2512-(batch)",
-        "mistral-large-2512:batch"
-      ],
-      "providerID": "mistral",
-      "family": "mistral-large",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": 0.025,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
       "id": "mistralai/mistral-large-4-0",
       "displayName": "Mistral Large 4",
       "aliases": [
@@ -9795,27 +9827,6 @@
       "inputCostPerMillionUSD": 0.4,
       "outputCostPerMillionUSD": 2.0,
       "cacheReadCostPerMillionUSD": 0.04,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1:batch",
-      "displayName": "Mistral Medium 3.1 (batch)",
-      "aliases": [
-        "mistralai/mistral-medium-3.1:batch",
-        "mistralai/mistral-medium-3.1",
-        "mistralai/mistral-medium-3-1",
-        "mistral-medium-3.1-(batch)",
-        "mistral-medium-3-1-(batch)",
-        "mistral-medium-3.1:batch"
-      ],
-      "providerID": "mistral",
-      "family": "mistral-medium",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 1.0,
-      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072",
       "brandAssetName": "mistral",
@@ -10027,25 +10038,6 @@
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
-      "id": "mistralai/mistral-small-2603:batch",
-      "displayName": "Mistral Small 4 (batch)",
-      "aliases": [
-        "mistralai/mistral-small-2603:batch",
-        "mistralai/mistral-small-2603",
-        "mistral-small-4-(batch)",
-        "mistral-small-2603:batch"
-      ],
-      "providerID": "mistral",
-      "family": "mistral-small",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0075,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
