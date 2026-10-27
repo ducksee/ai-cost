@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-26T22:40:36.537176+00:00",
+  "generatedAt": "2026-10-27T05:06:44.298849+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -236,7 +236,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a... · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=1048576"
+      "notes": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a... · context=1048576 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
       "id": "openrouter/bodybuilder",
@@ -1927,9 +1927,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.02,
+      "outputCostPerMillionUSD": 0.232973,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1942,9 +1942,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1188,
+      "inputCostPerMillionUSD": 0.2211,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.22,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2124,8 +2124,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0422,
-      "outputCostPerMillionUSD": 0.1694,
+      "inputCostPerMillionUSD": 0.0475,
+      "outputCostPerMillionUSD": 0.1568,
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
@@ -2199,9 +2199,9 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.000954,
+      "cacheReadCostPerMillionUSD": 0.0042,
       "cacheWriteCostPerMillionUSD": 0.09,
-      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
+      "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -3592,7 +3592,7 @@
       "outputCostPerMillionUSD": 0.8,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini). Gemma models are well-suited for a variety of... · context=8192 · LiteLLM max_input=8192",
+      "notes": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini). Gemma models are well-suited for a variety of... · context=8192 · LiteLLM max_input=8192, max_output=8192",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -3990,7 +3990,7 @@
       "outputCostPerMillionUSD": 4.4,
       "cacheReadCostPerMillionUSD": 0.0689,
       "cacheWriteCostPerMillionUSD": 1.68,
-      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576"
+      "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
       "id": "z-ai/glm-5.3:batch",
@@ -4119,8 +4119,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0413,
-      "outputCostPerMillionUSD": 0.0758,
+      "inputCostPerMillionUSD": 0.0513,
+      "outputCostPerMillionUSD": 0.0701,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -7112,6 +7112,50 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-6.1-terra-pro",
+      "displayName": "GPT-6.1 Terra Pro",
+      "aliases": [
+        "openai/gpt-6.1-terra-pro",
+        "openai/gpt-6-1-terra-pro",
+        "openai/gpt-6.1-terra-pro-20261026",
+        "openai/gpt-6-1-terra-pro-20261026",
+        "gpt-6.1-terra-pro",
+        "gpt-6-1-terra-pro"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6.1-terra-pro:batch",
+      "displayName": "GPT-6.1 Terra Pro (batch)",
+      "aliases": [
+        "openai/gpt-6.1-terra-pro:batch",
+        "openai/gpt-6-1-terra-pro:batch",
+        "openai/gpt-6.1-terra-pro-20261026",
+        "openai/gpt-6-1-terra-pro-20261026",
+        "gpt-6.1-terra-pro-(batch)",
+        "gpt-6-1-terra-pro-(batch)",
+        "gpt-6.1-terra-pro:batch",
+        "gpt-6-1-terra-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.5,
+      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheWriteCostPerMillionUSD": 0.625,
+      "notes": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-6.1-terra",
       "displayName": "GPT-6.1 Terra ≤272k",
       "aliases": [
@@ -7349,27 +7393,6 @@
       "notes": "gpt-oss-safeguard-20b is a safety reasoning model from OpenAI built upon gpt-oss-20b. This open-weight, 21B-parameter Mixture-of-Experts (MoE) model offers lower latency for safety tasks like content classification, LLM  · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=65536",
       "brandAssetName": "codex",
       "organizationName": "Codex"
-    },
-    {
-      "id": "ibm-granite/granite-4.0-h-micro",
-      "displayName": "Granite 4.0 Micro",
-      "aliases": [
-        "ibm-granite/granite-4.0-h-micro",
-        "ibm-granite/granite-4-0-h-micro",
-        "granite-4.0-micro",
-        "granite-4-0-micro",
-        "granite-4.0-h-micro",
-        "granite-4-0-h-micro",
-        "cloudflare/@cf/ibm-granite/granite-4.0-h-micro",
-        "cloudflare/@cf/ibm-granite/granite-4-0-h-micro"
-      ],
-      "providerID": "ibm-granite",
-      "family": "granite-4",
-      "inputCostPerMillionUSD": 0.017,
-      "outputCostPerMillionUSD": 0.112,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Granite-4.0-H-Micro is a 3B parameter from the Granite 4 family of models. These models are the latest in a series of models released by IBM. They are fine-tuned for long... · context=131000 · LiteLLM supports_function_calling, max_input=131000, max_output=131000"
     },
     {
       "id": "ibm-granite/granite-4.2-8b",
@@ -8297,7 +8320,7 @@
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
       "id": "thinkingmachines/inkling:free",
@@ -8331,7 +8354,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288"
+      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
       "id": "thinkingmachines/inkling-small:free",
@@ -8765,8 +8788,8 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 20.0,
+      "inputCostPerMillionUSD": 0.19,
+      "outputCostPerMillionUSD": 8.94,
       "cacheReadCostPerMillionUSD": 0.19,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -9539,7 +9562,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576 · LiteLLM supports_prompt_caching, max_input=1048576",
+      "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576 · LiteLLM supports_prompt_caching, max_input=1048576, max_output=1048576",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9713,7 +9736,7 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "mistral",
       "organizationName": "Mistral",
-      "notes": "LiteLLM supports_function_calling, max_input=32000"
+      "notes": "LiteLLM supports_function_calling, max_input=32000, max_output=32000"
     },
     {
       "id": "mistralai/mistral-large-2407",
@@ -9772,7 +9795,7 @@
       "outputCostPerMillionUSD": 2.09,
       "cacheReadCostPerMillionUSD": 0.068,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 1M-token context window with up... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576",
+      "notes": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 1M-token context window with up... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10177,7 +10200,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, max_input=131072",
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, max_input=131072, max_output=131072",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -12055,7 +12078,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.27,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Qwen3.5 27B native vision-language Dense model incorporates a linear attention mechanism, delivering fast response times while balancing inference speed and performance. Its overall capabilities are comparable to tho · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -12095,7 +12118,7 @@
       "outputCostPerMillionUSD": 0.25,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144",
+      "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12191,7 +12214,7 @@
       "outputCostPerMillionUSD": 3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": 0.40625,
-      "notes": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it de · context=1000000 · LiteLLM supports_reasoning, max_input=1000000",
+      "notes": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it de · context=1000000 · LiteLLM supports_reasoning, max_input=1000000, max_output=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12302,7 +12325,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576 · LiteLLM supports_prompt_caching, max_input=1010000",
+      "notes": "Qwen3.8 2.4T A95B is an open-weight sparse mixture-of-experts model from Qwen and the open-weight variant of [Qwen3.8 Max](/qwen/qwen3.8-max), with 95 billion active parameters out of 2.4 trillion total. It is... · context=1048576 · LiteLLM supports_prompt_caching, max_input=1010000, max_output=1010000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12646,7 +12669,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000",
+      "notes": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12690,7 +12713,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed-2.0-mini targets latency-sensitive, high-concurrency, and cost-sensitive scenarios, emphasizing fast response and flexible inference deployment. It delivers performance comparable to ByteDance-Seed-1.6, supports 256 · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000",
+      "notes": "Seed-2.0-mini targets latency-sensitive, high-concurrency, and cost-sensitive scenarios, emphasizing fast response and flexible inference deployment. It delivers performance comparable to ByteDance-Seed-1.6, supports 256 · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12771,7 +12794,7 @@
       "outputCostPerMillionUSD": 1.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources. It is designed for companies seeking to integrate lightweight question-and-answer features... · context=127072 · LiteLLM max_input=128000",
+      "notes": "Sonar is lightweight, affordable, fast, and simple to use — now featuring citations and the ability to customize sources. It is designed for companies seeking to integrate lightweight question-and-answer features... · context=127072 · LiteLLM max_input=128000, max_output=128000",
       "brandAssetName": "perplexity",
       "organizationName": "Perplexity"
     },
@@ -12788,7 +12811,7 @@
       "outputCostPerMillionUSD": 8.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Sonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics. It autonomously searches, reads, and evaluates sources, refining its approach as it gathe · context=128000 · LiteLLM supports_reasoning, max_input=128000, reasoning_output_pricing",
+      "notes": "Sonar Deep Research is a research-focused model designed for multi-step retrieval, synthesis, and reasoning across complex topics. It autonomously searches, reads, and evaluates sources, refining its approach as it gathe · context=128000 · LiteLLM supports_reasoning, max_input=128000, max_output=128000, reasoning_output_pricing",
       "brandAssetName": "perplexity",
       "organizationName": "Perplexity"
     },
@@ -12839,7 +12862,7 @@
       "outputCostPerMillionUSD": 8.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Note: Sonar Pro pricing includes Perplexity search pricing. See [details here](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-reasoning-pro-and-sonar-pro) Sonar Reasoning Pro is a premier  · context=128000 · LiteLLM supports_reasoning, max_input=128000",
+      "notes": "Note: Sonar Pro pricing includes Perplexity search pricing. See [details here](https://docs.perplexity.ai/guides/pricing#detailed-pricing-breakdown-for-sonar-reasoning-pro-and-sonar-pro) Sonar Reasoning Pro is a premier  · context=128000 · LiteLLM supports_reasoning, max_input=128000, max_output=128000",
       "brandAssetName": "perplexity",
       "organizationName": "Perplexity"
     },
@@ -12933,7 +12956,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular... · context=1000000",
+      "notes": "Switchyard is an open-source model routing system that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most... · context=1000000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
