@@ -11144,6 +11144,13 @@
     "output": 0.25
   },
   {
+    "model": "prism-ml/ternary-bonsai-2-9b",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.04,
+    "output": 0.065
+  },
+  {
     "model": "qwen/qwen-2.5-72b-instruct",
     "type": "tokens",
     "channel_type": 20,
@@ -12225,8 +12232,8 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.011,
-    "output": 0.6655
+    "input": 0.0091,
+    "output": 0.9
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
@@ -12260,7 +12267,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0895,
+    "input": 0.075,
     "output": 10.0
   },
   {
@@ -12316,8 +12323,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01725,
-    "output": 0.04115
+    "input": 0.0208,
+    "output": 0.0399
   },
   {
     "model": "~z-ai/glm-latest",

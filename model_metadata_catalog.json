@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-27T18:01:37.144241+00:00",
+  "generatedAt": "2026-10-27T22:14:53.356071+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1927,9 +1927,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.022,
-      "outputCostPerMillionUSD": 1.331,
-      "cacheReadCostPerMillionUSD": 0.013637,
+      "inputCostPerMillionUSD": 0.0182,
+      "outputCostPerMillionUSD": 1.8,
+      "cacheReadCostPerMillionUSD": 0.0165,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4119,8 +4119,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0345,
-      "outputCostPerMillionUSD": 0.0823,
+      "inputCostPerMillionUSD": 0.0416,
+      "outputCostPerMillionUSD": 0.0798,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -8788,9 +8788,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.179,
+      "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 20.0,
-      "cacheReadCostPerMillionUSD": 0.169,
+      "cacheReadCostPerMillionUSD": 0.14,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -12956,6 +12956,22 @@
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks. · context=262144"
+    },
+    {
+      "id": "prism-ml/ternary-bonsai-2-9b",
+      "displayName": "Ternary Bonsai 2 9B",
+      "aliases": [
+        "prism-ml/ternary-bonsai-2-9b",
+        "prism-ml/ternary-bonsai-2-9b-20261015",
+        "ternary-bonsai-2-9b"
+      ],
+      "providerID": "prism-ml",
+      "family": "ternary-bonsai",
+      "inputCostPerMillionUSD": 0.08,
+      "outputCostPerMillionUSD": 0.13,
+      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ternary Bonsai 2 9B is PrismML’s compact, open-weight language model for conversational AI, reasoning, and tool use. Built on Qwen3.5, it uses ternary weights packed into 2 bits for efficient... · context=262144"
     },
     {
       "id": "bytedance/ui-tars-1.5-7b",
