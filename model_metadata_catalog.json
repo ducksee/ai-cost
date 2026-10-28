@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-27T22:14:53.356071+00:00",
+  "generatedAt": "2026-10-28T05:43:41.708885+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1927,9 +1927,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0182,
+      "inputCostPerMillionUSD": 0.0151,
       "outputCostPerMillionUSD": 1.8,
-      "cacheReadCostPerMillionUSD": 0.0165,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1942,9 +1942,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1259,
+      "inputCostPerMillionUSD": 0.2542,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.13,
+      "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2124,8 +2124,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0422,
-      "outputCostPerMillionUSD": 0.1694,
+      "inputCostPerMillionUSD": 0.0475,
+      "outputCostPerMillionUSD": 0.1568,
       "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
@@ -4119,8 +4119,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0416,
-      "outputCostPerMillionUSD": 0.0798,
+      "inputCostPerMillionUSD": 0.0451,
+      "outputCostPerMillionUSD": 0.0737,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -8788,9 +8788,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 20.0,
-      "cacheReadCostPerMillionUSD": 0.14,
+      "inputCostPerMillionUSD": 0.151,
+      "outputCostPerMillionUSD": 10.1583,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -8987,7 +8987,7 @@
       "outputCostPerMillionUSD": 0.225,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=262144"
+      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=1000000"
     },
     {
       "id": "sao10k/l3-lunaris-8b",
@@ -9041,7 +9041,7 @@
       "family": "llama-3",
       "inputCostPerMillionUSD": 0.03,
       "outputCostPerMillionUSD": 0.03,
-      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to... · context=131072",
       "brandAssetName": "meta",
@@ -10664,7 +10664,7 @@
       "family": "nemotron-3",
       "inputCostPerMillionUSD": 0.3,
       "outputCostPerMillionUSD": 0.9,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "nvidia",
@@ -12323,7 +12323,7 @@
       "family": "qwen3-8",
       "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.09,
+      "cacheReadCostPerMillionUSD": 0.0039,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
