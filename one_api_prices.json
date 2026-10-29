@@ -12281,22 +12281,22 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0128,
-    "output": 0.9
+    "input": 0.02045,
+    "output": 0.625
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.05175,
+    "input": 0.05625,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02838,
-    "output": 0.08514
+    "input": 0.0212,
+    "output": 0.15
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12316,7 +12316,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0912,
+    "input": 0.08595,
     "output": 4.6694
   },
   {
@@ -12372,8 +12372,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02285,
-    "output": 0.0371
+    "input": 0.02515,
+    "output": 0.03505
   },
   {
     "model": "~z-ai/glm-latest",

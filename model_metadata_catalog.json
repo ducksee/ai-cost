@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-29T13:02:42.884341+00:00",
+  "generatedAt": "2026-10-29T22:45:26.749065+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1927,9 +1927,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0256,
-      "outputCostPerMillionUSD": 1.8,
-      "cacheReadCostPerMillionUSD": 0.0254,
+      "inputCostPerMillionUSD": 0.0409,
+      "outputCostPerMillionUSD": 1.25,
+      "cacheReadCostPerMillionUSD": 0.0405,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1942,9 +1942,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1035,
+      "inputCostPerMillionUSD": 0.1125,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.11,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2124,9 +2124,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.05676,
-      "outputCostPerMillionUSD": 0.17028,
-      "cacheReadCostPerMillionUSD": 0.001806,
+      "inputCostPerMillionUSD": 0.0424,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.0414,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0425,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4119,8 +4119,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0457,
-      "outputCostPerMillionUSD": 0.0742,
+      "inputCostPerMillionUSD": 0.0503,
+      "outputCostPerMillionUSD": 0.0701,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -8778,9 +8778,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1824,
+      "inputCostPerMillionUSD": 0.1719,
       "outputCostPerMillionUSD": 9.3388,
-      "cacheReadCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -12198,7 +12198,7 @@
       "family": "qwen3-8",
       "inputCostPerMillionUSD": 0.45,
       "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.0039,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
@@ -12606,21 +12606,6 @@
       "notes": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response... · context=524288"
     },
     {
-      "id": "upstage/solar-pro-3",
-      "displayName": "Solar Pro 3",
-      "aliases": [
-        "upstage/solar-pro-3",
-        "solar-pro-3"
-      ],
-      "providerID": "upstage",
-      "family": "solar-pro",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.015,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational effici · context=131072"
-    },
-    {
       "id": "upstage/solar-pro4",
       "displayName": "Solar Pro 4",
       "aliases": [
@@ -12779,7 +12764,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
