@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-29T05:49:31.077578+00:00",
+  "generatedAt": "2026-10-29T13:02:42.884341+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1927,9 +1927,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.0146,
-      "outputCostPerMillionUSD": 1.44,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "inputCostPerMillionUSD": 0.0256,
+      "outputCostPerMillionUSD": 1.8,
+      "cacheReadCostPerMillionUSD": 0.0254,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2124,9 +2124,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0475,
-      "outputCostPerMillionUSD": 0.1568,
-      "cacheReadCostPerMillionUSD": 0.028,
+      "inputCostPerMillionUSD": 0.05676,
+      "outputCostPerMillionUSD": 0.17028,
+      "cacheReadCostPerMillionUSD": 0.001806,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0425,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -6208,15 +6208,17 @@
         "openai/gpt-5.6-luna-pro-20260709",
         "openai/gpt-5-6-luna-pro-20260709",
         "gpt-5.6-luna-pro",
-        "gpt-5-6-luna-pro"
+        "gpt-5-6-luna-pro",
+        "kyma/gpt-5.6-luna-pro",
+        "kyma/gpt-5-6-luna-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.2703,
+      "outputCostPerMillionUSD": 1.621,
+      "cacheReadCostPerMillionUSD": 0.027,
       "cacheWriteCostPerMillionUSD": 0.25,
-      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode · context=1050000",
+      "notes": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6346,15 +6348,17 @@
         "openai/gpt-5.6-sol-pro-20260709",
         "openai/gpt-5-6-sol-pro-20260709",
         "gpt-5.6-sol-pro",
-        "gpt-5-6-sol-pro"
+        "gpt-5-6-sol-pro",
+        "kyma/gpt-5.6-sol-pro",
+        "kyma/gpt-5-6-sol-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
-      "inputCostPerMillionUSD": 4.0,
-      "outputCostPerMillionUSD": 20.0,
-      "cacheReadCostPerMillionUSD": 0.4,
+      "inputCostPerMillionUSD": 5.4,
+      "outputCostPerMillionUSD": 27.0,
+      "cacheReadCostPerMillionUSD": 0.675,
       "cacheWriteCostPerMillionUSD": 5.0,
-      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
+      "notes": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -6484,15 +6488,17 @@
         "openai/gpt-5.6-terra-pro-20260709",
         "openai/gpt-5-6-terra-pro-20260709",
         "gpt-5.6-terra-pro",
-        "gpt-5-6-terra-pro"
+        "gpt-5-6-terra-pro",
+        "kyma/gpt-5.6-terra-pro",
+        "kyma/gpt-5-6-terra-pro"
       ],
       "providerID": "codex",
       "family": "gpt-5",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 12.0,
-      "cacheReadCostPerMillionUSD": 0.2,
+      "inputCostPerMillionUSD": 2.7,
+      "outputCostPerMillionUSD": 16.2,
+      "cacheReadCostPerMillionUSD": 0.27,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
+      "notes": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1050000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -10413,15 +10419,16 @@
       "aliases": [
         "meta/muse-wonder",
         "meta/muse-wonder-20261012",
-        "muse-wonder"
+        "muse-wonder",
+        "kyma/muse-wonder"
       ],
       "providerID": "meta",
       "family": "muse-wonder",
-      "inputCostPerMillionUSD": 4.0,
-      "outputCostPerMillionUSD": 20.0,
+      "inputCostPerMillionUSD": 5.4,
+      "outputCostPerMillionUSD": 27.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with... · context=1048576",
+      "notes": "Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -10792,15 +10799,17 @@
         "nvidia/nemotron-3.5-super-vl-20261015",
         "nvidia/nemotron-3-5-super-vl-20261015",
         "nemotron-3.5-super-vl",
-        "nemotron-3-5-super-vl"
+        "nemotron-3-5-super-vl",
+        "kyma/nemotron-3.5-super-vl",
+        "kyma/nemotron-3-5-super-vl"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.15,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.081,
+      "outputCostPerMillionUSD": 0.4725,
+      "cacheReadCostPerMillionUSD": 0.0135,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1048576",
+      "notes": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=235929",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -12087,15 +12096,16 @@
       "aliases": [
         "qwen/qwen3.7-flash",
         "qwen/qwen3.7-flash-20260727",
-        "qwen3.7-flash"
+        "qwen3.7-flash",
+        "kyma/qwen3.7-flash"
       ],
       "providerID": "qwen",
       "family": "qwen3-7",
-      "inputCostPerMillionUSD": 0.03,
-      "outputCostPerMillionUSD": 0.13,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "inputCostPerMillionUSD": 0.0435,
+      "outputCostPerMillionUSD": 0.1886,
+      "cacheReadCostPerMillionUSD": 0.0081,
       "cacheWriteCostPerMillionUSD": 0.038,
-      "notes": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real- · context=1000000",
+      "notes": "Qwen3.7 Flash is a vision-language reasoning model from Alibaba. It is suited for multimodal agents, visual coding, search, and computer interaction, with strengths in object recognition, spatial understanding, and real- · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=8192",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12769,7 +12779,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },

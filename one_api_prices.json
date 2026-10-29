@@ -9460,8 +9460,8 @@
     "model": "meta/muse-wonder",
     "type": "tokens",
     "channel_type": 20,
-    "input": 2.0,
-    "output": 10.0
+    "input": 2.7,
+    "output": 13.5
   },
   {
     "model": "microsoft/kosmos-2",
@@ -10209,8 +10209,8 @@
     "model": "nvidia/nemotron-3.5-super-vl",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.075,
-    "output": 0.25
+    "input": 0.0405,
+    "output": 0.23625
   },
   {
     "model": "nvidia/nemotron-3.5-super-vl:free",
@@ -10706,8 +10706,8 @@
     "model": "openai/gpt-5.6-luna-pro",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1,
-    "output": 0.6
+    "input": 0.13515,
+    "output": 0.8105
   },
   {
     "model": "openai/gpt-5.6-luna-pro:batch",
@@ -10734,8 +10734,8 @@
     "model": "openai/gpt-5.6-sol-pro",
     "type": "tokens",
     "channel_type": 20,
-    "input": 2.0,
-    "output": 10.0
+    "input": 2.7,
+    "output": 13.5
   },
   {
     "model": "openai/gpt-5.6-sol-pro:batch",
@@ -10762,8 +10762,8 @@
     "model": "openai/gpt-5.6-terra-pro",
     "type": "tokens",
     "channel_type": 20,
-    "input": 1.0,
-    "output": 6.0
+    "input": 1.35,
+    "output": 8.1
   },
   {
     "model": "openai/gpt-5.6-terra-pro:batch",
@@ -11441,8 +11441,8 @@
     "model": "qwen/qwen3.7-flash",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.015,
-    "output": 0.065
+    "input": 0.02175,
+    "output": 0.0943
   },
   {
     "model": "qwen/qwen3.7-max",
@@ -12281,8 +12281,8 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0073,
-    "output": 0.72
+    "input": 0.0128,
+    "output": 0.9
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
@@ -12295,8 +12295,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02375,
-    "output": 0.0784
+    "input": 0.02838,
+    "output": 0.08514
   },
   {
     "model": "~google/gemini-flash-latest",
