@@ -2128,6 +2128,13 @@
     "output": 0.1
   },
   {
+    "model": "accounts/fireworks/models/ultramarine-1-flash-us",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.1125,
+    "output": 0.375
+  },
+  {
     "model": "accounts/fireworks/models/yi-34b",
     "type": "tokens",
     "channel_type": 1,
@@ -12281,22 +12288,22 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02045,
-    "output": 0.625
+    "input": 0.01695,
+    "output": 0.57
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.05625,
-    "output": 4.0
+    "input": 0.05175,
+    "output": 2.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0212,
-    "output": 0.15
+    "input": 0.0231,
+    "output": 0.0759
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12372,7 +12379,7 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02515,
+    "input": 0.02285,
     "output": 0.03505
   },
   {
