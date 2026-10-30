@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-30T12:56:51.923498+00:00",
+  "generatedAt": "2026-10-30T22:20:52.045034+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1927,8 +1927,8 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.031,
-      "outputCostPerMillionUSD": 0.27,
+      "inputCostPerMillionUSD": 0.022,
+      "outputCostPerMillionUSD": 0.192,
       "cacheReadCostPerMillionUSD": 0.004,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -2124,9 +2124,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0486,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0476,
+      "inputCostPerMillionUSD": 0.0462,
+      "outputCostPerMillionUSD": 0.1951,
+      "cacheReadCostPerMillionUSD": 0.028,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4120,7 +4120,7 @@
       "providerID": "~z-ai",
       "family": "glm-flash",
       "inputCostPerMillionUSD": 0.0197,
-      "outputCostPerMillionUSD": 0.1142,
+      "outputCostPerMillionUSD": 0.1324,
       "cacheReadCostPerMillionUSD": 0.0197,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -8778,8 +8778,8 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.171,
-      "outputCostPerMillionUSD": 10.5572,
+      "inputCostPerMillionUSD": 0.1719,
+      "outputCostPerMillionUSD": 10.1489,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -11361,8 +11361,8 @@
       ],
       "providerID": "particle-ai",
       "family": "particle-1",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 1.0,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data... · context=1048576"

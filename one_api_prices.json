@@ -11112,8 +11112,8 @@
     "model": "particle-ai/particle-1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.125,
-    "output": 0.5
+    "input": 0.025,
+    "output": 0.25
   },
   {
     "model": "perceptron/perceptron-mk1",
@@ -12288,8 +12288,8 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0155,
-    "output": 0.135
+    "input": 0.011,
+    "output": 0.096
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
@@ -12302,8 +12302,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0243,
-    "output": 0.15
+    "input": 0.0231,
+    "output": 0.09755
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12323,8 +12323,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0855,
-    "output": 5.2786
+    "input": 0.08595,
+    "output": 5.07445
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12380,7 +12380,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.00985,
-    "output": 0.0571
+    "output": 0.0662
   },
   {
     "model": "~z-ai/glm-latest",
