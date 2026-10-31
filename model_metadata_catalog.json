@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-31T12:31:34.436482+00:00",
+  "generatedAt": "2026-10-31T21:35:52.181691+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1928,7 +1928,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-flash",
       "inputCostPerMillionUSD": 0.0141,
-      "outputCostPerMillionUSD": 0.144,
+      "outputCostPerMillionUSD": 0.11,
       "cacheReadCostPerMillionUSD": 0.013,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
@@ -2124,9 +2124,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.05764,
-      "outputCostPerMillionUSD": 0.17292,
-      "cacheReadCostPerMillionUSD": 0.001834,
+      "inputCostPerMillionUSD": 0.0474,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4119,9 +4119,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0163,
-      "outputCostPerMillionUSD": 0.1479,
-      "cacheReadCostPerMillionUSD": 0.0163,
+      "inputCostPerMillionUSD": 0.0149,
+      "outputCostPerMillionUSD": 0.1543,
+      "cacheReadCostPerMillionUSD": 0.0149,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -8783,82 +8783,6 @@
       "cacheReadCostPerMillionUSD": 0.07475,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
-    },
-    {
-      "id": "poolside/laguna-s-2.1",
-      "displayName": "Laguna S 2.1",
-      "aliases": [
-        "poolside/laguna-s-2.1",
-        "poolside/laguna-s-2-1",
-        "poolside/laguna-s-2.1-20260720",
-        "poolside/laguna-s-2-1-20260720",
-        "laguna-s-2.1",
-        "laguna-s-2-1"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-s",
-      "inputCostPerMillionUSD": 0.09,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.009,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=1048576"
-    },
-    {
-      "id": "poolside/laguna-s-2.1:free",
-      "displayName": "Laguna S 2.1 (free)",
-      "aliases": [
-        "poolside/laguna-s-2.1:free",
-        "poolside/laguna-s-2.1-20260720",
-        "poolside/laguna-s-2-1-20260720",
-        "laguna-s-2.1-(free)",
-        "laguna-s-2-1-(free)",
-        "laguna-s-2.1:free"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-s",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and... · context=262144"
-    },
-    {
-      "id": "poolside/laguna-xs-2.1",
-      "displayName": "Laguna XS 2.1",
-      "aliases": [
-        "poolside/laguna-xs-2.1",
-        "poolside/laguna-xs-2-1",
-        "poolside/laguna-xs-2.1-20260625",
-        "poolside/laguna-xs-2-1-20260625",
-        "laguna-xs-2.1",
-        "laguna-xs-2-1"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-xs",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.12,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
-    },
-    {
-      "id": "poolside/laguna-xs-2.1:free",
-      "displayName": "Laguna XS 2.1 (free)",
-      "aliases": [
-        "poolside/laguna-xs-2.1:free",
-        "poolside/laguna-xs-2.1-20260625",
-        "poolside/laguna-xs-2-1-20260625",
-        "laguna-xs-2.1-(free)",
-        "laguna-xs-2-1-(free)",
-        "laguna-xs-2.1:free"
-      ],
-      "providerID": "poolside",
-      "family": "laguna-xs",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines... · context=262144"
     },
     {
       "id": "liquid/lfm-2.5-2.6b",
