@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-01T06:06:20.336476+00:00",
+  "generatedAt": "2026-11-01T13:25:58.647629+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3988,7 +3988,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.0689,
+      "cacheReadCostPerMillionUSD": 0.076,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
@@ -4119,9 +4119,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0098,
-      "outputCostPerMillionUSD": 0.1702,
-      "cacheReadCostPerMillionUSD": 0.0098,
+      "inputCostPerMillionUSD": 0.0285,
+      "outputCostPerMillionUSD": 0.0923,
+      "cacheReadCostPerMillionUSD": 0.0285,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },

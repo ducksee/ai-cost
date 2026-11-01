@@ -12379,8 +12379,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0049,
-    "output": 0.0851
+    "input": 0.01425,
+    "output": 0.04615
   },
   {
     "model": "~z-ai/glm-latest",
