@@ -12302,7 +12302,7 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0217,
+    "input": 0.0295,
     "output": 0.15
   },
   {

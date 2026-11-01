@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-01T13:25:58.647629+00:00",
+  "generatedAt": "2026-11-01T22:02:27.472440+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2124,7 +2124,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0434,
+      "inputCostPerMillionUSD": 0.059,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -7304,7 +7304,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
