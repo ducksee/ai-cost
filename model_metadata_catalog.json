@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-01T22:02:27.472440+00:00",
+  "generatedAt": "2026-11-02T06:05:23.308170+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheReadCostPerMillionUSD": 0.017,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -7304,7 +7304,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheReadCostPerMillionUSD": 0.023,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
