@@ -12229,6 +12229,13 @@
     "output": 0.625
   },
   {
+    "model": "z-ai/glm-5.3-flashx-legal",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.185,
+    "output": 0.625
+  },
+  {
     "model": "z-ai/glm-5.3-prime",
     "type": "tokens",
     "channel_type": 20,

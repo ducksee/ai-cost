@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-02T06:05:23.308170+00:00",
+  "generatedAt": "2026-11-02T15:55:04.584705+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.017,
+      "cacheReadCostPerMillionUSD": 0.042,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4073,6 +4073,25 @@
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000"
+    },
+    {
+      "id": "z-ai/glm-5.3-flashx-legal",
+      "displayName": "GLM 5.3 FlashX Legal",
+      "aliases": [
+        "z-ai/glm-5.3-flashx-legal",
+        "z-ai/glm-5-3-flashx-legal",
+        "z-ai/glm-5.3-flashx-legal-20261102",
+        "z-ai/glm-5-3-flashx-legal-20261102",
+        "glm-5.3-flashx-legal",
+        "glm-5-3-flashx-legal"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.37,
+      "outputCostPerMillionUSD": 1.25,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM-5.3-FlashX-Legal (GLM-Legal) is Z.ai's legal-domain variant of GLM-5.3-FlashX, a native multimodal model that accepts text, image, and video input and produces text. It adds legal-domain mid-training and post-trainin · context=1048576"
     },
     {
       "id": "z-ai/glm-5.3-prime",
@@ -7304,7 +7323,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.023,
+      "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8105,50 +8124,6 @@
       "cacheReadCostPerMillionUSD": 0.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest Grok model from xAI. · context=500000"
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-405b",
-      "displayName": "Hermes 3 405B Instruct",
-      "aliases": [
-        "nousresearch/hermes-3-llama-3.1-405b",
-        "nousresearch/hermes-3-llama-3-1-405b",
-        "hermes-3-405b-instruct",
-        "hermes-3-llama-3.1-405b",
-        "hermes-3-llama-3-1-405b",
-        "deepinfra/nousresearch/hermes-3-llama-3.1-405b",
-        "deepinfra/nousresearch/hermes-3-llama-3-1-405b"
-      ],
-      "providerID": "nous-research",
-      "family": "hermes-3",
-      "inputCostPerMillionUSD": 1.0,
-      "outputCostPerMillionUSD": 1.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
-      "brandAssetName": "nous-research",
-      "organizationName": "Nous Research"
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-70b",
-      "displayName": "Hermes 3 70B Instruct",
-      "aliases": [
-        "nousresearch/hermes-3-llama-3.1-70b",
-        "nousresearch/hermes-3-llama-3-1-70b",
-        "hermes-3-70b-instruct",
-        "hermes-3-llama-3.1-70b",
-        "hermes-3-llama-3-1-70b",
-        "deepinfra/nousresearch/hermes-3-llama-3.1-70b",
-        "deepinfra/nousresearch/hermes-3-llama-3-1-70b"
-      ],
-      "providerID": "nous-research",
-      "family": "hermes-3",
-      "inputCostPerMillionUSD": 0.7,
-      "outputCostPerMillionUSD": 0.7,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn c · context=131072 · LiteLLM max_input=131072, max_output=131072",
-      "brandAssetName": "nous-research",
-      "organizationName": "Nous Research"
     },
     {
       "id": "nousresearch/hermes-4-405b",
@@ -12124,7 +12099,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.0375,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1024000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
