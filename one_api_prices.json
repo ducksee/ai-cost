@@ -9782,8 +9782,8 @@
     "model": "mistralai/mistral-large-4-0",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.68,
-    "output": 2.09
+    "input": 0.35,
+    "output": 1.05
   },
   {
     "model": "mistralai/mistral-medium-3",
@@ -12303,7 +12303,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0175,
-    "output": 0.25
+    "output": 0.1575
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
@@ -12337,8 +12337,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.07475,
-    "output": 3.575
+    "input": 0.08265,
+    "output": 5.07135
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12393,8 +12393,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01425,
-    "output": 0.04615
+    "input": 0.01565,
+    "output": 0.0423
   },
   {
     "model": "~z-ai/glm-latest",
@@ -14183,6 +14183,13 @@
   },
   {
     "model": "Kwai-Kolors/Kolors",
+    "type": "times",
+    "channel_type": 45,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "OpenMOSS-Team/MOSS-Image",
     "type": "times",
     "channel_type": 45,
     "input": 0,
