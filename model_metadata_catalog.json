@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-02T15:55:04.584705+00:00",
+  "generatedAt": "2026-11-03T00:58:27.634906+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -3667,7 +3667,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.042,
+      "cacheReadCostPerMillionUSD": 0.031,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -8122,7 +8122,7 @@
       "inputCostPerMillionUSD": 2.0,
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.5,
-      "cacheWriteCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": 0.0,
       "notes": "This model always redirects to the latest Grok model from xAI. · context=500000"
     },
     {
@@ -9006,9 +9006,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.32,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.52,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
@@ -11662,7 +11662,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
