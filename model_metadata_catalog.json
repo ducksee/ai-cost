@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-03T23:24:18.714628+00:00",
+  "generatedAt": "2026-11-04T06:23:30.351502+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2216,7 +2216,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -3601,16 +3601,15 @@
       "aliases": [
         "google/gemma-2-27b-it",
         "gemma-2-27b",
-        "gemma-2-27b-it",
-        "together-ai/google/gemma-2-27b-it"
+        "gemma-2-27b-it"
       ],
       "providerID": "gemini",
       "family": "gemma-2",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 0.8,
+      "inputCostPerMillionUSD": 0.65,
+      "outputCostPerMillionUSD": 0.65,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini). Gemma models are well-suited for a variety of... · context=8192 · LiteLLM max_input=8192, max_output=8192",
+      "notes": "Gemma 2 27B by Google is an open model built from the same research and technology used to create the [Gemini models](/models?q=gemini). Gemma models are well-suited for a variety of... · context=8192",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -3685,7 +3684,7 @@
       "family": "gemma-4",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.034,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "gemini",
@@ -4156,9 +4155,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0313,
-      "outputCostPerMillionUSD": 0.0846,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.0269,
+      "outputCostPerMillionUSD": 0.0996,
+      "cacheReadCostPerMillionUSD": 0.0269,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -4375,7 +4374,7 @@
         "gpt-4",
         "gpt-4-0613",
         "gpt-4.0613",
-        "azure/gpt-4"
+        "github-copilot/gpt-4"
       ],
       "providerID": "codex",
       "family": "gpt-4",
@@ -4383,7 +4382,7 @@
       "outputCostPerMillionUSD": 60.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning... · context=8191 · LiteLLM supports_function_calling, max_input=8192, max_output=4096",
+      "notes": "OpenAI's flagship model, GPT-4 is a large-scale multimodal language model capable of solving difficult problems with greater accuracy than previous models due to its broader general knowledge and advanced reasoning... · context=8191 · LiteLLM supports_function_calling, max_input=32768, max_output=4096",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
@@ -7341,7 +7340,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8312,6 +8311,24 @@
       "organizationName": "Tencent"
     },
     {
+      "id": "tencent/hy4",
+      "displayName": "Hy4",
+      "aliases": [
+        "tencent/hy4",
+        "tencent/hy4-20261104",
+        "hy4"
+      ],
+      "providerID": "tencent",
+      "family": "hy4",
+      "inputCostPerMillionUSD": 0.417,
+      "outputCostPerMillionUSD": 1.2505,
+      "cacheReadCostPerMillionUSD": 0.021,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world pro · context=1048576",
+      "brandAssetName": "tencent",
+      "organizationName": "Tencent"
+    },
+    {
       "id": "tencent/hy4-preview",
       "displayName": "Hy4 preview",
       "aliases": [
@@ -8813,9 +8830,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1529,
-      "outputCostPerMillionUSD": 10.1551,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.19,
+      "outputCostPerMillionUSD": 8.94,
+      "cacheReadCostPerMillionUSD": 0.19,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -9066,9 +9083,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.52,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.32,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
@@ -9654,15 +9671,15 @@
       "aliases": [
         "mistralai/mistral-large",
         "mistral-large",
-        "azure-ai/mistral-large"
+        "snowflake/mistral-large"
       ],
       "providerID": "mistral",
       "family": "mistral-large",
-      "inputCostPerMillionUSD": 4.0,
-      "outputCostPerMillionUSD": 12.0,
+      "inputCostPerMillionUSD": 2.0,
+      "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](htt · context=128000 · LiteLLM supports_function_calling, max_input=32000, max_output=8191",
+      "notes": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](htt · context=128000 · LiteLLM max_input=32000, max_output=8192",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -9692,8 +9709,7 @@
       "displayName": "Mistral Large 2407",
       "aliases": [
         "mistralai/mistral-large-2407",
-        "mistral-large-2407",
-        "azure-ai/mistral-large-2407"
+        "mistral-large-2407"
       ],
       "providerID": "mistral",
       "family": "mistral-large",
@@ -9701,7 +9717,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4096",
+      "notes": "This is Mistral AI's flagship model, Mistral Large 2 (version mistral-large-2407). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](https · context=131072",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10951,8 +10967,7 @@
         "o1-preview",
         "openai/o1-preview",
         "codex/o1-preview",
-        "o1-and-o1-preview",
-        "azure/us/o1-preview"
+        "o1-and-o1-preview"
       ],
       "providerID": "codex",
       "family": "o1-preview",
@@ -10960,7 +10975,7 @@
       "outputCostPerMillionUSD": 60,
       "cacheReadCostPerMillionUSD": 7.5,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, max_input=128000, max_output=32768",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "OpenAI"
     },
