@@ -2131,8 +2131,8 @@
     "model": "accounts/fireworks/models/ultramarine-1-flash-us",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.1125,
-    "output": 0.375
+    "input": 0.075,
+    "output": 0.25
   },
   {
     "model": "accounts/fireworks/models/yi-34b",
@@ -2182,6 +2182,13 @@
     "channel_type": 1,
     "input": 0.105,
     "output": 0.42
+  },
+  {
+    "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.2,
+    "output": 4.8
   },
   {
     "model": "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
@@ -11571,6 +11578,13 @@
     "output": 1.5
   },
   {
+    "model": "ricursiveai/ripple-65b-preview",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.1,
+    "output": 0.3
+  },
+  {
     "model": "sakana/fugu-max",
     "type": "tokens",
     "channel_type": 20,
@@ -12337,8 +12351,8 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01665,
-    "output": 0.2375
+    "input": 0.011,
+    "output": 0.2
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
@@ -12351,7 +12365,7 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0295,
+    "input": 0.02435,
     "output": 0.15
   },
   {
@@ -12372,8 +12386,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.095,
-    "output": 4.47
+    "input": 0.08595,
+    "output": 4.6694
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12428,8 +12442,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01345,
-    "output": 0.0498
+    "input": 0.0141,
+    "output": 0.04685
   },
   {
     "model": "~z-ai/glm-latest",
