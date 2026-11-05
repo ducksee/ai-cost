@@ -9002,6 +9002,20 @@
     "output": 3.75
   },
   {
+    "model": "google/gemini-omni-1.1-flash",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.75,
+    "output": 4.5
+  },
+  {
+    "model": "google/gemini-omni-1.2-flash",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.75,
+    "output": 4.5
+  },
+  {
     "model": "google/gemma-2-27b-it",
     "type": "tokens",
     "channel_type": 20,
@@ -9390,8 +9404,8 @@
     "model": "meta-llama/llama-3.3-70b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1,
-    "output": 0.26
+    "input": 0.295,
+    "output": 0.395
   },
   {
     "model": "meta-llama/llama-4-maverick",
@@ -12372,14 +12386,14 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.04815,
+    "input": 0.04635,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0295,
+    "input": 0.0217,
     "output": 0.15
   },
   {
@@ -12400,8 +12414,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.07645,
-    "output": 5.2786
+    "input": 0.08075,
+    "output": 4.6694
   },
   {
     "model": "~openai/gpt-astra-latest",

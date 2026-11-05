@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-05T06:47:35.054168+00:00",
+  "generatedAt": "2026-11-05T19:57:46.739748+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -181,6 +181,23 @@
       "organizationName": "Amazon"
     },
     {
+      "id": "openrouter/auto-code",
+      "displayName": "Auto Code",
+      "aliases": [
+        "openrouter/auto-code",
+        "auto-code"
+      ],
+      "providerID": "openrouter",
+      "family": "auto-code",
+      "inputCostPerMillionUSD": null,
+      "outputCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Auto Code is OpenRouter’s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request treated as part of an.. · context=2000000",
+      "brandAssetName": "openrouter",
+      "organizationName": "OpenRouter"
+    },
+    {
       "id": "openrouter/auto",
       "displayName": "Auto Router",
       "aliases": [
@@ -195,7 +212,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Auto is OpenRouter’s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router). It replaces market-spend rankings with request-aware selection of both the model and reasoning effort,  · context=2000000 · LiteLLM supports_reasoning, supports_function_calling",
+      "notes": "Auto is OpenRouter’s flagship model router, built for general-purpose usage. It adapts to each request, choosing cost-optimal models and adjusting reasoning effort. It balances task difficulty, benchmark results, live pr · context=2000000 · LiteLLM supports_reasoning, supports_function_calling",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -1959,9 +1976,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.0963,
+      "inputCostPerMillionUSD": 0.0927,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.0963,
+      "cacheReadCostPerMillionUSD": 0.0927,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2141,7 +2158,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.059,
+      "inputCostPerMillionUSD": 0.0434,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -3580,6 +3597,52 @@
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": 0.041667,
       "notes": "This model always redirects to the latest model in the Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing"
+    },
+    {
+      "id": "google/gemini-omni-1.1-flash",
+      "displayName": "Gemini Omni 1.1 Flash",
+      "aliases": [
+        "google/gemini-omni-1.1-flash",
+        "google/gemini-omni-1-1-flash",
+        "google/gemini-omni-1.1-flash-20260911",
+        "google/gemini-omni-1-1-flash-20260911",
+        "gemini-omni-1.1-flash",
+        "gemini-omni-1-1-flash",
+        "gemini/gemini-omni-1.1-flash",
+        "gemini/gemini-omni-1-1-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-omni",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 9.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and... · context=131072 · LiteLLM supports_reasoning, supports_vision, max_input=131072, max_output=65536, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-omni-1.2-flash",
+      "displayName": "Gemini Omni 1.2 Flash",
+      "aliases": [
+        "google/gemini-omni-1.2-flash",
+        "google/gemini-omni-1-2-flash",
+        "google/gemini-omni-1.2-flash-20261105",
+        "google/gemini-omni-1-2-flash-20261105",
+        "gemini-omni-1.2-flash",
+        "gemini-omni-1-2-flash",
+        "vertex-ai/gemini-omni-1.2-flash",
+        "vertex-ai/gemini-omni-1-2-flash"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-omni",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 9.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native... · context=131072 · LiteLLM supports_reasoning, supports_vision, max_input=131072, max_output=260640, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
     },
     {
       "id": "~google/gemini-pro-latest",
@@ -7341,7 +7404,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.011,
+      "cacheReadCostPerMillionUSD": 0.024,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8318,7 +8381,8 @@
       "aliases": [
         "tencent/hy4",
         "tencent/hy4-20261104",
-        "hy4"
+        "hy4",
+        "gmi/tencent/hy4"
       ],
       "providerID": "tencent",
       "family": "hy4",
@@ -8326,7 +8390,7 @@
       "outputCostPerMillionUSD": 1.2505,
       "cacheReadCostPerMillionUSD": 0.021,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world pro · context=1048576",
+      "notes": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world pro · context=1048576 · LiteLLM max_input=1000000",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8632,7 +8696,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -8798,9 +8862,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1529,
-      "outputCostPerMillionUSD": 10.5572,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.1615,
+      "outputCostPerMillionUSD": 9.3388,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -9070,9 +9134,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.52,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.59,
+      "outputCostPerMillionUSD": 0.79,
+      "cacheReadCostPerMillionUSD": 0.295,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
@@ -9397,8 +9461,8 @@
       "id": "minimax/minimax-m2",
       "displayName": "MiniMax M2",
       "aliases": [
-        "minimax/minimax-m2",
-        "minimax-m2"
+        "minimax-m2",
+        "minimax/minimax-m2"
       ],
       "providerID": "minimax",
       "family": "minimax-m2",
@@ -9406,44 +9470,9 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=8192",
       "brandAssetName": "minimax",
-      "organizationName": "MiniMax"
-    },
-    {
-      "id": "minimax/minimax-m2-her",
-      "displayName": "MiniMax M2-her",
-      "aliases": [
-        "minimax/minimax-m2-her",
-        "minimax/minimax-m2-her-20260123",
-        "minimax-m2-her"
-      ],
-      "providerID": "minimax",
-      "family": "minimax-m2",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich  · context=65536",
-      "brandAssetName": "minimax",
-      "organizationName": "MiniMax"
-    },
-    {
-      "id": "minimax/minimax-m2.1",
-      "displayName": "MiniMax M2.1",
-      "aliases": [
-        "minimax/minimax-m2.1",
-        "minimax-m2.1"
-      ],
-      "providerID": "minimax",
-      "family": "minimax-m2",
-      "inputCostPerMillionUSD": 0.3,
-      "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in rea · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192",
-      "brandAssetName": "minimax",
-      "organizationName": "MiniMax"
+      "organizationName": "MiniMax",
+      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=200000, max_output=8192"
     },
     {
       "id": "minimax/minimax-m2.5",
@@ -9476,7 +9505,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.06,
+      "cacheReadCostPerMillionUSD": 0.042,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
@@ -9516,23 +9545,6 @@
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576 · LiteLLM supports_prompt_caching, max_input=1048576, max_output=1048576",
-      "brandAssetName": "minimax",
-      "organizationName": "MiniMax"
-    },
-    {
-      "id": "minimax/minimax-01",
-      "displayName": "MiniMax-01",
-      "aliases": [
-        "minimax/minimax-01",
-        "minimax-01"
-      ],
-      "providerID": "minimax",
-      "family": "minimax-01",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 1.1,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context... · context=1000192",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -11727,7 +11739,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.07,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -12348,15 +12360,15 @@
         "ricursiveai/ripple-65b-preview",
         "ricursiveai/ripple-65b-preview-20261104",
         "ripple-65b-preview",
-        "together-ai/ricursive-ai/ripple-65b-preview"
+        "gmi/gmicloud/ripple-65b-preview"
       ],
       "providerID": "ricursiveai",
       "family": "ripple-65b",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16. · context=1048576 · LiteLLM supports_prompt_caching, max_input=131072, max_output=131072"
+      "notes": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16. · context=1048576 · LiteLLM max_input=1000000"
     },
     {
       "id": "mistralai/mistral-saba",
