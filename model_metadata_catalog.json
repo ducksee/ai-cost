@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-04T19:45:39.746997+00:00",
+  "generatedAt": "2026-11-05T06:47:35.054168+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -195,7 +195,7 @@
       "outputCostPerMillionUSD": null,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The Auto Router automatically selects the best model for your prompt, powered by the wisdom of the market. It routes you based on what the OpenRouter community collectively spends on... · context=2000000 · LiteLLM supports_reasoning, supports_function_calling",
+      "notes": "Auto is OpenRouter’s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router). It replaces market-spend rankings with request-aware selection of both the model and reasoning effort,  · context=2000000 · LiteLLM supports_reasoning, supports_function_calling",
       "brandAssetName": "openrouter",
       "organizationName": "OpenRouter"
     },
@@ -1944,9 +1944,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.022,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.004,
+      "inputCostPerMillionUSD": 0.006,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.005,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -1959,9 +1959,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1035,
+      "inputCostPerMillionUSD": 0.0963,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheReadCostPerMillionUSD": 0.0963,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2141,7 +2141,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0487,
+      "inputCostPerMillionUSD": 0.059,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -2233,9 +2233,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": 0.004,
+      "inputCostPerMillionUSD": 0.112,
+      "outputCostPerMillionUSD": 0.336,
+      "cacheReadCostPerMillionUSD": 0.00336,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
       "brandAssetName": "deepseek",
@@ -2371,7 +2371,8 @@
       "aliases": [
         "sakana/fugu-max",
         "sakana/fugu-max-20260911",
-        "fugu-max"
+        "fugu-max",
+        "empiriolabs/fugu-max"
       ],
       "providerID": "sakana",
       "family": "fugu-max",
@@ -2379,7 +2380,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000"
+      "notes": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=131072"
     },
     {
       "id": "sakana/fugu-ultra",
@@ -3678,15 +3679,15 @@
         "google/gemma-4-26b-a4b-it-20260403",
         "gemma-4-26b-a4b",
         "gemma-4-26b-a4b-it",
-        "cloudflare/@cf/google/gemma-4-26b-a4b-it"
+        "empiriolabs/gemma-4-26b-a4b"
       ],
       "providerID": "gemini",
       "family": "gemma-4",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.29,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=256000, max_output=256000",
+      "notes": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B quality at... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -4155,9 +4156,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0282,
-      "outputCostPerMillionUSD": 0.0937,
-      "cacheReadCostPerMillionUSD": 0.0282,
+      "inputCostPerMillionUSD": 0.0285,
+      "outputCostPerMillionUSD": 0.0923,
+      "cacheReadCostPerMillionUSD": 0.0285,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -6162,7 +6163,7 @@
       "outputCostPerMillionUSD": 75.0,
       "cacheReadCostPerMillionUSD": 1.25,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=400000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=272000, max_output=128000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7340,7 +7341,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.026,
+      "cacheReadCostPerMillionUSD": 0.011,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -7377,7 +7378,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -8298,7 +8299,8 @@
       "aliases": [
         "tencent/hy3-preview",
         "tencent/hy3-preview-20260421",
-        "hy3-preview"
+        "hy3-preview",
+        "gmi/tencent/hy3-preview"
       ],
       "providerID": "tencent",
       "family": "hy3-preview",
@@ -8306,7 +8308,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144",
+      "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144 · LiteLLM max_input=262144",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8796,9 +8798,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1719,
-      "outputCostPerMillionUSD": 9.3388,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "inputCostPerMillionUSD": 0.1529,
+      "outputCostPerMillionUSD": 10.5572,
+      "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -8901,6 +8903,25 @@
       "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual... · context=131072"
+    },
+    {
+      "id": "inclusionai/ling-3.0-tiny",
+      "displayName": "Ling 3.0 Tiny",
+      "aliases": [
+        "inclusionai/ling-3.0-tiny",
+        "inclusionai/ling-3-0-tiny",
+        "inclusionai/ling-3.0-tiny-20260806",
+        "inclusionai/ling-3-0-tiny-20260806",
+        "ling-3.0-tiny",
+        "ling-3-0-tiny"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.015,
+      "outputCostPerMillionUSD": 0.045,
+      "cacheReadCostPerMillionUSD": 0.003,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable... · context=262144"
     },
     {
       "id": "inclusionai/ling-3.1-flash",
@@ -9049,9 +9070,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.32,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.52,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
@@ -9070,7 +9091,7 @@
       "family": "llama-4",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward... · context=524288 · LiteLLM max_input=131072, max_output=8192",
       "brandAssetName": "meta",
@@ -9983,7 +10004,7 @@
         "mistral-small-4",
         "mistral-small-2603",
         "mistral-small-latest",
-        "mistral/mistral-small-2603"
+        "empiriolabs/mistral-small-4"
       ],
       "providerID": "mistral",
       "family": "mistral-small",
@@ -9991,7 +10012,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_vision, max_input=262144, max_output=65536",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10854,15 +10875,16 @@
         "nova-lite-1.0",
         "nova-lite-1-0",
         "nova-lite-v1",
-        "amazon-nova/nova-lite-v1"
+        "empiriolabs/nova-lite-1-0",
+        "empiriolabs/nova-lite-1.0"
       ],
       "providerID": "amazon",
       "family": "nova-lite",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.24,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.069,
+      "outputCostPerMillionUSD": 0.28,
+      "cacheReadCostPerMillionUSD": 0.0386,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite... · context=300000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=300000, max_output=10000",
+      "notes": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite... · context=300000 · LiteLLM supports_prompt_caching, supports_vision, max_input=317379, max_output=10000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -10874,15 +10896,16 @@
         "nova-micro-1.0",
         "nova-micro-1-0",
         "nova-micro-v1",
-        "amazon-nova/nova-micro-v1"
+        "empiriolabs/nova-micro-1-0",
+        "empiriolabs/nova-micro-1.0"
       ],
       "providerID": "amazon",
       "family": "nova-micro",
-      "inputCostPerMillionUSD": 0.035,
-      "outputCostPerMillionUSD": 0.14,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.04,
+      "outputCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.0224,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost. With a context length... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=128000, max_output=10000",
+      "notes": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost. With a context length... · context=128000 · LiteLLM supports_prompt_caching, max_input=133003, max_output=10000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -10914,15 +10937,16 @@
         "nova-pro-1.0",
         "nova-pro-1-0",
         "nova-pro-v1",
-        "amazon-nova/nova-pro-v1"
+        "empiriolabs/nova-pro-1-0",
+        "empiriolabs/nova-pro-1.0"
       ],
       "providerID": "amazon",
       "family": "nova-pro",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 3.2,
+      "inputCostPerMillionUSD": 2.4,
+      "outputCostPerMillionUSD": 9.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks. As of December... · context=300000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=300000, max_output=10000",
+      "notes": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks. As of December... · context=300000 · LiteLLM supports_vision, max_input=317319, max_output=10000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -11531,7 +11555,7 @@
       "family": "qwen3-235b",
       "inputCostPerMillionUSD": 0.09,
       "outputCostPerMillionUSD": 0.55,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose  · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -12170,15 +12194,16 @@
         "qwen/qwen3.8-max-0902",
         "qwen/qwen3.8-max-20260902",
         "qwen3.8-max-(0902)",
-        "qwen3.8-max-0902"
+        "qwen3.8-max-0902",
+        "gmi/qwen/qwen3.8-max-0902"
       ],
       "providerID": "qwen",
       "family": "qwen3-8",
-      "inputCostPerMillionUSD": 2.0,
-      "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.25,
+      "inputCostPerMillionUSD": 1.65,
+      "outputCostPerMillionUSD": 4.951,
+      "cacheReadCostPerMillionUSD": 0.206,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=1000000",
+      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=1000000 · LiteLLM max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12322,15 +12347,16 @@
       "aliases": [
         "ricursiveai/ripple-65b-preview",
         "ricursiveai/ripple-65b-preview-20261104",
-        "ripple-65b-preview"
+        "ripple-65b-preview",
+        "together-ai/ricursive-ai/ripple-65b-preview"
       ],
       "providerID": "ricursiveai",
       "family": "ripple-65b",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16. · context=16384"
+      "notes": "Ripple-65B-Preview by ricursiveAI, a 65B model with native tool calling, served in BF16. · context=1048576 · LiteLLM supports_prompt_caching, max_input=131072, max_output=131072"
     },
     {
       "id": "mistralai/mistral-saba",
@@ -12450,15 +12476,17 @@
         "bytedance-seed/seed-2-1-turbo-20260810",
         "bytedance-seed/seed-2.1-turbo-20260810",
         "seed-2.1-turbo",
-        "seed-2-1-turbo"
+        "seed-2-1-turbo",
+        "empiriolabs/seed-2-1-turbo",
+        "empiriolabs/seed-2.1-turbo"
       ],
       "providerID": "bytedance",
       "family": "seed-2",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 2.5,
+      "inputCostPerMillionUSD": 0.63,
+      "outputCostPerMillionUSD": 3.13,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144",
+      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144 · LiteLLM supports_reasoning, supports_vision, max_input=229093, max_output=65536",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12494,15 +12522,17 @@
         "bytedance-seed/seed-2.0-lite-20260309",
         "bytedance-seed/seed-2-0-lite-20260309",
         "seed-2.0-lite",
-        "seed-2-0-lite"
+        "seed-2-0-lite",
+        "empiriolabs/seed-2-0-lite",
+        "empiriolabs/seed-2.0-lite"
       ],
       "providerID": "bytedance",
       "family": "seed-2",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 2.0,
+      "inputCostPerMillionUSD": 0.31,
+      "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production w · context=262144",
+      "notes": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production w · context=262144 · LiteLLM supports_reasoning, supports_vision, max_input=229096, max_output=128000",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12670,15 +12700,17 @@
         "stepfun/step-3.5-flash",
         "stepfun/step-3-5-flash",
         "step-3.5-flash",
-        "step-3-5-flash"
+        "step-3-5-flash",
+        "empiriolabs/step-3-5-flash",
+        "empiriolabs/step-3.5-flash"
       ],
       "providerID": "stepfun",
       "family": "step-3",
       "inputCostPerMillionUSD": 0.1,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token.... · context=262144",
+      "notes": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token.... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=131072",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
