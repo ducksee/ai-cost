@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-06T06:47:50.904436+00:00",
+  "generatedAt": "2026-11-06T19:25:06.261997+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2150,6 +2150,25 @@
       "organizationName": "DeepSeek"
     },
     {
+      "id": "deepseek/deepseek-v4-flash-0731:batch",
+      "displayName": "DeepSeek V4 Flash 0731 (batch)",
+      "aliases": [
+        "deepseek/deepseek-v4-flash-0731:batch",
+        "deepseek/deepseek-v4-flash-20260731",
+        "deepseek-v4-flash-0731-(batch)",
+        "deepseek-v4-flash-0731:batch"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.048,
+      "outputCostPerMillionUSD": 0.144,
+      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows.... · context=1048576",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
+    },
+    {
       "id": "~deepseek/deepseek-v4-flash-latest",
       "displayName": "DeepSeek V4 Flash Latest",
       "aliases": [
@@ -2158,7 +2177,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.059,
+      "inputCostPerMillionUSD": 0.0434,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -7404,7 +7423,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.022,
+      "cacheReadCostPerMillionUSD": 0.019,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8448,6 +8467,23 @@
       "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
+      "id": "thinkingmachines/inkling-small:batch",
+      "displayName": "Inkling Small (batch)",
+      "aliases": [
+        "thinkingmachines/inkling-small:batch",
+        "thinkingmachines/inkling-small-20260730",
+        "inkling-small-(batch)",
+        "inkling-small:batch"
+      ],
+      "providerID": "thinkingmachines",
+      "family": "inkling-small",
+      "inputCostPerMillionUSD": 0.36,
+      "outputCostPerMillionUSD": 0.96,
+      "cacheReadCostPerMillionUSD": 0.08,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Inkling Small is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 12B active parameters out of 276B total. It is positioned as the smaller, more efficient member of... · context=524288"
+    },
+    {
       "id": "typesafe/jev-1.13.0",
       "displayName": "Jev 1.13",
       "aliases": [
@@ -8863,7 +8899,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.1824,
-      "outputCostPerMillionUSD": 10.1522,
+      "outputCostPerMillionUSD": 9.3388,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -9530,6 +9566,25 @@
       "organizationName": "MiniMax"
     },
     {
+      "id": "minimax/minimax-m3:batch",
+      "displayName": "MiniMax M3 (batch)",
+      "aliases": [
+        "minimax/minimax-m3:batch",
+        "minimax/minimax-m3-20260531",
+        "minimax-m3-(batch)",
+        "minimax-m3:batch"
+      ],
+      "providerID": "minimax",
+      "family": "minimax-m3",
+      "inputCostPerMillionUSD": 0.224,
+      "outputCostPerMillionUSD": 0.88,
+      "cacheReadCostPerMillionUSD": 0.0448,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,... · context=524288",
+      "brandAssetName": "minimax",
+      "organizationName": "MiniMax"
+    },
+    {
       "id": "minimax/minimax-m3.1-flash",
       "displayName": "MiniMax M3.1 Flash",
       "aliases": [
@@ -10169,6 +10224,25 @@
       "organizationName": "Meta"
     },
     {
+      "id": "meta/muse-glimmer-30b:batch",
+      "displayName": "Muse Glimmer 30B (batch)",
+      "aliases": [
+        "meta/muse-glimmer-30b:batch",
+        "meta/muse-glimmer-30b-20260810",
+        "muse-glimmer-30b-(batch)",
+        "muse-glimmer-30b:batch"
+      ],
+      "providerID": "meta",
+      "family": "muse-glimmer",
+      "inputCostPerMillionUSD": 0.24,
+      "outputCostPerMillionUSD": 0.96,
+      "cacheReadCostPerMillionUSD": 0.032,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
+    },
+    {
       "id": "meta/muse-spark-1.1",
       "displayName": "Muse Spark 1.1",
       "aliases": [
@@ -10692,29 +10766,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=131072",
-      "brandAssetName": "nvidia",
-      "organizationName": "Nvidia"
-    },
-    {
-      "id": "nvidia/nemotron-3.5-content-safety:free",
-      "displayName": "Nemotron 3.5 Content Safety (free)",
-      "aliases": [
-        "nvidia/nemotron-3.5-content-safety:free",
-        "nvidia/nemotron-3-5-content-safety:free",
-        "nvidia/nemotron-3.5-content-safety-20260604",
-        "nvidia/nemotron-3-5-content-safety-20260604",
-        "nemotron-3.5-content-safety-(free)",
-        "nemotron-3-5-content-safety-(free)",
-        "nemotron-3.5-content-safety:free",
-        "nemotron-3-5-content-safety:free"
-      ],
-      "providerID": "nvidia",
-      "family": "nemotron-3",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Content Safety is a compact 4B-parameter multimodal guardrail model from NVIDIA, fine-tuned from Google Gemma-3-4B. It moderates both inputs to and responses from LLMs and VLMs, accepting... · context=128000",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -12181,6 +12232,25 @@
       "organizationName": "Qwen"
     },
     {
+      "id": "qwen/qwen3.8-27b:batch",
+      "displayName": "Qwen3.8 27B (batch)",
+      "aliases": [
+        "qwen/qwen3.8-27b:batch",
+        "qwen/qwen3.8-27b-20260814",
+        "qwen3.8-27b-(batch)",
+        "qwen3.8-27b:batch"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 0.16,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=262144",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
       "id": "qwen/qwen3.8-flash",
       "displayName": "Qwen3.8 Flash",
       "aliases": [
@@ -12355,7 +12425,7 @@
     },
     {
       "id": "ricursiveai/ripple-65b-preview",
-      "displayName": "ricursiveAI/Ripple-65B-Preview",
+      "displayName": "Ripple 65B Preview",
       "aliases": [
         "ricursiveai/ripple-65b-preview",
         "ricursiveai/ripple-65b-preview-20261104",
