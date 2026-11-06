@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-05T19:57:46.739748+00:00",
+  "generatedAt": "2026-11-06T06:47:50.904436+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1976,9 +1976,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.0927,
+      "inputCostPerMillionUSD": 0.0999,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.0927,
+      "cacheReadCostPerMillionUSD": 0.0999,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2158,7 +2158,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0434,
+      "inputCostPerMillionUSD": 0.059,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -4219,9 +4219,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0285,
+      "inputCostPerMillionUSD": 0.0284,
       "outputCostPerMillionUSD": 0.0923,
-      "cacheReadCostPerMillionUSD": 0.0285,
+      "cacheReadCostPerMillionUSD": 0.0284,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -7404,7 +7404,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.024,
+      "cacheReadCostPerMillionUSD": 0.022,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8862,9 +8862,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1615,
-      "outputCostPerMillionUSD": 9.3388,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "inputCostPerMillionUSD": 0.1824,
+      "outputCostPerMillionUSD": 10.1522,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
