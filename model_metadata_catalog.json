@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-06T19:25:06.261997+00:00",
+  "generatedAt": "2026-11-07T05:59:12.722340+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2177,7 +2177,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0434,
+      "inputCostPerMillionUSD": 0.0553,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -4238,9 +4238,9 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0284,
+      "inputCostPerMillionUSD": 0.0285,
       "outputCostPerMillionUSD": 0.0923,
-      "cacheReadCostPerMillionUSD": 0.0284,
+      "cacheReadCostPerMillionUSD": 0.0285,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -7423,7 +7423,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.019,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -7518,9 +7518,9 @@
       ],
       "providerID": "ibm-granite",
       "family": "granite-4",
-      "inputCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,... · context=131072 · LiteLLM supports_prompt_caching, supports_reasoning, max_input=131000"
     },
@@ -8400,16 +8400,15 @@
       "aliases": [
         "tencent/hy4",
         "tencent/hy4-20261104",
-        "hy4",
-        "gmi/tencent/hy4"
+        "hy4"
       ],
       "providerID": "tencent",
       "family": "hy4",
-      "inputCostPerMillionUSD": 0.417,
-      "outputCostPerMillionUSD": 1.2505,
-      "cacheReadCostPerMillionUSD": 0.021,
+      "inputCostPerMillionUSD": 0.834,
+      "outputCostPerMillionUSD": 2.501,
+      "cacheReadCostPerMillionUSD": 0.042,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world pro · context=1048576 · LiteLLM max_input=1000000",
+      "notes": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world pro · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=960000, max_output=64000",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8419,16 +8418,15 @@
       "aliases": [
         "tencent/hy4-preview",
         "tencent/hy4-preview-20260827",
-        "hy4-preview",
-        "aihubmix/hy4-preview"
+        "hy4-preview"
       ],
       "providerID": "tencent",
       "family": "hy4-preview",
-      "inputCostPerMillionUSD": 0.845,
-      "outputCostPerMillionUSD": 2.535,
-      "cacheReadCostPerMillionUSD": 0.04225,
+      "inputCostPerMillionUSD": 0.834,
+      "outputCostPerMillionUSD": 2.501,
+      "cacheReadCostPerMillionUSD": 0.042,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=64000",
+      "notes": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=960000, max_output=64000",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -8965,6 +8963,40 @@
       "notes": "LFM2.5-24B-A2B is a mixture-of-experts reasoning model from Liquid AI with 24B total and 2.45B active parameters. It always reasons before answering and is built for agents that call tools. Liquid... · context=128000"
     },
     {
+      "id": "liquid/lfm-3-1.7b",
+      "displayName": "LFM3-1.7B",
+      "aliases": [
+        "liquid/lfm-3-1.7b",
+        "liquid/lfm-3-1.7b-20261106",
+        "lfm3-1.7b",
+        "lfm-3-1.7b"
+      ],
+      "providerID": "liquid",
+      "family": "lfm-3",
+      "inputCostPerMillionUSD": 0.08,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used... · context=262144"
+    },
+    {
+      "id": "liquid/lfm-3-1.7b:free",
+      "displayName": "LFM3-1.7B (free)",
+      "aliases": [
+        "liquid/lfm-3-1.7b:free",
+        "liquid/lfm-3-1.7b-20261106",
+        "lfm3-1.7b-(free)",
+        "lfm-3-1.7b:free"
+      ],
+      "providerID": "liquid",
+      "family": "lfm-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "A compact 1.7B-parameter text model with a 256K-token context, post-trained for agents, tool calling, and structured outputs. It reasons before it answers. Prompts and outputs may be retained and used... · context=262144"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash",
       "displayName": "Ling 3.0 Flash",
       "aliases": [
@@ -9036,9 +9068,9 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.225,
-      "cacheReadCostPerMillionUSD": 0.015,
+      "inputCostPerMillionUSD": 0.045,
+      "outputCostPerMillionUSD": 0.135,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=1000000"
     },
@@ -9324,7 +9356,7 @@
       "family": "magnum-v4",
       "inputCostPerMillionUSD": 2.5,
       "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 2.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=32768"
     },
@@ -10079,7 +10111,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_vision, max_input=262144, max_output=65536",
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10947,7 +10979,7 @@
       "outputCostPerMillionUSD": 0.28,
       "cacheReadCostPerMillionUSD": 0.0386,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite... · context=300000 · LiteLLM supports_prompt_caching, supports_vision, max_input=317379, max_output=10000",
+      "notes": "Amazon Nova Lite 1.0 is a very low-cost multimodal model from Amazon that focused on fast processing of image, video, and text inputs to generate text output. Amazon Nova Lite... · context=300000 · LiteLLM supports_prompt_caching, supports_vision, supports_function_calling, max_input=317379, max_output=10000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -10968,7 +11000,7 @@
       "outputCostPerMillionUSD": 0.16,
       "cacheReadCostPerMillionUSD": 0.0224,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost. With a context length... · context=128000 · LiteLLM supports_prompt_caching, max_input=133003, max_output=10000",
+      "notes": "Amazon Nova Micro 1.0 is a text-only model that delivers the lowest latency responses in the Amazon Nova family of models at a very low cost. With a context length... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=133003, max_output=10000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -11009,7 +11041,7 @@
       "outputCostPerMillionUSD": 9.6,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks. As of December... · context=300000 · LiteLLM supports_vision, max_input=317319, max_output=10000",
+      "notes": "Amazon Nova Pro 1.0 is a capable multimodal model from Amazon focused on providing a combination of accuracy, speed, and cost for a wide range of tasks. As of December... · context=300000 · LiteLLM supports_vision, supports_function_calling, max_input=317319, max_output=10000",
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
     },
@@ -12419,7 +12451,7 @@
       "family": "remm-slerp",
       "inputCostPerMillionUSD": 0.35,
       "outputCostPerMillionUSD": 0.65,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.35,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge · context=6144"
     },
@@ -12568,7 +12600,7 @@
       "outputCostPerMillionUSD": 3.13,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144 · LiteLLM supports_reasoning, supports_vision, max_input=229093, max_output=65536",
+      "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=229093, max_output=65536",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12614,7 +12646,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production w · context=262144 · LiteLLM supports_reasoning, supports_vision, max_input=229096, max_output=128000",
+      "notes": "Seed-2.0-Lite is a versatile, cost‑efficient enterprise workhorse that delivers strong multimodal and agent capabilities while offering noticeably lower latency, making it a practical default choice for most production w · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=229096, max_output=128000",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -12984,7 +13016,7 @@
       "family": "weaver",
       "inputCostPerMillionUSD": 0.4,
       "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations. · context=8000"
     },
