@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-07T13:02:41.440613+00:00",
+  "generatedAt": "2026-11-07T21:51:35.970432+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -605,7 +605,8 @@
       "displayName": "Claude Fable Latest",
       "aliases": [
         "~anthropic/claude-fable-latest",
-        "claude-fable-latest"
+        "claude-fable-latest",
+        "bedrock/claude-fable-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-fable",
@@ -780,7 +781,8 @@
       "displayName": "Claude Haiku Latest",
       "aliases": [
         "~anthropic/claude-haiku-latest",
-        "claude-haiku-latest"
+        "claude-haiku-latest",
+        "github-copilot/claude-haiku-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-haiku",
@@ -1389,7 +1391,8 @@
       "displayName": "Claude Opus Latest",
       "aliases": [
         "~anthropic/claude-opus-latest",
-        "claude-opus-latest"
+        "claude-opus-latest",
+        "bedrock/claude-opus-latest"
       ],
       "providerID": "~anthropic",
       "family": "claude-opus",
@@ -1957,7 +1960,8 @@
       "displayName": "DeepSeek Flash Latest",
       "aliases": [
         "~deepseek/deepseek-flash-latest",
-        "deepseek-flash-latest"
+        "deepseek-flash-latest",
+        "azure-ai/deepseek-flash-latest"
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
@@ -1972,7 +1976,8 @@
       "displayName": "DeepSeek Pro Latest",
       "aliases": [
         "~deepseek/deepseek-pro-latest",
-        "deepseek-pro-latest"
+        "deepseek-pro-latest",
+        "azure-ai/deepseek-pro-latest"
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
@@ -2177,7 +2182,7 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0474,
+      "inputCostPerMillionUSD": 0.0434,
       "outputCostPerMillionUSD": 0.3,
       "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
@@ -4234,13 +4239,14 @@
       "displayName": "GLM Flash Latest",
       "aliases": [
         "~z-ai/glm-flash-latest",
-        "glm-flash-latest"
+        "glm-flash-latest",
+        "databricks/glm-flash-latest"
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0285,
-      "outputCostPerMillionUSD": 0.0923,
-      "cacheReadCostPerMillionUSD": 0.0285,
+      "inputCostPerMillionUSD": 0.0335,
+      "outputCostPerMillionUSD": 0.083,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
     },
@@ -4249,7 +4255,8 @@
       "displayName": "GLM Latest",
       "aliases": [
         "~z-ai/glm-latest",
-        "glm-latest"
+        "glm-latest",
+        "databricks/glm-latest"
       ],
       "providerID": "~z-ai",
       "family": "glm-latest",
@@ -4264,7 +4271,8 @@
       "displayName": "GPT Astra Latest",
       "aliases": [
         "~openai/gpt-astra-latest",
-        "gpt-astra-latest"
+        "gpt-astra-latest",
+        "azure-ai/gpt-astra-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-astra",
@@ -4334,7 +4342,8 @@
       "displayName": "GPT Luna Latest",
       "aliases": [
         "~openai/gpt-luna-latest",
-        "gpt-luna-latest"
+        "gpt-luna-latest",
+        "azure-ai/gpt-luna-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-luna",
@@ -4349,7 +4358,8 @@
       "displayName": "GPT Mini Latest",
       "aliases": [
         "~openai/gpt-mini-latest",
-        "gpt-mini-latest"
+        "gpt-mini-latest",
+        "azure-ai/gpt-mini-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-mini",
@@ -4364,7 +4374,8 @@
       "displayName": "GPT Sol Latest",
       "aliases": [
         "~openai/gpt-sol-latest",
-        "gpt-sol-latest"
+        "gpt-sol-latest",
+        "azure-ai/gpt-sol-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-sol",
@@ -4379,7 +4390,8 @@
       "displayName": "GPT Terra Latest",
       "aliases": [
         "~openai/gpt-terra-latest",
-        "gpt-terra-latest"
+        "gpt-terra-latest",
+        "azure-ai/gpt-terra-latest"
       ],
       "providerID": "~openai",
       "family": "gpt-terra",
@@ -7423,7 +7435,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.016,
+      "cacheReadCostPerMillionUSD": 0.019,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8257,7 +8269,8 @@
       "displayName": "Grok Latest",
       "aliases": [
         "~x-ai/grok-latest",
-        "grok-latest"
+        "grok-latest",
+        "xai/grok-latest"
       ],
       "providerID": "~x-ai",
       "family": "grok-latest",
@@ -8875,7 +8888,8 @@
       "aliases": [
         "kimi-k3.1-pro-highspeed",
         "moonshot-ai/kimi-k3.1-pro-highspeed",
-        "kimi/kimi-k3.1-pro-highspeed"
+        "kimi/kimi-k3.1-pro-highspeed",
+        "moonshot/kimi-k3.1-pro-highspeed"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
@@ -8883,7 +8897,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -8892,13 +8906,14 @@
       "displayName": "Kimi Latest",
       "aliases": [
         "~moonshotai/kimi-latest",
-        "kimi-latest"
+        "kimi-latest",
+        "azure-ai/kimi-latest"
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1548,
-      "outputCostPerMillionUSD": 9.7471,
-      "cacheReadCostPerMillionUSD": 0.15,
+      "inputCostPerMillionUSD": 0.1653,
+      "outputCostPerMillionUSD": 9.3388,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },

@@ -12456,7 +12456,7 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0237,
+    "input": 0.0217,
     "output": 0.15
   },
   {
@@ -12477,8 +12477,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0774,
-    "output": 4.87355
+    "input": 0.08265,
+    "output": 4.6694
   },
   {
     "model": "~openai/gpt-astra-latest",
@@ -12533,8 +12533,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01425,
-    "output": 0.04615
+    "input": 0.01675,
+    "output": 0.0415
   },
   {
     "model": "~z-ai/glm-latest",
