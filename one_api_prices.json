@@ -9187,8 +9187,8 @@
     "model": "inception/mercury-2.5",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02,
-    "output": 0.075
+    "input": 0.1,
+    "output": 0.375
   },
   {
     "model": "inception/mercury-3",
@@ -10062,7 +10062,7 @@
     "model": "moonshotai/kimi-k3:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.542,
+    "input": 0.4585,
     "output": 3.0
   },
   {
@@ -12505,7 +12505,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0912,
+    "input": 0.08025,
     "output": 4.6694
   },
   {

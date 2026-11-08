@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-08T06:01:38.449046+00:00",
+  "generatedAt": "2026-11-08T13:25:49.361528+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -7473,7 +7473,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8874,9 +8874,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 1.084,
+      "inputCostPerMillionUSD": 0.917,
       "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.267,
+      "cacheReadCostPerMillionUSD": 0.226,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576",
       "brandAssetName": "kimi",
@@ -8949,9 +8949,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1824,
+      "inputCostPerMillionUSD": 0.1605,
       "outputCostPerMillionUSD": 9.3388,
-      "cacheReadCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
