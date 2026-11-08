@@ -12372,8 +12372,8 @@
     "model": "z-ai/glm-5.2:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.185,
-    "output": 0.75
+    "input": 0.1745,
+    "output": 0.6355
   },
   {
     "model": "z-ai/glm-5.3",
@@ -12421,8 +12421,8 @@
     "model": "z-ai/glm-5.3:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.185,
-    "output": 0.75
+    "input": 0.1745,
+    "output": 0.6355
   },
   {
     "model": "z-ai/glm-5v-turbo",
@@ -12505,8 +12505,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.08025,
-    "output": 4.6694
+    "input": 0.08595,
+    "output": 4.87355
   },
   {
     "model": "~openai/gpt-astra-latest",
