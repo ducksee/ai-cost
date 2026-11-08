@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-07T21:51:35.970432+00:00",
+  "generatedAt": "2026-11-08T06:01:38.449046+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2274,9 +2274,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.112,
-      "outputCostPerMillionUSD": 0.336,
-      "cacheReadCostPerMillionUSD": 0.00336,
+      "inputCostPerMillionUSD": 0.011,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.002,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
       "brandAssetName": "deepseek",
@@ -2298,6 +2298,25 @@
       "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=384000",
+      "brandAssetName": "deepseek",
+      "organizationName": "DeepSeek"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "displayName": "DeepSeek V4.1 Flash 1017 (batch)",
+      "aliases": [
+        "deepseek/deepseek-v4.1-flash-1017:batch",
+        "deepseek/deepseek-v4.1-flash-20261017",
+        "deepseek-v4.1-flash-1017-(batch)",
+        "deepseek-v4.1-flash-1017:batch"
+      ],
+      "providerID": "deepseek",
+      "family": "deepseek-v4",
+      "inputCostPerMillionUSD": 0.011,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.002,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model... · context=1048576",
       "brandAssetName": "deepseek",
       "organizationName": "DeepSeek"
     },
@@ -4077,6 +4096,25 @@
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
+      "id": "z-ai/glm-5.2:batch",
+      "displayName": "GLM 5.2 (batch)",
+      "aliases": [
+        "z-ai/glm-5.2:batch",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2-(batch)",
+        "glm-5-2-(batch)",
+        "glm-5.2:batch"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.37,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": 0.125,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
+    },
+    {
       "id": "z-ai/glm-5.3",
       "displayName": "GLM 5.3",
       "aliases": [
@@ -4110,9 +4148,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.45,
-      "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.37,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": 0.125,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576"
     },
@@ -7435,7 +7473,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.019,
+      "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
@@ -8836,9 +8874,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 2.28,
-      "outputCostPerMillionUSD": 11.4,
-      "cacheReadCostPerMillionUSD": 0.228,
+      "inputCostPerMillionUSD": 1.084,
+      "outputCostPerMillionUSD": 6.0,
+      "cacheReadCostPerMillionUSD": 0.267,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576",
       "brandAssetName": "kimi",
@@ -8911,9 +8949,9 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1653,
+      "inputCostPerMillionUSD": 0.1824,
       "outputCostPerMillionUSD": 9.3388,
-      "cacheReadCostPerMillionUSD": 0.16,
+      "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
     },
@@ -9374,60 +9412,6 @@
       "cacheReadCostPerMillionUSD": 2.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=32768"
-    },
-    {
-      "id": "inception/mercury-2",
-      "displayName": "Mercury 2",
-      "aliases": [
-        "inception/mercury-2",
-        "inception/mercury-2-20260304",
-        "inception/mercury-2.20260304",
-        "mercury-2"
-      ],
-      "providerID": "inception",
-      "family": "mercury-2",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": 0.025,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving... · context=128000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=128000, max_output=50000",
-      "organizationName": "inceptionlabs"
-    },
-    {
-      "id": "inception/mercury-2.5",
-      "displayName": "Mercury 2.5",
-      "aliases": [
-        "inception/mercury-2.5",
-        "inception/mercury-2-5",
-        "inception/mercury-2.5-20260908",
-        "inception/mercury-2-5-20260908",
-        "mercury-2.5",
-        "mercury-2-5"
-      ],
-      "providerID": "inception",
-      "family": "mercury-2",
-      "inputCostPerMillionUSD": 0.2,
-      "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": 0.02,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving... · context=260000 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=260000, max_output=65536"
-    },
-    {
-      "id": "inception/mercury-3",
-      "displayName": "Mercury 3",
-      "aliases": [
-        "inception/mercury-3",
-        "inception/mercury-3-20261019",
-        "inception/mercury-3.20261019",
-        "mercury-3"
-      ],
-      "providerID": "inception",
-      "family": "mercury-3",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.35,
-      "cacheReadCostPerMillionUSD": 0.01,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such... · context=1000000"
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -10237,10 +10221,46 @@
       "notes": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code · context=262144 · LiteLLM max_input=16000, max_output=16000"
     },
     {
+      "id": "morph/morph-v3-fast:batch",
+      "displayName": "Morph V3 Fast (batch)",
+      "aliases": [
+        "morph/morph-v3-fast:batch",
+        "morph/morph-v3-fast",
+        "morph-v3-fast-(batch)",
+        "morph-v3-fast:batch",
+        "morph-v3-fast"
+      ],
+      "providerID": "morph",
+      "family": "morph-v3",
+      "inputCostPerMillionUSD": 0.8,
+      "outputCostPerMillionUSD": 1.2,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Morph's fastest apply model for code edits. ~10,500 tokens/sec with 96% accuracy for rapid code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</instruction> <code · context=81920 · LiteLLM max_input=16000, max_output=16000"
+    },
+    {
       "id": "morph/morph-v3-large",
       "displayName": "Morph V3 Large",
       "aliases": [
         "morph/morph-v3-large",
+        "morph-v3-large"
+      ],
+      "providerID": "morph",
+      "family": "morph-v3",
+      "inputCostPerMillionUSD": 0.9,
+      "outputCostPerMillionUSD": 1.9,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</ins · context=262144 · LiteLLM max_input=16000, max_output=16000"
+    },
+    {
+      "id": "morph/morph-v3-large:batch",
+      "displayName": "Morph V3 Large (batch)",
+      "aliases": [
+        "morph/morph-v3-large:batch",
+        "morph/morph-v3-large",
+        "morph-v3-large-(batch)",
+        "morph-v3-large:batch",
         "morph-v3-large"
       ],
       "providerID": "morph",

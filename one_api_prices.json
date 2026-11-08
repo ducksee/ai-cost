@@ -8533,11 +8533,18 @@
     "output": 0.6
   },
   {
+    "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.0055,
+    "output": 0.1
+  },
+  {
     "model": "deepseek/deepseek-v4.1-flash:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.056,
-    "output": 0.168
+    "input": 0.0055,
+    "output": 0.1
   },
   {
     "model": "dots-studio/dots-3-note-preview:free",
@@ -9180,8 +9187,8 @@
     "model": "inception/mercury-2.5",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1,
-    "output": 0.375
+    "input": 0.02,
+    "output": 0.075
   },
   {
     "model": "inception/mercury-3",
@@ -10055,8 +10062,8 @@
     "model": "moonshotai/kimi-k3:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 1.14,
-    "output": 5.7
+    "input": 0.542,
+    "output": 3.0
   },
   {
     "model": "morph/morph-v3-fast",
@@ -10066,7 +10073,21 @@
     "output": 0.6
   },
   {
+    "model": "morph/morph-v3-fast:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.4,
+    "output": 0.6
+  },
+  {
     "model": "morph/morph-v3-large",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.45,
+    "output": 0.95
+  },
+  {
+    "model": "morph/morph-v3-large:batch",
     "type": "tokens",
     "channel_type": 20,
     "input": 0.45,
@@ -12348,6 +12369,13 @@
     "output": 2.2
   },
   {
+    "model": "z-ai/glm-5.2:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.185,
+    "output": 0.75
+  },
+  {
     "model": "z-ai/glm-5.3",
     "type": "tokens",
     "channel_type": 20,
@@ -12393,8 +12421,8 @@
     "model": "z-ai/glm-5.3:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.225,
-    "output": 1.0
+    "input": 0.185,
+    "output": 0.75
   },
   {
     "model": "z-ai/glm-5v-turbo",
@@ -12477,7 +12505,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.08265,
+    "input": 0.0912,
     "output": 4.6694
   },
   {
