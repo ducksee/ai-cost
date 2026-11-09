@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-09T06:31:17.085137+00:00",
+  "generatedAt": "2026-11-09T22:22:23.338386+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -601,6 +601,73 @@
       "organizationName": "Claude"
     },
     {
+      "id": "anthropic/claude-fable-5.2",
+      "displayName": "Claude Fable 5.2",
+      "aliases": [
+        "anthropic/claude-fable-5.2",
+        "anthropic/claude-fable-5-2",
+        "anthropic/claude-fable-5.2-20261109",
+        "anthropic/claude-fable-5-2-20261109",
+        "claude-fable-5.2",
+        "claude-fable-5-2",
+        "vertex-ai/claude-fable-5-2",
+        "vertex-ai/claude-fable-5.2"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 8,
+      "outputCostPerMillionUSD": 40,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 10.0,
+      "notes": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "claude/claude-fable-5-2",
+      "displayName": "Claude Fable 5.2",
+      "aliases": [
+        "claude-fable-5-2",
+        "claude-fable-5.2",
+        "anthropic/claude-fable-5-2",
+        "anthropic/claude-fable-5.2",
+        "claude/claude-fable-5-2",
+        "claude/claude-fable-5.2",
+        "vertex-ai/claude-fable-5-2",
+        "vertex-ai/claude-fable-5.2"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 8,
+      "outputCostPerMillionUSD": 40,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "anthropic/claude-fable-5.2:batch",
+      "displayName": "Claude Fable 5.2 (batch)",
+      "aliases": [
+        "anthropic/claude-fable-5.2:batch",
+        "anthropic/claude-fable-5.2-20261109",
+        "anthropic/claude-fable-5-2-20261109",
+        "claude-fable-5.2-(batch)",
+        "claude-fable-5-2-(batch)",
+        "claude-fable-5.2:batch"
+      ],
+      "providerID": "claude",
+      "family": "claude-fable",
+      "inputCostPerMillionUSD": 4.0,
+      "outputCostPerMillionUSD": 20.0,
+      "cacheReadCostPerMillionUSD": 0.1,
+      "cacheWriteCostPerMillionUSD": 5.0,
+      "notes": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infeasible... · context=1000000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
       "id": "~anthropic/claude-fable-latest",
       "displayName": "Claude Fable Latest",
       "aliases": [
@@ -610,10 +677,10 @@
       ],
       "providerID": "~anthropic",
       "family": "claude-fable",
-      "inputCostPerMillionUSD": 10.0,
-      "outputCostPerMillionUSD": 50.0,
-      "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": 12.5,
+      "inputCostPerMillionUSD": 8.0,
+      "outputCostPerMillionUSD": 40.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 10.0,
       "notes": "This model always redirects to the latest model in the Claude Fable family. · context=1000000"
     },
     {
@@ -828,6 +895,29 @@
       "inputCostPerMillionUSD": 10,
       "outputCostPerMillionUSD": 50,
       "cacheReadCostPerMillionUSD": 0.25,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
+      "brandAssetName": "claude",
+      "organizationName": "Claude"
+    },
+    {
+      "id": "claude/claude-mythos-5-2",
+      "displayName": "Claude Mythos 5.2",
+      "aliases": [
+        "claude-mythos-5-2",
+        "claude-mythos-5.2",
+        "anthropic/claude-mythos-5-2",
+        "anthropic/claude-mythos-5.2",
+        "claude/claude-mythos-5-2",
+        "claude/claude-mythos-5.2",
+        "anthropic.claude-mythos-5-2",
+        "anthropic.claude-mythos-5.2"
+      ],
+      "providerID": "claude",
+      "family": "claude-mythos",
+      "inputCostPerMillionUSD": 8,
+      "outputCostPerMillionUSD": 40,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=128000",
       "brandAssetName": "claude",
@@ -1926,21 +2016,6 @@
       "organizationName": "Cohere"
     },
     {
-      "id": "stealth/crouton-alpha",
-      "displayName": "Crouton Alpha",
-      "aliases": [
-        "stealth/crouton-alpha",
-        "crouton-alpha"
-      ],
-      "providerID": "stealth",
-      "family": "crouton-alpha",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers... · context=1048576"
-    },
-    {
       "id": "thedrummer/cydonia-24b-v4.1",
       "displayName": "Cydonia 24B V4.1",
       "aliases": [
@@ -2274,9 +2349,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.011,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.002,
+      "inputCostPerMillionUSD": 0.112,
+      "outputCostPerMillionUSD": 0.336,
+      "cacheReadCostPerMillionUSD": 0.00336,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576",
       "brandAssetName": "deepseek",
@@ -3907,7 +3982,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 1.1,
-      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact par · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=96000",
       "brandAssetName": "zai",
@@ -4190,9 +4265,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.061,
+      "cacheReadCostPerMillionUSD": 0.013,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
     },
@@ -7510,7 +7585,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -8499,6 +8574,23 @@
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
+      "id": "thinkingmachines/inkling-2-small:free",
+      "displayName": "Inkling 2 Small (free)",
+      "aliases": [
+        "thinkingmachines/inkling-2-small:free",
+        "thinkingmachines/inkling-2-small-20261107",
+        "inkling-2-small-(free)",
+        "inkling-2-small:free"
+      ],
+      "providerID": "thinkingmachines",
+      "family": "inkling-2",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling... · context=1048576"
+    },
+    {
       "id": "thinkingmachines/inkling-small",
       "displayName": "Inkling Small",
       "aliases": [
@@ -8874,9 +8966,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 0.917,
-      "outputCostPerMillionUSD": 6.0,
-      "cacheReadCostPerMillionUSD": 0.226,
+      "inputCostPerMillionUSD": 2.28,
+      "outputCostPerMillionUSD": 11.4,
+      "cacheReadCostPerMillionUSD": 0.228,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at... · context=1048576",
       "brandAssetName": "kimi",
@@ -8950,7 +9042,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.1824,
-      "outputCostPerMillionUSD": 10.1489,
+      "outputCostPerMillionUSD": 9.7471,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -9447,7 +9539,7 @@
       "outputCostPerMillionUSD": 1.044,
       "cacheReadCostPerMillionUSD": 0.0043,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1024000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -9508,23 +9600,6 @@
       "organizationName": "Xiaomi"
     },
     {
-      "id": "minimax/minimax-m1",
-      "displayName": "MiniMax M1",
-      "aliases": [
-        "minimax/minimax-m1",
-        "minimax-m1"
-      ],
-      "providerID": "minimax",
-      "family": "minimax-m1",
-      "inputCostPerMillionUSD": 0.55,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" · context=1000000",
-      "brandAssetName": "minimax",
-      "organizationName": "MiniMax"
-    },
-    {
       "id": "minimax/minimax-m2",
       "displayName": "MiniMax M2",
       "aliases": [
@@ -9555,7 +9630,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1... · context=204800 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192",
+      "notes": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1... · context=200000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9574,7 +9649,7 @@
       "outputCostPerMillionUSD": 2.4,
       "cacheReadCostPerMillionUSD": 0.042,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=204800 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
+      "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=196608 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -9621,8 +9696,7 @@
       "aliases": [
         "minimax/minimax-m3.1-flash",
         "minimax/minimax-m3.1-flash-20261019",
-        "minimax-m3.1-flash",
-        "together-ai/minimaxai/minimax-m3.1-flash"
+        "minimax-m3.1-flash"
       ],
       "providerID": "minimax",
       "family": "minimax-m3",
@@ -9630,7 +9704,7 @@
       "outputCostPerMillionUSD": 0.6,
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576 · LiteLLM supports_prompt_caching, max_input=1048576, max_output=1048576",
+      "notes": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for  · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -10086,9 +10160,9 @@
       ],
       "providerID": "mistral",
       "family": "mistral-small",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": null,
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 signif · context=256000",
       "brandAssetName": "mistral",
@@ -10270,6 +10344,62 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</ins · context=262144 · LiteLLM max_input=16000, max_output=16000"
+    },
+    {
+      "id": "meta/muse-ember",
+      "displayName": "Muse Ember",
+      "aliases": [
+        "meta/muse-ember",
+        "meta/muse-ember-20261109",
+        "muse-ember"
+      ],
+      "providerID": "meta",
+      "family": "muse-ember",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.004,
+      "cacheWriteCostPerMillionUSD": 0.125,
+      "notes": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,... · context=1048576",
+      "brandAssetName": "meta",
+      "organizationName": "Meta"
+    },
+    {
+      "id": "meta-ai/muse-ember-1.0-200k",
+      "displayName": "Muse Ember 1.0 >200k",
+      "aliases": [
+        "muse-ember-1.0-200k",
+        "muse-ember-1-0-200k",
+        "meta-ai/muse-ember-1.0-200k",
+        "meta-ai/muse-ember-1-0-200k",
+        "muse-ember-1.0->200k",
+        "muse-ember-1-0->200k"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-ember",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.5,
+      "cacheReadCostPerMillionUSD": 0.012,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+    },
+    {
+      "id": "meta-ai/muse-ember-1.0",
+      "displayName": "Muse Ember 1.0 ≤200k",
+      "aliases": [
+        "muse-ember-1.0",
+        "muse-ember-1-0",
+        "meta-ai/muse-ember-1.0",
+        "meta-ai/muse-ember-1-0",
+        "muse-ember-1.0-≤200k",
+        "muse-ember-1-0-≤200k"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-ember",
+      "inputCostPerMillionUSD": 0.1,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.004,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
     },
     {
       "id": "meta/muse-glimmer-30b",
@@ -10546,6 +10676,25 @@
       "notes": "Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=943718",
       "brandAssetName": "meta",
       "organizationName": "Meta"
+    },
+    {
+      "id": "meta-ai/muse-wonder-1.0",
+      "displayName": "Muse Wonder 1.0",
+      "aliases": [
+        "muse-wonder-1.0",
+        "muse-wonder-1-0",
+        "meta-ai/muse-wonder-1.0",
+        "meta-ai/muse-wonder-1-0",
+        "meta/muse-wonder-1.0",
+        "meta/muse-wonder-1-0"
+      ],
+      "providerID": "meta-ai",
+      "family": "muse-wonder",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072"
     },
     {
       "id": "gryphe/mythomax-l2-13b",
@@ -12357,6 +12506,25 @@
       "organizationName": "Qwen"
     },
     {
+      "id": "qwen/qwen3.8-max-0902:batch",
+      "displayName": "Qwen3.8 Max (0902) (batch)",
+      "aliases": [
+        "qwen/qwen3.8-max-0902:batch",
+        "qwen/qwen3.8-max-20260902",
+        "qwen3.8-max-(0902)-(batch)",
+        "qwen3.8-max-0902:batch"
+      ],
+      "providerID": "qwen",
+      "family": "qwen3-8",
+      "inputCostPerMillionUSD": 1.15,
+      "outputCostPerMillionUSD": 3.45,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,... · context=262144",
+      "brandAssetName": "qwen",
+      "organizationName": "Qwen"
+    },
+    {
       "id": "qwen/qwen3.8-max-prime",
       "displayName": "Qwen3.8 Max Prime",
       "aliases": [
@@ -12901,7 +13069,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
