@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-10T07:19:12.626866+00:00",
+  "generatedAt": "2026-11-10T19:44:21.191200+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -910,8 +910,8 @@
         "anthropic/claude-mythos-5.2",
         "claude/claude-mythos-5-2",
         "claude/claude-mythos-5.2",
-        "anthropic.claude-mythos-5-2",
-        "anthropic.claude-mythos-5.2"
+        "vertex-ai/claude-mythos-5-2",
+        "vertex-ai/claude-mythos-5.2"
       ],
       "providerID": "claude",
       "family": "claude-mythos",
@@ -2332,7 +2332,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -3701,6 +3701,62 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-4-carbon",
+      "displayName": "Gemini 4 Carbon",
+      "aliases": [
+        "google/gemini-4-carbon",
+        "google/gemini-4-carbon-20261110",
+        "gemini-4-carbon",
+        "gemini/gemini-4-carbon"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 0.1875,
+      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "gemini/gemini-4-carbon",
+      "displayName": "Gemini 4 Carbon",
+      "aliases": [
+        "gemini-4-carbon",
+        "google/gemini-4-carbon",
+        "gemini/gemini-4-carbon"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 4,
+      "outputCostPerMillionUSD": 20,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-4-carbon:batch",
+      "displayName": "Gemini 4 Carbon (batch)",
+      "aliases": [
+        "google/gemini-4-carbon:batch",
+        "google/gemini-4-carbon-20261110",
+        "gemini-4-carbon-(batch)",
+        "gemini-4-carbon:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 0.1875,
+      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "displayName": "Gemini Flash Latest",
       "aliases": [
@@ -4265,9 +4321,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": 0.042,
       "outputCostPerMillionUSD": 0.061,
-      "cacheReadCostPerMillionUSD": 0.013,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
     },
@@ -4357,8 +4413,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0335,
-      "outputCostPerMillionUSD": 0.083,
+      "inputCostPerMillionUSD": 0.0399,
+      "outputCostPerMillionUSD": 0.0784,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"

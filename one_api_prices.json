@@ -8813,6 +8813,13 @@
     "output": 10.0
   },
   {
+    "model": "gemini/gemini-4-carbon",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 2.0,
+    "output": 10.0
+  },
+  {
     "model": "google/codegemma-1.1-7b",
     "type": "tokens",
     "channel_type": 20,
@@ -9066,6 +9073,20 @@
   },
   {
     "model": "google/gemini-4-argon:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.5,
+    "output": 2.5
+  },
+  {
+    "model": "google/gemini-4-carbon",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 2.0,
+    "output": 10.0
+  },
+  {
+    "model": "google/gemini-4-carbon:batch",
     "type": "tokens",
     "channel_type": 20,
     "input": 0.5,
@@ -12491,7 +12512,7 @@
     "model": "z-ai/glm-5.3-flash:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.015,
+    "input": 0.021,
     "output": 0.0305
   },
   {
@@ -12659,8 +12680,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01675,
-    "output": 0.0415
+    "input": 0.01995,
+    "output": 0.0392
   },
   {
     "model": "~z-ai/glm-latest",
@@ -13021,6 +13042,13 @@
   },
   {
     "model": "gemini-4-argon",
+    "type": "tokens",
+    "channel_type": 25,
+    "input": 1.0,
+    "output": 5.0
+  },
+  {
+    "model": "gemini-4-carbon",
     "type": "tokens",
     "channel_type": 25,
     "input": 1.0,
@@ -14449,6 +14477,13 @@
   },
   {
     "model": "Kwai-Kolors/Kolors",
+    "type": "times",
+    "channel_type": 45,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "MiniMaxAI/MiniMax-H3",
     "type": "times",
     "channel_type": 45,
     "input": 0,
