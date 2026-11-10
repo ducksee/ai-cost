@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-09T22:22:23.338386+00:00",
+  "generatedAt": "2026-11-10T07:19:12.626866+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -4183,9 +4183,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.623,
-      "outputCostPerMillionUSD": 1.271,
-      "cacheReadCostPerMillionUSD": 0.21,
+      "inputCostPerMillionUSD": 0.527,
+      "outputCostPerMillionUSD": 1.075,
+      "cacheReadCostPerMillionUSD": 0.178,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
     },
@@ -9042,7 +9042,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.1824,
-      "outputCostPerMillionUSD": 9.7471,
+      "outputCostPerMillionUSD": 9.3388,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -9347,9 +9347,9 @@
       ],
       "providerID": "meta",
       "family": "llama-3",
-      "inputCostPerMillionUSD": 0.59,
-      "outputCostPerMillionUSD": 0.79,
-      "cacheReadCostPerMillionUSD": 0.295,
+      "inputCostPerMillionUSD": 0.71,
+      "outputCostPerMillionUSD": 0.71,
+      "cacheReadCostPerMillionUSD": 0.71,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model... · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=4028",
       "brandAssetName": "meta",
@@ -10391,7 +10391,9 @@
         "meta-ai/muse-ember-1.0",
         "meta-ai/muse-ember-1-0",
         "muse-ember-1.0-≤200k",
-        "muse-ember-1-0-≤200k"
+        "muse-ember-1-0-≤200k",
+        "meta/muse-ember-1.0",
+        "meta/muse-ember-1-0"
       ],
       "providerID": "meta-ai",
       "family": "muse-ember",
@@ -10399,7 +10401,7 @@
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.004,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices"
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=524288"
     },
     {
       "id": "meta/muse-glimmer-30b",
@@ -11108,6 +11110,22 @@
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file... · context=262144"
+    },
+    {
+      "id": "nex-agi/nex-n2.6",
+      "displayName": "Nex-N2.6",
+      "aliases": [
+        "nex-agi/nex-n2.6",
+        "nex-agi/nex-n2.6-20261110",
+        "nex-n2.6"
+      ],
+      "providerID": "nex-agi",
+      "family": "nex-n2",
+      "inputCostPerMillionUSD": 0.12,
+      "outputCostPerMillionUSD": 0.4,
+      "cacheReadCostPerMillionUSD": 0.024,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involv · context=262144"
     },
     {
       "id": "cohere/north-mini-code:free",
@@ -12443,7 +12461,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1024000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1048575 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },

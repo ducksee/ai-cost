@@ -9516,8 +9516,8 @@
     "model": "meta-llama/llama-3.3-70b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.295,
-    "output": 0.395
+    "input": 0.355,
+    "output": 0.355
   },
   {
     "model": "meta-llama/llama-4-maverick",
@@ -10183,6 +10183,13 @@
     "channel_type": 20,
     "input": 0.0375,
     "output": 0.125
+  },
+  {
+    "model": "nex-agi/nex-n2.6",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.06,
+    "output": 0.2
   },
   {
     "model": "nousresearch/hermes-3-llama-3.1-405b",
@@ -12463,8 +12470,8 @@
     "model": "z-ai/glm-5.2:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.3115,
-    "output": 0.6355
+    "input": 0.2635,
+    "output": 0.5375
   },
   {
     "model": "z-ai/glm-5.3",
@@ -12597,7 +12604,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0912,
-    "output": 4.87355
+    "output": 4.6694
   },
   {
     "model": "~openai/gpt-astra-latest",
