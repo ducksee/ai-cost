@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-10T19:44:21.191200+00:00",
+  "generatedAt": "2026-11-11T19:36:43.221178+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2332,7 +2332,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -2448,6 +2448,52 @@
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using r · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576"
+    },
+    {
+      "id": "baidu/ernie-5.5-flash-preview:free",
+      "displayName": "ERNIE-5.5-Flash-Preview (free)",
+      "aliases": [
+        "baidu/ernie-5.5-flash-preview:free",
+        "baidu/ernie-5-5-flash-preview:free",
+        "baidu/ernie-5.5-flash-preview-20261110",
+        "baidu/ernie-5-5-flash-preview-20261110",
+        "ernie-5.5-flash-preview-(free)",
+        "ernie-5-5-flash-preview-(free)",
+        "ernie-5.5-flash-preview:free",
+        "ernie-5-5-flash-preview:free"
+      ],
+      "providerID": "baidu",
+      "family": "ernie-5",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total... · context=1024000",
+      "brandAssetName": "baidu",
+      "organizationName": "Baidu"
+    },
+    {
+      "id": "baidu/ernie-light-dt-1.0-intl",
+      "displayName": "ERNIE-Light-DT-1.0",
+      "aliases": [
+        "baidu/ernie-light-dt-1.0-intl",
+        "baidu/ernie-light-dt-1-0-intl",
+        "baidu/ernie-light-dt-1.0-intl-20261110",
+        "baidu/ernie-light-dt-1-0-intl-20261110",
+        "ernie-light-dt-1.0",
+        "ernie-light-dt-1-0",
+        "ernie-light-dt-1.0-intl",
+        "ernie-light-dt-1-0-intl"
+      ],
+      "providerID": "baidu",
+      "family": "ernie-light",
+      "inputCostPerMillionUSD": 1.13,
+      "outputCostPerMillionUSD": 3.94,
+      "cacheReadCostPerMillionUSD": 0.113,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mechanism developed by.. · context=1024000",
+      "brandAssetName": "baidu",
+      "organizationName": "Baidu"
     },
     {
       "id": "scaledown/extract",
@@ -2801,7 +2847,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -2848,7 +2894,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -3012,7 +3058,7 @@
       "outputCostPerMillionUSD": 3,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535",
+      "notes": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536",
       "brandAssetName": "gemini",
       "organizationName": "Google"
     },
@@ -3034,7 +3080,7 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "gemini",
       "organizationName": "Google",
-      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535"
+      "notes": "LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536"
     },
     {
       "id": "google/gemini-3-flash-preview:batch",
@@ -3321,7 +3367,7 @@
       "outputCostPerMillionUSD": 9,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3344,7 +3390,7 @@
       "outputCostPerMillionUSD": 9,
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65535, reasoning_output_pricing",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -4321,9 +4367,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.042,
+      "inputCostPerMillionUSD": 0.047,
       "outputCostPerMillionUSD": 0.061,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
     },
@@ -8586,9 +8632,9 @@
       ],
       "providerID": "tencent",
       "family": "hy4",
-      "inputCostPerMillionUSD": 0.834,
-      "outputCostPerMillionUSD": 2.501,
-      "cacheReadCostPerMillionUSD": 0.042,
+      "inputCostPerMillionUSD": 0.417,
+      "outputCostPerMillionUSD": 1.2505,
+      "cacheReadCostPerMillionUSD": 0.021,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world pro · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=960000, max_output=64000",
       "brandAssetName": "tencent",
@@ -8604,9 +8650,9 @@
       ],
       "providerID": "tencent",
       "family": "hy4-preview",
-      "inputCostPerMillionUSD": 0.834,
-      "outputCostPerMillionUSD": 2.501,
-      "cacheReadCostPerMillionUSD": 0.042,
+      "inputCostPerMillionUSD": 0.417,
+      "outputCostPerMillionUSD": 1.2505,
+      "cacheReadCostPerMillionUSD": 0.021,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=960000, max_output=64000",
       "brandAssetName": "tencent",
@@ -9098,7 +9144,7 @@
       "providerID": "~moonshotai",
       "family": "kimi-latest",
       "inputCostPerMillionUSD": 0.1824,
-      "outputCostPerMillionUSD": 9.3388,
+      "outputCostPerMillionUSD": 11.0055,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the Kimi family. · context=1048576"
@@ -9560,6 +9606,25 @@
       "cacheReadCostPerMillionUSD": 2.5,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\n · context=32768"
+    },
+    {
+      "id": "kt/midm-k-3.0-pro",
+      "displayName": "Mi:dm K 3.0 Pro",
+      "aliases": [
+        "kt/midm-k-3.0-pro",
+        "kt/midm-k-3-0-pro",
+        "mi:dm-k-3.0-pro",
+        "mi:dm-k-3-0-pro",
+        "midm-k-3.0-pro",
+        "midm-k-3-0-pro"
+      ],
+      "providerID": "kt",
+      "family": "midm-k",
+      "inputCostPerMillionUSD": 0.2,
+      "outputCostPerMillionUSD": 0.8,
+      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers. · context=261795"
     },
     {
       "id": "xiaomi/mimo-v2.5",
@@ -10402,6 +10467,22 @@
       "notes": "Morph's high-accuracy apply model for complex code edits. ~4,500 tokens/sec with 98% accuracy for precise code transformations. The model requires the prompt to be in the following format: <instruction>{instruction}</ins · context=262144 · LiteLLM max_input=16000, max_output=16000"
     },
     {
+      "id": "motif-technologies/motif-3",
+      "displayName": "Motif 3",
+      "aliases": [
+        "motif-technologies/motif-3",
+        "motif-3",
+        "aiand/motif-technologies/motif-3"
+      ],
+      "providerID": "motif-technologies",
+      "family": "motif-3",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Motif 3 is a Mixture-of-Experts language model from Motif Technologies, with 314B total and 13.2B active parameters. It is a general-purpose multilingual model for English and Korean, particularly strong at... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
+    },
+    {
       "id": "meta/muse-ember",
       "displayName": "Muse Ember",
       "aliases": [
@@ -10834,7 +10915,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced... · context=131072 · LiteLLM supports_prompt_caching, supports_vision, max_input=65536, max_output=32768",
+      "notes": "Gemini 3.1 Flash Image, a.k.a. \"Nano Banana 2,\" is Google’s latest state of the art image generation and editing model, delivering Pro-level visual quality at Flash speed. It combines advanced... · context=131072 · LiteLLM supports_prompt_caching, supports_vision, max_input=131072, max_output=32768",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -10873,8 +10954,8 @@
         "nano-banana-2-1",
         "gemini-nano-banana-2.1",
         "gemini-nano-banana-2-1",
-        "gemini/gemini-nano-banana-2.1",
-        "gemini/gemini-nano-banana-2-1"
+        "replicate/google/nano-banana-2.1",
+        "replicate/google/nano-banana-2-1"
       ],
       "providerID": "gemini",
       "family": "gemini-nano",
@@ -10882,7 +10963,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,... · context=65536 · LiteLLM supports_reasoning, supports_vision, max_input=131072, max_output=32768",
+      "notes": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,... · context=65536",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -10979,7 +11060,7 @@
       "outputCostPerMillionUSD": 0.9,
       "cacheReadCostPerMillionUSD": 0.06,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
+      "notes": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -11809,27 +11890,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and... · context=32768 · LiteLLM supports_function_calling, max_input=32768, max_output=32768",
-      "brandAssetName": "qwen",
-      "organizationName": "Qwen"
-    },
-    {
-      "id": "qwen/qwen-2.5-7b-instruct",
-      "displayName": "Qwen2.5 7B Instruct",
-      "aliases": [
-        "qwen/qwen-2.5-7b-instruct",
-        "qwen/qwen-2-5-7b-instruct",
-        "qwen2.5-7b-instruct",
-        "qwen-2.5-7b-instruct",
-        "qwen-2-5-7b-instruct",
-        "deepinfra/qwen/qwen2.5-7b-instruct"
-      ],
-      "providerID": "qwen",
-      "family": "qwen-2",
-      "inputCostPerMillionUSD": 0.04,
-      "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and... · context=32768 · LiteLLM max_input=32768, max_output=32768",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12726,9 +12786,9 @@
       ],
       "providerID": "undi95",
       "family": "remm-slerp",
-      "inputCostPerMillionUSD": 0.35,
-      "outputCostPerMillionUSD": 0.65,
-      "cacheReadCostPerMillionUSD": 0.35,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "A recreation trial of the original MythoMax-L2-B13 but with updated models. #merge · context=6144"
     },
@@ -12817,48 +12877,6 @@
       "notes": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in re · context=128000"
     },
     {
-      "id": "bytedance-seed/seed-1.6",
-      "displayName": "Seed 1.6",
-      "aliases": [
-        "bytedance-seed/seed-1.6",
-        "bytedance-seed/seed-1-6",
-        "bytedance-seed/seed-1.6-20250625",
-        "bytedance-seed/seed-1-6-20250625",
-        "seed-1.6",
-        "seed-1-6"
-      ],
-      "providerID": "bytedance",
-      "family": "seed-1",
-      "inputCostPerMillionUSD": 0.25,
-      "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team. It incorporates multimodal capabilities and adaptive deep thinking with a 256K context window. · context=262144",
-      "brandAssetName": "bytedance",
-      "organizationName": "Bytedance"
-    },
-    {
-      "id": "bytedance-seed/seed-1.6-flash",
-      "displayName": "Seed 1.6 Flash",
-      "aliases": [
-        "bytedance-seed/seed-1.6-flash",
-        "bytedance-seed/seed-1-6-flash",
-        "bytedance-seed/seed-1.6-flash-20250625",
-        "bytedance-seed/seed-1-6-flash-20250625",
-        "seed-1.6-flash",
-        "seed-1-6-flash"
-      ],
-      "providerID": "bytedance",
-      "family": "seed-1",
-      "inputCostPerMillionUSD": 0.075,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of... · context=262144",
-      "brandAssetName": "bytedance",
-      "organizationName": "Bytedance"
-    },
-    {
       "id": "bytedance-seed/seed-2-1-turbo",
       "displayName": "Seed 2.1 Turbo",
       "aliases": [
@@ -12878,29 +12896,6 @@
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Seed 2.1 Turbo is a multimodal model from ByteDance Seed for coding and long-horizon agent workflows. It is suited for end-to-end software delivery, multi-step task execution, and understanding visual and... · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=229093, max_output=65536",
-      "brandAssetName": "bytedance",
-      "organizationName": "Bytedance"
-    },
-    {
-      "id": "bytedance-seed/seed-2.0-code",
-      "displayName": "Seed-2.0-Code",
-      "aliases": [
-        "bytedance-seed/seed-2.0-code",
-        "bytedance-seed/seed-2-0-code",
-        "bytedance-seed/seed-2.0-code-20260730",
-        "bytedance-seed/seed-2-0-code-20260730",
-        "seed-2.0-code",
-        "seed-2-0-code",
-        "deepinfra/bytedance/seed-2.0-code",
-        "deepinfra/bytedance/seed-2-0-code"
-      ],
-      "providerID": "bytedance",
-      "family": "seed-2",
-      "inputCostPerMillionUSD": 0.5,
-      "outputCostPerMillionUSD": 3.0,
-      "cacheReadCostPerMillionUSD": 0.1,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude... · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=256000, max_output=256000",
       "brandAssetName": "bytedance",
       "organizationName": "Bytedance"
     },
@@ -13291,28 +13286,11 @@
       ],
       "providerID": "mancer",
       "family": "weaver",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 0.75,
-      "cacheReadCostPerMillionUSD": 0.4,
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations. · context=8000"
-    },
-    {
-      "id": "xingchen-agi/xing4.0-29b-a4b:free",
-      "displayName": "Xing4.0 29B A4B (free)",
-      "aliases": [
-        "xingchen-agi/xing4.0-29b-a4b:free",
-        "xingchen-agi/xing4.0-29b-a4b-20261015",
-        "xing4.0-29b-a4b-(free)",
-        "xing4.0-29b-a4b:free"
-      ],
-      "providerID": "xingchen-agi",
-      "family": "xing4-0",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Xing4.0-29B-A4B is an open-weight mixture-of-experts language model from China Telecom's AI team (TeleAI) and the successor to the TeleChat series. It has 29B total parameters with 4B active per token... · context=262144"
     }
   ]
 }

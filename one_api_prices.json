@@ -2184,6 +2184,13 @@
     "output": 0.1
   },
   {
+    "model": "accounts/fireworks/routers/deepseek-flash-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.15,
+    "output": 0.6
+  },
+  {
     "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
     "type": "tokens",
     "channel_type": 1,
@@ -2261,6 +2268,34 @@
     "output": 3.3
   },
   {
+    "model": "accounts/fireworks/routers/glm-fast-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.05,
+    "output": 3.3
+  },
+  {
+    "model": "accounts/fireworks/routers/glm-flash-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.075,
+    "output": 0.25
+  },
+  {
+    "model": "accounts/fireworks/routers/glm-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.7,
+    "output": 2.2
+  },
+  {
+    "model": "accounts/fireworks/routers/kimi-fast-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 2.25,
+    "output": 11.25
+  },
+  {
     "model": "accounts/fireworks/routers/kimi-k2p6-fast",
     "type": "tokens",
     "channel_type": 1,
@@ -2294,6 +2329,27 @@
     "channel_type": 1,
     "input": 2.25,
     "output": 11.25
+  },
+  {
+    "model": "accounts/fireworks/routers/kimi-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.5,
+    "output": 7.5
+  },
+  {
+    "model": "accounts/fireworks/routers/minimax-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.15,
+    "output": 0.6
+  },
+  {
+    "model": "accounts/fireworks/routers/qwen-max-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.0,
+    "output": 3.0
   },
   {
     "model": "accounts/fireworks/routers/rune",
@@ -7693,6 +7749,20 @@
     "output": 0.4
   },
   {
+    "model": "baidu/ernie-5.5-flash-preview:free",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "baidu/ernie-light-dt-1.0-intl",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.565,
+    "output": 1.97
+  },
+  {
     "model": "bigcode/starcoder2-15b",
     "type": "tokens",
     "channel_type": 20,
@@ -9401,6 +9471,13 @@
     "output": 10.0
   },
   {
+    "model": "kt/midm-k-3.0-pro",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.1,
+    "output": 0.4
+  },
+  {
     "model": "liquid/lfm-2.5-2.6b",
     "type": "tokens",
     "channel_type": 20,
@@ -9439,8 +9516,8 @@
     "model": "mancer/weaver",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.2,
-    "output": 0.375
+    "input": 0.15,
+    "output": 0.25
   },
   {
     "model": "meituan/longcat-2.0",
@@ -10190,6 +10267,13 @@
     "channel_type": 20,
     "input": 0.45,
     "output": 0.95
+  },
+  {
+    "model": "motif-technologies/motif-3",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.25,
+    "output": 1.0
   },
   {
     "model": "nex-agi/nex-n2.5-mini",
@@ -11945,15 +12029,15 @@
     "model": "tencent/hy4",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.417,
-    "output": 1.2505
+    "input": 0.2085,
+    "output": 0.62525
   },
   {
     "model": "tencent/hy4-preview",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.417,
-    "output": 1.2505
+    "input": 0.2085,
+    "output": 0.62525
   },
   {
     "model": "thedrummer/cydonia-24b-v4.1",
@@ -12064,8 +12148,8 @@
     "model": "undi95/remm-slerp-l2-13b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.175,
-    "output": 0.325
+    "input": 0.15,
+    "output": 0.25
   },
   {
     "model": "upstage/solar-mini4",
@@ -12512,7 +12596,7 @@
     "model": "z-ai/glm-5.3-flash:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.021,
+    "input": 0.0235,
     "output": 0.0305
   },
   {
@@ -12625,7 +12709,7 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0912,
-    "output": 4.6694
+    "output": 5.50275
   },
   {
     "model": "~openai/gpt-astra-latest",
