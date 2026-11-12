@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T07:11:46.802057+00:00",
+  "generatedAt": "2026-11-12T19:55:01.012280+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -179,6 +179,27 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "amazon",
       "organizationName": "Amazon"
+    },
+    {
+      "id": "apodex/apodex-1.1-mini:free",
+      "displayName": "Apodex 1.1 Mini (free)",
+      "aliases": [
+        "apodex/apodex-1.1-mini:free",
+        "apodex/apodex-1-1-mini:free",
+        "apodex/apodex-1.1-mini-20261001",
+        "apodex/apodex-1-1-mini-20261001",
+        "apodex-1.1-mini-(free)",
+        "apodex-1-1-mini-(free)",
+        "apodex-1.1-mini:free",
+        "apodex-1-1-mini:free"
+      ],
+      "providerID": "apodex",
+      "family": "apodex-1",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,... · context=262144"
     },
     {
       "id": "openrouter/auto-code",
@@ -2332,7 +2353,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.004,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -2387,9 +2408,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.011,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.002,
+      "inputCostPerMillionUSD": 0.05,
+      "outputCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.004,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model... · context=1048576",
       "brandAssetName": "deepseek",
@@ -3753,7 +3774,7 @@
         "google/gemini-4-carbon",
         "google/gemini-4-carbon-20261110",
         "gemini-4-carbon",
-        "gemini/gemini-4-carbon"
+        "gmi/google/gemini-4-carbon"
       ],
       "providerID": "gemini",
       "family": "gemini-4",
@@ -3761,7 +3782,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.1875,
-      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · LiteLLM max_input=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3771,7 +3792,8 @@
       "aliases": [
         "gemini-4-carbon",
         "google/gemini-4-carbon",
-        "gemini/gemini-4-carbon"
+        "gemini/gemini-4-carbon",
+        "gmi/google/gemini-4-carbon"
       ],
       "providerID": "gemini",
       "family": "gemini-4",
@@ -3779,7 +3801,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM max_input=1048576",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3803,6 +3825,44 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-4-hydrogen",
+      "displayName": "Gemini 4 Hydrogen",
+      "aliases": [
+        "google/gemini-4-hydrogen",
+        "google/gemini-4-hydrogen-20261112",
+        "gemini-4-hydrogen",
+        "gemini/gemini-4-hydrogen"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-4-hydrogen:batch",
+      "displayName": "Gemini 4 Hydrogen (batch)",
+      "aliases": [
+        "google/gemini-4-hydrogen:batch",
+        "google/gemini-4-hydrogen-20261112",
+        "gemini-4-hydrogen-(batch)",
+        "gemini-4-hydrogen:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 0.75,
+      "outputCostPerMillionUSD": 3.75,
+      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "displayName": "Gemini Flash Latest",
       "aliases": [
@@ -3815,7 +3875,7 @@
       "inputCostPerMillionUSD": 0.75,
       "outputCostPerMillionUSD": 3.75,
       "cacheReadCostPerMillionUSD": 0.075,
-      "cacheWriteCostPerMillionUSD": 0.041667,
+      "cacheWriteCostPerMillionUSD": 0.083333,
       "notes": "This model always redirects to the latest model in the Gemini Flash family. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=65536, reasoning_output_pricing"
     },
     {
@@ -4285,9 +4345,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.35,
-      "outputCostPerMillionUSD": 1.075,
-      "cacheReadCostPerMillionUSD": 0.118,
+      "inputCostPerMillionUSD": 0.322,
+      "outputCostPerMillionUSD": 0.989,
+      "cacheReadCostPerMillionUSD": 0.109,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
     },
@@ -4325,9 +4385,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.35,
-      "outputCostPerMillionUSD": 1.075,
-      "cacheReadCostPerMillionUSD": 0.118,
+      "inputCostPerMillionUSD": 0.45,
+      "outputCostPerMillionUSD": 2.0,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576"
     },
@@ -9284,6 +9344,44 @@
       "notes": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=262144, max_output=32768"
     },
     {
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "displayName": "Ling 3.0 Flash Fin",
+      "aliases": [
+        "inclusionai/ling-3.0-flash-fin",
+        "inclusionai/ling-3-0-flash-fin",
+        "inclusionai/ling-3.0-flash-fin-20260827",
+        "inclusionai/ling-3-0-flash-fin-20260827",
+        "ling-3.0-flash-fin",
+        "ling-3-0-flash-fin"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.042,
+      "outputCostPerMillionUSD": 0.1232,
+      "cacheReadCostPerMillionUSD": 0.0084,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment... · context=262144"
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "displayName": "Ling 3.0 Flash Sante",
+      "aliases": [
+        "inclusionai/ling-3.0-flash-sante",
+        "inclusionai/ling-3-0-flash-sante",
+        "inclusionai/ling-3.0-flash-sante-20260904",
+        "inclusionai/ling-3-0-flash-sante-20260904",
+        "ling-3.0-flash-sante",
+        "ling-3-0-flash-sante"
+      ],
+      "providerID": "inclusionai",
+      "family": "ling-3",
+      "inputCostPerMillionUSD": 0.042,
+      "outputCostPerMillionUSD": 0.1232,
+      "cacheReadCostPerMillionUSD": 0.0084,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for... · context=262144"
+    },
+    {
       "id": "inclusionai/ling-3.0-flash-vl",
       "displayName": "Ling 3.0 Flash VL",
       "aliases": [
@@ -10973,8 +11071,8 @@
         "nano-banana-2-1",
         "gemini-nano-banana-2.1",
         "gemini-nano-banana-2-1",
-        "replicate/google/nano-banana-2.1",
-        "replicate/google/nano-banana-2-1"
+        "fal-ai/google/nano-banana-2.1",
+        "fal-ai/google/nano-banana-2-1"
       ],
       "providerID": "gemini",
       "family": "gemini-nano",
@@ -12386,7 +12484,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.026,
+      "cacheReadCostPerMillionUSD": 0.131,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
