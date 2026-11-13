@@ -9401,6 +9401,13 @@
     "output": 0.0675
   },
   {
+    "model": "inclusionai/ling-3.2-flash:free",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "inference-net/schematron-v2-small",
     "type": "tokens",
     "channel_type": 20,
@@ -12617,8 +12624,8 @@
     "model": "z-ai/glm-5.2:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.161,
-    "output": 0.4945
+    "input": 0.1735,
+    "output": 0.534
   },
   {
     "model": "z-ai/glm-5.3",
