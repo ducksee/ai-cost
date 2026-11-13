@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-12T19:55:01.012280+00:00",
+  "generatedAt": "2026-11-13T06:46:58.269723+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2061,9 +2061,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.022,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.004,
+      "inputCostPerMillionUSD": 0.038,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -3774,7 +3774,7 @@
         "google/gemini-4-carbon",
         "google/gemini-4-carbon-20261110",
         "gemini-4-carbon",
-        "gmi/google/gemini-4-carbon"
+        "perplexity/google/gemini-4-carbon"
       ],
       "providerID": "gemini",
       "family": "gemini-4",
@@ -3782,7 +3782,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.1875,
-      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · LiteLLM max_input=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3793,7 +3793,7 @@
         "gemini-4-carbon",
         "google/gemini-4-carbon",
         "gemini/gemini-4-carbon",
-        "gmi/google/gemini-4-carbon"
+        "perplexity/google/gemini-4-carbon"
       ],
       "providerID": "gemini",
       "family": "gemini-4",
@@ -3801,7 +3801,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM max_input=1048576",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3839,7 +3839,25 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
+      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "gemini/gemini-4-hydrogen",
+      "displayName": "Gemini 4 Hydrogen",
+      "aliases": [
+        "gemini-4-hydrogen",
+        "google/gemini-4-hydrogen",
+        "gemini/gemini-4-hydrogen"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -4368,7 +4386,7 @@
       "family": "glm-5",
       "inputCostPerMillionUSD": 1.12,
       "outputCostPerMillionUSD": 4.4,
-      "cacheReadCostPerMillionUSD": 0.0689,
+      "cacheReadCostPerMillionUSD": 0.079,
       "cacheWriteCostPerMillionUSD": 1.68,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576"
     },
@@ -8736,6 +8754,23 @@
       "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
+      "id": "thinkingmachines/inkling-2-small",
+      "displayName": "Inkling 2 Small",
+      "aliases": [
+        "thinkingmachines/inkling-2-small",
+        "thinkingmachines/inkling-2-small-20261107",
+        "inkling-2-small",
+        "together-ai/thinkingmachines/inkling-2-small"
+      ],
+      "providerID": "thinkingmachines",
+      "family": "inkling-2",
+      "inputCostPerMillionUSD": 0.3,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576"
+    },
+    {
       "id": "thinkingmachines/inkling-2-small:free",
       "displayName": "Inkling 2 Small (free)",
       "aliases": [
@@ -8750,7 +8785,7 @@
       "outputCostPerMillionUSD": 0.0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling 2 Small is a multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second Inkling... · context=1048576"
+      "notes": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second... · context=1048576"
     },
     {
       "id": "thinkingmachines/inkling-small",
@@ -11902,6 +11937,24 @@
       "notes": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data... · context=1048576"
     },
     {
+      "id": "particle-ai/particle-1:free",
+      "displayName": "Particle-1 (free)",
+      "aliases": [
+        "particle-ai/particle-1:free",
+        "particle-ai/particle-1-20261027",
+        "particle-ai/particle-1.20261027",
+        "particle-1-(free)",
+        "particle-1:free"
+      ],
+      "providerID": "particle-ai",
+      "family": "particle-1",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data... · context=1048576"
+    },
+    {
       "id": "perceptron/perceptron-mk1",
       "displayName": "Perceptron Mk1",
       "aliases": [
@@ -12484,7 +12537,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.131,
+      "cacheReadCostPerMillionUSD": 0.088,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
