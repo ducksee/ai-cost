@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-14T18:02:57.207237+00:00",
+  "generatedAt": "2026-11-14T22:24:56.880283+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -12461,7 +12461,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.09,
+      "cacheReadCostPerMillionUSD": 0.126,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
