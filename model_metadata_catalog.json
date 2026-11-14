@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-14T06:24:20.437585+00:00",
+  "generatedAt": "2026-11-14T18:02:57.207237+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -4343,9 +4343,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.347,
-      "outputCostPerMillionUSD": 1.068,
-      "cacheReadCostPerMillionUSD": 0.117,
+      "inputCostPerMillionUSD": 0.322,
+      "outputCostPerMillionUSD": 0.989,
+      "cacheReadCostPerMillionUSD": 0.109,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
     },
@@ -7745,7 +7745,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -8808,7 +8808,8 @@
         "jev-1.13.0",
         "typesafe/jev-1.13.0",
         "jev-1.13",
-        "jev-1-13"
+        "jev-1-13",
+        "vercel-ai-gateway/typesafe-ai/jev-1.13.0"
       ],
       "providerID": "typesafe",
       "family": "jev-1",
@@ -8816,7 +8817,7 @@
       "outputCostPerMillionUSD": 0,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "LiteLLM max_input=65536"
+      "notes": "LiteLLM supports_vision, max_input=32000"
     },
     {
       "id": "typesafe/jev-router",
@@ -11853,7 +11854,7 @@
       ],
       "providerID": "particle-ai",
       "family": "particle-1",
-      "inputCostPerMillionUSD": 0.05,
+      "inputCostPerMillionUSD": 0.06,
       "outputCostPerMillionUSD": 0.5,
       "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
@@ -12460,7 +12461,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.063,
+      "cacheReadCostPerMillionUSD": 0.09,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",

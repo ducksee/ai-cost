@@ -11455,7 +11455,7 @@
     "model": "particle-ai/particle-1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.025,
+    "input": 0.03,
     "output": 0.25
   },
   {
@@ -12624,8 +12624,8 @@
     "model": "z-ai/glm-5.2:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.1735,
-    "output": 0.534
+    "input": 0.161,
+    "output": 0.4945
   },
   {
     "model": "z-ai/glm-5.3",
