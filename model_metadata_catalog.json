@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-13T19:42:46.913888+00:00",
+  "generatedAt": "2026-11-14T06:24:20.437585+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2332,7 +2332,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheReadCostPerMillionUSD": 0.001014,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -2447,7 +2447,7 @@
       "outputCostPerMillionUSD": 15.0,
       "cacheReadCostPerMillionUSD": 0.3,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using r · context=1048576 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1048576"
+      "notes": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using r · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576"
     },
     {
       "id": "baidu/ernie-5.5-flash-preview:free",
@@ -3810,7 +3810,7 @@
         "google/gemini-4-hydrogen",
         "google/gemini-4-hydrogen-20261112",
         "gemini-4-hydrogen",
-        "gemini/gemini-4-hydrogen"
+        "perplexity/google/gemini-4-hydrogen"
       ],
       "providerID": "gemini",
       "family": "gemini-4",
@@ -3818,7 +3818,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3828,7 +3828,8 @@
       "aliases": [
         "gemini-4-hydrogen",
         "google/gemini-4-hydrogen",
-        "gemini/gemini-4-hydrogen"
+        "gemini/gemini-4-hydrogen",
+        "perplexity/google/gemini-4-hydrogen"
       ],
       "providerID": "gemini",
       "family": "gemini-4",
@@ -3836,7 +3837,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -6691,7 +6692,7 @@
       "inputCostPerMillionUSD": 4.0,
       "outputCostPerMillionUSD": 20.0,
       "cacheReadCostPerMillionUSD": 0.4,
-      "cacheWriteCostPerMillionUSD": 5.5,
+      "cacheWriteCostPerMillionUSD": 5.0,
       "notes": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -7744,7 +7745,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "cacheReadCostPerMillionUSD": 0.009,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -12459,7 +12460,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.122,
+      "cacheReadCostPerMillionUSD": 0.063,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -12688,7 +12689,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1048575 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1024000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },

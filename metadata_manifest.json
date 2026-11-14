@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T19:42:47.892086Z",
+  "updatedAt": "2026-11-14T06:24:21.230331Z",
   "files": {
     "provider": {
       "path": "provider_metadata_catalog.json",
@@ -9,7 +9,7 @@
     },
     "model": {
       "path": "model_metadata_catalog.json",
-      "sha256": "22b29faf96fc3f733274f57ac5e6b0135a2c6c82f659564bac4303ff7895bd03",
+      "sha256": "85f82f7952106e476d34f051267fcf4b3b58b05ba94dd99864f7803609478019",
       "modelCount": 658
     },
     "oneApiPrices": {
