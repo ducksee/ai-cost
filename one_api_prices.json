@@ -8655,8 +8655,8 @@
     "model": "deepseek/deepseek-v4.1-flash-1017:batch",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0145,
-    "output": 0.1265
+    "input": 0.0185,
+    "output": 0.1625
   },
   {
     "model": "deepseek/deepseek-v4.1-flash:batch",
@@ -11879,6 +11879,13 @@
     "output": 0.235
   },
   {
+    "model": "qwen/qwen4-max",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.75,
+    "output": 2.25
+  },
+  {
     "model": "recursive/flint-v1.0:free",
     "type": "tokens",
     "channel_type": 20,
@@ -12722,8 +12729,8 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01,
-    "output": 0.054
+    "input": 0.018,
+    "output": 0.25
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
