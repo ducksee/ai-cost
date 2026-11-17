@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-16T22:02:56.058719+00:00",
+  "generatedAt": "2026-11-17T07:55:42.208762+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2387,9 +2387,9 @@
       ],
       "providerID": "deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.037,
-      "outputCostPerMillionUSD": 0.331,
-      "cacheReadCostPerMillionUSD": 0.004,
+      "inputCostPerMillionUSD": 0.036,
+      "outputCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model... · context=1048576",
       "brandAssetName": "deepseek",
@@ -4331,6 +4331,25 @@
       "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144"
     },
     {
+      "id": "z-ai/glm-5.2:batch",
+      "displayName": "GLM 5.2 (batch)",
+      "aliases": [
+        "z-ai/glm-5.2:batch",
+        "z-ai/glm-5.2-20260616",
+        "z-ai/glm-5-2-20260616",
+        "glm-5.2-(batch)",
+        "glm-5-2-(batch)",
+        "glm-5.2:batch"
+      ],
+      "providerID": "z-ai",
+      "family": "glm-5",
+      "inputCostPerMillionUSD": 0.322,
+      "outputCostPerMillionUSD": 0.989,
+      "cacheReadCostPerMillionUSD": 0.109,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,... · context=1048576"
+    },
+    {
       "id": "z-ai/glm-5.3",
       "displayName": "GLM 5.3",
       "aliases": [
@@ -4364,9 +4383,9 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.45,
-      "outputCostPerMillionUSD": 2.0,
-      "cacheReadCostPerMillionUSD": 0.1,
+      "inputCostPerMillionUSD": 0.281,
+      "outputCostPerMillionUSD": 1.25,
+      "cacheReadCostPerMillionUSD": 0.062,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves... · context=1048576"
     },
@@ -4406,8 +4425,8 @@
       ],
       "providerID": "z-ai",
       "family": "glm-5",
-      "inputCostPerMillionUSD": 0.05,
-      "outputCostPerMillionUSD": 0.18,
+      "inputCostPerMillionUSD": 0.024,
+      "outputCostPerMillionUSD": 0.069,
       "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while... · context=1048576"
@@ -7726,7 +7745,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0375,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -9183,9 +9202,9 @@
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
-      "inputCostPerMillionUSD": 0.378,
-      "outputCostPerMillionUSD": 5.672,
-      "cacheReadCostPerMillionUSD": 0.121,
+      "inputCostPerMillionUSD": 0.372,
+      "outputCostPerMillionUSD": 5.583,
+      "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576",
       "brandAssetName": "kimi",
@@ -11201,7 +11220,7 @@
       "outputCostPerMillionUSD": 0.24,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
+      "notes": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that... · context=1048576 · LiteLLM supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "nvidia",
       "organizationName": "Nvidia"
     },
@@ -12778,15 +12797,16 @@
       "aliases": [
         "qwen/qwen4-max",
         "qwen/qwen4-max-20261115",
-        "qwen4-max"
+        "qwen4-max",
+        "dashscope/qwen4-max"
       ],
       "providerID": "qwen",
       "family": "qwen4-max",
-      "inputCostPerMillionUSD": 1.425,
-      "outputCostPerMillionUSD": 4.275,
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 4.5,
       "cacheReadCostPerMillionUSD": 0.07125,
       "cacheWriteCostPerMillionUSD": 1.78125,
-      "notes": "Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default.... · context=1000000",
+      "notes": "Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default.... · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=991808, max_output=131072",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
