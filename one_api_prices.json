@@ -3038,6 +3038,20 @@
     "output": 5.0
   },
   {
+    "model": "gpt-6.2-astra",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 4.0,
+    "output": 20.0
+  },
+  {
+    "model": "gpt-6.2-sol",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 1.0,
+    "output": 5.0
+  },
+  {
     "model": "gpt-audio",
     "type": "tokens",
     "channel_type": 1,
@@ -8358,6 +8372,34 @@
     "output": 3.75
   },
   {
+    "model": "codex/gpt-6.2-astra",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 4.0,
+    "output": 20.0
+  },
+  {
+    "model": "codex/gpt-6.2-astra-272k",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 8.0,
+    "output": 30.0
+  },
+  {
+    "model": "codex/gpt-6.2-sol",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.0,
+    "output": 5.0
+  },
+  {
+    "model": "codex/gpt-6.2-sol-272k",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 2.0,
+    "output": 7.5
+  },
+  {
     "model": "codex/gpt-image-1",
     "type": "tokens",
     "channel_type": 20,
@@ -10118,8 +10160,8 @@
     "model": "mistralai/mistral-medium-3.1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.2,
-    "output": 1.0
+    "input": 0.22,
+    "output": 1.1
   },
   {
     "model": "mistralai/mistral-medium-3.1:batch",
@@ -10174,8 +10216,8 @@
     "model": "mistralai/mistral-small-3.2-24b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.05,
-    "output": 0.15
+    "input": 0.0375,
+    "output": 0.1
   },
   {
     "model": "mistralai/mixtral-8x22b-instruct",
@@ -11282,6 +11324,34 @@
     "channel_type": 20,
     "input": 0.25,
     "output": 1.25
+  },
+  {
+    "model": "openai/gpt-6.2-astra",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 4.0,
+    "output": 20.0
+  },
+  {
+    "model": "openai/gpt-6.2-astra-pro",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 4.0,
+    "output": 20.0
+  },
+  {
+    "model": "openai/gpt-6.2-sol",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.0,
+    "output": 5.0
+  },
+  {
+    "model": "openai/gpt-6.2-sol-pro",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.0,
+    "output": 5.0
   },
   {
     "model": "openai/gpt-audio",
@@ -12785,8 +12855,8 @@
     "model": "~openai/gpt-astra-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 5.0,
-    "output": 25.0
+    "input": 4.0,
+    "output": 20.0
   },
   {
     "model": "~openai/gpt-luna-latest",
