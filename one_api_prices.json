@@ -12841,8 +12841,8 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.018,
-    "output": 0.25
+    "input": 0.0175,
+    "output": 0.075
   },
   {
     "model": "~deepseek/deepseek-pro-latest",

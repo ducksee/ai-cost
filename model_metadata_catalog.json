@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-18T07:29:39.688650+00:00",
+  "generatedAt": "2026-11-18T20:31:58.384775+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2040,9 +2040,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.036,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "inputCostPerMillionUSD": 0.035,
+      "outputCostPerMillionUSD": 0.15,
+      "cacheReadCostPerMillionUSD": 0.0015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2332,7 +2332,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheReadCostPerMillionUSD": 0.001014,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -9000,7 +9000,7 @@
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_function_calling, max_input=524288, max_output=524288"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
       "id": "thinkingmachines/inkling-2-small",
@@ -9320,7 +9320,7 @@
       "family": "kimi-k2",
       "inputCostPerMillionUSD": 0.95,
       "outputCostPerMillionUSD": 4,
-      "cacheReadCostPerMillionUSD": 0.17,
+      "cacheReadCostPerMillionUSD": 0.16,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts... · context=262144 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "kimi",
@@ -10005,7 +10005,7 @@
       "outputCostPerMillionUSD": 1.044,
       "cacheReadCostPerMillionUSD": 0.0043,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=1024000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
+      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -10249,7 +10249,7 @@
       "cacheWriteCostPerMillionUSD": null,
       "brandAssetName": "mistral",
       "organizationName": "Mistral",
-      "notes": "LiteLLM supports_vision, supports_function_calling, max_input=131072, max_output=131072"
+      "notes": "LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=131072"
     },
     {
       "id": "mistral/ministral-8b-latest",
