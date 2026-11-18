@@ -11340,6 +11340,20 @@
     "output": 20.0
   },
   {
+    "model": "openai/gpt-6.2-astra-pro:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 2.0,
+    "output": 10.0
+  },
+  {
+    "model": "openai/gpt-6.2-astra:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 2.0,
+    "output": 10.0
+  },
+  {
     "model": "openai/gpt-6.2-sol",
     "type": "tokens",
     "channel_type": 20,
@@ -11352,6 +11366,20 @@
     "channel_type": 20,
     "input": 1.0,
     "output": 5.0
+  },
+  {
+    "model": "openai/gpt-6.2-sol-pro:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.5,
+    "output": 2.5
+  },
+  {
+    "model": "openai/gpt-6.2-sol:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.5,
+    "output": 2.5
   },
   {
     "model": "openai/gpt-audio",

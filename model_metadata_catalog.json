@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-17T20:56:04.370016+00:00",
+  "generatedAt": "2026-11-18T07:29:39.688650+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2332,7 +2332,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheReadCostPerMillionUSD": 0.018,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -7594,6 +7594,29 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-6.2-astra:batch",
+      "displayName": "GPT-6.2 Astra (batch)",
+      "aliases": [
+        "openai/gpt-6.2-astra:batch",
+        "openai/gpt-6-2-astra:batch",
+        "openai/gpt-6.2-astra-20261117",
+        "openai/gpt-6-2-astra-20261117",
+        "gpt-6.2-astra-(batch)",
+        "gpt-6-2-astra-(batch)",
+        "gpt-6.2-astra:batch",
+        "gpt-6-2-astra:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 4.0,
+      "outputCostPerMillionUSD": 20.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 5.0,
+      "notes": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-6.2-astra-272k",
       "displayName": "GPT-6.2 Astra >272k",
       "aliases": [
@@ -7633,6 +7656,29 @@
       "outputCostPerMillionUSD": 40.0,
       "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": 10.0,
+      "notes": "GPT-6.2 Astra Pro is the same underlying model as [GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6.2-astra-pro:batch",
+      "displayName": "GPT-6.2 Astra Pro (batch)",
+      "aliases": [
+        "openai/gpt-6.2-astra-pro:batch",
+        "openai/gpt-6-2-astra-pro:batch",
+        "openai/gpt-6.2-astra-pro-20261117",
+        "openai/gpt-6-2-astra-pro-20261117",
+        "gpt-6.2-astra-pro-(batch)",
+        "gpt-6-2-astra-pro-(batch)",
+        "gpt-6.2-astra-pro:batch",
+        "gpt-6-2-astra-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 4.0,
+      "outputCostPerMillionUSD": 20.0,
+      "cacheReadCostPerMillionUSD": 0.2,
+      "cacheWriteCostPerMillionUSD": 5.0,
       "notes": "GPT-6.2 Astra Pro is the same underlying model as [GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro m · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -7682,6 +7728,29 @@
       "organizationName": "Codex"
     },
     {
+      "id": "openai/gpt-6.2-sol:batch",
+      "displayName": "GPT-6.2 Sol (batch)",
+      "aliases": [
+        "openai/gpt-6.2-sol:batch",
+        "openai/gpt-6-2-sol:batch",
+        "openai/gpt-6.2-sol-20261117",
+        "openai/gpt-6-2-sol-20261117",
+        "gpt-6.2-sol-(batch)",
+        "gpt-6-2-sol-(batch)",
+        "gpt-6.2-sol:batch",
+        "gpt-6-2-sol:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 1.25,
+      "notes": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited... · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
       "id": "codex/gpt-6.2-sol-272k",
       "displayName": "GPT-6.2 Sol >272k",
       "aliases": [
@@ -7721,6 +7790,29 @@
       "outputCostPerMillionUSD": 10.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
+      "notes": "GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
+      "brandAssetName": "codex",
+      "organizationName": "Codex"
+    },
+    {
+      "id": "openai/gpt-6.2-sol-pro:batch",
+      "displayName": "GPT-6.2 Sol Pro (batch)",
+      "aliases": [
+        "openai/gpt-6.2-sol-pro:batch",
+        "openai/gpt-6-2-sol-pro:batch",
+        "openai/gpt-6.2-sol-pro-20261117",
+        "openai/gpt-6-2-sol-pro-20261117",
+        "gpt-6.2-sol-pro-(batch)",
+        "gpt-6-2-sol-pro-(batch)",
+        "gpt-6.2-sol-pro:batch",
+        "gpt-6-2-sol-pro:batch"
+      ],
+      "providerID": "codex",
+      "family": "gpt-6",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 5.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": 1.25,
       "notes": "GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode sp · context=1050000",
       "brandAssetName": "codex",
       "organizationName": "Codex"
@@ -10204,7 +10296,7 @@
       "aliases": [
         "mistralai/mistral-large",
         "mistral-large",
-        "snowflake/mistral-large"
+        "nvidia-nim/mistralai/mistral-large"
       ],
       "providerID": "mistral",
       "family": "mistral-large",
@@ -10212,7 +10304,7 @@
       "outputCostPerMillionUSD": 6.0,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](htt · context=128000 · LiteLLM max_input=32000, max_output=8192",
+      "notes": "This is Mistral AI's flagship model, Mistral Large 2 (version `mistral-large-2407`). It's a proprietary weights-available model and excels at reasoning, code, JSON, chat, and more. Read the launch announcement [here](htt · context=128000",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10800,7 +10892,7 @@
         "meta/muse-glimmer-30b",
         "meta/muse-glimmer-30b-20260810",
         "muse-glimmer-30b",
-        "together-ai/meta-models/muse-glimmer-30b"
+        "nvidia-nim/meta/muse-glimmer-30b"
       ],
       "providerID": "meta",
       "family": "muse-glimmer",
@@ -10808,7 +10900,7 @@
       "outputCostPerMillionUSD": 1.5,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM supports_prompt_caching, max_input=131072, max_output=131072",
+      "notes": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon... · context=131072 · LiteLLM max_output=16384",
       "brandAssetName": "meta",
       "organizationName": "Meta"
     },
@@ -11365,7 +11457,9 @@
         "nvidia/nemotron-3.5-content-safety-20260604",
         "nvidia/nemotron-3-5-content-safety-20260604",
         "nemotron-3.5-content-safety",
-        "nemotron-3-5-content-safety"
+        "nemotron-3-5-content-safety",
+        "nvidia-nim/nvidia/nemotron-3.5-content-safety",
+        "nvidia-nim/nvidia/nemotron-3-5-content-safety"
       ],
       "providerID": "nvidia",
       "family": "nemotron-3",
@@ -12430,7 +12524,7 @@
       "family": "qwen3-next",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.07,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledg · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=65536",
       "brandAssetName": "qwen",
@@ -12620,7 +12714,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.103,
+      "cacheReadCostPerMillionUSD": 0.153,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -13400,7 +13494,7 @@
         "stepfun/step-5-preview",
         "stepfun/step-5-preview-20261008",
         "step-5-preview",
-        "opencode-go/step-5-preview"
+        "nvidia-nim/stepfun-ai/step-5-preview"
       ],
       "providerID": "stepfun",
       "family": "step-5",
@@ -13408,7 +13502,7 @@
       "outputCostPerMillionUSD": 2.7,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=65536",
+      "notes": "Step 5 Preview is StepFun's flagship model for agentic work, built on a sparse Mixture-of-Experts architecture (27B active / 600B total parameters). It performs strongly in software engineering and professional... · context=1000000 · LiteLLM supports_function_calling, max_output=1048576",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
