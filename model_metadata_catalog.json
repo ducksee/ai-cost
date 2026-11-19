@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-18T20:31:58.384775+00:00",
+  "generatedAt": "2026-11-19T20:38:15.967762+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2040,9 +2040,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.035,
-      "outputCostPerMillionUSD": 0.15,
-      "cacheReadCostPerMillionUSD": 0.0015,
+      "inputCostPerMillionUSD": 0.036,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2056,9 +2056,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.0999,
+      "inputCostPerMillionUSD": 0.1211,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.0999,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2257,9 +2257,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0434,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.035,
+      "inputCostPerMillionUSD": 0.04664,
+      "outputCostPerMillionUSD": 0.13992,
+      "cacheReadCostPerMillionUSD": 0.001484,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -3861,6 +3861,62 @@
       "organizationName": "Gemini CLI"
     },
     {
+      "id": "google/gemini-4-neon",
+      "displayName": "Gemini 4 Neon",
+      "aliases": [
+        "google/gemini-4-neon",
+        "google/gemini-4-neon-20261118",
+        "gemini-4-neon",
+        "gemini/gemini-4-neon"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 3,
+      "outputCostPerMillionUSD": 15,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing · Direct vendor pricing with cached-input tier from llm-prices",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "gemini/gemini-4-neon",
+      "displayName": "Gemini 4 Neon",
+      "aliases": [
+        "gemini-4-neon",
+        "google/gemini-4-neon",
+        "gemini/gemini-4-neon"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 3,
+      "outputCostPerMillionUSD": 15,
+      "cacheReadCostPerMillionUSD": 0.15,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576, reasoning_output_pricing",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
+      "id": "google/gemini-4-neon:batch",
+      "displayName": "Gemini 4 Neon (batch)",
+      "aliases": [
+        "google/gemini-4-neon:batch",
+        "google/gemini-4-neon-20261118",
+        "gemini-4-neon-(batch)",
+        "gemini-4-neon:batch"
+      ],
+      "providerID": "gemini",
+      "family": "gemini-4",
+      "inputCostPerMillionUSD": 1.5,
+      "outputCostPerMillionUSD": 7.5,
+      "cacheReadCostPerMillionUSD": 0.075,
+      "cacheWriteCostPerMillionUSD": 0.083333,
+      "notes": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web... · context=1048576",
+      "brandAssetName": "gemini",
+      "organizationName": "Gemini CLI"
+    },
+    {
       "id": "~google/gemini-flash-latest",
       "displayName": "Gemini Flash Latest",
       "aliases": [
@@ -3987,7 +4043,7 @@
       "family": "gemma-3",
       "inputCostPerMillionUSD": 0.08,
       "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -8349,7 +8405,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information. · context=2000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=1000000, max_output=1000000",
+      "notes": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information. · context=2000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -8391,7 +8447,7 @@
       "outputCostPerMillionUSD": 2.5,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, max_input=1000000, max_output=1000000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "xai",
       "organizationName": "xAI"
     },
@@ -9020,23 +9076,6 @@
       "notes": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576"
     },
     {
-      "id": "thinkingmachines/inkling-2-small:free",
-      "displayName": "Inkling 2 Small (free)",
-      "aliases": [
-        "thinkingmachines/inkling-2-small:free",
-        "thinkingmachines/inkling-2-small-20261107",
-        "inkling-2-small-(free)",
-        "inkling-2-small:free"
-      ],
-      "providerID": "thinkingmachines",
-      "family": "inkling-2",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second... · context=1048576"
-    },
-    {
       "id": "thinkingmachines/inkling-small",
       "displayName": "Inkling Small",
       "aliases": [
@@ -9507,7 +9546,7 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1824,
+      "inputCostPerMillionUSD": 0.1805,
       "outputCostPerMillionUSD": 11.0055,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
@@ -12714,7 +12753,7 @@
       "family": "qwen3-5",
       "inputCostPerMillionUSD": 0.17,
       "outputCostPerMillionUSD": 0.25,
-      "cacheReadCostPerMillionUSD": 0.153,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Qwen3.5-9B is a multimodal foundation model from the Qwen3.5 family, designed to deliver strong reasoning, coding, and visual understanding in an efficient 9B-parameter architecture. It uses a unified vision-language des · context=262144 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
       "brandAssetName": "qwen",
@@ -12812,7 +12851,7 @@
       "outputCostPerMillionUSD": 3,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": 0.40625,
-      "notes": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it de · context=1000000 · LiteLLM supports_reasoning, max_input=1000000, max_output=1000000",
+      "notes": "Qwen 3.6 Plus builds on a hybrid architecture that combines efficient linear attention with sparse mixture-of-experts routing, enabling strong scalability and high-performance inference. Compared to the 3.5 series, it de · context=1000000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000, max_output=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },
@@ -12943,7 +12982,7 @@
       "outputCostPerMillionUSD": 3.0,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1024000 · LiteLLM supports_reasoning, supports_function_calling, max_input=262144",
+      "notes": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be... · context=1024000 · LiteLLM supports_reasoning, supports_function_calling, max_input=1000000",
       "brandAssetName": "qwen",
       "organizationName": "Qwen"
     },

@@ -2194,8 +2194,8 @@
     "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.105,
-    "output": 0.42
+    "input": 0.075,
+    "output": 0.3
   },
   {
     "model": "accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast",
@@ -2208,8 +2208,8 @@
     "model": "accounts/fireworks/routers/deepseek-v4p1-flash-spot",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.105,
-    "output": 0.42
+    "input": 0.075,
+    "output": 0.3
   },
   {
     "model": "accounts/fireworks/routers/deepseek-v4p1-flash-us",
@@ -2257,8 +2257,8 @@
     "model": "accounts/fireworks/routers/glm-5p3-spot",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.49,
-    "output": 1.54
+    "input": 0.35,
+    "output": 1.1
   },
   {
     "model": "accounts/fireworks/routers/glm-5p3-us",
@@ -2334,8 +2334,8 @@
     "model": "accounts/fireworks/routers/kimi-latest",
     "type": "tokens",
     "channel_type": 1,
-    "input": 1.5,
-    "output": 7.5
+    "input": 1.0,
+    "output": 5.0
   },
   {
     "model": "accounts/fireworks/routers/minimax-latest",
@@ -2362,8 +2362,8 @@
     "model": "accounts/fireworks/routers/spot-deepseek-v4-flash",
     "type": "tokens",
     "channel_type": 1,
-    "input": 0.0525,
-    "output": 0.105
+    "input": 0.035,
+    "output": 0.07
   },
   {
     "model": "auto",
@@ -3655,6 +3655,13 @@
   },
   {
     "model": "text-moderation-latest",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "tidepool-alpha-free",
     "type": "tokens",
     "channel_type": 1,
     "input": 0,
@@ -8946,6 +8953,13 @@
     "output": 3.75
   },
   {
+    "model": "gemini/gemini-4-neon",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.5,
+    "output": 7.5
+  },
+  {
     "model": "google/codegemma-1.1-7b",
     "type": "tokens",
     "channel_type": 20,
@@ -9231,6 +9245,20 @@
     "channel_type": 20,
     "input": 0.375,
     "output": 1.875
+  },
+  {
+    "model": "google/gemini-4-neon",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 1.5,
+    "output": 7.5
+  },
+  {
+    "model": "google/gemini-4-neon:batch",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.75,
+    "output": 3.75
   },
   {
     "model": "google/gemini-nano-banana-2.1",
@@ -12841,22 +12869,22 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0175,
-    "output": 0.075
+    "input": 0.018,
+    "output": 0.25
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.04995,
+    "input": 0.06055,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0217,
-    "output": 0.15
+    "input": 0.02332,
+    "output": 0.06996
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -12876,7 +12904,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0912,
+    "input": 0.09025,
     "output": 5.50275
   },
   {
@@ -13312,6 +13340,13 @@
     "channel_type": 25,
     "input": 0.75,
     "output": 3.75
+  },
+  {
+    "model": "gemini-4-neon",
+    "type": "tokens",
+    "channel_type": 25,
+    "input": 1.5,
+    "output": 7.5
   },
   {
     "model": "gemini-embedding-001",
@@ -15146,6 +15181,13 @@
     "channel_type": 45,
     "input": 2.0,
     "output": 2.0
+  },
+  {
+    "model": "XingChenAGI/Xing-Audio4.0-ASR-Preview",
+    "type": "tokens",
+    "channel_type": 45,
+    "input": 0,
+    "output": 0
   },
   {
     "model": "XingChenAGI/Xing4.0-29B",
