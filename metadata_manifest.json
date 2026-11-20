@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T20:38:17.150277Z",
+  "updatedAt": "2026-11-20T07:17:30.987895Z",
   "files": {
     "provider": {
       "path": "provider_metadata_catalog.json",
@@ -9,14 +9,14 @@
     },
     "model": {
       "path": "model_metadata_catalog.json",
-      "sha256": "eca65681d4549f1ea0f1070160241a1ae8d0641635c725247800b8f29253e2a1",
-      "modelCount": 671
+      "sha256": "2dda306501ac5ca173d7341f050e8bde99eb9e1921ca7e3aa5b3a4d9376a581c",
+      "modelCount": 669
     },
     "oneApiPrices": {
       "path": "one_api_prices.json",
       "format": "MartialBE one-api prices.json; ratio = USD per 1M tokens / 2",
-      "sha256": "6ef840b20dc8a0242627b417782581b367a78f35d4e47362693dc46ab8a3df03",
-      "priceCount": 2274
+      "sha256": "02c8f58b2b413ed77bac3bf8088dba990f5ff612c7118a83f04b24a92db2e689",
+      "priceCount": 2276
     }
   }
 }
