@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-20T07:17:30.244604+00:00",
+  "generatedAt": "2026-11-20T20:22:03.834120+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2056,9 +2056,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.2565,
+      "inputCostPerMillionUSD": 0.0999,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.26,
+      "cacheReadCostPerMillionUSD": 0.0999,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2257,9 +2257,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.047,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.035,
+      "inputCostPerMillionUSD": 0.044,
+      "outputCostPerMillionUSD": 0.132,
+      "cacheReadCostPerMillionUSD": 0.0014,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -4043,7 +4043,7 @@
       "family": "gemma-3",
       "inputCostPerMillionUSD": 0.08,
       "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -7637,7 +7637,9 @@
         "openai/gpt-6.2-astra-20261117",
         "openai/gpt-6-2-astra-20261117",
         "gpt-6.2-astra",
-        "gpt-6-2-astra"
+        "gpt-6-2-astra",
+        "perplexity/openai/gpt-6.2-astra",
+        "perplexity/openai/gpt-6-2-astra"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7645,7 +7647,7 @@
       "outputCostPerMillionUSD": 40,
       "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": 10.0,
-      "notes": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger... · context=1050000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7750,7 +7752,9 @@
         "codex/gpt-6.2-astra",
         "codex/gpt-6-2-astra",
         "gpt-6.2-astra-≤272k",
-        "gpt-6-2-astra-≤272k"
+        "gpt-6-2-astra-≤272k",
+        "perplexity/openai/gpt-6.2-astra",
+        "perplexity/openai/gpt-6-2-astra"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7758,7 +7762,7 @@
       "outputCostPerMillionUSD": 40,
       "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7771,7 +7775,9 @@
         "openai/gpt-6.2-sol-20261117",
         "openai/gpt-6-2-sol-20261117",
         "gpt-6.2-sol",
-        "gpt-6-2-sol"
+        "gpt-6-2-sol",
+        "perplexity/openai/gpt-6.2-sol",
+        "perplexity/openai/gpt-6-2-sol"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7779,7 +7785,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited... · context=1050000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited... · context=1050000 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7884,7 +7890,9 @@
         "codex/gpt-6.2-sol",
         "codex/gpt-6-2-sol",
         "gpt-6.2-sol-≤272k",
-        "gpt-6-2-sol-≤272k"
+        "gpt-6-2-sol-≤272k",
+        "perplexity/openai/gpt-6.2-sol",
+        "perplexity/openai/gpt-6-2-sol"
       ],
       "providerID": "codex",
       "family": "gpt-6",
@@ -7892,7 +7900,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=922000, max_output=128000",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8069,7 +8077,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "cacheReadCostPerMillionUSD": 0.0085,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",
@@ -8946,25 +8954,6 @@
       "organizationName": "Tencent"
     },
     {
-      "id": "tencent/hy3-preview",
-      "displayName": "Hy3 preview",
-      "aliases": [
-        "tencent/hy3-preview",
-        "tencent/hy3-preview-20260421",
-        "hy3-preview",
-        "gmi/tencent/hy3-preview"
-      ],
-      "providerID": "tencent",
-      "family": "hy3-preview",
-      "inputCostPerMillionUSD": 0.18,
-      "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": 0.06,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes, allowing it to... · context=262144 · LiteLLM max_input=262144",
-      "brandAssetName": "tencent",
-      "organizationName": "Tencent"
-    },
-    {
       "id": "tencent/hy4",
       "displayName": "Hy4",
       "aliases": [
@@ -9444,7 +9433,7 @@
         "moonshotai/kimi-k3.1-pro",
         "moonshotai/kimi-k3.1-pro-20261023",
         "kimi-k3.1-pro",
-        "moonshot/kimi-k3.1-pro"
+        "inferenceapis/moonshotai/kimi-k3.1-pro"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
@@ -9452,7 +9441,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -9463,7 +9452,7 @@
         "kimi-k3.1-pro",
         "moonshot-ai/kimi-k3.1-pro",
         "kimi/kimi-k3.1-pro",
-        "moonshot/kimi-k3.1-pro"
+        "inferenceapis/moonshotai/kimi-k3.1-pro"
       ],
       "providerID": "kimi",
       "family": "kimi-k3",
@@ -9471,7 +9460,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -9655,9 +9644,9 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.045,
-      "outputCostPerMillionUSD": 0.135,
-      "cacheReadCostPerMillionUSD": 0.009,
+      "inputCostPerMillionUSD": 0.06,
+      "outputCostPerMillionUSD": 0.18,
+      "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=1000000"
     },
@@ -10019,7 +10008,7 @@
       "outputCostPerMillionUSD": 0.28,
       "cacheReadCostPerMillionUSD": 0.0028,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for... · context=1050000 · LiteLLM supports_prompt_caching, supports_vision",
+      "notes": "MiMo-V2.6-Flash is an open-source foundation model developed by Xiaomi. Built on a Mixture-of-Experts architecture with 309B total parameters and 15B activated per token, it employs a hybrid attention mechanism for... · context=1048576 · LiteLLM supports_prompt_caching, supports_vision",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -10038,7 +10027,7 @@
       "outputCostPerMillionUSD": 0.87,
       "cacheReadCostPerMillionUSD": 0.0036,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding... · context=1050000 · LiteLLM supports_prompt_caching, supports_vision",
+      "notes": "MiMo-V2.6-Pro is the flagship foundation model developed by Xiaomi. Built at a scale of over 1T parameters, it is designed to push the ceiling of capability for the most demanding... · context=1048576 · LiteLLM supports_prompt_caching, supports_vision",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
@@ -10108,7 +10097,7 @@
       "family": "minimax-m2",
       "inputCostPerMillionUSD": 0.6,
       "outputCostPerMillionUSD": 2.4,
-      "cacheReadCostPerMillionUSD": 0.042,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic cap · context=196608 · LiteLLM supports_reasoning, supports_function_calling, max_input=196608, max_output=131072",
       "brandAssetName": "minimax",

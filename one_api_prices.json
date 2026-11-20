@@ -9481,8 +9481,8 @@
     "model": "inclusionai/ling-3.1-flash",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0225,
-    "output": 0.0675
+    "input": 0.03,
+    "output": 0.09
   },
   {
     "model": "inclusionai/ling-3.2-flash:free",
@@ -12890,15 +12890,15 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.12825,
+    "input": 0.04995,
     "output": 4.0
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0235,
-    "output": 0.15
+    "input": 0.022,
+    "output": 0.066
   },
   {
     "model": "~google/gemini-flash-latest",
