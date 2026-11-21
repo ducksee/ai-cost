@@ -11791,8 +11791,8 @@
     "model": "qwen/qwen3-coder-30b-a3b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.075,
-    "output": 0.3
+    "input": 0.035305,
+    "output": 0.13615
   },
   {
     "model": "qwen/qwen3-coder-flash",
@@ -12033,6 +12033,13 @@
     "output": 2.25
   },
   {
+    "model": "radixark/daisyrose-27b",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.075,
+    "output": 0.9375
+  },
+  {
     "model": "recursive/flint-v1.0:free",
     "type": "tokens",
     "channel_type": 20,
@@ -12269,6 +12276,13 @@
     "channel_type": 20,
     "input": 0.5,
     "output": 2.025
+  },
+  {
+    "model": "thinkingmachines/inkling-2-mini",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.05,
+    "output": 0.2
   },
   {
     "model": "thinkingmachines/inkling-2-small",
