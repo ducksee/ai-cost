@@ -12281,8 +12281,8 @@
     "model": "thinkingmachines/inkling-2-mini",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.05,
-    "output": 0.2
+    "input": 0.0375,
+    "output": 0.15
   },
   {
     "model": "thinkingmachines/inkling-2-small",
@@ -12932,7 +12932,7 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.09025,
+    "input": 0.0912,
     "output": 5.50275
   },
   {

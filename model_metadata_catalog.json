@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-21T07:09:23.198558+00:00",
+  "generatedAt": "2026-11-21T19:16:31.058143+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -9033,9 +9033,9 @@
       ],
       "providerID": "thinkingmachines",
       "family": "inkling-2",
-      "inputCostPerMillionUSD": 0.1,
-      "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": 0.02,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Inkling 2 Mini is an open-weight multimodal looped transformer from Thinking Machines Lab, with 3.4B active parameters out of 26.4B total (MoE). Its middle layers run three times with shared... · context=1048576"
     },
@@ -9527,7 +9527,7 @@
       ],
       "providerID": "~moonshotai",
       "family": "kimi-latest",
-      "inputCostPerMillionUSD": 0.1805,
+      "inputCostPerMillionUSD": 0.1824,
       "outputCostPerMillionUSD": 11.0055,
       "cacheReadCostPerMillionUSD": 0.18,
       "cacheWriteCostPerMillionUSD": null,
