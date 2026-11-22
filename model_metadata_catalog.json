@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-22T06:49:43.054948+00:00",
+  "generatedAt": "2026-11-22T19:41:31.229941+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2072,9 +2072,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.0999,
+      "inputCostPerMillionUSD": 0.1188,
       "outputCostPerMillionUSD": 8.0,
-      "cacheReadCostPerMillionUSD": 0.0999,
+      "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -8076,7 +8076,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.0085,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for... · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=128000, max_output=128000",
       "brandAssetName": "codex",

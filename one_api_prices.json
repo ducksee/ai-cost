@@ -12918,7 +12918,7 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.04995,
+    "input": 0.0594,
     "output": 4.0
   },
   {
