@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-21T19:16:31.058143+00:00",
+  "generatedAt": "2026-11-22T06:49:43.054948+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -4061,7 +4061,7 @@
       "family": "gemma-3",
       "inputCostPerMillionUSD": 0.05,
       "outputCostPerMillionUSD": 0.1,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.02,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -11169,7 +11169,7 @@
       "family": "mythomax-l2",
       "inputCostPerMillionUSD": 0.4,
       "outputCostPerMillionUSD": 0.4,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge · context=8192 · LiteLLM supports_function_calling, max_input=4096, max_output=4096"
     },
@@ -12084,7 +12084,7 @@
       "family": "particle-1",
       "inputCostPerMillionUSD": 0.07,
       "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Particle-1 is a token-efficient agentic coding model from Particle AI, post-trained on DeepSeek V4.1 Flash. It is suited for software engineering work such as terminal workflows, codebase changes, and data... · context=1048576"
     },
