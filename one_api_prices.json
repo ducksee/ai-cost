@@ -7336,6 +7336,13 @@
     "output": 5.14286
   },
   {
+    "model": "qwen4-max-free",
+    "type": "tokens",
+    "channel_type": 17,
+    "input": 0,
+    "output": 0
+  },
+  {
     "model": "qwq-32b",
     "type": "tokens",
     "channel_type": 17,
@@ -12701,8 +12708,8 @@
     "model": "xiaomi/mimo-v2.5-pro",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.261,
-    "output": 0.522
+    "input": 0.24,
+    "output": 0.9
   },
   {
     "model": "xiaomi/mimo-v2.6-flash",
@@ -12911,14 +12918,14 @@
     "model": "~deepseek/deepseek-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.018,
-    "output": 0.25
+    "input": 0.015,
+    "output": 0.1
   },
   {
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0594,
+    "input": 0.04995,
     "output": 2.5
   },
   {
@@ -13002,8 +13009,8 @@
     "model": "~z-ai/glm-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.01995,
-    "output": 0.0392
+    "input": 0.0178,
+    "output": 0.04075
   },
   {
     "model": "~z-ai/glm-latest",

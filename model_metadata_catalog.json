@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-23T07:40:18.368590+00:00",
+  "generatedAt": "2026-11-23T23:54:21.522714+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2056,9 +2056,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.036,
-      "outputCostPerMillionUSD": 0.5,
-      "cacheReadCostPerMillionUSD": 0.01,
+      "inputCostPerMillionUSD": 0.03,
+      "outputCostPerMillionUSD": 0.2,
+      "cacheReadCostPerMillionUSD": 0.001,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2072,9 +2072,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-pro",
-      "inputCostPerMillionUSD": 0.1188,
+      "inputCostPerMillionUSD": 0.0999,
       "outputCostPerMillionUSD": 5.0,
-      "cacheReadCostPerMillionUSD": 0.12,
+      "cacheReadCostPerMillionUSD": 0.0999,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
     },
@@ -2348,7 +2348,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.000996,
+      "cacheReadCostPerMillionUSD": 0.006,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -4589,8 +4589,8 @@
       ],
       "providerID": "~z-ai",
       "family": "glm-flash",
-      "inputCostPerMillionUSD": 0.0399,
-      "outputCostPerMillionUSD": 0.0784,
+      "inputCostPerMillionUSD": 0.0356,
+      "outputCostPerMillionUSD": 0.0815,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the GLM Flash family. · context=1048576"
@@ -9038,7 +9038,7 @@
       "outputCostPerMillionUSD": 4.05,
       "cacheReadCostPerMillionUSD": 0.17,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=524288 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=524288"
+      "notes": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,. · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288, max_output=524288"
     },
     {
       "id": "thinkingmachines/inkling-2-mini",
@@ -9680,7 +9680,7 @@
       "outputCostPerMillionUSD": 0.18,
       "cacheReadCostPerMillionUSD": 0.012,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=1000000"
+      "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=1048576"
     },
     {
       "id": "inclusionai/ling-3.2-flash:free",
@@ -9980,25 +9980,6 @@
       "cacheReadCostPerMillionUSD": 0.0034,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding.. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
-      "brandAssetName": "xiaomi",
-      "organizationName": "Xiaomi"
-    },
-    {
-      "id": "xiaomi/mimo-v2.5-pro",
-      "displayName": "MiMo-V2.5-Pro",
-      "aliases": [
-        "xiaomi/mimo-v2.5-pro",
-        "xiaomi/mimo-v2.5-pro-20260422",
-        "mimo-v2.5-pro",
-        "novita/xiaomimimo/mimo-v2.5-pro"
-      ],
-      "providerID": "xiaomi",
-      "family": "mimo-v2",
-      "inputCostPerMillionUSD": 0.522,
-      "outputCostPerMillionUSD": 1.044,
-      "cacheReadCostPerMillionUSD": 0.0043,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1048576, max_output=131072",
       "brandAssetName": "xiaomi",
       "organizationName": "Xiaomi"
     },
