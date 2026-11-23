@@ -12919,14 +12919,14 @@
     "type": "tokens",
     "channel_type": 20,
     "input": 0.0594,
-    "output": 4.0
+    "output": 2.5
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.022,
-    "output": 0.066
+    "input": 0.0217,
+    "output": 0.15
   },
   {
     "model": "~google/gemini-flash-latest",

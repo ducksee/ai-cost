@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-22T19:41:31.229941+00:00",
+  "generatedAt": "2026-11-23T07:40:18.368590+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2073,7 +2073,7 @@
       "providerID": "~deepseek",
       "family": "deepseek-pro",
       "inputCostPerMillionUSD": 0.1188,
-      "outputCostPerMillionUSD": 8.0,
+      "outputCostPerMillionUSD": 5.0,
       "cacheReadCostPerMillionUSD": 0.12,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
@@ -2273,9 +2273,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.044,
-      "outputCostPerMillionUSD": 0.132,
-      "cacheReadCostPerMillionUSD": 0.0014,
+      "inputCostPerMillionUSD": 0.0434,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.035,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2429,6 +2429,23 @@
       "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "displayName": "Dots3-Note Preview (free)",
+      "aliases": [
+        "dots-studio/dots-3-note-preview:free",
+        "dots-studio/dots-3-note-preview-20260813",
+        "dots3-note-preview-(free)",
+        "dots-3-note-preview:free"
+      ],
+      "providerID": "dots-studio",
+      "family": "dots-3",
+      "inputCostPerMillionUSD": 0.0,
+      "outputCostPerMillionUSD": 0.0,
+      "cacheReadCostPerMillionUSD": null,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is... · context=512000"
     },
     {
       "id": "fireworks/ember-1",
@@ -4042,7 +4059,7 @@
       "family": "gemma-3",
       "inputCostPerMillionUSD": 0.08,
       "outputCostPerMillionUSD": 0.16,
-      "cacheReadCostPerMillionUSD": 0.04,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilitie · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "gemini",
@@ -8039,7 +8056,7 @@
       "family": "gpt-oss",
       "inputCostPerMillionUSD": 0.15,
       "outputCostPerMillionUSD": 0.6,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward  · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "codex",
