@@ -812,6 +812,13 @@
     "output": 0.1
   },
   {
+    "model": "accounts/fireworks/models/hy4-flash",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.035,
+    "output": 0.1405
+  },
+  {
     "model": "accounts/fireworks/models/inkling",
     "type": "tokens",
     "channel_type": 1,
@@ -2035,6 +2042,13 @@
     "channel_type": 1,
     "input": 1.0,
     "output": 3.0
+  },
+  {
+    "model": "accounts/fireworks/models/qwen4-max",
+    "type": "tokens",
+    "channel_type": 1,
+    "input": 0.75,
+    "output": 2.25
   },
   {
     "model": "accounts/fireworks/models/qwq-32b",
@@ -9502,8 +9516,8 @@
     "model": "inclusionai/ling-3.1-flash",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.03,
-    "output": 0.09
+    "input": 0.0375,
+    "output": 0.1125
   },
   {
     "model": "inclusionai/ling-3.2-flash:free",
@@ -10216,8 +10230,8 @@
     "model": "mistralai/mistral-medium-3.1",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.22,
-    "output": 1.1
+    "input": 0.2,
+    "output": 1.0
   },
   {
     "model": "mistralai/mistral-medium-3.1:batch",
@@ -12260,8 +12274,8 @@
     "model": "tencent/hy4-flash",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0175,
-    "output": 0.07025
+    "input": 0.035,
+    "output": 0.1405
   },
   {
     "model": "tencent/hy4-preview",
@@ -12701,15 +12715,15 @@
     "model": "xiaomi/mimo-v2.5",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.084,
-    "output": 0.168
+    "input": 0.2,
+    "output": 1.0
   },
   {
     "model": "xiaomi/mimo-v2.5-pro",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.24,
-    "output": 0.9
+    "input": 0.261,
+    "output": 0.522
   },
   {
     "model": "xiaomi/mimo-v2.6-flash",
@@ -12932,8 +12946,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0217,
-    "output": 0.15
+    "input": 0.02266,
+    "output": 0.06798
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -14131,6 +14145,13 @@
     "channel_type": 29,
     "input": 1.5,
     "output": 7.5
+  },
+  {
+    "model": "kimi-k3.1-pro",
+    "type": "tokens",
+    "channel_type": 29,
+    "input": 1.0,
+    "output": 5.0
   },
   {
     "model": "kimi-latest",

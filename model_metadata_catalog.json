@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-23T23:54:21.522714+00:00",
+  "generatedAt": "2026-11-24T22:27:22.726880+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -2273,9 +2273,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-v4",
-      "inputCostPerMillionUSD": 0.0434,
-      "outputCostPerMillionUSD": 0.3,
-      "cacheReadCostPerMillionUSD": 0.035,
+      "inputCostPerMillionUSD": 0.04532,
+      "outputCostPerMillionUSD": 0.13596,
+      "cacheReadCostPerMillionUSD": 0.001442,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek V4 Flash family. · context=1048576"
     },
@@ -2348,7 +2348,7 @@
       "family": "deepseek-v4",
       "inputCostPerMillionUSD": 0.01,
       "outputCostPerMillionUSD": 1.2,
-      "cacheReadCostPerMillionUSD": 0.006,
+      "cacheReadCostPerMillionUSD": 0.001014,
       "cacheWriteCostPerMillionUSD": 0.09,
       "notes": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on... · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=1048576",
       "brandAssetName": "deepseek",
@@ -2429,23 +2429,6 @@
       "notes": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
-    },
-    {
-      "id": "dots-studio/dots-3-note-preview:free",
-      "displayName": "Dots3-Note Preview (free)",
-      "aliases": [
-        "dots-studio/dots-3-note-preview:free",
-        "dots-studio/dots-3-note-preview-20260813",
-        "dots3-note-preview-(free)",
-        "dots-3-note-preview:free"
-      ],
-      "providerID": "dots-studio",
-      "family": "dots-3",
-      "inputCostPerMillionUSD": 0.0,
-      "outputCostPerMillionUSD": 0.0,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is... · context=512000"
     },
     {
       "id": "fireworks/ember-1",
@@ -3720,7 +3703,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.1875,
-      "notes": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across... · context=1048576 · LiteLLM supports_function_calling · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3739,7 +3722,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3777,7 +3760,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": 0.1875,
-      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode... · context=1048576 · LiteLLM supports_function_calling · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3796,7 +3779,7 @@
       "outputCostPerMillionUSD": 20,
       "cacheReadCostPerMillionUSD": 0.2,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3834,7 +3817,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": 0.083333,
-      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than... · context=1048576 · LiteLLM supports_function_calling · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -3853,7 +3836,7 @@
       "outputCostPerMillionUSD": 7.5,
       "cacheReadCostPerMillionUSD": 0.075,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling",
       "brandAssetName": "gemini",
       "organizationName": "Gemini CLI"
     },
@@ -7663,7 +7646,7 @@
       "outputCostPerMillionUSD": 40,
       "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": 10.0,
-      "notes": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger... · context=1050000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger... · context=1050000 · LiteLLM supports_function_calling · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7778,7 +7761,7 @@
       "outputCostPerMillionUSD": 40,
       "cacheReadCostPerMillionUSD": 0.4,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7801,7 +7784,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": 2.5,
-      "notes": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited... · context=1050000 · Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited... · context=1050000 · LiteLLM supports_function_calling · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -7916,7 +7899,7 @@
       "outputCostPerMillionUSD": 10,
       "cacheReadCostPerMillionUSD": 0.1,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Direct vendor pricing with cached-input tier from llm-prices",
+      "notes": "Direct vendor pricing with cached-input tier from llm-prices · LiteLLM supports_function_calling",
       "brandAssetName": "codex",
       "organizationName": "Codex"
     },
@@ -8993,15 +8976,16 @@
       "aliases": [
         "tencent/hy4-flash",
         "tencent/hy4-flash-20261116",
-        "hy4-flash"
+        "hy4-flash",
+        "fireworks-ai/accounts/fireworks/models/hy4-flash"
       ],
       "providerID": "tencent",
       "family": "hy4-flash",
-      "inputCostPerMillionUSD": 0.035,
-      "outputCostPerMillionUSD": 0.1405,
-      "cacheReadCostPerMillionUSD": 0.0015,
+      "inputCostPerMillionUSD": 0.07,
+      "outputCostPerMillionUSD": 0.281,
+      "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agen · context=1048576",
+      "notes": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agen · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -9141,25 +9125,6 @@
       "notes": "Jev Router picks the best model and reasoning effort for each request, balancing quality, speed, and cost. It runs on [Jev](https://openrouter.ai/~typesafe/jev-latest), TypeSafe's first System One model, and adapts as yo · context=1000000"
     },
     {
-      "id": "moonshotai/kimi-k2",
-      "displayName": "Kimi K2 0711",
-      "aliases": [
-        "moonshotai/kimi-k2",
-        "kimi-k2-0711",
-        "kimi-k2",
-        "vercel-ai-gateway/moonshotai/kimi-k2"
-      ],
-      "providerID": "kimi",
-      "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.55,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K2 Instruct is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32 billion active per forward pass. It is optimized for... · context=131072 · LiteLLM supports_function_calling, max_input=131072, max_output=16384",
-      "brandAssetName": "kimi",
-      "organizationName": "Kimi / MoonshotAI"
-    },
-    {
       "id": "kimi/kimi-k2-0711-preview",
       "displayName": "Kimi K2 0711 Preview",
       "aliases": [
@@ -9178,24 +9143,6 @@
       "organizationName": "Kimi / MoonshotAI"
     },
     {
-      "id": "moonshotai/kimi-k2-0905",
-      "displayName": "Kimi K2 0905",
-      "aliases": [
-        "moonshotai/kimi-k2-0905",
-        "kimi-k2-0905",
-        "novita/moonshotai/kimi-k2-0905"
-      ],
-      "providerID": "kimi",
-      "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.6,
-      "outputCostPerMillionUSD": 2.5,
-      "cacheReadCostPerMillionUSD": null,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K2 0905 is the September update of [Kimi K2 0711](moonshotai/kimi-k2). It is a large-scale Mixture-of-Experts (MoE) language model developed by Moonshot AI, featuring 1 trillion total parameters with 32... · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=100352",
-      "brandAssetName": "kimi",
-      "organizationName": "MoonshotAI"
-    },
-    {
       "id": "kimi/kimi-k2-0905-preview",
       "displayName": "Kimi K2 0905 Preview",
       "aliases": [
@@ -9210,25 +9157,6 @@
       "cacheReadCostPerMillionUSD": 0.15,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Direct vendor pricing with cached-input tier from llm-prices",
-      "brandAssetName": "kimi",
-      "organizationName": "Kimi / MoonshotAI"
-    },
-    {
-      "id": "moonshotai/kimi-k2-thinking",
-      "displayName": "Kimi K2 Thinking",
-      "aliases": [
-        "moonshotai/kimi-k2-thinking",
-        "moonshotai/kimi-k2-thinking-20251106",
-        "kimi-k2-thinking",
-        "fireworks-ai/accounts/fireworks/models/kimi-k2-thinking"
-      ],
-      "providerID": "kimi",
-      "family": "kimi-k2",
-      "inputCostPerMillionUSD": 0.6,
-      "outputCostPerMillionUSD": 2.5,
-      "cacheReadCostPerMillionUSD": 0.15,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Kimi K2 Thinking is Moonshot AI’s most advanced open reasoning model to date, extending the K2 series into agentic, long-horizon reasoning. Built on the trillion-parameter Mixture-of-Experts (MoE) architecture introduced · context=262144 · LiteLLM supports_function_calling, max_input=262144, max_output=262144 · Direct vendor pricing with cached-input tier from llm-prices",
       "brandAssetName": "kimi",
       "organizationName": "Kimi / MoonshotAI"
     },
@@ -9676,9 +9604,9 @@
       ],
       "providerID": "inclusionai",
       "family": "ling-3",
-      "inputCostPerMillionUSD": 0.06,
-      "outputCostPerMillionUSD": 0.18,
-      "cacheReadCostPerMillionUSD": 0.012,
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.225,
+      "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total. · context=1048576"
     },
@@ -9755,7 +9683,7 @@
       "family": "llama-3",
       "inputCostPerMillionUSD": 0.03,
       "outputCostPerMillionUSD": 0.03,
-      "cacheReadCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": 0.025,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Meta's latest class of model (Llama 3.1) launched with a variety of sizes & flavors. This 8B instruct-tuned version is fast and efficient. It has demonstrated strong performance compared to... · context=131072",
       "brandAssetName": "meta",
@@ -9965,25 +9893,6 @@
       "notes": "Mi:dm K 3.0 Pro is a Mixture-of-Experts reasoning model from KT, with 120B total and 12B active parameters. It uses a hybrid architecture that mixes Mamba, MoE and attention layers. · context=261795"
     },
     {
-      "id": "xiaomi/mimo-v2.5",
-      "displayName": "MiMo-V2.5",
-      "aliases": [
-        "xiaomi/mimo-v2.5",
-        "xiaomi/mimo-v2.5-20260422",
-        "mimo-v2.5",
-        "novita/xiaomimimo/mimo-v2.5"
-      ],
-      "providerID": "xiaomi",
-      "family": "mimo-v2",
-      "inputCostPerMillionUSD": 0.168,
-      "outputCostPerMillionUSD": 0.336,
-      "cacheReadCostPerMillionUSD": 0.0034,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding.. · context=1000000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=1048576, max_output=131072",
-      "brandAssetName": "xiaomi",
-      "organizationName": "Xiaomi"
-    },
-    {
       "id": "xiaomi/mimo-v2.6-flash",
       "displayName": "MiMo-V2.6-Flash",
       "aliases": [
@@ -10070,7 +9979,7 @@
       "outputCostPerMillionUSD": 1.2,
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": 0.375,
-      "notes": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1... · context=198000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192",
+      "notes": "MiniMax-M2.5 is a SOTA large language model designed for real-world productivity. Trained in a diverse range of complex real-world digital working environments, M2.5 builds upon the coding expertise of M2.1... · context=65536 · LiteLLM supports_prompt_caching, supports_reasoning, supports_function_calling, max_input=1000000, max_output=8192",
       "brandAssetName": "minimax",
       "organizationName": "MiniMax"
     },
@@ -10364,24 +10273,6 @@
       "organizationName": "Mistral"
     },
     {
-      "id": "mistralai/mistral-medium-3",
-      "displayName": "Mistral Medium 3",
-      "aliases": [
-        "mistralai/mistral-medium-3",
-        "mistral-medium-3",
-        "mistral/mistral-medium-3"
-      ],
-      "providerID": "mistral",
-      "family": "mistral-medium",
-      "inputCostPerMillionUSD": 0.4,
-      "outputCostPerMillionUSD": 2,
-      "cacheReadCostPerMillionUSD": 0.044,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3 is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances state-of-the-art reasoning and multimodal perf · context=131072 · LiteLLM supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=262144",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
-    },
-    {
       "id": "mistral/mistral-medium-2505",
       "displayName": "Mistral Medium 3",
       "aliases": [
@@ -10399,25 +10290,6 @@
       "brandAssetName": "mistral",
       "organizationName": "Mistral",
       "notes": "LiteLLM supports_function_calling, max_input=131072, max_output=8191"
-    },
-    {
-      "id": "mistralai/mistral-medium-3.1",
-      "displayName": "Mistral Medium 3.1",
-      "aliases": [
-        "mistralai/mistral-medium-3.1",
-        "mistralai/mistral-medium-3-1",
-        "mistral-medium-3.1",
-        "mistral-medium-3-1"
-      ],
-      "providerID": "mistral",
-      "family": "mistral-medium",
-      "inputCostPerMillionUSD": 0.44,
-      "outputCostPerMillionUSD": 2.2,
-      "cacheReadCostPerMillionUSD": 0.044,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It bala · context=131072",
-      "brandAssetName": "mistral",
-      "organizationName": "Mistral"
     },
     {
       "id": "mistralai/mistral-medium-3-5",
@@ -13455,7 +13327,7 @@
       "outputCostPerMillionUSD": 1.15,
       "cacheReadCostPerMillionUSD": 0.04,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=262144 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=256000",
+      "notes": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B p · context=256000 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144, max_output=256000",
       "brandAssetName": "stepfun",
       "organizationName": "StepFun"
     },
