@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-11-24T22:27:22.726880+00:00",
+  "generatedAt": "2026-11-25T21:42:29.632261+00:00",
   "models": [
     {
       "id": "aion-labs/aion-3.5",
@@ -1916,6 +1916,25 @@
       "organizationName": "Mistral"
     },
     {
+      "id": "mistralai/codestral-2508:batch",
+      "displayName": "Codestral 2508 (batch)",
+      "aliases": [
+        "mistralai/codestral-2508:batch",
+        "mistralai/codestral-2508",
+        "codestral-2508-(batch)",
+        "codestral-2508:batch"
+      ],
+      "providerID": "mistral",
+      "family": "codestral-2508",
+      "inputCostPerMillionUSD": 0.15,
+      "outputCostPerMillionUSD": 0.45,
+      "cacheReadCostPerMillionUSD": 0.015,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](h · context=256000",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
       "id": "cohere/command-a",
       "displayName": "Command A",
       "aliases": [
@@ -2056,9 +2075,9 @@
       ],
       "providerID": "~deepseek",
       "family": "deepseek-flash",
-      "inputCostPerMillionUSD": 0.03,
-      "outputCostPerMillionUSD": 0.2,
-      "cacheReadCostPerMillionUSD": 0.001,
+      "inputCostPerMillionUSD": 0.036,
+      "outputCostPerMillionUSD": 0.5,
+      "cacheReadCostPerMillionUSD": 0.01,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Flash family. · context=1048576"
     },
@@ -2077,6 +2096,21 @@
       "cacheReadCostPerMillionUSD": 0.0999,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "This model always redirects to the latest model in the DeepSeek Pro family. · context=1048576"
+    },
+    {
+      "id": "tngtech/deepseek-r1t2-chimera",
+      "displayName": "DeepSeek R1T2 Chimera",
+      "aliases": [
+        "tngtech/deepseek-r1t2-chimera",
+        "deepseek-r1t2-chimera"
+      ],
+      "providerID": "tngtech",
+      "family": "deepseek-r1t2",
+      "inputCostPerMillionUSD": 1.0,
+      "outputCostPerMillionUSD": 2.625,
+      "cacheReadCostPerMillionUSD": 0.02,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "DeepSeek-TNG-R1T2-Chimera is the second-generation Chimera model from TNG Tech. It is a 671 B-parameter mixture-of-experts text-generation model assembled from DeepSeek-AI’s R1-0528, R1, and V3-0324 checkpoints with an A · context=131072"
     },
     {
       "id": "deepseek/deepseek-reasoner",
@@ -4197,7 +4231,7 @@
       "family": "glm-4",
       "inputCostPerMillionUSD": 0.2,
       "outputCostPerMillionUSD": 1.1,
-      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "GLM-4.5-Air is the lightweight variant of our latest flagship model family, also purpose-built for agent-centric applications. Like GLM-4.5, it adopts the Mixture-of-Experts (MoE) architecture but with a more compact par · context=131072 · LiteLLM supports_function_calling, max_input=128000, max_output=96000",
       "brandAssetName": "zai",
@@ -4302,7 +4336,7 @@
       "outputCostPerMillionUSD": 0.4,
       "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=200000 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
+      "notes": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,. · context=131072 · LiteLLM supports_reasoning, supports_function_calling, max_input=131072, max_output=131072",
       "brandAssetName": "zai",
       "organizationName": "ZAI"
     },
@@ -8985,7 +9019,7 @@
       "outputCostPerMillionUSD": 0.281,
       "cacheReadCostPerMillionUSD": 0.003,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agen · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=262144",
+      "notes": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agen · context=1048576 · LiteLLM supports_prompt_caching, supports_reasoning, supports_vision, supports_function_calling, max_input=524288",
       "brandAssetName": "tencent",
       "organizationName": "Tencent"
     },
@@ -9912,6 +9946,24 @@
       "organizationName": "Xiaomi"
     },
     {
+      "id": "xiaomi/mimo-v2.6-flash-mopd",
+      "displayName": "MiMo-V2.6-Flash-MOPD",
+      "aliases": [
+        "xiaomi/mimo-v2.6-flash-mopd",
+        "xiaomi/mimo-v2.6-flash-mopd-20260927",
+        "mimo-v2.6-flash-mopd"
+      ],
+      "providerID": "xiaomi",
+      "family": "mimo-v2",
+      "inputCostPerMillionUSD": 0.5,
+      "outputCostPerMillionUSD": 1.0,
+      "cacheReadCostPerMillionUSD": 0.05,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "MiMo-V2.6-Flash-MOPD is an updated checkpoint of Xiaomi's MiMo-V2.6-Flash, a Mixture-of-Experts model with 309B total and 15B active parameters, a 1M-token context window, and native multimodal input. It adds a multi-tea · context=1048576",
+      "brandAssetName": "xiaomi",
+      "organizationName": "Xiaomi"
+    },
+    {
       "id": "xiaomi/mimo-v2.6-pro",
       "displayName": "MiMo-V2.6-Pro",
       "aliases": [
@@ -10115,6 +10167,25 @@
       "organizationName": "Mistral"
     },
     {
+      "id": "mistralai/ministral-8b-2512:batch",
+      "displayName": "Ministral 3 8B 2512 (batch)",
+      "aliases": [
+        "mistralai/ministral-8b-2512:batch",
+        "mistralai/ministral-8b-2512",
+        "ministral-3-8b-2512-(batch)",
+        "ministral-8b-2512:batch"
+      ],
+      "providerID": "mistral",
+      "family": "ministral-8b",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.075,
+      "cacheReadCostPerMillionUSD": 0.0075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities. · context=262144",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
       "id": "mistral/ministral-3b-latest",
       "displayName": "Ministral 3B 24.10",
       "aliases": [
@@ -10246,6 +10317,26 @@
       "cacheReadCostPerMillionUSD": 0.05,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=262144",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/mistral-large-2512:batch",
+      "displayName": "Mistral Large 3 2512 (batch)",
+      "aliases": [
+        "mistralai/mistral-large-2512:batch",
+        "mistralai/mistral-large-2512",
+        "mistral-large-3-2512-(batch)",
+        "mistral-large-3.2512-(batch)",
+        "mistral-large-2512:batch"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-large",
+      "inputCostPerMillionUSD": 0.25,
+      "outputCostPerMillionUSD": 0.75,
+      "cacheReadCostPerMillionUSD": 0.025,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Large 3 2512 is Mistral’s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license. · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -10497,6 +10588,25 @@
       "cacheReadCostPerMillionUSD": 0.015,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144 · LiteLLM supports_vision, supports_function_calling, max_input=262144, max_output=65536",
+      "brandAssetName": "mistral",
+      "organizationName": "Mistral"
+    },
+    {
+      "id": "mistralai/mistral-small-2603:batch",
+      "displayName": "Mistral Small 4 (batch)",
+      "aliases": [
+        "mistralai/mistral-small-2603:batch",
+        "mistralai/mistral-small-2603",
+        "mistral-small-4-(batch)",
+        "mistral-small-2603:batch"
+      ],
+      "providerID": "mistral",
+      "family": "mistral-small",
+      "inputCostPerMillionUSD": 0.075,
+      "outputCostPerMillionUSD": 0.3,
+      "cacheReadCostPerMillionUSD": 0.0075,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from... · context=262144",
       "brandAssetName": "mistral",
       "organizationName": "Mistral"
     },
@@ -11852,63 +11962,6 @@
       "notes": "Palmyra X5 is Writer's most advanced model, purpose-built for building and scaling AI agents across the enterprise. It delivers industry-leading speed and efficiency on context windows up to 1 million... · context=1040000"
     },
     {
-      "id": "unbiased/pareto-26.10",
-      "displayName": "Pareto 26.10",
-      "aliases": [
-        "unbiased/pareto-26.10",
-        "unbiased/pareto-26-10",
-        "unbiased/pareto-26.10-20261015",
-        "unbiased/pareto-26-10-20261015",
-        "pareto-26.10",
-        "pareto-26-10"
-      ],
-      "providerID": "unbiased",
-      "family": "pareto-26",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 3.2,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=1048576"
-    },
-    {
-      "id": "unbiased/pareto-26.10-preview",
-      "displayName": "Pareto 26.10 Preview",
-      "aliases": [
-        "unbiased/pareto-26.10-preview",
-        "unbiased/pareto-26-10-preview",
-        "unbiased/pareto-26.10-preview-20260929",
-        "unbiased/pareto-26-10-preview-20260929",
-        "pareto-26.10-preview",
-        "pareto-26-10-preview"
-      ],
-      "providerID": "unbiased",
-      "family": "pareto-26",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 3.2,
-      "cacheReadCostPerMillionUSD": 0.03,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the... · context=1048576"
-    },
-    {
-      "id": "unbiased/pareto-26.9",
-      "displayName": "Pareto 26.9",
-      "aliases": [
-        "unbiased/pareto-26.9",
-        "unbiased/pareto-26-9",
-        "unbiased/pareto-26.9-20260917",
-        "unbiased/pareto-26-9-20260917",
-        "pareto-26.9",
-        "pareto-26-9"
-      ],
-      "providerID": "unbiased",
-      "family": "pareto-26",
-      "inputCostPerMillionUSD": 2.5,
-      "outputCostPerMillionUSD": 7.5,
-      "cacheReadCostPerMillionUSD": 0.25,
-      "cacheWriteCostPerMillionUSD": null,
-      "notes": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. · context=262144"
-    },
-    {
       "id": "openrouter/pareto-code",
       "displayName": "Pareto Code Router",
       "aliases": [
@@ -11935,11 +11988,11 @@
       ],
       "providerID": "~unbiased",
       "family": "pareto-latest",
-      "inputCostPerMillionUSD": 0.8,
-      "outputCostPerMillionUSD": 3.2,
-      "cacheReadCostPerMillionUSD": 0.03,
+      "inputCostPerMillionUSD": null,
+      "outputCostPerMillionUSD": null,
+      "cacheReadCostPerMillionUSD": null,
       "cacheWriteCostPerMillionUSD": null,
-      "notes": "This model always redirects to the latest model in the Pareto family. · context=1048576"
+      "notes": "This model always redirects to the latest model in the Pareto family. · context=262144"
     },
     {
       "id": "particle-ai/particle-1",
@@ -13207,6 +13260,27 @@
       "notes": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response... · context=524288"
     },
     {
+      "id": "upstage/solar-mini-4-5",
+      "displayName": "Solar Mini 4.5 (Preview)",
+      "aliases": [
+        "upstage/solar-mini-4-5",
+        "upstage/solar-mini-4.5",
+        "upstage/solar-mini-4-5-20261125",
+        "upstage/solar-mini-4.5-20261125",
+        "solar-mini-4.5-(preview)",
+        "solar-mini-4-5-(preview)",
+        "solar-mini-4-5",
+        "solar-mini-4.5"
+      ],
+      "providerID": "upstage",
+      "family": "solar-mini",
+      "inputCostPerMillionUSD": 0.01,
+      "outputCostPerMillionUSD": 0.04,
+      "cacheReadCostPerMillionUSD": 0.001,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Solar Mini 4.5 is Upstage's compact language model, built on a proprietary mixture-of-experts architecture with 35B total and 3B active parameters and a 524K context window. It is a step... · context=524288"
+    },
+    {
       "id": "upstage/solar-pro4",
       "displayName": "Solar Pro 4",
       "aliases": [
@@ -13222,6 +13296,22 @@
       "cacheReadCostPerMillionUSD": 0.03,
       "cacheWriteCostPerMillionUSD": null,
       "notes": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive · context=524288"
+    },
+    {
+      "id": "upstage/solar-pro-4-contributor",
+      "displayName": "Solar Pro 4 Contributor",
+      "aliases": [
+        "upstage/solar-pro-4-contributor",
+        "upstage/solar-pro-4-contributor-20261125",
+        "solar-pro-4-contributor"
+      ],
+      "providerID": "upstage",
+      "family": "solar-pro",
+      "inputCostPerMillionUSD": 0.09,
+      "outputCostPerMillionUSD": 0.36,
+      "cacheReadCostPerMillionUSD": 0.018,
+      "cacheWriteCostPerMillionUSD": null,
+      "notes": "Solar Pro 4 Contributor is the same Solar Pro 4 model from Upstage, offered at a lower rate in exchange for allowing Upstage to use interaction data to improve its... · context=524288"
     },
     {
       "id": "perplexity/sonar",
