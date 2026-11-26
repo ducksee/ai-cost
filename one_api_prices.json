@@ -9569,6 +9569,13 @@
     "output": 0
   },
   {
+    "model": "inclusionai/lingsante-3.1-air-vl",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.03,
+    "output": 0.09
+  },
+  {
     "model": "inference-net/schematron-v2-small",
     "type": "tokens",
     "channel_type": 20,
@@ -13016,8 +13023,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0235,
-    "output": 0.15
+    "input": 0.02266,
+    "output": 0.06798
   },
   {
     "model": "~google/gemini-flash-latest",
