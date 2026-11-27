@@ -9810,8 +9810,8 @@
     "model": "meta-llama/llama-3.3-70b-instruct",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.355,
-    "output": 0.355
+    "input": 0.295,
+    "output": 0.395
   },
   {
     "model": "meta-llama/llama-4-maverick",
@@ -9880,8 +9880,8 @@
     "model": "meta/muse-glimmer-30b",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.175,
-    "output": 0.75
+    "input": 0.15,
+    "output": 0.6
   },
   {
     "model": "meta/muse-glimmer-30b:batch",
@@ -12365,8 +12365,8 @@
     "model": "thinkingmachines/inkling-2-mini",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0375,
-    "output": 0.15
+    "input": 0.03,
+    "output": 0.12
   },
   {
     "model": "thinkingmachines/inkling-2-small",
@@ -12806,8 +12806,8 @@
     "model": "xiaomi/mimo-v2.6-flash-mopd",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.25,
-    "output": 0.5
+    "input": 0.175,
+    "output": 0.35
   },
   {
     "model": "xiaomi/mimo-v2.6-pro",
@@ -13016,15 +13016,15 @@
     "model": "~deepseek/deepseek-pro-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0555,
-    "output": 2.22
+    "input": 0.04995,
+    "output": 2.5
   },
   {
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.02266,
-    "output": 0.06798
+    "input": 0.0235,
+    "output": 0.15
   },
   {
     "model": "~google/gemini-flash-latest",
