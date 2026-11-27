@@ -9562,6 +9562,13 @@
     "output": 0.1125
   },
   {
+    "model": "inclusionai/ling-3.2-flash",
+    "type": "tokens",
+    "channel_type": 20,
+    "input": 0.15,
+    "output": 0.45
+  },
+  {
     "model": "inclusionai/ling-3.2-flash:free",
     "type": "tokens",
     "channel_type": 20,
@@ -12806,8 +12813,8 @@
     "model": "xiaomi/mimo-v2.6-flash-mopd",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.175,
-    "output": 0.35
+    "input": 0.25,
+    "output": 0.5
   },
   {
     "model": "xiaomi/mimo-v2.6-pro",
@@ -13023,8 +13030,8 @@
     "model": "~deepseek/deepseek-v4-flash-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0235,
-    "output": 0.15
+    "input": 0.02266,
+    "output": 0.06798
   },
   {
     "model": "~google/gemini-flash-latest",
@@ -15338,6 +15345,13 @@
   },
   {
     "model": "XingChenAGI/Xing4.0-29B",
+    "type": "tokens",
+    "channel_type": 45,
+    "input": 0,
+    "output": 0
+  },
+  {
+    "model": "XingChenAGI/Xing4.1-Preview",
     "type": "tokens",
     "channel_type": 45,
     "input": 0,
