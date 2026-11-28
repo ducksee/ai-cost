@@ -13051,8 +13051,8 @@
     "model": "~moonshotai/kimi-latest",
     "type": "tokens",
     "channel_type": 20,
-    "input": 0.0912,
-    "output": 5.50275
+    "input": 0.07265,
+    "output": 6.1447
   },
   {
     "model": "~openai/gpt-astra-latest",
